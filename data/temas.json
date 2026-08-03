@@ -1,0 +1,532 @@
+[
+  {
+    "codigo": "clases-de-palabras",
+    "titulo": "Las nueve clases de palabras",
+    "area": "Gramática",
+    "resumen": "Toda palabra del español pertenece a una de nueve clases. Saber cuál es no se resuelve mirando la palabra aislada sino viendo cómo se comporta en la oración, y para eso hay pruebas concretas que no fallan.",
+    "secciones": [
+      {
+        "encabezado": "Por qué una palabra no tiene clase fija",
+        "parrafos": [
+          "La pregunta que se hace en clase es qué clase de palabra es esta, y la respuesta honesta es que depende. La misma palabra puede ser cosas distintas según dónde aparezca. En *la mañana fue larga*, mañana es sustantivo porque lleva artículo. En *mañana llegaré tarde*, mañana es adverbio porque dice cuándo.",
+          "Por eso lo que hay que aprender no es una lista de palabras sino un conjunto de pruebas. Cada clase tiene una prueba propia, y aplicarlas en orden resuelve casi cualquier caso."
+        ]
+      },
+      {
+        "encabezado": "Las pruebas que resuelven cada clase",
+        "parrafos": [
+          "El sustantivo admite un artículo delante. Si se puede decir el o la sin que la frase suene rara, es sustantivo.",
+          "El adjetivo admite muy delante o el sufijo ísimo detrás, y concuerda en género y número con un sustantivo. Muy alto y altísimo funcionan, así que alto es adjetivo.",
+          "El adverbio es invariable: No se le puede poner plural. Trabajan mucho no admite muchos, y por eso mucho ahí es adverbio.",
+          "El determinante acompaña a un sustantivo pero no lo califica. Si al quitarle el sustantivo la palabra sigue funcionando sola, ha pasado a ser pronombre.",
+          "El verbo cambia según quién realiza la acción. Si se puede poner yo, tú o él delante y la palabra cambia, es verbo.",
+          "La preposición nunca se queda sola al final. Siempre lleva algo detrás.",
+          "La conjunción se puede cambiar por otra del mismo grupo sin romper la oración.",
+          "La interjección se puede quitar entera y la oración sigue completa, porque no forma parte de su estructura."
+        ]
+      },
+      {
+        "encabezado": "Clases abiertas y clases cerradas",
+        "parrafos": [
+          "Los sustantivos, los adjetivos, los verbos y los adverbios forman clases abiertas: Cada año aparecen palabras nuevas y desaparecen otras. Nadie puede hacer la lista completa de los sustantivos del español.",
+          "Los determinantes, los pronombres, las preposiciones y las conjunciones forman clases cerradas: Son unas pocas decenas y no cambian casi nunca. Se pueden aprender de memoria, y merece la pena hacerlo, porque son las que sostienen la estructura de la oración.",
+          "Esta diferencia explica por qué el analizador de este atlas guarda listas completas de las clases cerradas y en cambio reconoce las abiertas por su terminación y por su contexto."
+        ]
+      }
+    ],
+    "puntosClave": [
+      "La clase de una palabra depende de su función en la oración, no de la palabra en sí.",
+      "Cada clase tiene una prueba propia: El artículo para el sustantivo, muy para el adjetivo, el plural para descartar el adverbio.",
+      "Determinante y pronombre se distinguen por la compañía: Si acompaña a un sustantivo es determinante, si va solo es pronombre.",
+      "Las clases cerradas son pocas y conviene aprenderlas de memoria."
+    ]
+  },
+  {
+    "codigo": "el-sistema-verbal",
+    "titulo": "El sistema verbal español",
+    "area": "Gramática",
+    "resumen": "El verbo es la palabra más compleja del español porque una sola forma expresa cinco cosas a la vez. Entender cómo se reparten esos cinco rasgos convierte la conjugación en un sistema y no en una lista que memorizar.",
+    "secciones": [
+      {
+        "encabezado": "Cinco informaciones en una sola palabra",
+        "parrafos": [
+          "En *cantábamos* hay una raíz, cant, que aporta la idea, y una desinencia, ábamos, que aporta todo lo demás: Primera persona, plural, pasado, modo indicativo y aspecto imperfecto. Ninguna otra clase de palabra del español condensa tanto.",
+          "Separar la raíz de la desinencia es el primer paso de cualquier conjugación. Se hace quitando la terminación del infinitivo: De cantar queda cant, de comer queda com, de vivir queda viv."
+        ]
+      },
+      {
+        "encabezado": "Los tres modos y para qué sirve cada uno",
+        "parrafos": [
+          "El indicativo presenta lo que se dice como real. Sé que *vienes* mañana afirma que vendrás.",
+          "El subjuntivo lo presenta como no real todavía: Deseado, dudoso o dependiente de otra cosa. Dudo que *vengas* mañana no afirma nada sobre tu llegada.",
+          "El imperativo pide. Solo tiene formas propias en afirmativo, porque en cuanto se niega toma prestadas las del subjuntivo: *ven* frente a no *vengas*.",
+          "La regla práctica es sencilla. Detrás de que, y detrás de verbos de deseo, duda, emoción o mandato, casi siempre va subjuntivo."
+        ]
+      },
+      {
+        "encabezado": "Los dos nombres de cada tiempo",
+        "parrafos": [
+          "En México conviven dos nomenclaturas y los libros de texto alternan entre ellas. La académica dice pretérito perfecto simple, pretérito imperfecto y pretérito pluscuamperfecto. La de Bello, más breve, dice pretérito, copretérito y antecopretérito.",
+          "Conviene reconocer las dos. Una manera de recordarlas es que en la de Bello el prefijo co significa a la vez que, y el prefijo ante significa antes de. Copretérito es lo que pasaba a la vez que otra cosa del pasado, y antepretérito, lo que había pasado antes.",
+          "Lo que de verdad distingue al pretérito del copretérito no es la distancia en el tiempo sino el aspecto. *Canté* presenta la acción acabada y *cantaba* la presenta en curso. Por eso, al narrar, lo que pasa va en pretérito y lo que rodea va en copretérito."
+        ]
+      },
+      {
+        "encabezado": "Cómo se comportan los verbos irregulares",
+        "parrafos": [
+          "Las irregularidades no son caprichos aislados: Se agrupan en unos pocos patrones que se repiten en cientos de verbos.",
+          "El más común es la diptongación, que convierte la e en ie y la o en ue cuando la sílaba lleva el acento. Por eso pensar da pienso pero pensamos, y contar da cuento pero contamos: En las formas de nosotros el acento se mueve y la irregularidad desaparece.",
+          "El segundo patrón es el pretérito fuerte, que cambia la raíz y desplaza el acento. Tener da tuve, hacer da hice, decir da dije. Todos comparten las mismas terminaciones.",
+          "El tercero es el futuro irregular, que acorta la raíz: Tener da tendré, poder da podré, decir da diré.",
+          "Y hay un cuarto grupo que no es de irregularidad sino de escritura. Buscar da busqué y llegar da llegué solo porque la c y la g cambian de letra delante de la e para conservar el sonido. Esos verbos son perfectamente regulares al oído."
+        ]
+      }
+    ],
+    "puntosClave": [
+      "Toda forma verbal se desarma en raíz y desinencia, y ese es el punto de partida de cualquier conjugación.",
+      "El indicativo presenta hechos, el subjuntivo posibilidades y el imperativo peticiones.",
+      "La diferencia entre pretérito y copretérito es de aspecto, no de antigüedad.",
+      "Las irregularidades se agrupan en patrones: Diptongación, pretérito fuerte y futuro corto.",
+      "Los cambios de escritura como busqué no son irregularidades: conservan el sonido."
+    ]
+  },
+  {
+    "codigo": "analisis-sintactico",
+    "titulo": "Cómo analizar una oración paso a paso",
+    "area": "Sintaxis",
+    "resumen": "El análisis sintáctico se hace siempre en el mismo orden, y ese orden es lo que evita los errores. Este es el procedimiento completo, del primer vistazo hasta la clasificación final.",
+    "secciones": [
+      {
+        "encabezado": "Paso uno: contar los verbos",
+        "parrafos": [
+          "Antes de nada se localizan los verbos conjugados, porque cada uno arma una proposición. Si hay uno, la oración es simple. Si hay más de uno, es compuesta y habrá que decir cómo se relacionan.",
+          "Cuidado con las perífrasis: *voy a estudiar* tiene dos palabras verbales pero un solo núcleo, porque ir ha perdido su significado de movimiento. La prueba es preguntarse si el auxiliar significa lo que suele significar. En voy a estudiar nadie se está moviendo."
+        ]
+      },
+      {
+        "encabezado": "Paso dos: separar sujeto y predicado",
+        "parrafos": [
+          "El sujeto no se busca preguntando quién realiza la acción, porque en las pasivas el sujeto no realiza nada. Se busca con la prueba de la concordancia: Se pasa el verbo al plural y se mira qué grupo de palabras tiene que cambiar con él.",
+          "En *el perro de mi vecino ladra*, si se dice ladran hay que decir los perros. Ese grupo entero es el sujeto, incluido de mi vecino.",
+          "Dos avisos. El sujeto puede ir detrás del verbo, como en *me gustan los libros*, donde el sujeto es los libros. Y el sujeto nunca lleva preposición delante de su núcleo."
+        ]
+      },
+      {
+        "encabezado": "Paso tres: los complementos, en este orden",
+        "parrafos": [
+          "Primero el complemento directo, con la prueba de sustituirlo por lo, la, los o las. Leí el libro da lo leí, así que el libro es complemento directo.",
+          "Después el indirecto, que se sustituye por le o les. Di el libro a Ana da le di el libro.",
+          "Después el de régimen, que se reconoce porque la preposición la exige el verbo y no se puede quitar. Pienso *en ti* no admite pienso a secas.",
+          "Y al final los circunstanciales, que son los que sobran: Se pueden suprimir, se pueden mover al principio de la frase y se pueden sustituir por un adverbio.",
+          "Ese orden importa. Buscar primero los circunstanciales lleva a confundirlos con los complementos de régimen, que es el error más frecuente de todos."
+        ]
+      },
+      {
+        "encabezado": "Paso cuatro: clasificar la oración",
+        "parrafos": [
+          "La clasificación completa lleva siempre varios criterios. Por la actitud del hablante, la oración es enunciativa, interrogativa, exclamativa, exhortativa, desiderativa o dubitativa.",
+          "Por su predicado, es nominal si lleva ser, estar o parecer con atributo, y verbal en los demás casos.",
+          "Si es verbal, además hay que decir la voz (activa o pasiva), la transitividad (transitiva si tiene complemento directo) y el tipo de sujeto (expreso, omitido, paciente o inexistente si es impersonal).",
+          "Una respuesta que solo dice enunciativa está incompleta, y en un examen se puntúa como tal."
+        ]
+      },
+      {
+        "encabezado": "Los cinco errores que más se repiten",
+        "parrafos": [
+          "Poner coma entre el sujeto y el verbo, que además de un error de puntuación revela que no se identificó el sujeto.",
+          "Buscar el sujeto solo delante del verbo, y perderse las oraciones con gustar, doler o interesar.",
+          "Analizar palabra por palabra en lugar de por sintagmas.",
+          "Contar como dos verbos los de una perífrasis.",
+          "Decir que una subordinada es sustantiva sin decir qué función cumple dentro de la principal."
+        ]
+      }
+    ],
+    "puntosClave": [
+      "Se empieza contando verbos conjugados, porque eso decide si la oración es simple o compuesta.",
+      "El sujeto se identifica por concordancia, nunca preguntando quién hace la acción.",
+      "Los complementos se buscan en orden: Directo, indirecto, de régimen y circunstanciales.",
+      "Cada complemento tiene una prueba de sustitución propia que no falla.",
+      "La clasificación completa exige varios criterios a la vez, no uno solo."
+    ]
+  },
+  {
+    "codigo": "la-tilde",
+    "titulo": "Todo sobre la tilde",
+    "area": "Ortografía",
+    "resumen": "La acentuación parece un conjunto de reglas sueltas y en realidad es un sistema de tres capas. Entender el sistema ahorra memorizar listas de palabras.",
+    "secciones": [
+      {
+        "encabezado": "Primera capa: la regla general",
+        "parrafos": [
+          "Todas las palabras tienen una sílaba tónica, pero solo algunas la marcan por escrito. Las reglas están diseñadas para señalar lo excepcional, no lo habitual.",
+          "Como la mayoría de las palabras españolas son llanas terminadas en vocal, en n o en s, esas no llevan tilde. Todo lo que se sale de ese patrón la lleva.",
+          "De ahí salen las cuatro reglas. Las agudas llevan tilde si terminan en vocal, en n o en s. Las llanas la llevan justo si no terminan en vocal, en n ni en s. Y las esdrújulas y sobresdrújulas la llevan siempre.",
+          "Agudas y llanas son espejos, y conviene aprenderlas juntas y no por separado."
+        ]
+      },
+      {
+        "encabezado": "Segunda capa: el hiato manda sobre la regla general",
+        "parrafos": [
+          "Cuando una vocal cerrada (i, u) lleva el acento y está junto a una abierta (a, e, o), la tilde es obligatoria aunque la regla general dijera lo contrario.",
+          "*Día* es llana terminada en vocal y, por regla general, no debería llevar tilde. La lleva porque sin ella se leería dia, en una sola sílaba.",
+          "Esa tilde no cumple una regla de acentuación sino una función de lectura: Avisa de que las dos vocales se separan. Es la misma razón por la que se escribe *país*, *baúl*, *oír* y *reímos*.",
+          "La h en medio no cambia nada: *prohíbe* y *búho* llevan tilde por lo mismo."
+        ]
+      },
+      {
+        "encabezado": "Tercera capa: la tilde diacrítica",
+        "parrafos": [
+          "Esta capa no tiene que ver con la pronunciación de la sílaba sino con distinguir dos palabras que se escriben igual.",
+          "La forma que lleva tilde es siempre la que tiene peso propio y podría quedarse sola en la frase. *Él* llegó frente a *el* libro, *tú* sabes frente a *tu* casa, *sé* la respuesta frente a *se* fue.",
+          "Los interrogativos y exclamativos entran aquí: Llevan tilde también en las preguntas indirectas, aunque no haya signos. Se escribe no sé *qué* quieres y dime *dónde* vives.",
+          "Dos avisos sobre cambios recientes. Los demostrativos (este, ese, aquel) ya no llevan tilde nunca, ni siquiera como pronombres. Y el adverbio solo tampoco. Ponerles tilde hoy se considera un error, no una opción."
+        ]
+      },
+      {
+        "encabezado": "Cómo aplicarlo en un examen",
+        "parrafos": [
+          "Se separa la palabra en sílabas, siempre. Sin ese paso no se puede aplicar ninguna regla.",
+          "Se localiza la sílaba tónica leyendo la palabra en voz alta.",
+          "Se comprueba si hay hiato de vocal cerrada. Si lo hay, ya está: Lleva tilde y no hace falta mirar nada más.",
+          "Si no lo hay, se aplica la regla general según la posición de la tónica y la letra final."
+        ]
+      }
+    ],
+    "puntosClave": [
+      "La regla general marca lo excepcional: Por eso la mayoría de las palabras no lleva tilde.",
+      "Agudas y llanas tienen reglas opuestas y se aprenden juntas.",
+      "El hiato de vocal cerrada tónica manda sobre la regla general.",
+      "La tilde diacrítica marca la palabra con peso propio.",
+      "Los demostrativos y el adverbio solo ya no se acentúan nunca."
+    ]
+  },
+  {
+    "codigo": "letras-dudosas",
+    "titulo": "Las letras que suenan igual",
+    "area": "Ortografía",
+    "resumen": "En México y en toda Hispanoamérica varias letras comparten sonido, y por eso el oído no sirve para escribirlas. Estas son las estrategias que sí funcionan.",
+    "secciones": [
+      {
+        "encabezado": "Por qué el oído no ayuda",
+        "parrafos": [
+          "El español americano tiene seseo, es decir, pronuncia igual la c antes de e o i, la s y la z. También tiene yeísmo, que pronuncia igual la ll y la y. Además, la b y la v suenan idénticas en todo el mundo hispano, y la h no suena en ninguna parte.",
+          "Eso deja cuatro grupos de dudas que no se pueden resolver escuchando: B y v, c y s y z, g y j, ll y y, más la h que aparece y desaparece sin previo aviso.",
+          "La buena noticia es que las reglas cubren la mayor parte de los casos, y que hay dos estrategias generales que resuelven casi todo lo demás."
+        ]
+      },
+      {
+        "encabezado": "Estrategia uno: buscar un pariente",
+        "parrafos": [
+          "Las palabras de una misma familia comparten las letras dudosas. Si se duda de la b de una palabra, se busca otra de su familia en la que la letra esté clara.",
+          "Este truco resuelve de golpe la elección entre ción y sión, que es la duda más frecuente de todas. Si en la familia hay una palabra terminada en to o en do, va con c: *composición* viene de compuesto. Si hay una terminada en so, sor o sivo, va con s: *televisión* viene de televisor y *expresión* de expresivo.",
+          "Con la h pasa lo mismo: De hombre vienen hombrera y hombría, todas con h."
+        ]
+      },
+      {
+        "encabezado": "Estrategia dos: aprenderse las reglas que más rinden",
+        "parrafos": [
+          "No todas las reglas valen lo mismo. Unas pocas resuelven cientos de palabras y merece la pena sabérselas de memoria.",
+          "Después de m siempre va b, y después de n siempre va v. Con eso solo se resuelven *hombre*, *cambio*, *invierno* y *conversar*.",
+          "El copretérito de todos los verbos en ar lleva b: *cantaba*, *jugábamos*, *estudiaban*. Y el de ir también: *iba*.",
+          "Toda palabra terminada en aje lleva j: *viaje*, *garaje*, *mensaje*.",
+          "Los pretéritos de traer, decir y los verbos en ducir llevan j: *traje*, *dije*, *conduje*.",
+          "La z nunca se escribe delante de e ni de i, así que se convierte en c: Cruzar da *crucé* y lápiz da *lápices*."
+        ]
+      },
+      {
+        "encabezado": "Las parejas que hay que memorizar",
+        "parrafos": [
+          "Quedan unas cuantas parejas que solo se distinguen por escrito y que aparecen constantemente. No hay regla que valga: se aprenden por pares.",
+          "*Hola* el saludo y *ola* la del mar. *Hecho* del verbo hacer y *echo* del verbo echar. *Hasta* la preposición y *asta* el palo. *Haber* el verbo y *a ver* la preposición más el infinitivo. *Tuvo* de tener y *tubo* el objeto. *Haya* de haber, *halla* de hallar y *aya* la cuidadora.",
+          "Con los verbos hay un truco que ahorra memorizar: Si el infinitivo no tiene ll, la forma conjugada tampoco puede tenerla. De caer sale *cayó*, de oír sale *oyó*, de huir sale *huyeron*."
+        ]
+      }
+    ],
+    "puntosClave": [
+      "El oído no sirve para las letras dudosas, así que hay que apoyarse en reglas y en familias de palabras.",
+      "Buscar un pariente de la palabra resuelve la mayoría de los casos, sobre todo la duda entre ción y sión.",
+      "Después de m va b y después de n va v.",
+      "La z se convierte en c delante de e y de i, siempre.",
+      "Si el infinitivo no tiene ll, la forma conjugada lleva y."
+    ]
+  },
+  {
+    "codigo": "la-puntuacion",
+    "titulo": "La puntuación como estructura",
+    "area": "Ortografía",
+    "resumen": "Los signos de puntuación no marcan dónde se respira sino cómo está construido el texto. Verlos así corrige de golpe la mayoría de los errores.",
+    "secciones": [
+      {
+        "encabezado": "El mito de la respiración",
+        "parrafos": [
+          "La idea de que la coma se pone donde uno haría una pausa al hablar es la causa principal de los errores de puntuación. Al leer en voz alta un sujeto largo, es natural detenerse antes del verbo, y de ahí sale la coma que separa el sujeto del verbo, que es el error más visible que existe.",
+          "*Los alumnos de tercero de secundaria del turno matutino entregaron el trabajo* no lleva ninguna coma, por largo que parezca. Entre un sujeto y su verbo nunca hay coma.",
+          "La puntuación responde a la estructura: Separa elementos de una lista, encierra incisos, marca dónde termina una oración y anuncia lo que viene."
+        ]
+      },
+      {
+        "encabezado": "Una escala de separación",
+        "parrafos": [
+          "Los signos se pueden ordenar de menor a mayor separación, y elegir el adecuado es cuestión de decidir cuánta distancia se quiere.",
+          "La coma separa dentro de la oración. El punto y coma separa elementos que ya llevan comas dentro, o une dos oraciones muy relacionadas. El punto cierra la oración. El punto y aparte cierra el párrafo.",
+          "Para los incisos hay tres grados. Entre comas es el más ligero, entre paréntesis marca más distancia y entre rayas es el que más separa."
+        ]
+      },
+      {
+        "encabezado": "Los dos puntos son una promesa",
+        "parrafos": [
+          "Los dos puntos anuncian que lo que viene detrás es exactamente lo que se acaba de prometer: Una lista, una cita o la explicación de lo dicho.",
+          "Si detrás no viene lo prometido, sobran. Y nunca se colocan entre el verbo y su complemento: Se escribe necesito papel y tinta, no necesito: papel y tinta.",
+          "Detrás de dos puntos se escribe con minúscula, salvo cuando lo que sigue es una cita textual o el texto de una carta."
+        ]
+      },
+      {
+        "encabezado": "Lo que el español hace distinto",
+        "parrafos": [
+          "Las preguntas y las exclamaciones se abren y se cierran. El signo de apertura no es optativo: Es lo que permite saber dónde empieza la entonación, sobre todo en frases largas. Omitirlo es un error.",
+          "El punto va siempre fuera de las comillas y fuera del paréntesis de cierre, al contrario de lo que ocurre en inglés.",
+          "No se pone coma antes de la y final de una enumeración simple. Se escribe compré pan, leche y fruta.",
+          "Y los diálogos se marcan con raya, no con guion corto ni con comillas."
+        ]
+      }
+    ],
+    "puntosClave": [
+      "La puntuación marca estructura, no respiración.",
+      "Entre el sujeto y su verbo nunca hay coma.",
+      "Los signos forman una escala de separación: Coma, punto y coma, punto.",
+      "Los dos puntos anuncian algo, y si no viene, sobran.",
+      "En español las preguntas y exclamaciones se abren además de cerrarse."
+    ]
+  },
+  {
+    "codigo": "generos-y-formas",
+    "titulo": "Los géneros literarios y cómo se analizan",
+    "area": "Literatura",
+    "resumen": "Analizar un texto literario no es contar de qué trata. Es responder a preguntas concretas sobre quién habla, cómo está construido y qué recursos usa.",
+    "secciones": [
+      {
+        "encabezado": "Quién habla decide el género",
+        "parrafos": [
+          "Lo que separa a los tres géneros no es el tema sino la voz. En la narrativa hay un narrador que cuenta lo que les pasa a unos personajes. En la lírica hay un yo que expresa un mundo interior. En la dramática no hay nadie que cuente: los personajes hablan directamente.",
+          "Por eso la primera pregunta de cualquier comentario es quién habla en este texto. La respuesta orienta todo lo demás."
+        ]
+      },
+      {
+        "encabezado": "El narrador no es el autor",
+        "parrafos": [
+          "Este es el error más repetido de todos los comentarios de texto. El narrador es una voz inventada, incluso cuando habla en primera persona y cuenta cosas que parecen reales.",
+          "De qué narrador se elija depende todo lo que el lector puede saber. Un narrador protagonista solo puede contar lo que él vive, y por eso puede equivocarse o incluso mentir. Un narrador omnisciente lo sabe todo, hasta lo que piensan los personajes.",
+          "Cambiar el narrador cambia la historia entera aunque los hechos sean exactamente los mismos. Eso es lo que hay que saber ver."
+        ]
+      },
+      {
+        "encabezado": "Cómo se mide un verso",
+        "parrafos": [
+          "Contar las sílabas de un verso no es lo mismo que contarlas de una palabra suelta. Intervienen tres ajustes y hay que aplicarlos en orden.",
+          "Primero la sinalefa: Cuando una palabra acaba en vocal y la siguiente empieza por vocal, las dos sílabas se cuentan como una.",
+          "Después se cuentan las sílabas resultantes.",
+          "Y al final se aplica la ley del acento final: Si el verso acaba en palabra aguda se suma una sílaba, y si acaba en esdrújula se resta una.",
+          "Olvidar la sinalefa es lo que más descuadra las cuentas, y por eso conviene marcarla siempre antes de contar."
+        ]
+      },
+      {
+        "encabezado": "Qué preguntar ante un poema",
+        "parrafos": [
+          "Cuántas sílabas tiene cada verso y cómo se llaman por su medida.",
+          "Qué esquema de rima siguen, y si es consonante o asonante.",
+          "En qué estrofas se agrupan, si es que se agrupan.",
+          "Qué figuras retóricas aparecen y qué aporta cada una, que es lo que de verdad se valora. No basta con nombrarlas: Hay que decir para qué sirven ahí.",
+          "Y de qué habla el poema, que se responde al final y no al principio."
+        ]
+      }
+    ],
+    "puntosClave": [
+      "El género lo decide quién habla: Un narrador, un yo lírico o los personajes.",
+      "El narrador es una voz inventada y no se confunde con el autor.",
+      "Al medir un verso se aplica primero la sinalefa y al final la ley del acento final.",
+      "Nombrar una figura retórica no es analizarla: Hay que decir qué aporta."
+    ]
+  },
+  {
+    "codigo": "escribir-bien",
+    "titulo": "Cómo se escribe un texto que se entienda",
+    "area": "Expresión y redacción",
+    "resumen": "Escribir bien no es escribir bonito. Es conseguir que quien lee entienda a la primera, y eso depende de tres propiedades que se pueden revisar una a una.",
+    "secciones": [
+      {
+        "encabezado": "Las tres propiedades del texto",
+        "parrafos": [
+          "La adecuación es la relación entre el texto y su situación: Quién escribe, para quién y con qué intención. De ahí sale el registro. Escribir a un profesor con el mismo tono que a un amigo es un fallo de adecuación, aunque no haya ni una falta de ortografía.",
+          "La coherencia es la organización de las ideas: Que haya un tema, que las ideas no se contradigan y que estén en un orden que se pueda seguir.",
+          "La cohesión es la trabazón visible entre las frases: Los conectores, los pronombres que remiten a lo ya dicho y los sinónimos que evitan repetir.",
+          "Coherencia y cohesión se confunden a menudo. La coherencia está en las ideas y la cohesión en las palabras que las enlazan."
+        ]
+      },
+      {
+        "encabezado": "El párrafo como unidad",
+        "parrafos": [
+          "Un párrafo desarrolla una sola idea. Si en medio aparece otra, hay que abrir párrafo nuevo.",
+          "La idea principal puede ir al principio, que es lo más claro, o al final, a modo de conclusión. Lo que no funciona es que no esté en ninguna parte.",
+          "Una prueba rápida: Si se puede resumir el párrafo en una frase, está bien construido. Si hacen falta dos, es que había dos párrafos."
+        ]
+      },
+      {
+        "encabezado": "Los conectores son promesas",
+        "parrafos": [
+          "Cada conector anuncia lo que viene. Si se escribe sin embargo, el lector espera una objeción, y si detrás no la encuentra, se pierde.",
+          "Por eso el conector se elige después de saber qué relación se quiere expresar, y no al revés. Un texto lleno de sin embargo mal puestos es peor que uno sin ninguno.",
+          "Y conviene no poner un conector en cada frase. Un párrafo bien escrito enlaza sus ideas también por el orden en que están puestas."
+        ]
+      },
+      {
+        "encabezado": "Cómo revisar lo escrito",
+        "parrafos": [
+          "Para la coherencia se hace un esquema del texto ya escrito. Si el esquema no sale, la coherencia falla.",
+          "Para la cohesión se leen solo los principios de cada oración y se comprueba que enlazan con la anterior.",
+          "Para la adecuación se piensa en quien va a leer y se revisa el registro.",
+          "Y para todo lo demás se lee en voz alta. Lo que no se puede leer de un tirón está mal puntuado, y casi siempre mal construido."
+        ]
+      }
+    ],
+    "puntosClave": [
+      "Adecuación es ajustarse a la situación, coherencia es que las ideas se sostengan y cohesión es que se note el enlace.",
+      "Un párrafo desarrolla una sola idea, y si aparecen dos hay que separarlas.",
+      "El conector es una promesa al lector, y hay que cumplirla.",
+      "Leer en voz alta detecta casi todos los problemas de puntuación y de construcción."
+    ]
+  },
+  {
+    "codigo": "leer-mejor",
+    "titulo": "Leer para entender y no solo para pasar la vista",
+    "area": "Comprensión lectora",
+    "resumen": "La comprensión lectora se puede entrenar, y lo que se entrena son operaciones concretas: Distinguir el tema de la idea principal, inferir lo que no está escrito y valorar los argumentos.",
+    "secciones": [
+      {
+        "encabezado": "Tema e idea principal no son lo mismo",
+        "parrafos": [
+          "El tema es de qué habla el texto y se dice con un sintagma: La lectura, la contaminación del aire, la Revolución mexicana.",
+          "La idea principal es qué dice el texto sobre ese tema, y se dice con una oración completa: La lectura mejora el vocabulario, la contaminación del aire ha bajado en la última década.",
+          "Confundirlos es lo que hace que muchos resúmenes se queden en enumerar asuntos sin decir nada.",
+          "Para hallar la idea principal se tapan las oraciones una a una. La que hace que el resto pierda sentido es la principal. Los ejemplos, las cifras y las citas nunca lo son: son apoyo."
+        ]
+      },
+      {
+        "encabezado": "Inferir es leer lo que no está escrito",
+        "parrafos": [
+          "Muchas preguntas de examen no piden localizar un dato sino deducirlo. Si un texto dice que alguien cerró la puerta con más fuerza de la necesaria, no dice que estuviera enfadado, pero permite deducirlo.",
+          "La inferencia se apoya siempre en algo del texto. Si no hay ningún indicio, no es una inferencia sino una invención, y en un examen se cuenta como error.",
+          "El ejercicio útil es preguntarse, en cada afirmación, en qué parte del texto se apoya."
+        ]
+      },
+      {
+        "encabezado": "Valorar un argumento",
+        "parrafos": [
+          "Ante un texto que defiende algo, lo primero es localizar la tesis, que suele estar al principio o al final. Después se numeran las razones que la sostienen.",
+          "La prueba más útil es preguntarse si la razón sostendría la tesis aunque la dijera otra persona. Un argumento resiste el cambio de boca. Si al cambiar de boca pierde toda su fuerza, era una falacia.",
+          "Las falacias más frecuentes son atacar a quien opina en lugar de a lo que opina, generalizar a partir de dos casos, presentar solo dos salidas cuando hay más y apoyarse en que todo el mundo lo hace."
+        ]
+      },
+      {
+        "encabezado": "Un método que funciona",
+        "parrafos": [
+          "Primera lectura completa, sin subrayar nada, solo para saber de qué va.",
+          "Segunda lectura párrafo a párrafo, escribiendo al margen la idea de cada uno en tres o cuatro palabras.",
+          "Con esas notas al margen ya se tiene el esquema del texto, y con el esquema se responde cualquier pregunta sin volver a leerlo entero.",
+          "Subrayar en la primera lectura es lo que hace que acaben subrayadas páginas enteras, que es lo mismo que no subrayar nada."
+        ]
+      }
+    ],
+    "puntosClave": [
+      "El tema se dice con un sintagma y la idea principal con una oración completa.",
+      "Toda inferencia tiene que apoyarse en algo escrito en el texto.",
+      "Un argumento válido resiste el cambio de quien lo dice.",
+      "Se subraya en la segunda lectura, nunca en la primera."
+    ]
+  },
+  {
+    "codigo": "la-comunicacion",
+    "titulo": "La comunicación y las variantes de la lengua",
+    "area": "Comunicación",
+    "resumen": "Antes de estudiar cómo funciona la lengua conviene entender para qué sirve y por qué no es igual para todos ni en toda situación.",
+    "secciones": [
+      {
+        "encabezado": "Seis elementos y seis funciones",
+        "parrafos": [
+          "En todo acto de comunicación hay un emisor que dice, un receptor que recibe, un mensaje, un código compartido, un canal por el que viaja y un referente del que se habla.",
+          "Según cuál de esos elementos pese más, el lenguaje cumple una función distinta. Si el peso está en el emisor, la función es expresiva. Si está en el receptor, apelativa. Si está en el referente, referencial. Si está en el mensaje mismo, poética. Si está en el canal, fática. Y si está en el código, metalingüística.",
+          "Casi siempre aparecen varias a la vez, así que lo que se pide es señalar la dominante. La pregunta que lo resuelve es hacia dónde apunta el texto: Hacia quien habla, hacia quien escucha, hacia el mundo o hacia sí mismo."
+        ]
+      },
+      {
+        "encabezado": "La lengua cambia según el lugar",
+        "parrafos": [
+          "El español de México, el de Argentina y el de España son igualmente correctos. Cada uno tiene su propia norma culta, y ninguna es superior a las demás.",
+          "Las diferencias más visibles son de vocabulario (camión en México, autobús en España) y de pronombres (ustedes en América, vosotros en gran parte de España, vos en Argentina y en varios países más).",
+          "Este atlas usa la variante mexicana como referencia, pero muestra también las formas de vosotros, porque aparecen en los textos literarios que se leen en clase."
+        ]
+      },
+      {
+        "encabezado": "La lengua cambia según la situación",
+        "parrafos": [
+          "El registro es la variedad que se elige según la situación, y va del más formal al más coloquial. Nadie habla igual en una entrevista de trabajo que con sus amigos, y eso no es un defecto sino una competencia.",
+          "El error no está en usar un registro coloquial sino en usarlo donde no toca. Escribir un trabajo académico como si fuera un mensaje de texto es un problema de adecuación.",
+          "Conviene distinguir el coloquialismo del vulgarismo. El coloquialismo es adecuado en su contexto. El vulgarismo es un error de lengua, como decir haiga o dijistes, y no es adecuado en ninguno."
+        ]
+      }
+    ],
+    "puntosClave": [
+      "Cada elemento de la comunicación tiene asociada una función del lenguaje.",
+      "Casi siempre hay varias funciones a la vez, y lo que se pide es la dominante.",
+      "Ninguna variante geográfica es mejor que otra: Cada país tiene su norma culta.",
+      "Lo que se juzga no es la variante sino la adecuación a la situación.",
+      "Coloquialismo y vulgarismo no son lo mismo."
+    ]
+  },
+  {
+    "codigo": "el-lexico",
+    "titulo": "El vocabulario y cómo crece",
+    "area": "Léxico y semántica",
+    "resumen": "Las palabras no se aprenden de una en una. Se aprenden en redes, y entender cómo se relacionan entre sí y cómo se forman permite deducir el significado de palabras que nunca se han visto.",
+    "secciones": [
+      {
+        "encabezado": "Las palabras viven en redes",
+        "parrafos": [
+          "Ninguna palabra está sola. Cada una se relaciona con otras de varias maneras a la vez, y saber cuáles son esas relaciones es lo que permite escribir sin repetir y entender un texto con vocabulario nuevo.",
+          "Hay dos redes que conviene no confundir. El campo semántico agrupa palabras por lo que significan: *mesa*, *silla* y *sofá* pertenecen al mismo campo aunque no se parezcan en nada. La familia léxica agrupa palabras por cómo están hechas: *pan*, *panadero* y *panadería* comparten la raíz aunque signifiquen cosas distintas.",
+          "La regla para distinguirlas es sencilla. Campo semántico se organiza por significado, familia léxica por forma."
+        ]
+      },
+      {
+        "encabezado": "Sinónimos que no son intercambiables",
+        "parrafos": [
+          "La sinonimia perfecta casi no existe. *Empezar* y *comenzar* significan lo mismo, pero no pertenecen al mismo registro y no siempre encajan en la misma frase.",
+          "Por eso un diccionario de sinónimos mal usado empeora un texto. La única forma segura de sustituir una palabra es releer la frase entera después de hacerlo.",
+          "Con los antónimos pasa algo parecido. No todos funcionan igual: *frío* y *caliente* admiten puntos intermedios, *vivo* y *muerto* no admiten ninguno, y *comprar* y *vender* nombran la misma acción vista desde los dos lados."
+        ]
+      },
+      {
+        "encabezado": "Las palabras que se parecen y no significan lo mismo",
+        "parrafos": [
+          "Los parónimos son la causa principal de errores de vocabulario en los exámenes, porque suenan casi igual: *actitud* y *aptitud*, *absorber* y *absolver*, *infringir* e *infligir*.",
+          "Distintos de ellos son los homónimos, que suenan exactamente igual. Los homófonos se escriben distinto (*hola* y *ola*) y los homógrafos se escriben igual (*vino* la bebida y *vino* del verbo venir).",
+          "Y hay que separar todo eso de la polisemia, que es una sola palabra con varios sentidos emparentados: El *pie* del cuerpo, el *pie* de la página y el *pie* de la montaña son la misma palabra. Si en el diccionario hay dos entradas distintas, son homónimos. Si hay una sola con varias acepciones, es polisemia."
+        ]
+      },
+      {
+        "encabezado": "Deducir el significado de una palabra nueva",
+        "parrafos": [
+          "Esta es la habilidad que más se evalúa y la que más se descuida. Conocer unos treinta prefijos y sufijos permite entender cientos de palabras sin diccionario.",
+          "Si se sabe que *hidro* significa agua y que *fobia* significa rechazo, se entiende hidrofobia sin haberla leído nunca. Si se sabe que *ismo* nombra doctrinas y movimientos, se entiende cualquier palabra que termine así.",
+          "Los procesos por los que crece el vocabulario son tres. La derivación añade prefijos o sufijos (*deshacer*). La composición une dos palabras que ya existían (*sacapuntas*). Y la parasíntesis hace las dos cosas a la vez (*enrojecer*).",
+          "A eso se suman los préstamos de otras lenguas y los neologismos que nombran realidades nuevas. Ninguno de los dos es un defecto: Es como han crecido todas las lenguas vivas."
+        ]
+      }
+    ],
+    "puntosClave": [
+      "Campo semántico se organiza por significado y familia léxica por forma de la palabra.",
+      "Casi ningún par de sinónimos es intercambiable en todos los contextos.",
+      "Polisemia si los sentidos se pueden emparentar, homonimia si no.",
+      "Conocer treinta prefijos y sufijos permite deducir el significado de cientos de palabras."
+    ]
+  }
+]

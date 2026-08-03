@@ -1,0 +1,26 @@
+{
+  "name": "Atlas de Lengua y Literatura: gramática, sintaxis, ortografía y análisis sintáctico en español",
+  "short_name": "Atlas de Lengua",
+  "description": "Atlas de estudio de español para secundaria y preparatoria. Analizador sintáctico que desarma cualquier oración en su árbol, conjugador de los dieciocho tiempos verbales, siete juegos de práctica, y temario de gramática, sintaxis, ortografía y literatura.",
+  "lang": "es-MX",
+  "dir": "ltr",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#eef2f7",
+  "theme_color": "#4f46e5",
+  "categories": [
+    "education",
+    "books",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "portada.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

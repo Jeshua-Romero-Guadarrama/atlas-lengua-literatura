@@ -1,0 +1,582 @@
+[
+  {
+    "termino": "Acento prosódico",
+    "categoria": "Fonética",
+    "definicion": "Mayor intensidad con que se pronuncia una sílaba dentro de una palabra. Todas las palabras lo tienen, aunque no todas lleven tilde."
+  },
+  {
+    "termino": "Acento ortográfico o tilde",
+    "categoria": "Ortografía",
+    "definicion": "Rayita oblicua que se coloca sobre la vocal tónica cuando lo piden las reglas de acentuación."
+  },
+  {
+    "termino": "Acotación",
+    "categoria": "Literatura",
+    "definicion": "Indicación que el autor teatral escribe entre paréntesis o en cursiva para señalar movimientos, gestos, luces o decorados."
+  },
+  {
+    "termino": "Adecuación",
+    "categoria": "Redacción",
+    "definicion": "Propiedad del texto que consiste en ajustar el registro y el tono a la situación, al tema y a quien va a leer."
+  },
+  {
+    "termino": "Adjetivo",
+    "categoria": "Gramática",
+    "definicion": "Clase de palabra que expresa cualidades o propiedades del sustantivo y concuerda con él en género y número."
+  },
+  {
+    "termino": "Adverbio",
+    "categoria": "Gramática",
+    "definicion": "Palabra invariable que modifica a un verbo, a un adjetivo o a otro adverbio, y añade una circunstancia."
+  },
+  {
+    "termino": "Alegoría",
+    "categoria": "Figuras",
+    "definicion": "Metáfora prolongada a lo largo de un texto entero, en la que cada elemento imaginario corresponde a uno real."
+  },
+  {
+    "termino": "Aliteración",
+    "categoria": "Figuras",
+    "definicion": "Repetición de un mismo sonido a lo largo de un verso o una frase, para conseguir un efecto sonoro."
+  },
+  {
+    "termino": "Analepsis",
+    "categoria": "Literatura",
+    "definicion": "Salto hacia atrás en el tiempo del relato, que interrumpe la narración para contar algo anterior."
+  },
+  {
+    "termino": "Anáfora",
+    "categoria": "Figuras",
+    "definicion": "Repetición de una o varias palabras al principio de versos o de frases sucesivas."
+  },
+  {
+    "termino": "Antecedente",
+    "categoria": "Sintaxis",
+    "definicion": "Sustantivo al que se refiere un pronombre relativo y al que sustituye dentro de la proposición subordinada."
+  },
+  {
+    "termino": "Antónimo",
+    "categoria": "Léxico",
+    "definicion": "Palabra de significado contrario a otra, como alto y bajo o comprar y vender."
+  },
+  {
+    "termino": "Apócope",
+    "categoria": "Gramática",
+    "definicion": "Pérdida de sonidos al final de una palabra, como en gran por grande o buen por bueno."
+  },
+  {
+    "termino": "Argumento",
+    "categoria": "Comprensión",
+    "definicion": "Razón que se da para sostener una tesis. También, el conjunto de hechos que se cuentan en una obra narrativa."
+  },
+  {
+    "termino": "Arte mayor",
+    "categoria": "Métrica",
+    "definicion": "Versos de nueve sílabas o más. Se marcan con letras mayúsculas al esquematizar la rima."
+  },
+  {
+    "termino": "Arte menor",
+    "categoria": "Métrica",
+    "definicion": "Versos de ocho sílabas o menos. Se marcan con letras minúsculas al esquematizar la rima."
+  },
+  {
+    "termino": "Artículo",
+    "categoria": "Gramática",
+    "definicion": "Determinante que presenta al sustantivo y señala si ya se conocía (el, la) o si es nuevo (un, una)."
+  },
+  {
+    "termino": "Aspecto verbal",
+    "categoria": "Gramática",
+    "definicion": "Rasgo del verbo que indica si la acción se presenta acabada (canté) o en desarrollo (cantaba)."
+  },
+  {
+    "termino": "Asíndeton",
+    "categoria": "Figuras",
+    "definicion": "Supresión de las conjunciones que la sintaxis pediría, para dar rapidez al texto."
+  },
+  {
+    "termino": "Atributo",
+    "categoria": "Sintaxis",
+    "definicion": "Complemento que aparece con los verbos ser, estar y parecer, concuerda con el sujeto y se sustituye por lo."
+  },
+  {
+    "termino": "Campo semántico",
+    "categoria": "Léxico",
+    "definicion": "Conjunto de palabras que comparten un ámbito de significado, como mesa, silla y sofá."
+  },
+  {
+    "termino": "Cesura",
+    "categoria": "Métrica",
+    "definicion": "Pausa interior que parte en dos mitades un verso largo, sobre todo el alejandrino."
+  },
+  {
+    "termino": "Cohesión",
+    "categoria": "Redacción",
+    "definicion": "Propiedad del texto que consiste en enlazar visiblemente las frases con conectores, pronombres y sinónimos."
+  },
+  {
+    "termino": "Coherencia",
+    "categoria": "Redacción",
+    "definicion": "Propiedad del texto que consiste en que las ideas se organicen alrededor de un tema y no se contradigan."
+  },
+  {
+    "termino": "Complemento agente",
+    "categoria": "Sintaxis",
+    "definicion": "Complemento de la voz pasiva, introducido por la preposición por, que señala quien realiza la acción."
+  },
+  {
+    "termino": "Complemento circunstancial",
+    "categoria": "Sintaxis",
+    "definicion": "Complemento que expresa una circunstancia de la acción y que se puede suprimir sin romper la oración."
+  },
+  {
+    "termino": "Complemento directo",
+    "categoria": "Sintaxis",
+    "definicion": "Complemento que recibe la acción del verbo, se sustituye por lo, la, los o las y pasa a sujeto en la voz pasiva."
+  },
+  {
+    "termino": "Complemento indirecto",
+    "categoria": "Sintaxis",
+    "definicion": "Complemento que señala el destinatario de la acción y se sustituye por le o les."
+  },
+  {
+    "termino": "Complemento de régimen",
+    "categoria": "Sintaxis",
+    "definicion": "Complemento introducido por una preposición que el propio verbo exige, como en pensar en o confiar en."
+  },
+  {
+    "termino": "Complemento predicativo",
+    "categoria": "Sintaxis",
+    "definicion": "Adjetivo que concuerda con el sujeto o con el complemento directo y a la vez modifica al verbo."
+  },
+  {
+    "termino": "Conector",
+    "categoria": "Redacción",
+    "definicion": "Palabra o expresión que hace visible la relación lógica entre dos ideas, como sin embargo o por lo tanto."
+  },
+  {
+    "termino": "Conjugación",
+    "categoria": "Gramática",
+    "definicion": "Conjunto de las formas de un verbo. En español hay tres, según el infinitivo termine en ar, en er o en ir."
+  },
+  {
+    "termino": "Conjunción",
+    "categoria": "Gramática",
+    "definicion": "Palabra invariable que une palabras o proposiciones, ya sea al mismo nivel o subordinando una a otra."
+  },
+  {
+    "termino": "Connotación",
+    "categoria": "Léxico",
+    "definicion": "Significado añadido, afectivo o cultural, que una palabra arrastra más allá de su definición."
+  },
+  {
+    "termino": "Copretérito",
+    "categoria": "Gramática",
+    "definicion": "Nombre que la nomenclatura de Bello da al pretérito imperfecto de indicativo, como en cantaba."
+  },
+  {
+    "termino": "Cuaderna vía",
+    "categoria": "Métrica",
+    "definicion": "Estrofa de cuatro versos alejandrinos con una sola rima consonante, propia del mester de clerecía."
+  },
+  {
+    "termino": "Culteranismo",
+    "categoria": "Literatura",
+    "definicion": "Corriente barroca que complica la forma con cultismos, hipérbatos y alusiones mitológicas."
+  },
+  {
+    "termino": "Denotación",
+    "categoria": "Léxico",
+    "definicion": "Significado objetivo de una palabra, el que aparece en el diccionario, sin valoraciones añadidas."
+  },
+  {
+    "termino": "Desinencia",
+    "categoria": "Gramática",
+    "definicion": "Terminación de una forma verbal, que aporta la persona, el número, el tiempo, el modo y el aspecto."
+  },
+  {
+    "termino": "Determinante",
+    "categoria": "Gramática",
+    "definicion": "Palabra que precede al sustantivo para presentarlo, delimitarlo o cuantificarlo, y concuerda con él."
+  },
+  {
+    "termino": "Diptongo",
+    "categoria": "Fonética",
+    "definicion": "Unión de dos vocales en una misma sílaba, formada por una abierta y una cerrada átona, o por dos cerradas distintas."
+  },
+  {
+    "termino": "Difrasismo",
+    "categoria": "Literatura",
+    "definicion": "Recurso de la literatura náhuatl que nombra una sola idea con dos palabras emparejadas, como flor y canto."
+  },
+  {
+    "termino": "Elipsis",
+    "categoria": "Figuras",
+    "definicion": "Supresión de una palabra que el lector puede reponer por el contexto, casi siempre un verbo repetido."
+  },
+  {
+    "termino": "Encabalgamiento",
+    "categoria": "Métrica",
+    "definicion": "Desajuste entre el final del verso y el final de la unidad sintáctica, que obliga a seguir leyendo sin pausa."
+  },
+  {
+    "termino": "Epíteto",
+    "categoria": "Figuras",
+    "definicion": "Adjetivo que expresa una cualidad ya supuesta en el sustantivo, como la blanca nieve."
+  },
+  {
+    "termino": "Esdrújula",
+    "categoria": "Ortografía",
+    "definicion": "Palabra cuya sílaba tónica es la antepenúltima. Siempre lleva tilde, sin excepción."
+  },
+  {
+    "termino": "Estrofa",
+    "categoria": "Métrica",
+    "definicion": "Grupo de versos organizados según un esquema fijo de medida y de rima."
+  },
+  {
+    "termino": "Eufemismo",
+    "categoria": "Figuras",
+    "definicion": "Palabra suave que sustituye a otra dura o molesta, como pasar a mejor vida por morir."
+  },
+  {
+    "termino": "Falacia",
+    "categoria": "Comprensión",
+    "definicion": "Razonamiento que parece un argumento pero cuya fuerza no viene de la lógica sino de otra cosa."
+  },
+  {
+    "termino": "Familia léxica",
+    "categoria": "Léxico",
+    "definicion": "Conjunto de palabras que comparten la misma raíz, como pan, panadero y panadería."
+  },
+  {
+    "termino": "Función apelativa",
+    "categoria": "Comunicación",
+    "definicion": "Función del lenguaje centrada en el receptor, que busca provocar una reacción. Es la de la publicidad."
+  },
+  {
+    "termino": "Función poética",
+    "categoria": "Comunicación",
+    "definicion": "Función del lenguaje centrada en el mensaje mismo, que llama la atención sobre cómo está dicho."
+  },
+  {
+    "termino": "Función referencial",
+    "categoria": "Comunicación",
+    "definicion": "Función del lenguaje centrada en la realidad, que informa sin tomar partido."
+  },
+  {
+    "termino": "Género literario",
+    "categoria": "Literatura",
+    "definicion": "Cada una de las tres grandes formas de la literatura: La narrativa, la lírica y la dramática."
+  },
+  {
+    "termino": "Gerundio",
+    "categoria": "Gramática",
+    "definicion": "Forma no personal del verbo terminada en ando o iendo, que funciona como un adverbio."
+  },
+  {
+    "termino": "Hiato",
+    "categoria": "Fonética",
+    "definicion": "Separación en sílabas distintas de dos vocales seguidas, ya sea por ser las dos abiertas o por llevar tilde la cerrada."
+  },
+  {
+    "termino": "Hipérbaton",
+    "categoria": "Figuras",
+    "definicion": "Alteración del orden habitual de las palabras dentro de la oración."
+  },
+  {
+    "termino": "Hipérbole",
+    "categoria": "Figuras",
+    "definicion": "Exageración desmedida de una cualidad o una cantidad para dar fuerza a lo que se dice."
+  },
+  {
+    "termino": "Hiperónimo",
+    "categoria": "Léxico",
+    "definicion": "Palabra cuyo significado engloba al de otras, como flor respecto de rosa y clavel."
+  },
+  {
+    "termino": "Homófono",
+    "categoria": "Léxico",
+    "definicion": "Palabra que suena igual que otra pero se escribe distinto y significa otra cosa, como hola y ola."
+  },
+  {
+    "termino": "Homógrafo",
+    "categoria": "Léxico",
+    "definicion": "Palabra que se escribe igual que otra pero tiene un origen y un significado distintos, como vino y vino."
+  },
+  {
+    "termino": "Imperativo",
+    "categoria": "Gramática",
+    "definicion": "Modo verbal con el que se ordena, se ruega o se aconseja. Solo tiene formas afirmativas propias."
+  },
+  {
+    "termino": "Indicativo",
+    "categoria": "Gramática",
+    "definicion": "Modo verbal que presenta los hechos como reales, sean pasados, presentes o futuros."
+  },
+  {
+    "termino": "Infinitivo",
+    "categoria": "Gramática",
+    "definicion": "Forma no personal del verbo terminada en ar, er o ir, que funciona como un sustantivo."
+  },
+  {
+    "termino": "Interjección",
+    "categoria": "Gramática",
+    "definicion": "Palabra invariable que forma por sí sola un enunciado y expresa una emoción o una reacción."
+  },
+  {
+    "termino": "Ironía",
+    "categoria": "Figuras",
+    "definicion": "Recurso que da a entender lo contrario de lo que las palabras dicen, contando con que el lector lo advierta."
+  },
+  {
+    "termino": "Leísmo",
+    "categoria": "Gramática",
+    "definicion": "Uso de le en lugar de lo o la como complemento directo. Solo se admite con personas masculinas en singular."
+  },
+  {
+    "termino": "Lexema",
+    "categoria": "Léxico",
+    "definicion": "Parte de la palabra que aporta el significado principal y que comparten todos los miembros de una familia léxica."
+  },
+  {
+    "termino": "Llana o grave",
+    "categoria": "Ortografía",
+    "definicion": "Palabra cuya sílaba tónica es la penúltima. Lleva tilde cuando no termina en vocal, en n ni en s."
+  },
+  {
+    "termino": "Locución",
+    "categoria": "Gramática",
+    "definicion": "Grupo fijo de palabras que funciona como una sola, como a pesar de o sin embargo."
+  },
+  {
+    "termino": "Metáfora",
+    "categoria": "Figuras",
+    "definicion": "Identificación de una realidad con otra por un parecido, sin usar ninguna palabra de comparación."
+  },
+  {
+    "termino": "Metonimia",
+    "categoria": "Figuras",
+    "definicion": "Sustitución del nombre de una cosa por el de otra con la que mantiene una relación real de proximidad o de causa."
+  },
+  {
+    "termino": "Métrica",
+    "categoria": "Métrica",
+    "definicion": "Estudio de la medida de los versos, de su ritmo y de las estrofas en que se agrupan."
+  },
+  {
+    "termino": "Modo verbal",
+    "categoria": "Gramática",
+    "definicion": "Rasgo del verbo que expresa la actitud del hablante. En español hay indicativo, subjuntivo e imperativo."
+  },
+  {
+    "termino": "Morfema",
+    "categoria": "Léxico",
+    "definicion": "Unidad mínima con significado que se añade al lexema, como los prefijos, los sufijos y las desinencias."
+  },
+  {
+    "termino": "Narrador omnisciente",
+    "categoria": "Literatura",
+    "definicion": "Narrador en tercera persona que lo sabe todo, incluso lo que piensan y sienten los personajes."
+  },
+  {
+    "termino": "Neologismo",
+    "categoria": "Léxico",
+    "definicion": "Palabra nueva que entra en la lengua para nombrar una realidad que antes no existía."
+  },
+  {
+    "termino": "Onomatopeya",
+    "categoria": "Figuras",
+    "definicion": "Palabra que imita un sonido real, como tictac o murmullo."
+  },
+  {
+    "termino": "Oración",
+    "categoria": "Sintaxis",
+    "definicion": "Unidad de comunicación con sentido completo que contiene al menos un verbo conjugado."
+  },
+  {
+    "termino": "Oxímoron",
+    "categoria": "Figuras",
+    "definicion": "Unión en un mismo sintagma de dos palabras de significado contrario, como un silencio ensordecedor."
+  },
+  {
+    "termino": "Paradoja",
+    "categoria": "Figuras",
+    "definicion": "Idea que parece contradecirse a sí misma pero que encierra una verdad al pensarla despacio."
+  },
+  {
+    "termino": "Paralelismo",
+    "categoria": "Figuras",
+    "definicion": "Repetición de la misma estructura sintáctica en dos o más frases, cambiando solo algunas palabras."
+  },
+  {
+    "termino": "Parónimo",
+    "categoria": "Léxico",
+    "definicion": "Palabra que se parece a otra sin ser igual, como actitud y aptitud, y que por eso se confunde con facilidad."
+  },
+  {
+    "termino": "Participio",
+    "categoria": "Gramática",
+    "definicion": "Forma no personal del verbo terminada en ado o ido, que funciona como un adjetivo y forma los tiempos compuestos."
+  },
+  {
+    "termino": "Perífrasis verbal",
+    "categoria": "Gramática",
+    "definicion": "Unión de un verbo auxiliar conjugado y una forma no personal, que juntos funcionan como un solo núcleo."
+  },
+  {
+    "termino": "Personificación",
+    "categoria": "Figuras",
+    "definicion": "Atribución de cualidades humanas a seres inanimados, a animales o a ideas abstractas."
+  },
+  {
+    "termino": "Polisemia",
+    "categoria": "Léxico",
+    "definicion": "Propiedad de una palabra que ha ido ganando varios significados relacionados entre sí, como el pie del cuerpo y el de la página."
+  },
+  {
+    "termino": "Polisíndeton",
+    "categoria": "Figuras",
+    "definicion": "Repetición de conjunciones que no harían falta, para dar lentitud y solemnidad al texto."
+  },
+  {
+    "termino": "Predicado",
+    "categoria": "Sintaxis",
+    "definicion": "Parte de la oración que dice algo del sujeto y cuyo núcleo es siempre un verbo."
+  },
+  {
+    "termino": "Prefijo",
+    "categoria": "Léxico",
+    "definicion": "Morfema que se añade delante del lexema y cambia su significado, como des en deshacer."
+  },
+  {
+    "termino": "Preposición",
+    "categoria": "Gramática",
+    "definicion": "Palabra invariable que une una palabra con su complemento y forma con él un sintagma preposicional."
+  },
+  {
+    "termino": "Pronombre",
+    "categoria": "Gramática",
+    "definicion": "Palabra que sustituye al sustantivo o remite a él sin nombrarlo, heredando su función sintáctica."
+  },
+  {
+    "termino": "Proposición",
+    "categoria": "Sintaxis",
+    "definicion": "Cada una de las unidades con verbo propio que forman una oración compuesta."
+  },
+  {
+    "termino": "Prosopopeya",
+    "categoria": "Figuras",
+    "definicion": "Otro nombre de la personificación, cuando se hace hablar o actuar a algo que no es humano."
+  },
+  {
+    "termino": "Registro",
+    "categoria": "Comunicación",
+    "definicion": "Variedad de la lengua que se elige según la situación, desde el más formal hasta el más coloquial."
+  },
+  {
+    "termino": "Rima asonante",
+    "categoria": "Métrica",
+    "definicion": "Coincidencia solo de las vocales a partir de la última vocal tónica del verso."
+  },
+  {
+    "termino": "Rima consonante",
+    "categoria": "Métrica",
+    "definicion": "Coincidencia de todos los sonidos a partir de la última vocal tónica del verso."
+  },
+  {
+    "termino": "Sinalefa",
+    "categoria": "Métrica",
+    "definicion": "Unión en una sola sílaba de la vocal final de una palabra con la inicial de la siguiente, al medir un verso."
+  },
+  {
+    "termino": "Sinécdoque",
+    "categoria": "Figuras",
+    "definicion": "Designación del todo por una de sus partes, o de la parte por el todo, como techo por casa."
+  },
+  {
+    "termino": "Sinestesia",
+    "categoria": "Figuras",
+    "definicion": "Mezcla de sensaciones de sentidos distintos, como un verde chillón o una voz dulce."
+  },
+  {
+    "termino": "Sinónimo",
+    "categoria": "Léxico",
+    "definicion": "Palabra de significado parecido a otra, aunque casi nunca sea intercambiable en todos los contextos."
+  },
+  {
+    "termino": "Sintagma",
+    "categoria": "Sintaxis",
+    "definicion": "Grupo de palabras organizado alrededor de un núcleo, que funciona como una unidad dentro de la oración."
+  },
+  {
+    "termino": "Sobresdrújula",
+    "categoria": "Ortografía",
+    "definicion": "Palabra cuya sílaba tónica está antes de la antepenúltima. Siempre lleva tilde."
+  },
+  {
+    "termino": "Subjuntivo",
+    "categoria": "Gramática",
+    "definicion": "Modo verbal que presenta los hechos como deseados, dudosos o dependientes de otra cosa."
+  },
+  {
+    "termino": "Subordinación",
+    "categoria": "Sintaxis",
+    "definicion": "Relación entre proposiciones en la que una depende de la otra y cumple dentro de ella una función."
+  },
+  {
+    "termino": "Sufijo",
+    "categoria": "Léxico",
+    "definicion": "Morfema que se añade detrás del lexema y suele cambiar la clase de la palabra, como ción en narración."
+  },
+  {
+    "termino": "Sujeto",
+    "categoria": "Sintaxis",
+    "definicion": "Sintagma nominal del que se dice algo y que concuerda en número y persona con el verbo."
+  },
+  {
+    "termino": "Sustantivo",
+    "categoria": "Gramática",
+    "definicion": "Clase de palabra que nombra seres, objetos, lugares e ideas, y que puede ser núcleo del sujeto."
+  },
+  {
+    "termino": "Tesis",
+    "categoria": "Comprensión",
+    "definicion": "Idea que un texto argumentativo defiende y que sostiene con razones."
+  },
+  {
+    "termino": "Tilde diacrítica",
+    "categoria": "Ortografía",
+    "definicion": "Tilde que distingue dos palabras iguales de clases distintas, como él y el, o más y mas."
+  },
+  {
+    "termino": "Triptongo",
+    "categoria": "Fonética",
+    "definicion": "Unión de tres vocales en una misma sílaba, con una abierta en medio de dos cerradas átonas."
+  },
+  {
+    "termino": "Verbo copulativo",
+    "categoria": "Gramática",
+    "definicion": "Verbo que apenas une el sujeto con el atributo, sin aportar significado propio. Son ser, estar y parecer."
+  },
+  {
+    "termino": "Verso libre",
+    "categoria": "Métrica",
+    "definicion": "Verso sin medida ni rima fijas, característico de la poesía del siglo XX."
+  },
+  {
+    "termino": "Voz pasiva",
+    "categoria": "Gramática",
+    "definicion": "Construcción en la que el sujeto recibe la acción en vez de realizarla, formada con ser más participio."
+  },
+  {
+    "termino": "Yeísmo",
+    "categoria": "Fonética",
+    "definicion": "Pronunciación igual de la ll y de la y, general en México y en casi toda Hispanoamérica."
+  },
+  {
+    "termino": "Yuxtaposición",
+    "categoria": "Sintaxis",
+    "definicion": "Unión de dos proposiciones sin ningún nexo, solo con un signo de puntuación."
+  }
+]

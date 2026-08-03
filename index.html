@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Doble theme-color con media para que el primer pintado del navegador
+       acompañe al tema del sistema cuando no hay tema elegido a mano. -->
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#4f46e5">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0b1220">
+  <title>Atlas de Lengua y Literatura: gramática, sintaxis, ortografía y análisis sintáctico en español</title>
+<!-- SEO: generado, no editar a mano -->
+  <meta name="description" content="Atlas de estudio de español para secundaria y preparatoria. Analizador sintáctico que desarma cualquier oración en su árbol, conjugador de los dieciocho tiempos verbales, siete juegos de práctica, y temario de gramática, sintaxis, ortografía y literatura.">
+  <meta name="keywords" content="analizador sintactico en linea, analisis sintactico de oraciones, arbol sintactico espanol, conjugador de verbos espanol, gramatica espanola, reglas de acentuacion, tilde diacritica, figuras retoricas ejemplos, complemento directo e indirecto, sujeto y predicado, oracion compuesta, literatura mexicana, espanol secundaria, espanol preparatoria, ejercicios de ortografia">
+  <meta name="author" content="Jeshua Romero Guadarrama">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+  <link rel="canonical" href="https://jeshua-romero-guadarrama.github.io/atlas-lengua-literatura/">
+  <link rel="manifest" href="manifest.webmanifest">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Atlas de Lengua y Literatura">
+  <meta property="og:locale" content="es_MX">
+  <meta property="og:title" content="Atlas de Lengua y Literatura: gramática, sintaxis, ortografía y análisis sintáctico en español">
+  <meta property="og:description" content="Atlas de estudio de español para secundaria y preparatoria. Analizador sintáctico que desarma cualquier oración en su árbol, conjugador de los dieciocho tiempos verbales, siete juegos de práctica, y temario de gramática, sintaxis, ortografía y literatura.">
+  <meta property="og:url" content="https://jeshua-romero-guadarrama.github.io/atlas-lengua-literatura/">
+  <meta property="og:image" content="https://jeshua-romero-guadarrama.github.io/atlas-lengua-literatura/portada.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Atlas de Lengua y Literatura: gramática, sintaxis, ortografía y análisis sintáctico en español">
+  <meta name="twitter:description" content="Atlas de estudio de español para secundaria y preparatoria. Analizador sintáctico que desarma cualquier oración en su árbol, conjugador de los dieciocho tiempos verbales, siete juegos de práctica, y temario de gramática, sintaxis, ortografía y literatura.">
+  <meta name="twitter:image" content="https://jeshua-romero-guadarrama.github.io/atlas-lengua-literatura/portada.svg">
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Atlas de Lengua y Literatura","alternateName":"Atlas de Lengua y Literatura: gramática, sintaxis, ortografía y análisis sintáctico en español","description":"Atlas de estudio de español para secundaria y preparatoria. Analizador sintáctico que desarma cualquier oración en su árbol, conjugador de los dieciocho tiempos verbales, siete juegos de práctica, y temario de gramática, sintaxis, ortografía y literatura.","url":"https://jeshua-romero-guadarrama.github.io/atlas-lengua-literatura/","inLanguage":"es-MX","author":{"@type":"Person","name":"Jeshua Romero Guadarrama"},"publisher":{"@type":"Person","name":"Jeshua Romero Guadarrama"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://jeshua-romero-guadarrama.github.io/atlas-lengua-literatura/?q={search_term_string}"},"query-input":"required name=search_term_string"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"LearningResource","name":"Atlas de Lengua y Literatura: gramática, sintaxis, ortografía y análisis sintáctico en español","description":"Atlas de estudio de español para secundaria y preparatoria. Analizador sintáctico que desarma cualquier oración en su árbol, conjugador de los dieciocho tiempos verbales, siete juegos de práctica, y temario de gramática, sintaxis, ortografía y literatura.","url":"https://jeshua-romero-guadarrama.github.io/atlas-lengua-literatura/","inLanguage":"es-MX","educationalLevel":"Secundaria y preparatoria","about":"Lengua y Literatura en español","teaches":["Análisis sintáctico","Clases de palabras","Conjugación verbal","Reglas de acentuación","Figuras retóricas","Corrientes literarias"],"audience":{"@type":"EducationalAudience","educationalRole":"student"},"isAccessibleForFree":true,"author":{"@type":"Person","name":"Jeshua Romero Guadarrama"},"license":"https://opensource.org/licenses/MIT"}</script>
+<!-- SEO: fin -->
+  <!-- Las hojas van numeradas por su orden en la cascada; colorimetria.css conserva su
+       nombre porque es el sistema de color documentado del análisis y entra después de
+       las numeradas, igual que antes cerraba la carga de pantalla. -->
+  <link rel="stylesheet" href="css/1-base.css">
+  <link rel="stylesheet" href="css/2-cabecera.css">
+  <link rel="stylesheet" href="css/3-contenido.css">
+  <link rel="stylesheet" href="css/4-tarjetas.css">
+  <link rel="stylesheet" href="css/5-modales.css">
+  <link rel="stylesheet" href="css/6-secciones.css">
+  <link rel="stylesheet" href="css/7-interfaz.css">
+  <link rel="stylesheet" href="css/colorimetria.css">
+  <link rel="stylesheet" href="css/8-impresion.css" media="print">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><rect width='24' height='24' rx='6' fill='%234f46e5'/><g fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M12 7v12M12 7a4 4 0 0 0-4-4H4v14h4a4 4 0 0 1 4 4M12 7a4 4 0 0 1 4-4h4v14h-4a4 4 0 0 0-4 4'/></g></svg>">
+  <script>
+    // Aplica el tema guardado antes de pintar, para evitar el parpadeo inicial.
+    // Sin valor guardado no se fija data-tema: los tokens siguen entonces la
+    // preferencia del sistema y el estado "sistema" queda representado por la
+    // ausencia del atributo.
+    (function () {
+      try {
+        var t = localStorage.getItem("tema");
+        if (t === "claro" || t === "oscuro") document.documentElement.dataset.tema = t;
+      } catch (e) { /* sin almacenamiento se sigue el sistema */ }
+    })();
+  </script>
+</head>
+<body>
+
+  <a class="saltar-al-contenido" id="saltar-al-contenido" href="#">Saltar al contenido</a>
+
+  <div class="barra-progreso" id="barra-scroll"></div>
+
+  <div class="aurora" aria-hidden="true">
+    <span class="aurora-blob b1"></span>
+    <span class="aurora-blob b2"></span>
+    <span class="aurora-blob b3"></span>
+  </div>
+
+  <!-- Biblioteca de íconos (SVG de línea, sin dependencias externas) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="ico-logo" viewBox="0 0 24 24"><path d="M12 7v14M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3H3Z"/></symbol>
+    <symbol id="ico-temario" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></symbol>
+    <symbol id="ico-arbol" viewBox="0 0 24 24"><rect x="9" y="2" width="6" height="4" rx="1"/><rect x="2" y="18" width="6" height="4" rx="1"/><rect x="16" y="18" width="6" height="4" rx="1"/><path d="M12 6v5M5 18v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/></symbol>
+    <symbol id="ico-conjugador" viewBox="0 0 24 24"><path d="M4 4h16M4 9h10M4 14h16M4 19h7"/><circle cx="18" cy="9" r="2.5"/><circle cx="15" cy="19" r="2.5"/></symbol>
+    <symbol id="ico-figuras" viewBox="0 0 24 24"><path d="M12 2 4 7v10l8 5 8-5V7Z"/><path d="M12 22V12M12 12 4 7M12 12l8-5"/></symbol>
+    <symbol id="ico-ortografia" viewBox="0 0 24 24"><path d="m5 19 5.5-14h3L19 19"/><path d="M8 14h8"/><path d="M15 2.5 17.5 5"/></symbol>
+    <symbol id="ico-literatura" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/><path d="M10 6h6M10 10h4"/></symbol>
+    <symbol id="ico-temas" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><path d="M14 2v6h6M8 13h8M8 17h5"/></symbol>
+    <symbol id="ico-glosario" viewBox="0 0 24 24"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3H3Z"/></symbol>
+    <symbol id="ico-juegos" viewBox="0 0 24 24"><path d="M6 11h4M8 9v4M15 12h.01M18 10h.01"/><rect x="2" y="6" width="20" height="12" rx="5"/></symbol>
+    <symbol id="ico-buscar" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></symbol>
+    <symbol id="ico-definicion" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></symbol>
+    <symbol id="ico-explicacion" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2Z"/></symbol>
+    <symbol id="ico-ejemplo" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M10 8.5 16 12l-6 3.5Z"/></symbol>
+    <symbol id="ico-reconocer" viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></symbol>
+    <symbol id="ico-errores" viewBox="0 0 24 24"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></symbol>
+    <symbol id="ico-perla" viewBox="0 0 24 24"><path d="M9 18h6M10 22h4"/><path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></symbol>
+    <symbol id="ico-clave" viewBox="0 0 24 24"><circle cx="7.5" cy="15.5" r="5.5"/><path d="m21 2-9.6 9.6"/><path d="m15.5 7.5 3 3L22 7l-3-3"/></symbol>
+    <symbol id="ico-tabla" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M3 15h18M9 3v18"/></symbol>
+    <symbol id="ico-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+    <symbol id="ico-equis" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+    <symbol id="ico-racha" viewBox="0 0 24 24"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5Z"/></symbol>
+    <symbol id="ico-medalla" viewBox="0 0 24 24"><circle cx="12" cy="15" r="6"/><path d="M8.5 9.5 6 2h12l-2.5 7.5"/><path d="m12 12.5 1 2 2.2.3-1.6 1.5.4 2.2-2-1-2 1 .4-2.2-1.6-1.5 2.2-.3Z"/></symbol>
+    <symbol id="ico-diana" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></symbol>
+    <symbol id="ico-copiar" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2"/></symbol>
+    <symbol id="ico-limpiar" viewBox="0 0 24 24"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/></symbol>
+    <symbol id="ico-anterior" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></symbol>
+    <symbol id="ico-siguiente" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+    <symbol id="ico-nivel" viewBox="0 0 24 24"><rect x="3" y="13" width="4" height="8" rx="1"/><rect x="10" y="8" width="4" height="13" rx="1"/><rect x="17" y="3" width="4" height="18" rx="1"/></symbol>
+    <symbol id="ico-tiempo" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+    <symbol id="ico-atras" viewBox="0 0 24 24"><path d="M19 12H5M12 19l-7-7 7-7"/></symbol>
+  </svg>
+
+  <header class="cabecera">
+    <div class="cabecera-superior">
+      <a class="marca" href="#" aria-label="Inicio">
+        <span class="marca-icono"><svg class="ico-logo"><use href="#ico-logo"/></svg></span>
+        <span class="marca-texto">
+          <strong>Atlas de Lengua y Literatura</strong>
+          <small>Español para secundaria y preparatoria</small>
+        </span>
+      </a>
+      <!-- El rótulo accesible lo escribe el código en cada cambio, porque el botón
+           cicla entre claro, oscuro y sistema, y debe decir el estado actual. -->
+      <button id="conmutar-tema" class="boton-tema" aria-label="Cambiar tema" title="Cambiar tema">
+        <svg class="ico icono-sol" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        <svg class="ico icono-luna" viewBox="0 0 24 24"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+      </button>
+    </div>
+    <nav class="pestanas" id="pestanas" aria-label="Secciones">
+      <button class="pestana activa" data-vista="temario"><svg class="ico"><use href="#ico-temario"/></svg>Temario</button>
+      <button class="pestana" data-vista="analizador"><svg class="ico"><use href="#ico-arbol"/></svg>Analizador</button>
+      <button class="pestana" data-vista="conjugador"><svg class="ico"><use href="#ico-conjugador"/></svg>Conjugador</button>
+      <button class="pestana" data-vista="juegos"><svg class="ico"><use href="#ico-juegos"/></svg>Juegos</button>
+      <button class="pestana" data-vista="figuras"><svg class="ico"><use href="#ico-figuras"/></svg>Figuras</button>
+      <button class="pestana" data-vista="ortografia"><svg class="ico"><use href="#ico-ortografia"/></svg>Ortografía</button>
+      <button class="pestana" data-vista="literatura"><svg class="ico"><use href="#ico-literatura"/></svg>Literatura</button>
+      <button class="pestana" data-vista="temas"><svg class="ico"><use href="#ico-temas"/></svg>Temas</button>
+      <button class="pestana" data-vista="glosario"><svg class="ico"><use href="#ico-glosario"/></svg>Glosario</button>
+    </nav>
+  </header>
+
+  <!-- Las vistas inactivas llevan el atributo hidden además de la clase, porque
+       solo el atributo las saca del árbol de accesibilidad: sin él un lector de
+       pantalla anuncia nueve regiones principales. Navegacion.ir() lo sincroniza. -->
+  <!-- ============ VISTA: TEMARIO ============ -->
+  <main id="vista-temario" class="vista">
+    <section class="portada">
+      <h1 class="portada-titulo">Todo el español, explicado y con ejemplos</h1>
+      <p class="portada-lema">Gramática, sintaxis, ortografía y literatura. Busca un tema, léelo con sus ejemplos y practícalo en los juegos.</p>
+      <div id="metricas" class="metricas"></div>
+    </section>
+    <section class="buscador" role="search">
+      <div class="campo-busqueda-envoltorio">
+        <span class="icono-busqueda" aria-hidden="true"><svg class="ico"><use href="#ico-buscar"/></svg></span>
+        <input type="search" id="campo-busqueda" aria-label="Buscar en el temario" placeholder="Buscar tema, regla o ejemplo…" autocomplete="off">
+      </div>
+      <div class="filtros">
+        <div class="grupo-filtro">
+          <span class="etiqueta-filtro" id="etiqueta-filtros-area">Área</span>
+          <div id="filtros-area" class="chips" role="group" aria-labelledby="etiqueta-filtros-area"></div>
+        </div>
+        <div class="grupo-filtro">
+          <span class="etiqueta-filtro" id="etiqueta-filtros-nivel">Nivel</span>
+          <div id="filtros-nivel" class="chips" role="group" aria-labelledby="etiqueta-filtros-nivel"></div>
+        </div>
+      </div>
+      <p id="contador-resultados" class="contador" aria-live="polite"></p>
+    </section>
+    <section id="lista-fichas" class="galeria-texto"></section>
+    <nav id="pag-temario" class="paginacion" aria-label="Paginación"></nav>
+  </main>
+
+  <!-- ============ VISTA: ANALIZADOR ============ -->
+  <main id="vista-analizador" class="vista oculta" hidden>
+    <section class="encabezado-vista">
+      <h1><svg class="ico"><use href="#ico-arbol"/></svg> Analizador de oraciones</h1>
+      <p>Escribe una oración y se desarma delante de ti: qué clase de palabra es cada una, cómo se agrupan en sintagmas y qué función cumple cada parte.</p>
+    </section>
+
+    <section class="analizador-caja">
+      <label class="etiqueta-filtro" for="entrada-analizador">Oración por analizar</label>
+      <textarea id="entrada-analizador" class="analizador-entrada"
+        placeholder="Por ejemplo: El niño pequeño come una manzana roja."
+        spellcheck="false" aria-describedby="aviso-entrada-analizador"></textarea>
+      <!-- El aviso nace vacío junto al campo y aria-describedby ya apunta a él,
+           de modo que al llenarse el lector de pantalla lo asocia sin más. -->
+      <p class="campo-aviso" id="aviso-entrada-analizador" hidden></p>
+      <div class="analizador-acciones">
+        <button id="boton-analizar" class="boton-primario">Analizar</button>
+        <button id="boton-limpiar" class="boton-secundario"><svg class="ico"><use href="#ico-limpiar"/></svg> Limpiar</button>
+      </div>
+      <div class="ejemplos-rapidos">
+        <span class="etiqueta-filtro">O prueba con una de estas</span>
+        <div id="ejemplos-analizador" class="ejemplos-lista"></div>
+      </div>
+      <p class="aviso-analizador">
+        <svg class="ico"><use href="#ico-definicion"/></svg>
+        <span>El análisis se hace con las reglas del español, y cada decisión viene con la pista que la justifica. Con oraciones largas o muy literarias conviene revisarlo: la explicación está para que puedas discutirla.</span>
+      </p>
+    </section>
+
+    <!-- Sin aria-live: anunciar la sección entera obligaba al lector de pantalla a
+         releer todo el árbol en cada análisis. El aviso de que hay resultado nuevo
+         sale por la región de estado permanente. -->
+    <div id="resultado-analisis" class="resultado-analisis oculta" role="region" aria-label="Resultado del análisis">
+      <section class="panel">
+        <h2><svg class="ico"><use href="#ico-reconocer"/></svg> La oración por clases de palabra</h2>
+        <div id="oracion-pintada" class="oracion-pintada"></div>
+        <div id="leyenda-clases" class="leyenda-familias"></div>
+      </section>
+
+      <section class="panel">
+        <h2><svg class="ico"><use href="#ico-nivel"/></svg> Qué tipo de oración es</h2>
+        <div id="rasgos-oracion" class="rasgos"></div>
+      </section>
+
+      <section class="panel">
+        <h2><svg class="ico"><use href="#ico-arbol"/></svg> El árbol
+          <button id="boton-copiar-analisis" class="boton-secundario boton-en-titulo" type="button" aria-label="Copiar el análisis en texto llano">
+            <svg class="ico"><use href="#ico-copiar"/></svg><span>Copiar el análisis</span>
+          </button>
+        </h2>
+        <div class="arbol-envoltorio"><div id="arbol-sintactico" class="arbol"></div></div>
+        <p class="panel-nota">Cada caja es un sintagma. La etiqueta de color dice su función y el texto en cursiva explica por qué se le asignó.</p>
+      </section>
+
+      <section class="panel">
+        <h2><svg class="ico"><use href="#ico-tabla"/></svg> Palabra por palabra</h2>
+        <div class="tabla-envoltorio">
+          <table class="tabla-morfologica">
+            <thead><tr><th>Palabra</th><th>Clase</th><th>Subclase</th><th>Rasgos</th></tr></thead>
+            <tbody id="tabla-morfologica"></tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- ============ VISTA: CONJUGADOR ============ -->
+  <main id="vista-conjugador" class="vista oculta" hidden>
+    <section class="encabezado-vista">
+      <h1><svg class="ico"><use href="#ico-conjugador"/></svg> Conjugador de verbos</h1>
+      <p>Escribe cualquier verbo en infinitivo y salen sus dieciocho tiempos completos, con el nombre académico y el de la nomenclatura de Bello, que es la que se usa en las escuelas de México.</p>
+    </section>
+
+    <section class="analizador-caja">
+      <div class="conj-barra">
+        <div class="conj-campo">
+          <label for="entrada-conjugador">Verbo en infinitivo</label>
+          <input type="text" id="entrada-conjugador" class="conj-entrada" placeholder="tener, cantar, dormir, levantarse…" autocomplete="off" spellcheck="false" aria-describedby="aviso-entrada-conjugador">
+        </div>
+        <button id="boton-conjugar" class="boton-primario">Conjugar</button>
+      </div>
+      <!-- El aviso nace vacío junto al campo y aria-describedby ya apunta a él,
+           de modo que al llenarse el lector de pantalla lo asocia sin más. -->
+      <p class="campo-aviso" id="aviso-entrada-conjugador" hidden></p>
+      <div class="ejemplos-rapidos">
+        <span class="etiqueta-filtro">Verbos que suelen preguntarse</span>
+        <div id="sugerencias-conjugador" class="ejemplos-lista"></div>
+      </div>
+    </section>
+
+    <!-- Sin aria-live por la misma razón que el resultado del análisis: la tabla de
+         dieciocho tiempos releída completa es ruido, no ayuda. -->
+    <div id="resultado-conjugacion" class="resultado-analisis oculta" role="region" aria-label="Resultado de la conjugación">
+      <section class="panel">
+        <div class="conj-ficha">
+          <span id="conj-infinitivo" class="conj-infinitivo"></span>
+          <span id="conj-insignias" class="insignias"></span>
+        </div>
+        <p id="conj-irregularidad" class="conj-dato"></p>
+        <div id="conj-nopersonales" class="conj-nopersonales"></div>
+        <div id="conj-tiempos"></div>
+      </section>
+    </div>
+  </main>
+
+  <!-- ============ VISTA: JUEGOS ============ -->
+  <main id="vista-juegos" class="vista oculta" hidden>
+    <section class="encabezado-vista" id="juegos-encabezado">
+      <h1><svg class="ico"><use href="#ico-juegos"/></svg> Juegos</h1>
+      <p>Siete formas de practicar lo del temario. Se puede jugar cuantas veces se quiera: las preguntas cambian solas.</p>
+    </section>
+    <section id="juegos-menu" class="juegos-rejilla"></section>
+    <!-- Sin aria-live: la sección entera releída en cada pregunta es ruido. La
+         retroalimentación pequeña de cada respuesta lleva su propia región viva. -->
+    <section id="juego-activo" class="oculta"></section>
+    <p class="juego-atajos">Atajos de teclado durante una partida: las teclas 1 a 9 eligen una respuesta y Enter pasa a la siguiente pregunta.</p>
+  </main>
+
+  <!-- ============ VISTA: FIGURAS RETÓRICAS ============ -->
+  <main id="vista-figuras" class="vista oculta" hidden>
+    <section class="encabezado-vista">
+      <h1><svg class="ico"><use href="#ico-figuras"/></svg> Figuras retóricas</h1>
+      <p>Los recursos con los que la literatura estira el lenguaje, cada uno con su ejemplo y con el truco para no confundirlo con el de al lado.</p>
+    </section>
+    <section class="buscador" role="search">
+      <div class="campo-busqueda-envoltorio">
+        <span class="icono-busqueda" aria-hidden="true"><svg class="ico"><use href="#ico-buscar"/></svg></span>
+        <input type="search" id="busqueda-figuras" aria-label="Buscar figura retórica" placeholder="Buscar figura… (metáfora, hipérbaton, anáfora)" autocomplete="off">
+      </div>
+      <div class="filtros">
+        <div class="grupo-filtro">
+          <span class="etiqueta-filtro" id="etiqueta-filtros-figuras-tipo">Tipo</span>
+          <div id="filtros-figuras-tipo" class="chips" role="group" aria-labelledby="etiqueta-filtros-figuras-tipo"></div>
+        </div>
+      </div>
+      <p id="contador-figuras" class="contador" aria-live="polite"></p>
+    </section>
+    <section id="lista-figuras" class="galeria-texto"></section>
+    <nav id="pag-figuras" class="paginacion" aria-label="Paginación"></nav>
+  </main>
+
+  <!-- ============ VISTA: ORTOGRAFÍA ============ -->
+  <main id="vista-ortografia" class="vista oculta" hidden>
+    <section class="encabezado-vista">
+      <h1><svg class="ico"><use href="#ico-ortografia"/></svg> Normas de ortografía</h1>
+      <p>Acentuación, letras dudosas, puntuación y mayúsculas, con la regla, sus casos y sus excepciones.</p>
+    </section>
+    <section class="buscador" role="search">
+      <div class="campo-busqueda-envoltorio">
+        <span class="icono-busqueda" aria-hidden="true"><svg class="ico"><use href="#ico-buscar"/></svg></span>
+        <input type="search" id="busqueda-normas" aria-label="Buscar norma de ortografía" placeholder="Buscar norma… (tilde, coma, b y v, mayúsculas)" autocomplete="off">
+      </div>
+      <div class="filtros">
+        <div class="grupo-filtro">
+          <span class="etiqueta-filtro" id="etiqueta-filtros-normas-tipo">Tipo</span>
+          <div id="filtros-normas-tipo" class="chips" role="group" aria-labelledby="etiqueta-filtros-normas-tipo"></div>
+        </div>
+      </div>
+      <p id="contador-normas" class="contador" aria-live="polite"></p>
+    </section>
+    <section id="lista-normas" class="galeria-texto"></section>
+    <nav id="pag-ortografia" class="paginacion" aria-label="Paginación"></nav>
+  </main>
+
+  <!-- ============ VISTA: LITERATURA ============ -->
+  <main id="vista-literatura" class="vista oculta" hidden>
+    <section class="encabezado-vista">
+      <h1><svg class="ico"><use href="#ico-literatura"/></svg> Corrientes literarias</h1>
+      <p>De la literatura prehispánica a la contemporánea, con sus rasgos, sus autores y las obras que conviene reconocer.</p>
+    </section>
+    <section class="buscador" role="search">
+      <div class="campo-busqueda-envoltorio">
+        <span class="icono-busqueda" aria-hidden="true"><svg class="ico"><use href="#ico-buscar"/></svg></span>
+        <input type="search" id="busqueda-movimientos" aria-label="Buscar corriente literaria, autor u obra" placeholder="Buscar corriente, autor u obra…" autocomplete="off">
+      </div>
+      <div class="filtros">
+        <div class="grupo-filtro">
+          <span class="etiqueta-filtro" id="etiqueta-filtros-movimientos-ambito">Ámbito</span>
+          <div id="filtros-movimientos-ambito" class="chips" role="group" aria-labelledby="etiqueta-filtros-movimientos-ambito"></div>
+        </div>
+      </div>
+      <p id="contador-movimientos" class="contador" aria-live="polite"></p>
+    </section>
+    <section id="lista-movimientos" class="galeria-texto"></section>
+  </main>
+
+  <!-- ============ VISTA: TEMAS ============ -->
+  <main id="vista-temas" class="vista oculta" hidden>
+    <section class="encabezado-vista">
+      <h1><svg class="ico"><use href="#ico-temas"/></svg> Temas de estudio</h1>
+      <p>Artículos largos para cuando hace falta entender un asunto entero y no solo consultarlo.</p>
+    </section>
+    <section id="lista-temas" class="temas"></section>
+  </main>
+
+  <!-- ============ VISTA: GLOSARIO ============ -->
+  <main id="vista-glosario" class="vista oculta" hidden>
+    <section class="encabezado-vista">
+      <h1><svg class="ico"><use href="#ico-glosario"/></svg> Glosario</h1>
+      <p>Los términos de la materia definidos en una línea, para resolver la duda sin salir de la lectura.</p>
+    </section>
+    <section class="buscador" role="search">
+      <div class="campo-busqueda-envoltorio">
+        <span class="icono-busqueda" aria-hidden="true"><svg class="ico"><use href="#ico-buscar"/></svg></span>
+        <input type="search" id="busqueda-glosario" aria-label="Buscar término del glosario" placeholder="Buscar término… (morfema, hipérbaton, sinalefa)" autocomplete="off">
+      </div>
+      <p id="contador-glosario" class="contador" aria-live="polite"></p>
+    </section>
+    <section id="lista-glosario" class="glosario"></section>
+    <nav id="pag-glosario" class="paginacion" aria-label="Paginación"></nav>
+  </main>
+
+  <!-- ============ MODAL: FICHA DEL TEMARIO ============ -->
+  <div id="modal-ficha" class="modal oculta">
+    <div class="modal-fondo" data-cierra-ficha></div>
+    <!-- Navegación entre fichas sin cerrar la ventana: recorre la lista filtrada
+         que estaba en pantalla, también con las flechas del teclado. Los botones
+         van fuera de la tarjeta para no desplazarse con su contenido. -->
+    <button id="ficha-anterior" class="modal-nav anterior" aria-label="Ficha anterior">
+      <svg class="ico"><use href="#ico-anterior"/></svg>
+    </button>
+    <button id="ficha-siguiente" class="modal-nav siguiente" aria-label="Ficha siguiente">
+      <svg class="ico"><use href="#ico-siguiente"/></svg>
+    </button>
+    <article class="modal-tarjeta">
+      <button id="cerrar-ficha" class="cerrar" aria-label="Cerrar">✕</button>
+      <div class="modal-cuerpo">
+        <div id="ficha-insignias" class="insignias"></div>
+        <h2 id="ficha-titulo"></h2>
+        <p id="ficha-definicion"></p>
+        <div id="ficha-explicacion-seccion">
+          <h3><svg class="ico"><use href="#ico-explicacion"/></svg> Cómo funciona</h3>
+          <p id="ficha-explicacion"></p>
+        </div>
+        <div id="ficha-subclases-seccion">
+          <h3><svg class="ico"><use href="#ico-temario"/></svg> Clases</h3>
+          <div id="ficha-subclases" class="subclases"></div>
+        </div>
+        <div id="ficha-tabla-seccion">
+          <h3><svg class="ico"><use href="#ico-tabla"/></svg> <span id="ficha-tabla-titulo"></span></h3>
+          <div class="tabla-envoltorio"><table class="tabla-contenido">
+            <thead><tr id="ficha-tabla-cabecera"><th scope="col">Concepto</th></tr></thead>
+            <tbody id="ficha-tabla-cuerpo"></tbody>
+          </table></div>
+        </div>
+        <div id="ficha-ejemplos-seccion">
+          <h3><svg class="ico"><use href="#ico-ejemplo"/></svg> Ejemplos</h3>
+          <ul id="ficha-ejemplos" class="lista-ejemplos"></ul>
+        </div>
+        <div id="ficha-reconocer-seccion">
+          <h3><svg class="ico"><use href="#ico-reconocer"/></svg> Cómo reconocerlo</h3>
+          <ul id="ficha-reconocer"></ul>
+        </div>
+        <div id="ficha-errores-seccion" class="bloque-error">
+          <h3><svg class="ico"><use href="#ico-errores"/></svg> Errores frecuentes</h3>
+          <ul id="ficha-errores"></ul>
+        </div>
+        <div id="ficha-perla-seccion" class="bloque-perla">
+          <h3><svg class="ico"><use href="#ico-perla"/></svg> Para no olvidarlo</h3>
+          <p id="ficha-perla"></p>
+        </div>
+        <div id="ficha-tema-seccion">
+          <h3><svg class="ico"><use href="#ico-temas"/></svg> Tema relacionado</h3>
+          <button id="ficha-tema-boton" class="boton-enlace" type="button" aria-label="Abrir el tema de estudio relacionado"></button>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <!-- ============ MODAL: FIGURA RETÓRICA ============ -->
+  <div id="modal-figura" class="modal oculta">
+    <div class="modal-fondo" data-cierra-figura></div>
+    <article class="modal-tarjeta">
+      <button id="cerrar-figura" class="cerrar" aria-label="Cerrar">✕</button>
+      <div class="modal-cuerpo">
+        <div id="figura-insignias" class="insignias"></div>
+        <h2 id="figura-nombre"></h2>
+        <h3><svg class="ico"><use href="#ico-definicion"/></svg> Qué es</h3><p id="figura-quees"></p>
+        <h3><svg class="ico"><use href="#ico-reconocer"/></svg> Cómo se reconoce</h3><p id="figura-reconoce"></p>
+        <div id="figura-ejemplos-seccion">
+          <h3><svg class="ico"><use href="#ico-ejemplo"/></svg> Ejemplos</h3>
+          <ul id="figura-ejemplos" class="lista-ejemplos"></ul>
+        </div>
+        <div id="figura-confunde-seccion">
+          <h3><svg class="ico"><use href="#ico-errores"/></svg> No confundir con</h3>
+          <div class="tabla-envoltorio"><table class="tabla-contenido">
+            <thead><tr><th>Figura</th><th>Cómo distinguirlas</th></tr></thead>
+            <tbody id="figura-confunde"></tbody>
+          </table></div>
+        </div>
+        <div class="bloque-perla"><h3><svg class="ico"><use href="#ico-perla"/></svg> Cómo recordarla</h3><p id="figura-recordar"></p></div>
+      </div>
+    </article>
+  </div>
+
+  <!-- ============ MODAL: NORMA ORTOGRÁFICA ============ -->
+  <div id="modal-norma" class="modal oculta">
+    <div class="modal-fondo" data-cierra-norma></div>
+    <article class="modal-tarjeta">
+      <button id="cerrar-norma" class="cerrar" aria-label="Cerrar">✕</button>
+      <div class="modal-cuerpo">
+        <div id="norma-insignias" class="insignias"></div>
+        <h2 id="norma-nombre"></h2>
+        <h3><svg class="ico"><use href="#ico-definicion"/></svg> Para qué sirve</h3><p id="norma-paraque"></p>
+        <h3><svg class="ico"><use href="#ico-tabla"/></svg> Las reglas</h3>
+        <div class="tabla-envoltorio"><table class="tabla-contenido">
+          <thead><tr><th>Se escribe</th><th>Cuándo</th><th>Ejemplos</th></tr></thead>
+          <tbody id="norma-reglas"></tbody>
+        </table></div>
+        <h3><svg class="ico"><use href="#ico-explicacion"/></svg> Cómo aplicarla</h3><p id="norma-aplicar"></p>
+        <div id="norma-excepciones-seccion" class="bloque-error">
+          <h3><svg class="ico"><use href="#ico-errores"/></svg> Excepciones y trampas</h3>
+          <p id="norma-excepciones"></p>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <!-- ============ MODAL: MOVIMIENTO LITERARIO ============ -->
+  <div id="modal-movimiento" class="modal oculta">
+    <div class="modal-fondo" data-cierra-movimiento></div>
+    <article class="modal-tarjeta">
+      <button id="cerrar-movimiento" class="cerrar" aria-label="Cerrar">✕</button>
+      <div class="modal-cuerpo">
+        <div id="mov-insignias" class="insignias"></div>
+        <h2 id="mov-nombre"></h2>
+        <p id="mov-contexto"></p>
+        <div id="mov-rasgos-seccion">
+          <h3><svg class="ico"><use href="#ico-reconocer"/></svg> Rasgos que lo identifican</h3>
+          <ul id="mov-rasgos"></ul>
+        </div>
+        <div id="mov-generos-seccion">
+          <h3><svg class="ico"><use href="#ico-literatura"/></svg> Géneros que cultiva</h3>
+          <ul id="mov-generos"></ul>
+        </div>
+        <div id="mov-autores-seccion">
+          <h3><svg class="ico"><use href="#ico-glosario"/></svg> Autores y obras</h3>
+          <div id="mov-autores" class="autores"></div>
+        </div>
+        <div class="bloque-clave">
+          <h3><svg class="ico"><use href="#ico-clave"/></svg> Cómo reconocerlo en un examen</h3>
+          <p id="mov-reconocer"></p>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <!-- ============ MODAL: TEMA ============ -->
+  <div id="modal-tema" class="modal oculta">
+    <div class="modal-fondo" data-cierra-tema></div>
+    <article class="modal-tarjeta">
+      <button id="cerrar-tema" class="cerrar" aria-label="Cerrar">✕</button>
+      <div class="modal-cuerpo">
+        <div class="insignias"><span id="tema-area" class="insignia"></span></div>
+        <h2 id="tema-titulo"></h2>
+        <p id="tema-resumen" class="tema-resumen"></p>
+        <div id="tema-secciones"></div>
+        <div class="bloque-clave">
+          <h3><svg class="ico"><use href="#ico-clave"/></svg> Puntos clave</h3>
+          <ul id="tema-puntos"></ul>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <footer class="pie">
+    <p>Atlas de estudio de Lengua y Literatura en español · Material de apoyo: no sustituye los libros de texto ni la enseñanza de los profesores.</p>
+    <p id="estado-origen" class="estado-origen"></p>
+  </footer>
+
+  <!-- Región de estado permanente: existe desde el primer pintado, con recorte
+       accesible en lugar de display none, para que ningún anuncio se pierda. -->
+  <div id="region-estado" class="solo-lector" role="status"></div>
+
+  <button id="ir-arriba" class="ir-arriba" aria-label="Volver arriba" title="Volver arriba">↑</button>
+
+  <!-- Menú lateral: Sustituye a la cabecera cuando esta se retira durante la lectura. El panel se rellena leyendo las pestañas reales del documento. -->
+  <button id="boton-menu-lateral" class="boton-menu-lateral" aria-label="Abrir el menú de secciones" title="Menú de secciones" aria-expanded="false" aria-controls="menu-lateral">
+    <svg class="ico" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+  </button>
+  <div id="menu-lateral-fondo" class="menu-lateral-fondo"></div>
+  <nav id="menu-lateral" class="menu-lateral" aria-label="Menú de secciones">
+    <div class="menu-lateral-cabecera">
+      <p class="menu-lateral-titulo">Secciones</p>
+      <button id="cerrar-menu-lateral" class="menu-lateral-cerrar" aria-label="Cerrar el menú">✕</button>
+    </div>
+    <div id="menu-lateral-lista" class="menu-lateral-lista"></div>
+  </nav>
+
+  <!-- Único punto de entrada del código: los archivos de js/ son módulos ES y cada uno
+       declara sus dependencias con import, de modo que el grafo de importaciones
+       sustituye al antiguo listado de scripts en orden manual. -->
+  <script type="module" src="js/main.js"></script>
+
+</body>
+</html>

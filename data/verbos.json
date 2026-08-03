@@ -1,0 +1,248 @@
+{
+  "_nota": "Datos de irregularidad verbal. El conjugador de js/conjugador.js parte de los modelos regulares en -ar, -er e -ir, aplica los cambios ortográficos automáticos (buscar, llegar, empezar, coger, seguir, construir, leer) y encima aplica lo que aquí se declara. Los verbos derivados heredan del verbo base: mantener toma el patrón de tener sin necesidad de escribirlo.",
+
+  "_claves": {
+    "yo": "Primera persona irregular del presente de indicativo. De ella sale la raíz del presente de subjuntivo (tengo, tenga).",
+    "subj": "Raíz del presente de subjuntivo cuando no se deduce de la primera persona (saber, sé, sepa).",
+    "diptongo": "Cambio vocálico en las sílabas tónicas: e:ie, o:ue, u:ue, e:i, i:ie.",
+    "debil": "Cambio vocálico de los verbos en -ir en las formas átonas (sentir, sintamos, sintió, sintiendo).",
+    "preterito": "Raíz del pretérito fuerte, con las terminaciones e, iste, o, imos, isteis, ieron.",
+    "futuro": "Raíz irregular del futuro y del pospretérito.",
+    "participio": "Participio irregular.",
+    "gerundio": "Gerundio irregular.",
+    "imperativoTu": "Imperativo afirmativo de tú cuando es irregular.",
+    "formas": "Sustitución completa de un tiempo, para los verbos que no siguen ningún patrón.",
+    "impersonal": "El verbo solo se usa en tercera persona del singular."
+  },
+
+  "irregulares": {
+    "ser": {
+      "participio": "sido", "gerundio": "siendo", "imperativoTu": "sé",
+      "formas": {
+        "presenteIndicativo": ["soy", "eres", "es", "somos", "sois", "son"],
+        "copreterito": ["era", "eras", "era", "éramos", "erais", "eran"],
+        "preterito": ["fui", "fuiste", "fue", "fuimos", "fuisteis", "fueron"],
+        "futuro": ["seré", "serás", "será", "seremos", "seréis", "serán"],
+        "pospreterito": ["sería", "serías", "sería", "seríamos", "seríais", "serían"],
+        "presenteSubjuntivo": ["sea", "seas", "sea", "seamos", "seáis", "sean"],
+        "preteritoSubjuntivoRa": ["fuera", "fueras", "fuera", "fuéramos", "fuerais", "fueran"],
+        "preteritoSubjuntivoSe": ["fuese", "fueses", "fuese", "fuésemos", "fueseis", "fuesen"],
+        "futuroSubjuntivo": ["fuere", "fueres", "fuere", "fuéremos", "fuereis", "fueren"]
+      }
+    },
+    "ir": {
+      "participio": "ido", "gerundio": "yendo", "imperativoTu": "ve",
+      "formas": {
+        "presenteIndicativo": ["voy", "vas", "va", "vamos", "vais", "van"],
+        "copreterito": ["iba", "ibas", "iba", "íbamos", "ibais", "iban"],
+        "preterito": ["fui", "fuiste", "fue", "fuimos", "fuisteis", "fueron"],
+        "futuro": ["iré", "irás", "irá", "iremos", "iréis", "irán"],
+        "pospreterito": ["iría", "irías", "iría", "iríamos", "iríais", "irían"],
+        "presenteSubjuntivo": ["vaya", "vayas", "vaya", "vayamos", "vayáis", "vayan"],
+        "preteritoSubjuntivoRa": ["fuera", "fueras", "fuera", "fuéramos", "fuerais", "fueran"],
+        "preteritoSubjuntivoSe": ["fuese", "fueses", "fuese", "fuésemos", "fueseis", "fuesen"],
+        "futuroSubjuntivo": ["fuere", "fueres", "fuere", "fuéremos", "fuereis", "fueren"]
+      }
+    },
+    "haber": {
+      "participio": "habido", "gerundio": "habiendo", "imperativoTu": "he",
+      "formas": {
+        "presenteIndicativo": ["he", "has", "ha", "hemos", "habéis", "han"],
+        "preterito": ["hube", "hubiste", "hubo", "hubimos", "hubisteis", "hubieron"],
+        "futuro": ["habré", "habrás", "habrá", "habremos", "habréis", "habrán"],
+        "pospreterito": ["habría", "habrías", "habría", "habríamos", "habríais", "habrían"],
+        "presenteSubjuntivo": ["haya", "hayas", "haya", "hayamos", "hayáis", "hayan"],
+        "preteritoSubjuntivoRa": ["hubiera", "hubieras", "hubiera", "hubiéramos", "hubierais", "hubieran"],
+        "preteritoSubjuntivoSe": ["hubiese", "hubieses", "hubiese", "hubiésemos", "hubieseis", "hubiesen"],
+        "futuroSubjuntivo": ["hubiere", "hubieres", "hubiere", "hubiéremos", "hubiereis", "hubieren"]
+      }
+    },
+    "estar": {
+      "preterito": "estuv",
+      "formas": {
+        "presenteIndicativo": ["estoy", "estás", "está", "estamos", "estáis", "están"],
+        "presenteSubjuntivo": ["esté", "estés", "esté", "estemos", "estéis", "estén"]
+      },
+      "imperativoTu": "está"
+    },
+    "dar": {
+      "formas": {
+        "presenteIndicativo": ["doy", "das", "da", "damos", "dais", "dan"],
+        "preterito": ["di", "diste", "dio", "dimos", "disteis", "dieron"],
+        "presenteSubjuntivo": ["dé", "des", "dé", "demos", "deis", "den"],
+        "preteritoSubjuntivoRa": ["diera", "dieras", "diera", "diéramos", "dierais", "dieran"],
+        "preteritoSubjuntivoSe": ["diese", "dieses", "diese", "diésemos", "dieseis", "diesen"],
+        "futuroSubjuntivo": ["diere", "dieres", "diere", "diéremos", "diereis", "dieren"]
+      }
+    },
+    "ver": {
+      "participio": "visto",
+      "formas": {
+        "presenteIndicativo": ["veo", "ves", "ve", "vemos", "veis", "ven"],
+        "copreterito": ["veía", "veías", "veía", "veíamos", "veíais", "veían"],
+        "preterito": ["vi", "viste", "vio", "vimos", "visteis", "vieron"],
+        "presenteSubjuntivo": ["vea", "veas", "vea", "veamos", "veáis", "vean"],
+        "preteritoSubjuntivoRa": ["viera", "vieras", "viera", "viéramos", "vierais", "vieran"],
+        "preteritoSubjuntivoSe": ["viese", "vieses", "viese", "viésemos", "vieseis", "viesen"],
+        "futuroSubjuntivo": ["viere", "vieres", "viere", "viéremos", "viereis", "vieren"]
+      }
+    },
+    "saber": { "yo": "sé", "subj": "sep", "preterito": "sup", "futuro": "sabr" },
+    "caber": { "yo": "quepo", "subj": "quep", "preterito": "cup", "futuro": "cabr" },
+    "hacer": { "yo": "hago", "preterito": "hic", "futuro": "har", "participio": "hecho", "imperativoTu": "haz" },
+    "decir": { "yo": "digo", "diptongo": "e:i", "debil": "e:i", "preterito": "dij", "futuro": "dir", "participio": "dicho", "gerundio": "diciendo", "imperativoTu": "di" },
+    "poder": { "diptongo": "o:ue", "preterito": "pud", "futuro": "podr", "gerundio": "pudiendo" },
+    "poner": { "yo": "pongo", "preterito": "pus", "futuro": "pondr", "participio": "puesto", "imperativoTu": "pon" },
+    "querer": { "diptongo": "e:ie", "preterito": "quis", "futuro": "querr" },
+    "tener": { "yo": "tengo", "diptongo": "e:ie", "preterito": "tuv", "futuro": "tendr", "imperativoTu": "ten" },
+    "venir": { "yo": "vengo", "diptongo": "e:ie", "debil": "e:i", "preterito": "vin", "futuro": "vendr", "gerundio": "viniendo", "imperativoTu": "ven" },
+    "salir": { "yo": "salgo", "futuro": "saldr", "imperativoTu": "sal" },
+    "valer": { "yo": "valgo", "futuro": "valdr" },
+    "traer": { "yo": "traigo", "preterito": "traj", "gerundio": "trayendo", "participio": "traído" },
+    "caer": { "yo": "caigo", "gerundio": "cayendo", "participio": "caído" },
+    "oír": { "yo": "oigo", "gerundio": "oyendo", "participio": "oído", "imperativoTu": "oye", "formas": { "presenteIndicativo": ["oigo", "oyes", "oye", "oímos", "oís", "oyen"] } },
+    "andar": { "preterito": "anduv" },
+    "asir": { "yo": "asgo" },
+    "yacer": { "yo": "yazco" },
+    "roer": { "yo": "roo", "gerundio": "royendo" },
+    "erguir": { "diptongo": "e:i", "debil": "e:i" },
+
+    "pensar": { "diptongo": "e:ie" },
+    "cerrar": { "diptongo": "e:ie" },
+    "empezar": { "diptongo": "e:ie" },
+    "comenzar": { "diptongo": "e:ie" },
+    "despertar": { "diptongo": "e:ie" },
+    "sentar": { "diptongo": "e:ie" },
+    "calentar": { "diptongo": "e:ie" },
+    "apretar": { "diptongo": "e:ie" },
+    "atravesar": { "diptongo": "e:ie" },
+    "confesar": { "diptongo": "e:ie" },
+    "gobernar": { "diptongo": "e:ie" },
+    "negar": { "diptongo": "e:ie" },
+    "quebrar": { "diptongo": "e:ie" },
+    "recomendar": { "diptongo": "e:ie" },
+    "regar": { "diptongo": "e:ie" },
+    "temblar": { "diptongo": "e:ie" },
+    "tropezar": { "diptongo": "e:ie" },
+    "encerrar": { "diptongo": "e:ie" },
+    "helar": { "diptongo": "e:ie", "impersonal": true },
+    "nevar": { "diptongo": "e:ie", "impersonal": true },
+    "merendar": { "diptongo": "e:ie" },
+    "sembrar": { "diptongo": "e:ie" },
+    "acertar": { "diptongo": "e:ie" },
+    "alentar": { "diptongo": "e:ie" },
+    "manifestar": { "diptongo": "e:ie" },
+    "enterrar": { "diptongo": "e:ie" },
+
+    "entender": { "diptongo": "e:ie" },
+    "perder": { "diptongo": "e:ie" },
+    "defender": { "diptongo": "e:ie" },
+    "encender": { "diptongo": "e:ie" },
+    "tender": { "diptongo": "e:ie" },
+    "atender": { "diptongo": "e:ie" },
+    "extender": { "diptongo": "e:ie" },
+    "verter": { "diptongo": "e:ie" },
+    "ascender": { "diptongo": "e:ie" },
+    "descender": { "diptongo": "e:ie" },
+
+    "sentir": { "diptongo": "e:ie", "debil": "e:i" },
+    "mentir": { "diptongo": "e:ie", "debil": "e:i" },
+    "preferir": { "diptongo": "e:ie", "debil": "e:i" },
+    "herir": { "diptongo": "e:ie", "debil": "e:i" },
+    "hervir": { "diptongo": "e:ie", "debil": "e:i" },
+    "advertir": { "diptongo": "e:ie", "debil": "e:i" },
+    "convertir": { "diptongo": "e:ie", "debil": "e:i" },
+    "divertir": { "diptongo": "e:ie", "debil": "e:i" },
+    "sugerir": { "diptongo": "e:ie", "debil": "e:i" },
+    "referir": { "diptongo": "e:ie", "debil": "e:i" },
+    "consentir": { "diptongo": "e:ie", "debil": "e:i" },
+    "invertir": { "diptongo": "e:ie", "debil": "e:i" },
+    "arrepentir": { "diptongo": "e:ie", "debil": "e:i" },
+
+    "contar": { "diptongo": "o:ue" },
+    "encontrar": { "diptongo": "o:ue" },
+    "recordar": { "diptongo": "o:ue" },
+    "mostrar": { "diptongo": "o:ue" },
+    "costar": { "diptongo": "o:ue" },
+    "acostar": { "diptongo": "o:ue" },
+    "almorzar": { "diptongo": "o:ue" },
+    "aprobar": { "diptongo": "o:ue" },
+    "probar": { "diptongo": "o:ue" },
+    "colgar": { "diptongo": "o:ue" },
+    "rogar": { "diptongo": "o:ue" },
+    "soltar": { "diptongo": "o:ue" },
+    "sonar": { "diptongo": "o:ue" },
+    "soñar": { "diptongo": "o:ue" },
+    "tronar": { "diptongo": "o:ue", "impersonal": true },
+    "volar": { "diptongo": "o:ue" },
+    "forzar": { "diptongo": "o:ue" },
+    "recostar": { "diptongo": "o:ue" },
+
+    "volver": { "diptongo": "o:ue", "participio": "vuelto" },
+    "mover": { "diptongo": "o:ue" },
+    "doler": { "diptongo": "o:ue" },
+    "llover": { "diptongo": "o:ue", "impersonal": true },
+    "morder": { "diptongo": "o:ue" },
+    "resolver": { "diptongo": "o:ue", "participio": "resuelto" },
+    "soler": { "diptongo": "o:ue" },
+    "torcer": { "diptongo": "o:ue" },
+    "cocer": { "diptongo": "o:ue" },
+    "oler": { "diptongo": "o:ue", "formas": { "presenteIndicativo": ["huelo", "hueles", "huele", "olemos", "oléis", "huelen"], "presenteSubjuntivo": ["huela", "huelas", "huela", "olamos", "oláis", "huelan"] }, "imperativoTu": "huele" },
+
+    "dormir": { "diptongo": "o:ue", "debil": "o:u" },
+    "morir": { "diptongo": "o:ue", "debil": "o:u", "participio": "muerto" },
+
+    "jugar": { "diptongo": "u:ue" },
+    "adquirir": { "diptongo": "i:ie" },
+    "inquirir": { "diptongo": "i:ie" },
+
+    "pedir": { "diptongo": "e:i", "debil": "e:i" },
+    "servir": { "diptongo": "e:i", "debil": "e:i" },
+    "seguir": { "diptongo": "e:i", "debil": "e:i" },
+    "repetir": { "diptongo": "e:i", "debil": "e:i" },
+    "vestir": { "diptongo": "e:i", "debil": "e:i" },
+    "medir": { "diptongo": "e:i", "debil": "e:i" },
+    "competir": { "diptongo": "e:i", "debil": "e:i" },
+    "despedir": { "diptongo": "e:i", "debil": "e:i" },
+    "elegir": { "diptongo": "e:i", "debil": "e:i" },
+    "corregir": { "diptongo": "e:i", "debil": "e:i" },
+    "impedir": { "diptongo": "e:i", "debil": "e:i" },
+    "gemir": { "diptongo": "e:i", "debil": "e:i" },
+    "rendir": { "diptongo": "e:i", "debil": "e:i" },
+    "teñir": { "diptongo": "e:i", "debil": "e:i" },
+    "ceñir": { "diptongo": "e:i", "debil": "e:i" },
+    "reñir": { "diptongo": "e:i", "debil": "e:i" },
+    "reír": { "diptongo": "e:i", "debil": "e:i", "gerundio": "riendo", "formas": { "presenteIndicativo": ["río", "ríes", "ríe", "reímos", "reís", "ríen"], "preterito": ["reí", "reíste", "rio", "reímos", "reísteis", "rieron"] } },
+    "freír": { "diptongo": "e:i", "debil": "e:i", "participio": "frito", "gerundio": "friendo", "formas": { "presenteIndicativo": ["frío", "fríes", "fríe", "freímos", "freís", "fríen"], "preterito": ["freí", "freíste", "frio", "freímos", "freísteis", "frieron"] } },
+
+    "abrir": { "participio": "abierto" },
+    "cubrir": { "participio": "cubierto" },
+    "escribir": { "participio": "escrito" },
+    "romper": { "participio": "roto" },
+    "imprimir": { "participio": "impreso" },
+    "satisfacer": { "yo": "satisfago", "preterito": "satisfic", "futuro": "satisfar", "participio": "satisfecho", "imperativoTu": "satisfaz" },
+    "bendecir": { "yo": "bendigo", "diptongo": "e:i", "debil": "e:i", "preterito": "bendij", "participio": "bendecido", "gerundio": "bendiciendo", "imperativoTu": "bendice" },
+    "maldecir": { "yo": "maldigo", "diptongo": "e:i", "debil": "e:i", "preterito": "maldij", "participio": "maldecido", "gerundio": "maldiciendo", "imperativoTu": "maldice" },
+    "predecir": { "yo": "predigo", "diptongo": "e:i", "debil": "e:i", "preterito": "predij", "participio": "predicho", "gerundio": "prediciendo", "imperativoTu": "predice" }
+  },
+
+  "prefijosHeredables": [
+    "a", "ab", "ante", "auto", "bien", "co", "com", "con", "contra", "de", "des", "dis", "en", "entre", "ex", "extra", "im", "in", "inter", "intro", "mal", "man", "ob", "per", "pos", "post", "pre", "pro", "re", "requ", "retro", "sat", "sobre", "sos", "sub", "super", "sus", "trans", "tras", "sinte", "obs", "ad", "at", "cont", "det", "ret", "mant", "adv", "prev", "conv", "interv", "sobrev", "aten"
+  ],
+
+  "basesHeredables": ["tener", "poner", "venir", "hacer", "decir", "traer", "caer", "salir", "valer", "ver", "poder", "querer", "saber", "sentir", "vestir", "seguir", "pedir", "medir", "mover", "volver", "contar", "sonar", "poblar", "probar", "cerrar", "pensar", "sentar", "dormir", "morir", "escribir", "cubrir", "abrir", "solver", "ducir", "cocer", "torcer", "gerir", "ferir", "vertir", "quirir", "ponerse"],
+
+  "participiosDobles": {
+    "freír": ["frito", "freído"],
+    "imprimir": ["impreso", "imprimido"],
+    "proveer": ["provisto", "proveído"],
+    "elegir": ["electo", "elegido"],
+    "soltar": ["suelto", "soltado"],
+    "despertar": ["despierto", "despertado"],
+    "confundir": ["confuso", "confundido"],
+    "bendecir": ["bendito", "bendecido"],
+    "maldecir": ["maldito", "maldecido"]
+  },
+
+  "verbosFrecuentes": ["ser", "estar", "tener", "hacer", "poder", "decir", "ir", "ver", "dar", "saber", "querer", "llegar", "hablar", "poner", "venir", "salir", "volver", "conocer", "vivir", "sentir", "pedir", "dormir", "jugar", "empezar", "pensar", "contar", "leer", "escribir", "comer", "beber", "correr", "caminar", "trabajar", "estudiar", "cantar", "bailar", "reír", "traer", "caer", "oír", "conducir", "construir", "buscar", "pagar", "cruzar", "coger", "elegir", "seguir", "servir", "morir", "nacer", "crecer", "andar", "caber", "valer", "romper", "abrir", "cubrir", "resolver", "mover", "perder", "entender", "cerrar", "soñar", "recordar", "encontrar", "mostrar", "probar", "aprender", "enseñar", "comprar", "vender"]
+}

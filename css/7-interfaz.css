@@ -1,0 +1,153 @@
+/*
+ * Interfaz y diseño adaptable.
+ * Junta el pie, el fondo aurora, la paginación, los cargadores esqueleto y las reglas responsivas, táctiles y de menos movimiento.
+ * Se carga en último lugar entre las hojas numeradas de pantalla, porque sus reglas responsivas ajustan lo definido en las anteriores.
+ */
+
+/* ============================================================
+   Pie y utilidades flotantes
+   ============================================================ */
+.pie {
+  text-align: center;
+  padding: 1.75rem 1.25rem;
+  font-size: 0.8rem;
+  color: var(--tinta-3);
+  border-top: 1px solid var(--borde);
+  background: var(--superficie);
+}
+.pie p { max-width: 760px; margin: 0 auto; }
+.estado-origen { margin-top: 0.5rem; opacity: 0.7; font-size: 0.72rem; font-variant-numeric: tabular-nums; }
+
+.ir-arriba {
+  position: fixed;
+  bottom: 1.5rem; right: 1.5rem;
+  z-index: 90;
+  width: 46px; height: 46px;
+  border-radius: 50%;
+  border: 1px solid var(--borde);
+  background: var(--superficie);
+  color: var(--marca-tinta);
+  font-size: 1.2rem; font-weight: 700;
+  cursor: pointer;
+  box-shadow: var(--sombra-md);
+  opacity: 0; visibility: hidden; transform: translateY(12px);
+  transition: all 0.3s var(--paso);
+}
+.ir-arriba.visible { opacity: 1; visibility: visible; transform: none; }
+.ir-arriba:hover { background: var(--marca-grad); color: #fff; border-color: transparent; transform: translateY(-3px); box-shadow: var(--sombra-marca); }
+
+/* ============================================================
+   Responsivo
+   ============================================================ */
+@media (max-width: 640px) {
+  .cabecera-superior { padding: 0.7rem 1rem; }
+  .marca-texto small { display: none; }
+  .marca-texto strong { font-size: 1rem; }
+  .vista { padding: 1.25rem 1rem 3.5rem; }
+  .galeria-texto, .temas, .glosario { grid-template-columns: 1fr; }
+  .etiqueta-filtro { min-width: 100%; margin-bottom: -0.2rem; }
+  .modal { padding: 0; align-items: flex-end; }
+  .modal-tarjeta { max-height: 94vh; border-radius: var(--r-xl) var(--r-xl) 0 0; }
+  .modal-cuerpo { padding: 1.25rem 1.25rem 2rem; }
+  .ir-arriba { bottom: 1rem; right: 1rem; }
+}
+
+/* ============================================================
+   Fondo aurora (degradados suaves en movimiento)
+   ============================================================ */
+.aurora { position: fixed; inset: 0; z-index: -1; overflow: hidden; pointer-events: none; }
+/* La opacidad de cada mancha es un token, para que el tema oscuro las atenúe
+   sin duplicar estas reglas por las dos vías del tema. */
+.aurora-blob { position: absolute; border-radius: 50%; filter: blur(80px); opacity: var(--aurora-1); will-change: transform; }
+.aurora-blob.b1 { width: 46vw; height: 46vw; top: -14vw; right: -10vw; background: radial-gradient(circle, #7c3aed, transparent 68%); animation: flotar1 24s ease-in-out infinite; }
+.aurora-blob.b2 { width: 40vw; height: 40vw; bottom: -12vw; left: -12vw; background: radial-gradient(circle, #6d28d9, transparent 68%); opacity: var(--aurora-2); animation: flotar2 30s ease-in-out infinite; }
+.aurora-blob.b3 { width: 32vw; height: 32vw; top: 32%; left: 44%; background: radial-gradient(circle, #4f46e5, transparent 70%); opacity: var(--aurora-3); animation: flotar3 27s ease-in-out infinite; }
+@keyframes flotar1 { 0%, 100% { transform: translate(0, 0) scale(1); } 50% { transform: translate(-4vw, 5vw) scale(1.1); } }
+@keyframes flotar2 { 0%, 100% { transform: translate(0, 0) scale(1); } 50% { transform: translate(5vw, -4vw) scale(1.08); } }
+@keyframes flotar3 { 0%, 100% { transform: translate(0, 0) scale(1); } 50% { transform: translate(-6vw, -3vw) scale(0.92); } }
+
+/* ============================================================
+   Paginación
+   ============================================================ */
+.paginacion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+.paginacion:empty { display: none; }
+.pag-info { font-size: 0.82rem; color: var(--tinta-3); font-variant-numeric: tabular-nums; }
+.pag-botones { display: flex; align-items: center; gap: 0.3rem; margin-left: auto; }
+.pag-btn {
+  min-width: 38px; height: 38px;
+  padding: 0 0.6rem;
+  border: 1px solid var(--borde);
+  background: var(--superficie);
+  color: var(--tinta-2);
+  border-radius: 10px;
+  font-size: 0.9rem; font-weight: 600; font-family: inherit;
+  cursor: pointer;
+  display: inline-flex; align-items: center; justify-content: center;
+  transition: all 0.18s var(--paso);
+}
+.pag-btn:hover:not(:disabled):not(.activo) { border-color: var(--marca-400); color: var(--marca-tinta); transform: translateY(-1px); }
+.pag-btn:active:not(:disabled):not(.activo) { transform: translateY(0) scale(0.95); }
+.pag-btn.activo { background: var(--marca-grad); border-color: transparent; color: #fff; box-shadow: var(--sombra-marca); cursor: default; }
+.pag-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.pag-flecha .ico { width: 18px; height: 18px; }
+.pag-elipsis { color: var(--tinta-3); padding: 0 0.2rem; align-self: flex-end; }
+
+@media (max-width: 640px) {
+  .paginacion { justify-content: center; }
+  .pag-info { width: 100%; text-align: center; order: 2; }
+  .pag-botones { margin: 0 auto; }
+  .pag-btn { min-width: 34px; height: 34px; }
+}
+
+/* En pantalla táctil los blancos suben al mínimo recomendado de 44 píxeles,
+   porque un dedo no tiene la precisión de un puntero. */
+@media (pointer: coarse) {
+  .chip { min-height: 44px; padding-top: 0.5rem; padding-bottom: 0.5rem; }
+  .pag-btn { min-width: 44px; min-height: 44px; }
+  .pestana { min-height: 44px; }
+  .cerrar { width: 44px; height: 44px; }
+  .boton-tema { width: 44px; height: 44px; }
+}
+
+/* ============================================================
+   Cargadores esqueleto
+   ============================================================ */
+.esqueleto {
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: var(--r-lg);
+  overflow: hidden;
+}
+.esqueleto-img { aspect-ratio: 4 / 3; background: var(--superficie-3); }
+.esqueleto-cuerpo { padding: 0.95rem 1.05rem 1.1rem; display: flex; flex-direction: column; gap: 0.55rem; }
+.esqueleto-linea { height: 12px; border-radius: 6px; background: var(--superficie-3); }
+.esqueleto-linea.corta { width: 45%; }
+.esqueleto-linea.media { width: 75%; }
+.esqueleto::after, .esqueleto-img::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--tinta) 6%, transparent), transparent);
+  transform: translateX(-100%);
+  animation: brillo 1.4s infinite;
+}
+.esqueleto { position: relative; }
+@keyframes brillo { 100% { transform: translateX(100%); } }
+
+/* Respeta la preferencia de menos movimiento */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+  .aurora { display: none; }
+}
+
+@media (max-width: 640px) {
+  .conj-rejilla { grid-template-columns: 1fr; }
+  .juego-panel { padding: 1.1rem; }
+  .oracion-pintada { font-size: 1rem; line-height: 1.95; }
+  .nodo-hijos { margin-left: 0.35rem; padding-left: 0.6rem; }
+}

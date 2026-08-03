@@ -1,0 +1,1882 @@
+[
+  {
+    "codigo": "banco-de-ejercicios",
+    "_nota": "Banco de ejercicios resueltos a mano para los juegos. Las soluciones están escritas una a una a propósito, para que los juegos nunca den por mala una respuesta correcta. El juego de tiempos verbales y el de la tilde no aparecen aquí porque se generan con el motor lingüístico.",
+    "analisis": [
+      {
+        "oracion": "El niño pequeño come una manzana roja.",
+        "palabras": [
+          {
+            "texto": "El",
+            "clase": "determinante",
+            "pista": "Artículo determinado que presenta al sustantivo niño."
+          },
+          {
+            "texto": "niño",
+            "clase": "sustantivo",
+            "pista": "Nombra a un ser y es el núcleo del sujeto."
+          },
+          {
+            "texto": "pequeño",
+            "clase": "adjetivo",
+            "pista": "Califica a niño y concuerda con él en género y número."
+          },
+          {
+            "texto": "come",
+            "clase": "verbo",
+            "pista": "Núcleo del predicado, presente de indicativo."
+          },
+          {
+            "texto": "una",
+            "clase": "determinante",
+            "pista": "Artículo indeterminado."
+          },
+          {
+            "texto": "manzana",
+            "clase": "sustantivo",
+            "pista": "Núcleo del complemento directo."
+          },
+          {
+            "texto": "roja",
+            "clase": "adjetivo",
+            "pista": "Califica a manzana."
+          }
+        ]
+      },
+      {
+        "oracion": "Mi hermana estudia mucho en la biblioteca.",
+        "palabras": [
+          {
+            "texto": "Mi",
+            "clase": "determinante",
+            "pista": "Posesivo de primera persona."
+          },
+          {
+            "texto": "hermana",
+            "clase": "sustantivo",
+            "pista": "Núcleo del sujeto."
+          },
+          {
+            "texto": "estudia",
+            "clase": "verbo",
+            "pista": "Núcleo del predicado."
+          },
+          {
+            "texto": "mucho",
+            "clase": "adverbio",
+            "pista": "Aquí es invariable y modifica al verbo, así que es adverbio de cantidad."
+          },
+          {
+            "texto": "en",
+            "clase": "preposición",
+            "pista": "Enlaza el verbo con el sintagma que sigue."
+          },
+          {
+            "texto": "la",
+            "clase": "determinante",
+            "pista": "Artículo determinado."
+          },
+          {
+            "texto": "biblioteca",
+            "clase": "sustantivo",
+            "pista": "Término del sintagma preposicional."
+          }
+        ]
+      },
+      {
+        "oracion": "Ayer llegaron tres cartas para ti.",
+        "palabras": [
+          {
+            "texto": "Ayer",
+            "clase": "adverbio",
+            "pista": "Adverbio de tiempo, invariable."
+          },
+          {
+            "texto": "llegaron",
+            "clase": "verbo",
+            "pista": "Pretérito de indicativo, tercera del plural."
+          },
+          {
+            "texto": "tres",
+            "clase": "determinante",
+            "pista": "Numeral cardinal que cuantifica a cartas."
+          },
+          {
+            "texto": "cartas",
+            "clase": "sustantivo",
+            "pista": "Núcleo del sujeto, que aquí va detrás del verbo."
+          },
+          {
+            "texto": "para",
+            "clase": "preposición",
+            "pista": "Introduce el destinatario."
+          },
+          {
+            "texto": "ti",
+            "clase": "pronombre",
+            "pista": "Pronombre personal de segunda persona detrás de preposición."
+          }
+        ]
+      },
+      {
+        "oracion": "Nosotros escribimos un cuento muy divertido.",
+        "palabras": [
+          {
+            "texto": "Nosotros",
+            "clase": "pronombre",
+            "pista": "Pronombre personal que hace de sujeto."
+          },
+          {
+            "texto": "escribimos",
+            "clase": "verbo",
+            "pista": "Primera persona del plural."
+          },
+          {
+            "texto": "un",
+            "clase": "determinante",
+            "pista": "Artículo indeterminado."
+          },
+          {
+            "texto": "cuento",
+            "clase": "sustantivo",
+            "pista": "Núcleo del complemento directo."
+          },
+          {
+            "texto": "muy",
+            "clase": "adverbio",
+            "pista": "Adverbio de cantidad que modifica al adjetivo."
+          },
+          {
+            "texto": "divertido",
+            "clase": "adjetivo",
+            "pista": "Califica a cuento."
+          }
+        ]
+      },
+      {
+        "oracion": "El perro de mi vecino ladra por las noches.",
+        "palabras": [
+          {
+            "texto": "El",
+            "clase": "determinante",
+            "pista": "Artículo determinado."
+          },
+          {
+            "texto": "perro",
+            "clase": "sustantivo",
+            "pista": "Núcleo del sujeto."
+          },
+          {
+            "texto": "de",
+            "clase": "preposición",
+            "pista": "Introduce el complemento del nombre."
+          },
+          {
+            "texto": "mi",
+            "clase": "determinante",
+            "pista": "Posesivo."
+          },
+          {
+            "texto": "vecino",
+            "clase": "sustantivo",
+            "pista": "Término del sintagma preposicional."
+          },
+          {
+            "texto": "ladra",
+            "clase": "verbo",
+            "pista": "Núcleo del predicado."
+          },
+          {
+            "texto": "por",
+            "clase": "preposición",
+            "pista": "Introduce el circunstancial de tiempo."
+          },
+          {
+            "texto": "las",
+            "clase": "determinante",
+            "pista": "Artículo determinado en plural."
+          },
+          {
+            "texto": "noches",
+            "clase": "sustantivo",
+            "pista": "Término del sintagma preposicional."
+          }
+        ]
+      },
+      {
+        "oracion": "Ella y yo llegamos temprano pero nadie abrió.",
+        "palabras": [
+          {
+            "texto": "Ella",
+            "clase": "pronombre",
+            "pista": "Pronombre personal."
+          },
+          {
+            "texto": "y",
+            "clase": "conjunción",
+            "pista": "Conjunción copulativa que une dos elementos del sujeto."
+          },
+          {
+            "texto": "yo",
+            "clase": "pronombre",
+            "pista": "Pronombre personal de primera persona."
+          },
+          {
+            "texto": "llegamos",
+            "clase": "verbo",
+            "pista": "Primera del plural."
+          },
+          {
+            "texto": "temprano",
+            "clase": "adverbio",
+            "pista": "Adverbio de tiempo."
+          },
+          {
+            "texto": "pero",
+            "clase": "conjunción",
+            "pista": "Conjunción adversativa que coordina dos proposiciones."
+          },
+          {
+            "texto": "nadie",
+            "clase": "pronombre",
+            "pista": "Pronombre indefinido que funciona como sujeto."
+          },
+          {
+            "texto": "abrió",
+            "clase": "verbo",
+            "pista": "Pretérito de indicativo."
+          }
+        ]
+      },
+      {
+        "oracion": "¡Ay! Se me olvidó la tarea de matemáticas.",
+        "palabras": [
+          {
+            "texto": "Ay",
+            "clase": "interjección",
+            "pista": "Expresa una emoción por sí sola y no forma parte de la estructura de la oración."
+          },
+          {
+            "texto": "Se",
+            "clase": "pronombre",
+            "pista": "Pronombre átono."
+          },
+          {
+            "texto": "me",
+            "clase": "pronombre",
+            "pista": "Pronombre átono de primera persona."
+          },
+          {
+            "texto": "olvidó",
+            "clase": "verbo",
+            "pista": "Núcleo del predicado."
+          },
+          {
+            "texto": "la",
+            "clase": "determinante",
+            "pista": "Artículo determinado."
+          },
+          {
+            "texto": "tarea",
+            "clase": "sustantivo",
+            "pista": "Núcleo del sujeto, que aquí va detrás del verbo."
+          },
+          {
+            "texto": "de",
+            "clase": "preposición",
+            "pista": "Introduce el complemento del nombre."
+          },
+          {
+            "texto": "matemáticas",
+            "clase": "sustantivo",
+            "pista": "Término del sintagma preposicional."
+          }
+        ]
+      },
+      {
+        "oracion": "Aquellos libros antiguos pertenecen a la escuela.",
+        "palabras": [
+          {
+            "texto": "Aquellos",
+            "clase": "determinante",
+            "pista": "Demostrativo de lejanía."
+          },
+          {
+            "texto": "libros",
+            "clase": "sustantivo",
+            "pista": "Núcleo del sujeto."
+          },
+          {
+            "texto": "antiguos",
+            "clase": "adjetivo",
+            "pista": "Califica a libros."
+          },
+          {
+            "texto": "pertenecen",
+            "clase": "verbo",
+            "pista": "Tercera del plural, concuerda con libros."
+          },
+          {
+            "texto": "a",
+            "clase": "preposición",
+            "pista": "Preposición exigida por el verbo pertenecer."
+          },
+          {
+            "texto": "la",
+            "clase": "determinante",
+            "pista": "Artículo determinado."
+          },
+          {
+            "texto": "escuela",
+            "clase": "sustantivo",
+            "pista": "Término del sintagma preposicional."
+          }
+        ]
+      },
+      {
+        "oracion": "Hoy no quiero salir porque llueve mucho.",
+        "palabras": [
+          {
+            "texto": "Hoy",
+            "clase": "adverbio",
+            "pista": "Adverbio de tiempo."
+          },
+          {
+            "texto": "no",
+            "clase": "adverbio",
+            "pista": "Adverbio de negación."
+          },
+          {
+            "texto": "quiero",
+            "clase": "verbo",
+            "pista": "Auxiliar de una perífrasis modal."
+          },
+          {
+            "texto": "salir",
+            "clase": "verbo",
+            "pista": "Infinitivo, forma no personal del verbo."
+          },
+          {
+            "texto": "porque",
+            "clase": "conjunción",
+            "pista": "Conjunción causal que introduce una subordinada."
+          },
+          {
+            "texto": "llueve",
+            "clase": "verbo",
+            "pista": "Verbo impersonal, no admite sujeto."
+          },
+          {
+            "texto": "mucho",
+            "clase": "adverbio",
+            "pista": "Modifica al verbo, así que es adverbio de cantidad."
+          }
+        ]
+      },
+      {
+        "oracion": "La profesora nos explicó la lección con paciencia.",
+        "palabras": [
+          {
+            "texto": "La",
+            "clase": "determinante",
+            "pista": "Artículo determinado."
+          },
+          {
+            "texto": "profesora",
+            "clase": "sustantivo",
+            "pista": "Núcleo del sujeto."
+          },
+          {
+            "texto": "nos",
+            "clase": "pronombre",
+            "pista": "Pronombre átono que hace de complemento indirecto."
+          },
+          {
+            "texto": "explicó",
+            "clase": "verbo",
+            "pista": "Pretérito de indicativo."
+          },
+          {
+            "texto": "la",
+            "clase": "determinante",
+            "pista": "Artículo determinado."
+          },
+          {
+            "texto": "lección",
+            "clase": "sustantivo",
+            "pista": "Núcleo del complemento directo."
+          },
+          {
+            "texto": "con",
+            "clase": "preposición",
+            "pista": "Introduce el circunstancial de modo."
+          },
+          {
+            "texto": "paciencia",
+            "clase": "sustantivo",
+            "pista": "Término del sintagma preposicional."
+          }
+        ]
+      },
+      {
+        "oracion": "Ese cuaderno azul es mío.",
+        "palabras": [
+          {
+            "texto": "Ese",
+            "clase": "determinante",
+            "pista": "Demostrativo que acompaña al sustantivo."
+          },
+          {
+            "texto": "cuaderno",
+            "clase": "sustantivo",
+            "pista": "Núcleo del sujeto."
+          },
+          {
+            "texto": "azul",
+            "clase": "adjetivo",
+            "pista": "Califica a cuaderno."
+          },
+          {
+            "texto": "es",
+            "clase": "verbo",
+            "pista": "Verbo copulativo, une el sujeto con el atributo."
+          },
+          {
+            "texto": "mío",
+            "clase": "pronombre",
+            "pista": "Pronombre posesivo que funciona como atributo."
+          }
+        ]
+      },
+      {
+        "oracion": "Los alumnos leyeron el poema lentamente.",
+        "palabras": [
+          {
+            "texto": "Los",
+            "clase": "determinante",
+            "pista": "Artículo determinado en plural."
+          },
+          {
+            "texto": "alumnos",
+            "clase": "sustantivo",
+            "pista": "Núcleo del sujeto."
+          },
+          {
+            "texto": "leyeron",
+            "clase": "verbo",
+            "pista": "Pretérito de indicativo, tercera del plural."
+          },
+          {
+            "texto": "el",
+            "clase": "determinante",
+            "pista": "Artículo determinado."
+          },
+          {
+            "texto": "poema",
+            "clase": "sustantivo",
+            "pista": "Núcleo del complemento directo. Es masculino aunque termine en a."
+          },
+          {
+            "texto": "lentamente",
+            "clase": "adverbio",
+            "pista": "Adverbio de modo formado con el sufijo mente."
+          }
+        ]
+      },
+      {
+        "oracion": "Mañana iremos al museo con nuestros primos.",
+        "palabras": [
+          {
+            "texto": "Mañana",
+            "clase": "adverbio",
+            "pista": "Aquí es adverbio de tiempo, no sustantivo."
+          },
+          {
+            "texto": "iremos",
+            "clase": "verbo",
+            "pista": "Futuro de indicativo."
+          },
+          {
+            "texto": "al",
+            "clase": "preposición",
+            "pista": "Contracción de a más el, así que contiene una preposición y un artículo."
+          },
+          {
+            "texto": "museo",
+            "clase": "sustantivo",
+            "pista": "Término del sintagma preposicional."
+          },
+          {
+            "texto": "con",
+            "clase": "preposición",
+            "pista": "Introduce el circunstancial de compañía."
+          },
+          {
+            "texto": "nuestros",
+            "clase": "determinante",
+            "pista": "Posesivo de primera persona del plural."
+          },
+          {
+            "texto": "primos",
+            "clase": "sustantivo",
+            "pista": "Término del sintagma preposicional."
+          }
+        ]
+      },
+      {
+        "oracion": "Nunca había visto un atardecer tan hermoso.",
+        "palabras": [
+          {
+            "texto": "Nunca",
+            "clase": "adverbio",
+            "pista": "Adverbio de negación y de tiempo."
+          },
+          {
+            "texto": "había",
+            "clase": "verbo",
+            "pista": "Auxiliar haber de un tiempo compuesto."
+          },
+          {
+            "texto": "visto",
+            "clase": "verbo",
+            "pista": "Participio irregular de ver."
+          },
+          {
+            "texto": "un",
+            "clase": "determinante",
+            "pista": "Artículo indeterminado."
+          },
+          {
+            "texto": "atardecer",
+            "clase": "sustantivo",
+            "pista": "Infinitivo que aquí funciona como sustantivo."
+          },
+          {
+            "texto": "tan",
+            "clase": "adverbio",
+            "pista": "Adverbio de cantidad que modifica al adjetivo."
+          },
+          {
+            "texto": "hermoso",
+            "clase": "adjetivo",
+            "pista": "Califica a atardecer."
+          }
+        ]
+      },
+      {
+        "oracion": "El agua fría del río corría entre las piedras.",
+        "palabras": [
+          {
+            "texto": "El",
+            "clase": "determinante",
+            "pista": "Se escribe el porque agua empieza por a tónica, pero el sustantivo es femenino."
+          },
+          {
+            "texto": "agua",
+            "clase": "sustantivo",
+            "pista": "Núcleo del sujeto, femenino."
+          },
+          {
+            "texto": "fría",
+            "clase": "adjetivo",
+            "pista": "Concuerda en femenino con agua, y eso demuestra el género del sustantivo."
+          },
+          {
+            "texto": "del",
+            "clase": "preposición",
+            "pista": "Contracción de de más el."
+          },
+          {
+            "texto": "río",
+            "clase": "sustantivo",
+            "pista": "Término del sintagma preposicional."
+          },
+          {
+            "texto": "corría",
+            "clase": "verbo",
+            "pista": "Copretérito de indicativo."
+          },
+          {
+            "texto": "entre",
+            "clase": "preposición",
+            "pista": "Introduce el circunstancial de lugar."
+          },
+          {
+            "texto": "las",
+            "clase": "determinante",
+            "pista": "Artículo determinado."
+          },
+          {
+            "texto": "piedras",
+            "clase": "sustantivo",
+            "pista": "Término del sintagma preposicional."
+          }
+        ]
+      },
+      {
+        "oracion": "Su primera novela fue publicada en Guadalajara.",
+        "palabras": [
+          {
+            "texto": "Su",
+            "clase": "determinante",
+            "pista": "Posesivo de tercera persona."
+          },
+          {
+            "texto": "primera",
+            "clase": "determinante",
+            "pista": "Numeral ordinal."
+          },
+          {
+            "texto": "novela",
+            "clase": "sustantivo",
+            "pista": "Núcleo del sujeto paciente."
+          },
+          {
+            "texto": "fue",
+            "clase": "verbo",
+            "pista": "Auxiliar ser de la voz pasiva."
+          },
+          {
+            "texto": "publicada",
+            "clase": "verbo",
+            "pista": "Participio que forma la pasiva y concuerda con el sujeto."
+          },
+          {
+            "texto": "en",
+            "clase": "preposición",
+            "pista": "Introduce el circunstancial de lugar."
+          },
+          {
+            "texto": "Guadalajara",
+            "clase": "sustantivo",
+            "pista": "Nombre propio de lugar."
+          }
+        ]
+      },
+      {
+        "oracion": "Quiero que vengas a mi casa el sábado.",
+        "palabras": [
+          {
+            "texto": "Quiero",
+            "clase": "verbo",
+            "pista": "Verbo principal de la oración."
+          },
+          {
+            "texto": "que",
+            "clase": "conjunción",
+            "pista": "Conjunción completiva que introduce una subordinada sustantiva."
+          },
+          {
+            "texto": "vengas",
+            "clase": "verbo",
+            "pista": "Presente de subjuntivo, exigido por el verbo querer."
+          },
+          {
+            "texto": "a",
+            "clase": "preposición",
+            "pista": "Introduce el circunstancial de lugar."
+          },
+          {
+            "texto": "mi",
+            "clase": "determinante",
+            "pista": "Posesivo."
+          },
+          {
+            "texto": "casa",
+            "clase": "sustantivo",
+            "pista": "Término del sintagma preposicional."
+          },
+          {
+            "texto": "el",
+            "clase": "determinante",
+            "pista": "Artículo determinado."
+          },
+          {
+            "texto": "sábado",
+            "clase": "sustantivo",
+            "pista": "Sustantivo de sentido temporal, en minúscula porque los días no se escriben con mayúscula."
+          }
+        ]
+      },
+      {
+        "oracion": "Bajo el árbol descansaba un gato viejo.",
+        "palabras": [
+          {
+            "texto": "Bajo",
+            "clase": "preposición",
+            "pista": "Aquí es preposición porque introduce un sintagma, no un adjetivo."
+          },
+          {
+            "texto": "el",
+            "clase": "determinante",
+            "pista": "Artículo determinado."
+          },
+          {
+            "texto": "árbol",
+            "clase": "sustantivo",
+            "pista": "Término del sintagma preposicional."
+          },
+          {
+            "texto": "descansaba",
+            "clase": "verbo",
+            "pista": "Copretérito de indicativo."
+          },
+          {
+            "texto": "un",
+            "clase": "determinante",
+            "pista": "Artículo indeterminado."
+          },
+          {
+            "texto": "gato",
+            "clase": "sustantivo",
+            "pista": "Núcleo del sujeto, que aquí va detrás del verbo."
+          },
+          {
+            "texto": "viejo",
+            "clase": "adjetivo",
+            "pista": "Califica a gato."
+          }
+        ]
+      },
+      {
+        "oracion": "Estudiar todos los días da buenos resultados.",
+        "palabras": [
+          {
+            "texto": "Estudiar",
+            "clase": "verbo",
+            "pista": "Infinitivo que funciona como sujeto de la oración."
+          },
+          {
+            "texto": "todos",
+            "clase": "determinante",
+            "pista": "Indefinido que cuantifica a días."
+          },
+          {
+            "texto": "los",
+            "clase": "determinante",
+            "pista": "Artículo determinado."
+          },
+          {
+            "texto": "días",
+            "clase": "sustantivo",
+            "pista": "Núcleo de un sintagma de sentido temporal."
+          },
+          {
+            "texto": "da",
+            "clase": "verbo",
+            "pista": "Núcleo del predicado."
+          },
+          {
+            "texto": "buenos",
+            "clase": "adjetivo",
+            "pista": "Califica a resultados y va antepuesto."
+          },
+          {
+            "texto": "resultados",
+            "clase": "sustantivo",
+            "pista": "Núcleo del complemento directo."
+          }
+        ]
+      },
+      {
+        "oracion": "Los músicos tocaron alegremente durante dos horas.",
+        "palabras": [
+          {
+            "texto": "Los",
+            "clase": "determinante",
+            "pista": "Artículo determinado."
+          },
+          {
+            "texto": "músicos",
+            "clase": "sustantivo",
+            "pista": "Núcleo del sujeto."
+          },
+          {
+            "texto": "tocaron",
+            "clase": "verbo",
+            "pista": "Pretérito de indicativo."
+          },
+          {
+            "texto": "alegremente",
+            "clase": "adverbio",
+            "pista": "Adverbio de modo en mente."
+          },
+          {
+            "texto": "durante",
+            "clase": "preposición",
+            "pista": "Preposición que introduce una duración."
+          },
+          {
+            "texto": "dos",
+            "clase": "determinante",
+            "pista": "Numeral cardinal."
+          },
+          {
+            "texto": "horas",
+            "clase": "sustantivo",
+            "pista": "Término del sintagma preposicional."
+          }
+        ]
+      },
+      {
+        "oracion": "Aunque estaba cansado terminó el trabajo.",
+        "palabras": [
+          {
+            "texto": "Aunque",
+            "clase": "conjunción",
+            "pista": "Conjunción concesiva."
+          },
+          {
+            "texto": "estaba",
+            "clase": "verbo",
+            "pista": "Verbo copulativo en copretérito."
+          },
+          {
+            "texto": "cansado",
+            "clase": "adjetivo",
+            "pista": "Funciona como atributo del verbo copulativo."
+          },
+          {
+            "texto": "terminó",
+            "clase": "verbo",
+            "pista": "Núcleo del predicado de la proposición principal."
+          },
+          {
+            "texto": "el",
+            "clase": "determinante",
+            "pista": "Artículo determinado."
+          },
+          {
+            "texto": "trabajo",
+            "clase": "sustantivo",
+            "pista": "Núcleo del complemento directo."
+          }
+        ]
+      },
+      {
+        "oracion": "Ella se peina frente al espejo cada mañana.",
+        "palabras": [
+          {
+            "texto": "Ella",
+            "clase": "pronombre",
+            "pista": "Pronombre personal, sujeto de la oración."
+          },
+          {
+            "texto": "se",
+            "clase": "pronombre",
+            "pista": "Pronombre reflexivo: La acción recae sobre el propio sujeto."
+          },
+          {
+            "texto": "peina",
+            "clase": "verbo",
+            "pista": "Presente de indicativo."
+          },
+          {
+            "texto": "frente",
+            "clase": "preposición",
+            "pista": "Forma parte de la locución prepositiva frente a."
+          },
+          {
+            "texto": "al",
+            "clase": "preposición",
+            "pista": "Contracción de a más el."
+          },
+          {
+            "texto": "espejo",
+            "clase": "sustantivo",
+            "pista": "Término del sintagma preposicional."
+          },
+          {
+            "texto": "cada",
+            "clase": "determinante",
+            "pista": "Indefinido distributivo."
+          },
+          {
+            "texto": "mañana",
+            "clase": "sustantivo",
+            "pista": "Aquí es sustantivo porque lleva determinante delante."
+          }
+        ]
+      },
+      {
+        "oracion": "El viento del norte trajo nubes oscuras.",
+        "palabras": [
+          {
+            "texto": "El",
+            "clase": "determinante",
+            "pista": "Artículo determinado."
+          },
+          {
+            "texto": "viento",
+            "clase": "sustantivo",
+            "pista": "Núcleo del sujeto."
+          },
+          {
+            "texto": "del",
+            "clase": "preposición",
+            "pista": "Contracción de de más el."
+          },
+          {
+            "texto": "norte",
+            "clase": "sustantivo",
+            "pista": "Término del sintagma preposicional."
+          },
+          {
+            "texto": "trajo",
+            "clase": "verbo",
+            "pista": "Pretérito fuerte del verbo traer."
+          },
+          {
+            "texto": "nubes",
+            "clase": "sustantivo",
+            "pista": "Núcleo del complemento directo."
+          },
+          {
+            "texto": "oscuras",
+            "clase": "adjetivo",
+            "pista": "Califica a nubes."
+          }
+        ]
+      },
+      {
+        "oracion": "Nos gustan mucho las novelas de aventuras.",
+        "palabras": [
+          {
+            "texto": "Nos",
+            "clase": "pronombre",
+            "pista": "Pronombre átono que hace de complemento indirecto."
+          },
+          {
+            "texto": "gustan",
+            "clase": "verbo",
+            "pista": "Va en plural porque concuerda con novelas, que es el sujeto."
+          },
+          {
+            "texto": "mucho",
+            "clase": "adverbio",
+            "pista": "Modifica al verbo, así que es adverbio."
+          },
+          {
+            "texto": "las",
+            "clase": "determinante",
+            "pista": "Artículo determinado."
+          },
+          {
+            "texto": "novelas",
+            "clase": "sustantivo",
+            "pista": "Núcleo del sujeto, aunque vaya detrás del verbo."
+          },
+          {
+            "texto": "de",
+            "clase": "preposición",
+            "pista": "Introduce el complemento del nombre."
+          },
+          {
+            "texto": "aventuras",
+            "clase": "sustantivo",
+            "pista": "Término del sintagma preposicional."
+          }
+        ]
+      },
+      {
+        "oracion": "Ojalá mañana no haga tanto frío.",
+        "palabras": [
+          {
+            "texto": "Ojalá",
+            "clase": "interjección",
+            "pista": "Expresa deseo y obliga al verbo a ir en subjuntivo."
+          },
+          {
+            "texto": "mañana",
+            "clase": "adverbio",
+            "pista": "Aquí es adverbio de tiempo, porque no lleva determinante."
+          },
+          {
+            "texto": "no",
+            "clase": "adverbio",
+            "pista": "Adverbio de negación."
+          },
+          {
+            "texto": "haga",
+            "clase": "verbo",
+            "pista": "Presente de subjuntivo, verbo impersonal de clima."
+          },
+          {
+            "texto": "tanto",
+            "clase": "determinante",
+            "pista": "Indefinido que cuantifica al sustantivo frío."
+          },
+          {
+            "texto": "frío",
+            "clase": "sustantivo",
+            "pista": "Aquí es sustantivo, no adjetivo, porque lleva un cuantificador delante."
+          }
+        ]
+      }
+    ],
+    "sujetoPredicado": [
+      {
+        "oracion": "Los alumnos de tercero entregaron el proyecto.",
+        "palabras": [
+          "Los",
+          "alumnos",
+          "de",
+          "tercero",
+          "entregaron",
+          "el",
+          "proyecto"
+        ],
+        "inicioPredicado": 4,
+        "explicacion": "El sujeto es Los alumnos de tercero, con núcleo alumnos. El predicado empieza en el verbo entregaron."
+      },
+      {
+        "oracion": "Mi hermano mayor estudia medicina.",
+        "palabras": [
+          "Mi",
+          "hermano",
+          "mayor",
+          "estudia",
+          "medicina"
+        ],
+        "inicioPredicado": 3,
+        "explicacion": "El sujeto es Mi hermano mayor y el predicado empieza en estudia."
+      },
+      {
+        "oracion": "El perro de la esquina ladra toda la noche.",
+        "palabras": [
+          "El",
+          "perro",
+          "de",
+          "la",
+          "esquina",
+          "ladra",
+          "toda",
+          "la",
+          "noche"
+        ],
+        "inicioPredicado": 5,
+        "explicacion": "Todo el sintagma El perro de la esquina es el sujeto, porque de la esquina complementa a perro."
+      },
+      {
+        "oracion": "Aquella maestra explicaba muy bien.",
+        "palabras": [
+          "Aquella",
+          "maestra",
+          "explicaba",
+          "muy",
+          "bien"
+        ],
+        "inicioPredicado": 2,
+        "explicacion": "El sujeto es Aquella maestra y el predicado empieza en el verbo explicaba."
+      },
+      {
+        "oracion": "Las nubes oscuras cubrieron el cielo.",
+        "palabras": [
+          "Las",
+          "nubes",
+          "oscuras",
+          "cubrieron",
+          "el",
+          "cielo"
+        ],
+        "inicioPredicado": 3,
+        "explicacion": "El adjetivo oscuras pertenece al sujeto, porque califica a nubes."
+      },
+      {
+        "oracion": "Mis primos y yo fuimos al cine.",
+        "palabras": [
+          "Mis",
+          "primos",
+          "y",
+          "yo",
+          "fuimos",
+          "al",
+          "cine"
+        ],
+        "inicioPredicado": 4,
+        "explicacion": "El sujeto es compuesto: Mis primos y yo. Por eso el verbo va en primera persona del plural."
+      },
+      {
+        "oracion": "El libro que compré ayer desapareció.",
+        "palabras": [
+          "El",
+          "libro",
+          "que",
+          "compré",
+          "ayer",
+          "desapareció"
+        ],
+        "inicioPredicado": 5,
+        "explicacion": "La proposición que compré ayer está dentro del sujeto, porque complementa a libro. El predicado es solo desapareció."
+      },
+      {
+        "oracion": "Una lluvia fina caía sobre la ciudad.",
+        "palabras": [
+          "Una",
+          "lluvia",
+          "fina",
+          "caía",
+          "sobre",
+          "la",
+          "ciudad"
+        ],
+        "inicioPredicado": 3,
+        "explicacion": "El sujeto es Una lluvia fina y el predicado empieza en caía."
+      },
+      {
+        "oracion": "Todos los estudiantes del grupo aprobaron.",
+        "palabras": [
+          "Todos",
+          "los",
+          "estudiantes",
+          "del",
+          "grupo",
+          "aprobaron"
+        ],
+        "inicioPredicado": 5,
+        "explicacion": "El sujeto es Todos los estudiantes del grupo, y el predicado se reduce al verbo aprobaron."
+      },
+      {
+        "oracion": "El viejo reloj de la sala dejó de sonar.",
+        "palabras": [
+          "El",
+          "viejo",
+          "reloj",
+          "de",
+          "la",
+          "sala",
+          "dejó",
+          "de",
+          "sonar"
+        ],
+        "inicioPredicado": 6,
+        "explicacion": "El sujeto es El viejo reloj de la sala. El predicado empieza en dejó, que forma perífrasis con sonar."
+      },
+      {
+        "oracion": "Ese cuento me pareció muy triste.",
+        "palabras": [
+          "Ese",
+          "cuento",
+          "me",
+          "pareció",
+          "muy",
+          "triste"
+        ],
+        "inicioPredicado": 2,
+        "explicacion": "El sujeto es Ese cuento. El pronombre me ya forma parte del predicado."
+      },
+      {
+        "oracion": "La luz de la mañana entraba por la ventana.",
+        "palabras": [
+          "La",
+          "luz",
+          "de",
+          "la",
+          "mañana",
+          "entraba",
+          "por",
+          "la",
+          "ventana"
+        ],
+        "inicioPredicado": 5,
+        "explicacion": "El sujeto es La luz de la mañana, con núcleo luz."
+      },
+      {
+        "oracion": "Nuestro equipo ganó el partido del domingo.",
+        "palabras": [
+          "Nuestro",
+          "equipo",
+          "ganó",
+          "el",
+          "partido",
+          "del",
+          "domingo"
+        ],
+        "inicioPredicado": 2,
+        "explicacion": "El sujeto es Nuestro equipo y el predicado empieza en ganó."
+      },
+      {
+        "oracion": "Los poemas de Sor Juana siguen sorprendiendo.",
+        "palabras": [
+          "Los",
+          "poemas",
+          "de",
+          "Sor",
+          "Juana",
+          "siguen",
+          "sorprendiendo"
+        ],
+        "inicioPredicado": 5,
+        "explicacion": "El sujeto es Los poemas de Sor Juana. El predicado empieza en siguen, que forma perífrasis con sorprendiendo."
+      },
+      {
+        "oracion": "Aquel día lluvioso cambió nuestros planes.",
+        "palabras": [
+          "Aquel",
+          "día",
+          "lluvioso",
+          "cambió",
+          "nuestros",
+          "planes"
+        ],
+        "inicioPredicado": 3,
+        "explicacion": "El sujeto es Aquel día lluvioso y el predicado empieza en cambió."
+      },
+      {
+        "oracion": "El profesor de literatura nos recomendó ese libro.",
+        "palabras": [
+          "El",
+          "profesor",
+          "de",
+          "literatura",
+          "nos",
+          "recomendó",
+          "ese",
+          "libro"
+        ],
+        "inicioPredicado": 4,
+        "explicacion": "El sujeto es El profesor de literatura. El pronombre nos ya pertenece al predicado."
+      },
+      {
+        "oracion": "Muchas personas llegaron tarde a la ceremonia.",
+        "palabras": [
+          "Muchas",
+          "personas",
+          "llegaron",
+          "tarde",
+          "a",
+          "la",
+          "ceremonia"
+        ],
+        "inicioPredicado": 2,
+        "explicacion": "El sujeto es Muchas personas y el predicado empieza en llegaron."
+      },
+      {
+        "oracion": "La pequeña casa blanca estaba vacía.",
+        "palabras": [
+          "La",
+          "pequeña",
+          "casa",
+          "blanca",
+          "estaba",
+          "vacía"
+        ],
+        "inicioPredicado": 4,
+        "explicacion": "Los dos adjetivos pertenecen al sujeto. El predicado es nominal y empieza en estaba."
+      },
+      {
+        "oracion": "El sonido del mar me tranquilizaba mucho.",
+        "palabras": [
+          "El",
+          "sonido",
+          "del",
+          "mar",
+          "me",
+          "tranquilizaba",
+          "mucho"
+        ],
+        "inicioPredicado": 4,
+        "explicacion": "El sujeto es El sonido del mar y el predicado empieza en el pronombre me."
+      },
+      {
+        "oracion": "Tres personas del público hicieron preguntas.",
+        "palabras": [
+          "Tres",
+          "personas",
+          "del",
+          "público",
+          "hicieron",
+          "preguntas"
+        ],
+        "inicioPredicado": 4,
+        "explicacion": "El sujeto es Tres personas del público, y el predicado empieza en hicieron."
+      }
+    ],
+    "ortografia": [
+      {
+        "correcta": "hombre",
+        "incorrecta": "ombre",
+        "contexto": "Ese ___ trabaja en la biblioteca.",
+        "regla": "Las palabras de la familia de hombre llevan h."
+      },
+      {
+        "correcta": "cambio",
+        "incorrecta": "canvio",
+        "contexto": "Necesito un ___ de actitud.",
+        "regla": "Después de m siempre se escribe b, nunca v."
+      },
+      {
+        "correcta": "invierno",
+        "incorrecta": "imbierno",
+        "contexto": "En ___ hace mucho frío.",
+        "regla": "Después de n siempre se escribe v, nunca b."
+      },
+      {
+        "correcta": "estuvo",
+        "incorrecta": "estubo",
+        "contexto": "Ayer ___ en mi casa.",
+        "regla": "Los pretéritos de estar, andar y tener llevan v."
+      },
+      {
+        "correcta": "tuvo",
+        "incorrecta": "tubo",
+        "contexto": "Ella ___ mucha suerte.",
+        "regla": "Tuvo es del verbo tener y lleva v. Tubo con b es el objeto."
+      },
+      {
+        "correcta": "iban",
+        "incorrecta": "ivan",
+        "contexto": "Los niños ___ corriendo.",
+        "regla": "El copretérito de ir lleva b: iba, ibas, iban."
+      },
+      {
+        "correcta": "cantaba",
+        "incorrecta": "cantava",
+        "contexto": "Mi abuela ___ todas las tardes.",
+        "regla": "El copretérito de los verbos en ar se escribe siempre con b."
+      },
+      {
+        "correcta": "escribir",
+        "incorrecta": "escrivir",
+        "contexto": "Quiero ___ un cuento.",
+        "regla": "Los verbos terminados en bir llevan b, salvo hervir, servir y vivir."
+      },
+      {
+        "correcta": "nuevo",
+        "incorrecta": "nuebo",
+        "contexto": "Compré un cuaderno ___.",
+        "regla": "Los adjetivos terminados en evo llevan v."
+      },
+      {
+        "correcta": "canción",
+        "incorrecta": "cansión",
+        "contexto": "Me gusta esa ___.",
+        "regla": "Se escribe ción porque la familia tiene cantado, con d."
+      },
+      {
+        "correcta": "expresión",
+        "incorrecta": "expreción",
+        "contexto": "Fue una ___ muy clara.",
+        "regla": "Se escribe sión porque la familia tiene expresivo, con v."
+      },
+      {
+        "correcta": "televisión",
+        "incorrecta": "televición",
+        "contexto": "Apaga la ___.",
+        "regla": "Se escribe sión porque la familia tiene televisor, con sor."
+      },
+      {
+        "correcta": "lápices",
+        "incorrecta": "lápizes",
+        "contexto": "Compré tres ___ nuevos.",
+        "regla": "La z se convierte en c delante de e, sin excepciones."
+      },
+      {
+        "correcta": "crucé",
+        "incorrecta": "cruzé",
+        "contexto": "Ayer ___ la avenida.",
+        "regla": "En los verbos en zar, la z pasa a c delante de e."
+      },
+      {
+        "correcta": "empecé",
+        "incorrecta": "empezé",
+        "contexto": "Ya ___ la tarea.",
+        "regla": "Empezar da empecé, porque la z no se escribe delante de e."
+      },
+      {
+        "correcta": "belleza",
+        "incorrecta": "bellesa",
+        "contexto": "Admiraba la ___ del paisaje.",
+        "regla": "Los sustantivos abstractos terminados en eza se escriben con z."
+      },
+      {
+        "correcta": "hermoso",
+        "incorrecta": "hermozo",
+        "contexto": "Fue un día ___.",
+        "regla": "Los adjetivos terminados en oso se escriben con s."
+      },
+      {
+        "correcta": "portazo",
+        "incorrecta": "portaso",
+        "contexto": "Salió dando un ___.",
+        "regla": "Los golpes y los aumentativos en azo se escriben con z."
+      },
+      {
+        "correcta": "garaje",
+        "incorrecta": "garage",
+        "contexto": "El coche está en el ___.",
+        "regla": "Todas las palabras terminadas en aje se escriben con j."
+      },
+      {
+        "correcta": "viaje",
+        "incorrecta": "viage",
+        "contexto": "Fue un ___ largo.",
+        "regla": "La terminación aje siempre lleva j."
+      },
+      {
+        "correcta": "dijeron",
+        "incorrecta": "dijieron",
+        "contexto": "Ellos ___ la verdad.",
+        "regla": "Los pretéritos de decir, traer y los verbos en ducir llevan j."
+      },
+      {
+        "correcta": "condujo",
+        "incorrecta": "conducio",
+        "contexto": "Mi papá ___ toda la noche.",
+        "regla": "Los verbos en ducir tienen pretérito fuerte en duj."
+      },
+      {
+        "correcta": "proteger",
+        "incorrecta": "protejer",
+        "contexto": "Hay que ___ el medio ambiente.",
+        "regla": "Los verbos terminados en ger y gir se escriben con g."
+      },
+      {
+        "correcta": "dirijo",
+        "incorrecta": "dirigo",
+        "contexto": "Yo ___ el equipo.",
+        "regla": "Los verbos en gir cambian la g por j delante de a y de o."
+      },
+      {
+        "correcta": "pingüino",
+        "incorrecta": "pinguino",
+        "contexto": "El ___ vive en el hielo.",
+        "regla": "La diéresis sirve para que la u suene entre g e i."
+      },
+      {
+        "correcta": "vergüenza",
+        "incorrecta": "verguenza",
+        "contexto": "Sintió mucha ___.",
+        "regla": "Sin diéresis, la u no sonaría."
+      },
+      {
+        "correcta": "haber",
+        "incorrecta": "a ver",
+        "contexto": "Debe ___ una explicación.",
+        "regla": "Haber es el verbo. A ver es la preposición a más el infinitivo ver."
+      },
+      {
+        "correcta": "a ver",
+        "incorrecta": "haber",
+        "contexto": "Vamos ___ qué pasa.",
+        "regla": "Aquí es la preposición a seguida del verbo ver."
+      },
+      {
+        "correcta": "hecho",
+        "incorrecta": "echo",
+        "contexto": "Ya está ___ el trabajo.",
+        "regla": "Hecho es participio de hacer. Echo es del verbo echar."
+      },
+      {
+        "correcta": "echo",
+        "incorrecta": "hecho",
+        "contexto": "Te ___ mucho de menos.",
+        "regla": "Echar de menos se escribe sin h."
+      },
+      {
+        "correcta": "hola",
+        "incorrecta": "ola",
+        "contexto": "___, ¿cómo estás?",
+        "regla": "El saludo lleva h. La ola del mar no."
+      },
+      {
+        "correcta": "hasta",
+        "incorrecta": "asta",
+        "contexto": "Te espero ___ las cinco.",
+        "regla": "La preposición lleva h. El asta es el palo de la bandera."
+      },
+      {
+        "correcta": "haya",
+        "incorrecta": "halla",
+        "contexto": "Espero que ___ llegado bien.",
+        "regla": "Haya es del verbo haber. Halla es del verbo hallar."
+      },
+      {
+        "correcta": "cayó",
+        "incorrecta": "calló",
+        "contexto": "Se ___ de la bicicleta.",
+        "regla": "Cayó viene de caer, que no tiene ll."
+      },
+      {
+        "correcta": "calló",
+        "incorrecta": "cayó",
+        "contexto": "Se ___ de repente y no dijo nada más.",
+        "regla": "Calló viene de callar, que sí tiene ll."
+      },
+      {
+        "correcta": "oyó",
+        "incorrecta": "olló",
+        "contexto": "___ un ruido en la cocina.",
+        "regla": "Oyó viene de oír, y la y aparece porque el infinitivo no tiene ll."
+      },
+      {
+        "correcta": "bolsillo",
+        "incorrecta": "bolsiyo",
+        "contexto": "Lo guardó en el ___.",
+        "regla": "Las terminaciones illo e illa se escriben con ll."
+      },
+      {
+        "correcta": "proyecto",
+        "incorrecta": "prollecto",
+        "contexto": "Presentamos el ___ final.",
+        "regla": "La sílaba yec se escribe con y."
+      },
+      {
+        "correcta": "también",
+        "incorrecta": "tanbién",
+        "contexto": "Yo ___ quiero ir.",
+        "regla": "Después de m se escribe b, y además la palabra lleva tilde por ser aguda terminada en n."
+      },
+      {
+        "correcta": "exámenes",
+        "incorrecta": "examenes",
+        "contexto": "Los ___ son la próxima semana.",
+        "regla": "Examen es llana sin tilde, pero exámenes es esdrújula y siempre lleva tilde."
+      },
+      {
+        "correcta": "jóvenes",
+        "incorrecta": "jovenes",
+        "contexto": "Los ___ llegaron temprano.",
+        "regla": "Al pasar al plural la palabra se vuelve esdrújula y necesita tilde."
+      },
+      {
+        "correcta": "país",
+        "incorrecta": "pais",
+        "contexto": "Es el ___ más grande de la región.",
+        "regla": "Hay hiato de vocal cerrada tónica, así que la tilde es obligatoria."
+      },
+      {
+        "correcta": "día",
+        "incorrecta": "dia",
+        "contexto": "Fue un ___ muy largo.",
+        "regla": "Hiato de i tónica junto a a, y por eso lleva tilde aunque sea llana terminada en vocal."
+      },
+      {
+        "correcta": "sabía",
+        "incorrecta": "sabia",
+        "contexto": "Yo no ___ nada de eso.",
+        "regla": "Sabía con tilde es del verbo saber. Sabia sin tilde es un adjetivo."
+      },
+      {
+        "correcta": "sé",
+        "incorrecta": "se",
+        "contexto": "Yo ___ la respuesta.",
+        "regla": "Sé del verbo saber lleva tilde diacrítica."
+      },
+      {
+        "correcta": "sí",
+        "incorrecta": "si",
+        "contexto": "___, estoy de acuerdo.",
+        "regla": "La afirmación lleva tilde. La conjunción condicional no."
+      },
+      {
+        "correcta": "más",
+        "incorrecta": "mas",
+        "contexto": "Quiero ___ tiempo.",
+        "regla": "Más de cantidad lleva tilde. Mas equivalente a pero no la lleva."
+      },
+      {
+        "correcta": "aún",
+        "incorrecta": "aun",
+        "contexto": "___ no ha llegado.",
+        "regla": "Cuando equivale a todavía, lleva tilde."
+      },
+      {
+        "correcta": "qué",
+        "incorrecta": "que",
+        "contexto": "No sé ___ quieres decir.",
+        "regla": "En las preguntas indirectas el interrogativo lleva tilde aunque no haya signos."
+      },
+      {
+        "correcta": "porque",
+        "incorrecta": "por qué",
+        "contexto": "No fui ___ estaba enfermo.",
+        "regla": "Porque junto y sin tilde introduce la causa."
+      },
+      {
+        "correcta": "por qué",
+        "incorrecta": "porque",
+        "contexto": "Dime ___ no viniste.",
+        "regla": "Por qué separado y con tilde pregunta la causa, incluso en preguntas indirectas."
+      }
+    ],
+    "acentuacion": [
+      {
+        "palabra": "canción"
+      },
+      {
+        "palabra": "árbol"
+      },
+      {
+        "palabra": "lápiz"
+      },
+      {
+        "palabra": "reloj"
+      },
+      {
+        "palabra": "gramática"
+      },
+      {
+        "palabra": "sílaba"
+      },
+      {
+        "palabra": "corazón"
+      },
+      {
+        "palabra": "examen"
+      },
+      {
+        "palabra": "exámenes"
+      },
+      {
+        "palabra": "joven"
+      },
+      {
+        "palabra": "jóvenes"
+      },
+      {
+        "palabra": "papel"
+      },
+      {
+        "palabra": "cantar"
+      },
+      {
+        "palabra": "cantó"
+      },
+      {
+        "palabra": "cantaba"
+      },
+      {
+        "palabra": "sofá"
+      },
+      {
+        "palabra": "útil"
+      },
+      {
+        "palabra": "músico"
+      },
+      {
+        "palabra": "difícil"
+      },
+      {
+        "palabra": "fácil"
+      },
+      {
+        "palabra": "literatura"
+      },
+      {
+        "palabra": "ortografía"
+      },
+      {
+        "palabra": "sintaxis"
+      },
+      {
+        "palabra": "análisis"
+      },
+      {
+        "palabra": "país"
+      },
+      {
+        "palabra": "día"
+      },
+      {
+        "palabra": "baúl"
+      },
+      {
+        "palabra": "maíz"
+      },
+      {
+        "palabra": "oír"
+      },
+      {
+        "palabra": "río"
+      },
+      {
+        "palabra": "poesía"
+      },
+      {
+        "palabra": "energía"
+      },
+      {
+        "palabra": "teatro"
+      },
+      {
+        "palabra": "poeta"
+      },
+      {
+        "palabra": "aire"
+      },
+      {
+        "palabra": "ciudad"
+      },
+      {
+        "palabra": "también"
+      },
+      {
+        "palabra": "jamás"
+      },
+      {
+        "palabra": "después"
+      },
+      {
+        "palabra": "inglés"
+      },
+      {
+        "palabra": "césped"
+      },
+      {
+        "palabra": "cárcel"
+      },
+      {
+        "palabra": "azúcar"
+      },
+      {
+        "palabra": "carácter"
+      },
+      {
+        "palabra": "caracteres"
+      },
+      {
+        "palabra": "regimen"
+      },
+      {
+        "palabra": "crisis"
+      },
+      {
+        "palabra": "lunes"
+      },
+      {
+        "palabra": "miércoles"
+      },
+      {
+        "palabra": "sábado"
+      },
+      {
+        "palabra": "México"
+      },
+      {
+        "palabra": "Oaxaca"
+      },
+      {
+        "palabra": "pájaro"
+      },
+      {
+        "palabra": "murciélago"
+      },
+      {
+        "palabra": "esdrújula"
+      },
+      {
+        "palabra": "rápido"
+      },
+      {
+        "palabra": "próximo"
+      },
+      {
+        "palabra": "público"
+      },
+      {
+        "palabra": "político"
+      },
+      {
+        "palabra": "biblioteca"
+      },
+      {
+        "palabra": "escuela"
+      },
+      {
+        "palabra": "maestro"
+      },
+      {
+        "palabra": "cuaderno"
+      },
+      {
+        "palabra": "mochila"
+      },
+      {
+        "palabra": "ventana"
+      },
+      {
+        "palabra": "computadora"
+      },
+      {
+        "palabra": "teléfono"
+      },
+      {
+        "palabra": "número"
+      },
+      {
+        "palabra": "página"
+      },
+      {
+        "palabra": "capítulo"
+      },
+      {
+        "palabra": "título"
+      },
+      {
+        "palabra": "párrafo"
+      },
+      {
+        "palabra": "oración"
+      },
+      {
+        "palabra": "sujeto"
+      },
+      {
+        "palabra": "predicado"
+      },
+      {
+        "palabra": "adjetivo"
+      },
+      {
+        "palabra": "pronombre"
+      },
+      {
+        "palabra": "preposición"
+      },
+      {
+        "palabra": "conjunción"
+      },
+      {
+        "palabra": "verbo"
+      },
+      {
+        "palabra": "metáfora"
+      },
+      {
+        "palabra": "hipérbole"
+      },
+      {
+        "palabra": "símil"
+      },
+      {
+        "palabra": "anáfora"
+      },
+      {
+        "palabra": "aliteración"
+      },
+      {
+        "palabra": "hipérbaton"
+      },
+      {
+        "palabra": "soneto"
+      },
+      {
+        "palabra": "estrofa"
+      },
+      {
+        "palabra": "romance"
+      },
+      {
+        "palabra": "égloga"
+      },
+      {
+        "palabra": "elegía"
+      },
+      {
+        "palabra": "prólogo"
+      }
+    ]
+  }
+]

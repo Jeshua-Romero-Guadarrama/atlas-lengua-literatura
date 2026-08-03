@@ -1,0 +1,940 @@
+[
+  {
+    "codigo": "acentuacion-agudas",
+    "nombre": "Acentuación de las palabras agudas",
+    "tipo": "Acentuación",
+    "paraQue": "Decidir si una palabra cuya sílaba tónica es la última debe llevar tilde escrita.",
+    "reglas": [
+      {
+        "regla": "Lleva tilde",
+        "cuando": "La palabra termina en vocal",
+        "ejemplos": "*mamá*, *café*, *colibrí*, *dominó*, *iglú*"
+      },
+      {
+        "regla": "Lleva tilde",
+        "cuando": "La palabra termina en n",
+        "ejemplos": "*canción*, *jamón*, *también*, *según*"
+      },
+      {
+        "regla": "Lleva tilde",
+        "cuando": "La palabra termina en s",
+        "ejemplos": "*jamás*, *después*, *inglés*, *compás*"
+      },
+      {
+        "regla": "No lleva tilde",
+        "cuando": "Termina en cualquier otra consonante",
+        "ejemplos": "*reloj*, *papel*, *cantar*, *feliz*, *pared*"
+      },
+      {
+        "regla": "No lleva tilde",
+        "cuando": "Termina en s precedida de otra consonante",
+        "ejemplos": "*robots*, *tictacs*"
+      }
+    ],
+    "comoAplicarla": "Primero se separa la palabra en sílabas y se comprueba que la fuerza recae en la última. Solo entonces se mira la letra final. Si es vocal, n o s, lleva tilde. Si no, no la lleva.",
+    "excepciones": "Las palabras terminadas en y no llevan tilde aunque sean agudas y la y suene como vocal, así que se escribe *virrey* y *convoy*. Y cuando hay un hiato de vocal cerrada tónica, la tilde se pone siempre, aunque la regla general no la pidiera.",
+    "etiquetas": [
+      "aguda",
+      "tilde",
+      "acentuación"
+    ]
+  },
+  {
+    "codigo": "acentuacion-llanas",
+    "nombre": "Acentuación de las palabras graves o llanas",
+    "tipo": "Acentuación",
+    "paraQue": "Decidir si una palabra cuya sílaba tónica es la penúltima debe llevar tilde escrita.",
+    "reglas": [
+      {
+        "regla": "Lleva tilde",
+        "cuando": "NO termina en vocal, en n ni en s",
+        "ejemplos": "*lápiz*, *árbol*, *fácil*, *césped*, *carácter*"
+      },
+      {
+        "regla": "No lleva tilde",
+        "cuando": "Termina en vocal",
+        "ejemplos": "*casa*, *libro*, *mesa*, *ventana*"
+      },
+      {
+        "regla": "No lleva tilde",
+        "cuando": "Termina en n o en s",
+        "ejemplos": "*examen*, *joven*, *crisis*, *lunes*"
+      },
+      {
+        "regla": "Lleva tilde",
+        "cuando": "Termina en s precedida de consonante",
+        "ejemplos": "*bíceps*, *fórceps*, *cómics*"
+      }
+    ],
+    "comoAplicarla": "La regla de las llanas es exactamente la contraria a la de las agudas, y conviene aprenderlas juntas. La mayor parte de las palabras españolas son llanas terminadas en vocal, y por eso la mayoría no lleva tilde.",
+    "excepciones": "Si hay hiato de vocal cerrada tónica, la tilde se pone aunque la palabra sea llana terminada en vocal, como en *día*, *tenía* y *serías*.",
+    "etiquetas": [
+      "llana",
+      "grave",
+      "tilde",
+      "acentuación"
+    ]
+  },
+  {
+    "codigo": "acentuacion-esdrujulas",
+    "nombre": "Acentuación de esdrújulas y sobresdrújulas",
+    "tipo": "Acentuación",
+    "paraQue": "Resolver de una vez el caso más sencillo de la acentuación, porque no admite excepciones.",
+    "reglas": [
+      {
+        "regla": "Lleva tilde siempre",
+        "cuando": "La tónica es la antepenúltima sílaba (esdrújula)",
+        "ejemplos": "*gramática*, *sílaba*, *rápido*, *México*, *pájaro*"
+      },
+      {
+        "regla": "Lleva tilde siempre",
+        "cuando": "La tónica está antes de la antepenúltima (sobresdrújula)",
+        "ejemplos": "*cómetelo*, *dígamelo*, *devuélvemelo*, *rápidamente*"
+      }
+    ],
+    "comoAplicarla": "Basta con localizar la sílaba tónica. Si está en la antepenúltima posición o más atrás, se pone la tilde sin consultar nada más.",
+    "excepciones": "No hay ninguna. Las sobresdrújulas casi siempre son formas verbales con dos pronombres pegados, o adverbios en mente formados sobre un adjetivo que ya llevaba tilde.",
+    "etiquetas": [
+      "esdrújula",
+      "sobresdrújula",
+      "tilde"
+    ]
+  },
+  {
+    "codigo": "acentuacion-hiatos",
+    "nombre": "La tilde en los hiatos",
+    "tipo": "Acentuación",
+    "paraQue": "Marcar por escrito que dos vocales que parecen formar diptongo se pronuncian en sílabas distintas.",
+    "reglas": [
+      {
+        "regla": "Tilde obligatoria",
+        "cuando": "Una vocal cerrada tónica (i, u) está junto a una abierta (a, e, o)",
+        "ejemplos": "*día*, *país*, *baúl*, *oír*, *reímos*, *maíz*"
+      },
+      {
+        "regla": "Tilde obligatoria",
+        "cuando": "Lo anterior ocurre aunque haya una h en medio",
+        "ejemplos": "*prohíbe*, *búho*, *rehúso*"
+      },
+      {
+        "regla": "Se aplica la regla general",
+        "cuando": "El hiato es de dos vocales abiertas",
+        "ejemplos": "*poeta* y *teatro* sin tilde, *león* y *Rafael* según la regla"
+      }
+    ],
+    "comoAplicarla": "Se pronuncia la palabra despacio. Si la i o la u se separan de la vocal de al lado y llevan la fuerza, hay hiato acentual y la tilde es obligatoria, mande lo que mande la regla de agudas y llanas.",
+    "excepciones": "Los monosílabos con diptongo no llevan tilde: Se escribe *fue*, *fui*, *vio* y *dio* sin ella. Y la combinación ui se considera siempre diptongo, así que *huir* y *construido* no la llevan.",
+    "etiquetas": [
+      "hiato",
+      "diptongo",
+      "tilde",
+      "vocal cerrada"
+    ]
+  },
+  {
+    "codigo": "tilde-diacritica-norma",
+    "nombre": "La tilde diacrítica en los monosílabos",
+    "tipo": "Acentuación",
+    "paraQue": "Distinguir por escrito dos palabras iguales que pertenecen a clases gramaticales distintas.",
+    "reglas": [
+      {
+        "regla": "él con tilde",
+        "cuando": "Es pronombre personal",
+        "ejemplos": "*Él* llegó tarde, frente a *el* libro"
+      },
+      {
+        "regla": "tú con tilde",
+        "cuando": "Es pronombre personal",
+        "ejemplos": "*Tú* sabes, frente a *tu* casa"
+      },
+      {
+        "regla": "mí con tilde",
+        "cuando": "Es pronombre personal",
+        "ejemplos": "Es para *mí*, frente a *mi* cuaderno"
+      },
+      {
+        "regla": "sé con tilde",
+        "cuando": "Es del verbo saber o del verbo ser",
+        "ejemplos": "Yo *sé* la respuesta, frente a *se* fue"
+      },
+      {
+        "regla": "sí con tilde",
+        "cuando": "Es afirmación o pronombre reflexivo",
+        "ejemplos": "*Sí*, claro, frente a *si* llueve"
+      },
+      {
+        "regla": "dé con tilde",
+        "cuando": "Es del verbo dar",
+        "ejemplos": "Que te lo *dé*, frente a vaso *de* agua"
+      },
+      {
+        "regla": "té con tilde",
+        "cuando": "Es la bebida",
+        "ejemplos": "Un *té* caliente, frente a *te* lo dije"
+      },
+      {
+        "regla": "más con tilde",
+        "cuando": "Es adverbio de cantidad",
+        "ejemplos": "Quiero *más*, frente a lo intenté, *mas* fallé"
+      },
+      {
+        "regla": "aún con tilde",
+        "cuando": "Equivale a todavía",
+        "ejemplos": "*Aún* no llega, frente a *aun* los niños lo saben"
+      }
+    ],
+    "comoAplicarla": "Se sustituye la palabra por su equivalente. Si más se puede cambiar por pero, va sin tilde. Si aún se puede cambiar por todavía, la lleva.",
+    "excepciones": "Los demostrativos (este, ese, aquel) y el adverbio solo ya no llevan tilde en ningún caso, ni siquiera cuando son pronombres o adverbios. Escribirla se considera hoy un error, no una opción.",
+    "etiquetas": [
+      "tilde diacrítica",
+      "monosílabo",
+      "aún",
+      "más",
+      "sé"
+    ]
+  },
+  {
+    "codigo": "tilde-interrogativos",
+    "nombre": "La tilde en interrogativos y exclamativos",
+    "tipo": "Acentuación",
+    "paraQue": "Distinguir las palabras que preguntan o exclaman de las que enlazan proposiciones.",
+    "reglas": [
+      {
+        "regla": "Con tilde",
+        "cuando": "Introducen una pregunta directa",
+        "ejemplos": "¿*Qué* quieres?, ¿*Dónde* vives?, ¿*Cuándo* llegas?"
+      },
+      {
+        "regla": "Con tilde",
+        "cuando": "Introducen una pregunta indirecta, aunque no haya signos",
+        "ejemplos": "No sé *qué* quieres. Dime *dónde* vives."
+      },
+      {
+        "regla": "Con tilde",
+        "cuando": "Introducen una exclamación",
+        "ejemplos": "¡*Cómo* llueve!, ¡*Cuánta* gente!"
+      },
+      {
+        "regla": "Sin tilde",
+        "cuando": "Son pronombres relativos o conjunciones",
+        "ejemplos": "El libro *que* compré. La casa *donde* vivo. Vino *cuando* pudo."
+      }
+    ],
+    "comoAplicarla": "Se comprueba si la palabra pide información o la pondera. Si se puede colocar delante de ella la frase quiero saber, lleva tilde aunque la oración no sea una pregunta.",
+    "excepciones": "No las hay, pero el error más frecuente está en las preguntas indirectas, que al no llevar signos de interrogación parecen no necesitar la tilde. La necesitan siempre.",
+    "etiquetas": [
+      "interrogativo",
+      "exclamativo",
+      "tilde",
+      "pregunta indirecta"
+    ]
+  },
+  {
+    "codigo": "norma-b-v",
+    "nombre": "Cuándo se escribe b y cuándo v",
+    "tipo": "Letras dudosas",
+    "paraQue": "Elegir entre dos letras que en español suenan exactamente igual.",
+    "reglas": [
+      {
+        "regla": "b",
+        "cuando": "Va delante de otra consonante",
+        "ejemplos": "*hablar*, *brazo*, *obtener*, *absoluto*, *bloque*"
+      },
+      {
+        "regla": "b",
+        "cuando": "Va después de m",
+        "ejemplos": "*hombre*, *cambio*, *sombra*, *también*, *ambos*"
+      },
+      {
+        "regla": "b",
+        "cuando": "Está en la terminación del copretérito de los verbos en ar y en el de ir",
+        "ejemplos": "*cantaba*, *jugábamos*, *estudiaban*, *iba*"
+      },
+      {
+        "regla": "b",
+        "cuando": "Aparece en las sílabas bu, bur, bus y en los prefijos bi, bis, biz, bene, bien",
+        "ejemplos": "*buscar*, *burla*, *bicicleta*, *bienestar*"
+      },
+      {
+        "regla": "b",
+        "cuando": "El verbo termina en bir o en buir",
+        "ejemplos": "*escribir*, *recibir*, *contribuir*"
+      },
+      {
+        "regla": "v",
+        "cuando": "Va después de n",
+        "ejemplos": "*invierno*, *envío*, *convenio*, *conversar*"
+      },
+      {
+        "regla": "v",
+        "cuando": "Va después de ad, sub y ob",
+        "ejemplos": "*advertir*, *subvención*, *obvio*"
+      },
+      {
+        "regla": "v",
+        "cuando": "El adjetivo termina en ava, ave, avo, eva, eve, evo, iva, ivo",
+        "ejemplos": "*grave*, *nuevo*, *activo*, *octava*, *breve*"
+      },
+      {
+        "regla": "v",
+        "cuando": "Son formas del presente de ir o pretéritos de andar, estar y tener",
+        "ejemplos": "*voy*, *vaya*, *anduve*, *estuvo*, *tuvimos*"
+      }
+    ],
+    "comoAplicarla": "Antes de mirar la regla conviene buscar una palabra de la misma familia en la que la letra esté clara. Si en la familia hay b, la palabra dudosa también la lleva.",
+    "excepciones": "Los verbos *hervir*, *servir* y *vivir* terminan en vir y llevan v, aunque la regla de los verbos en bir haga pensar lo contrario.",
+    "etiquetas": [
+      "b",
+      "v",
+      "letras dudosas"
+    ]
+  },
+  {
+    "codigo": "norma-c-s-z",
+    "nombre": "Cuándo se escribe c, s o z",
+    "tipo": "Letras dudosas",
+    "paraQue": "Resolver el grupo de dudas más frecuente en México y en toda Hispanoamérica, donde las tres letras suenan igual delante de e y de i.",
+    "reglas": [
+      {
+        "regla": "ción",
+        "cuando": "La familia de la palabra tiene formas en to o en do",
+        "ejemplos": "*composición* (compuesto), *educación* (educado), *canción*"
+      },
+      {
+        "regla": "sión",
+        "cuando": "La familia tiene formas en so, sor o sivo",
+        "ejemplos": "*expresión* (expresivo), *televisión* (televisor), *comprensión* (comprensivo)"
+      },
+      {
+        "regla": "c",
+        "cuando": "Es el plural de una palabra terminada en z",
+        "ejemplos": "*lápiz* y lápices, *pez* y peces, *voz* y voces"
+      },
+      {
+        "regla": "c",
+        "cuando": "Está en los diminutivos cito, cillo, cico",
+        "ejemplos": "*panecillo*, *cochecito*, *ratoncito*"
+      },
+      {
+        "regla": "s",
+        "cuando": "El adjetivo termina en oso u osa",
+        "ejemplos": "*hermoso*, *famosa*, *cariñoso*"
+      },
+      {
+        "regla": "s",
+        "cuando": "Es un superlativo en ísimo o ísima",
+        "ejemplos": "*grandísimo*, *bellísima*, *facilísimo*"
+      },
+      {
+        "regla": "s",
+        "cuando": "Es un gentilicio en ense",
+        "ejemplos": "*costarricense*, *nicaragüense*, *estadounidense*"
+      },
+      {
+        "regla": "z",
+        "cuando": "Es un aumentativo o un golpe en azo o aza",
+        "ejemplos": "*portazo*, *codazo*, *manaza*"
+      },
+      {
+        "regla": "z",
+        "cuando": "Es un sustantivo abstracto en eza, anza o ez",
+        "ejemplos": "*belleza*, *esperanza*, *timidez*"
+      },
+      {
+        "regla": "c en lugar de z",
+        "cuando": "La z quedaría delante de e o de i",
+        "ejemplos": "*cruzar* y crucé, *empezar* y empiece, *rezar* y recé"
+      }
+    ],
+    "comoAplicarla": "Para elegir entre ción y sión se busca siempre una palabra de la familia. La terminación de ese pariente decide la letra, y ese truco resuelve la inmensa mayoría de los casos.",
+    "excepciones": "Algunas palabras muy usadas no siguen las reglas y hay que aprenderlas: *sinvergüenza*, *presión* (aunque venga de presionar), *sensación* y *satisfacción*. La combinación z delante de e solo aparece en unas pocas palabras como *zeta*, *zen* y *enzima*.",
+    "etiquetas": [
+      "c",
+      "s",
+      "z",
+      "ción",
+      "sión",
+      "seseo"
+    ]
+  },
+  {
+    "codigo": "norma-g-j",
+    "nombre": "Cuándo se escribe g y cuándo j",
+    "tipo": "Letras dudosas",
+    "paraQue": "Elegir entre g y j delante de e y de i, que es donde las dos letras suenan igual.",
+    "reglas": [
+      {
+        "regla": "g",
+        "cuando": "La palabra termina en gente, gencia, gio, gia, gioso",
+        "ejemplos": "*inteligente*, *urgencia*, *colegio*, *magia*, *religioso*"
+      },
+      {
+        "regla": "g",
+        "cuando": "El verbo termina en ger o en gir",
+        "ejemplos": "*proteger*, *dirigir*, *elegir*, *corregir*"
+      },
+      {
+        "regla": "g",
+        "cuando": "Empieza por geo, gest o lleva legi",
+        "ejemplos": "*geografía*, *gestión*, *legible*, *legislar*"
+      },
+      {
+        "regla": "j",
+        "cuando": "La palabra termina en aje, eje o jería",
+        "ejemplos": "*viaje*, *garaje*, *hereje*, *relojería*"
+      },
+      {
+        "regla": "j",
+        "cuando": "El verbo termina en jear",
+        "ejemplos": "*canjear*, *cojear*, *hojear*"
+      },
+      {
+        "regla": "j",
+        "cuando": "Es el pretérito con sonido je de traer, decir o los verbos en ducir",
+        "ejemplos": "*traje*, *dije*, *conduje*, *produjeron*"
+      },
+      {
+        "regla": "gu",
+        "cuando": "Se quiere el sonido suave delante de e o de i",
+        "ejemplos": "*guerra*, *guitarra*, *seguir*"
+      },
+      {
+        "regla": "gü con diéresis",
+        "cuando": "La u de gue o gui debe sonar",
+        "ejemplos": "*pingüino*, *vergüenza*, *lingüística*, *bilingüe*"
+      }
+    ],
+    "comoAplicarla": "Se mira primero la terminación, porque es lo que decide en casi todos los casos. Si la palabra es una forma verbal del pretérito con sonido je, la letra es j sin excepción.",
+    "excepciones": "Los verbos *tejer* y *crujir* llevan j aunque terminen en jer y jir. Y los verbos en ger y gir cambian la g por j delante de a y de o, así que proteger da *protejo* y dirigir da *dirijo*.",
+    "etiquetas": [
+      "g",
+      "j",
+      "diéresis",
+      "letras dudosas"
+    ]
+  },
+  {
+    "codigo": "norma-h",
+    "nombre": "Cuándo se escribe h",
+    "tipo": "Letras dudosas",
+    "paraQue": "Escribir correctamente una letra que no suena y que, por tanto, el oído no puede detectar.",
+    "reglas": [
+      {
+        "regla": "h",
+        "cuando": "La palabra empieza por los diptongos ie, ue o ua",
+        "ejemplos": "*hielo*, *hueso*, *huaraches*, *huevo*, *hierba*"
+      },
+      {
+        "regla": "h",
+        "cuando": "Pertenece a los verbos haber, hacer, hablar, hallar o habitar",
+        "ejemplos": "*hay*, *hecho*, *hablamos*, *habitación*, *hallazgo*"
+      },
+      {
+        "regla": "h",
+        "cuando": "Lleva los prefijos hidro, hiper, hipo, hemi, hetero, homo, hexa, hepta",
+        "ejemplos": "*hidráulico*, *hipérbole*, *hipótesis*, *homogéneo*"
+      },
+      {
+        "regla": "h",
+        "cuando": "Empieza por hum seguida de vocal",
+        "ejemplos": "*humano*, *humedad*, *humilde*, *humor*"
+      },
+      {
+        "regla": "Sin h",
+        "cuando": "Se trata de la preposición a, del verbo echar o del sustantivo ola",
+        "ejemplos": "voy *a* casa, *echar* de menos, la *ola* del mar"
+      }
+    ],
+    "comoAplicarla": "Como la h no suena, lo que funciona es apoyarse en la familia de palabras. Si un pariente cercano lleva h, la palabra también la lleva: De hueso viene *óseo* sin h, pero de hombre vienen *hombrera* y *hombría* con ella.",
+    "excepciones": "Hay parejas que solo se distinguen por la h y conviene memorizarlas: *hola* y *ola*, *hecho* y *echo*, *hasta* y *asta*, *hay*, *ahí* y *ay*, *haber* y *a ver*.",
+    "etiquetas": [
+      "h",
+      "hache",
+      "letras dudosas"
+    ]
+  },
+  {
+    "codigo": "norma-ll-y",
+    "nombre": "Cuándo se escribe ll y cuándo y",
+    "tipo": "Letras dudosas",
+    "paraQue": "Elegir entre dos grafías que en casi toda Hispanoamérica suenan igual por el yeísmo.",
+    "reglas": [
+      {
+        "regla": "ll",
+        "cuando": "La palabra termina en illo, illa, ello o ella",
+        "ejemplos": "*bolsillo*, *mesilla*, *camello*, *estrella*"
+      },
+      {
+        "regla": "ll",
+        "cuando": "El verbo termina en llar, llir o ullir",
+        "ejemplos": "*callar*, *bullir*, *engullir*"
+      },
+      {
+        "regla": "ll",
+        "cuando": "Empieza por fa, fo o fu",
+        "ejemplos": "*falla*, *folleto*, *fullería*"
+      },
+      {
+        "regla": "y",
+        "cuando": "Es la conjunción copulativa",
+        "ejemplos": "pan *y* vino"
+      },
+      {
+        "regla": "y",
+        "cuando": "Está al final de palabra después de vocal",
+        "ejemplos": "*rey*, *hoy*, *muy*, *convoy*"
+      },
+      {
+        "regla": "y",
+        "cuando": "Es una forma verbal en la que no hay ni ll ni y en el infinitivo",
+        "ejemplos": "*oyó* (de oír), *cayó* (de caer), *huyeron* (de huir)"
+      },
+      {
+        "regla": "y",
+        "cuando": "La palabra lleva la sílaba yec o yer",
+        "ejemplos": "*proyecto*, *inyección*, *yerno*"
+      }
+    ],
+    "comoAplicarla": "El caso de los verbos es el que más se equivoca. Si el infinitivo no tiene ll, la forma conjugada tampoco puede tenerla: De caer sale *cayó*, nunca callo.",
+    "excepciones": "La conjunción y se convierte en e delante de palabras que empiezan por i o por hi, así que se escribe padre *e* hijo y aguja *e* hilo, pero no delante de hie, donde se mantiene: agua y hielo.",
+    "etiquetas": [
+      "ll",
+      "y",
+      "yeísmo",
+      "letras dudosas"
+    ]
+  },
+  {
+    "codigo": "norma-r-rr",
+    "nombre": "Cuándo se escribe r y cuándo rr",
+    "tipo": "Letras dudosas",
+    "paraQue": "Representar por escrito los dos sonidos distintos que tiene la erre en español.",
+    "reglas": [
+      {
+        "regla": "r",
+        "cuando": "Suena suave entre vocales",
+        "ejemplos": "*cara*, *pero*, *mirar*"
+      },
+      {
+        "regla": "r",
+        "cuando": "Suena fuerte al principio de palabra",
+        "ejemplos": "*rosa*, *río*, *ratón*"
+      },
+      {
+        "regla": "r",
+        "cuando": "Suena fuerte después de l, n o s",
+        "ejemplos": "*alrededor*, *enredo*, *israelí*, *honra*"
+      },
+      {
+        "regla": "rr",
+        "cuando": "Suena fuerte entre dos vocales",
+        "ejemplos": "*perro*, *carro*, *tierra*"
+      },
+      {
+        "regla": "rr",
+        "cuando": "Se forma una palabra compuesta y la segunda parte empieza por r",
+        "ejemplos": "*vicerrector*, *pelirrojo*, *contrarreloj*"
+      }
+    ],
+    "comoAplicarla": "La única situación en la que hay duda real es entre vocales, porque ahí el sonido suave se escribe con una erre y el fuerte con dos. En cualquier otra posición basta una sola erre.",
+    "excepciones": "En las palabras compuestas hay que vigilar la unión. Aunque roja se escriba con una sola erre, *pelirrojo* lleva dos porque la erre quedó entre vocales.",
+    "etiquetas": [
+      "r",
+      "rr",
+      "letras dudosas"
+    ]
+  },
+  {
+    "codigo": "norma-coma",
+    "nombre": "El uso de la coma",
+    "tipo": "Puntuación",
+    "paraQue": "Separar los elementos de una oración y marcar sus límites internos.",
+    "reglas": [
+      {
+        "regla": "Se pone coma",
+        "cuando": "Se enumeran elementos de la misma clase",
+        "ejemplos": "Compré *pan, leche, huevos* y fruta"
+      },
+      {
+        "regla": "Se pone coma",
+        "cuando": "Va delante de pero, mas, sino, aunque y así que",
+        "ejemplos": "Estudió mucho*, pero* no aprobó"
+      },
+      {
+        "regla": "Se pone coma",
+        "cuando": "Se encierra un inciso explicativo",
+        "ejemplos": "Mi hermana*, que es maestra,* me ayudó"
+      },
+      {
+        "regla": "Se pone coma",
+        "cuando": "Se adelanta un complemento largo",
+        "ejemplos": "*Durante toda la mañana,* estuvimos ensayando"
+      },
+      {
+        "regla": "Se pone coma",
+        "cuando": "Se marca un vocativo",
+        "ejemplos": "*Ana,* ven aquí. Ven aquí*, Ana*"
+      },
+      {
+        "regla": "Se pone coma",
+        "cuando": "Se omite un verbo ya mencionado",
+        "ejemplos": "Yo estudio Letras; mi hermano*,* Medicina"
+      },
+      {
+        "regla": "Se pone coma",
+        "cuando": "Va detrás de un conector como sin embargo, por lo tanto o es decir",
+        "ejemplos": "*Sin embargo,* nadie protestó"
+      },
+      {
+        "regla": "NO se pone coma",
+        "cuando": "Separaría el sujeto de su verbo",
+        "ejemplos": "Los alumnos de tercero entregaron el trabajo"
+      },
+      {
+        "regla": "NO se pone coma",
+        "cuando": "Va antes de la y final de una enumeración simple",
+        "ejemplos": "Compré pan, leche y fruta"
+      }
+    ],
+    "comoAplicarla": "La coma responde a la estructura de la oración y no a la respiración. La regla que hay que grabar primero es que entre el sujeto y su verbo nunca hay coma, por largo que sea el sujeto.",
+    "excepciones": "Sí se admite coma antes de la y cuando lo que sigue no pertenece a la enumeración, o cuando la enumeración ya tiene comas dentro de sus elementos.",
+    "etiquetas": [
+      "coma",
+      "puntuación",
+      "inciso",
+      "vocativo"
+    ]
+  },
+  {
+    "codigo": "norma-punto-y-coma",
+    "nombre": "El punto y coma",
+    "tipo": "Puntuación",
+    "paraQue": "Marcar una pausa mayor que la coma y menor que el punto, casi siempre para ordenar enumeraciones complejas.",
+    "reglas": [
+      {
+        "regla": "Se usa",
+        "cuando": "Separa elementos de una enumeración que ya llevan comas dentro",
+        "ejemplos": "Vinieron Ana, la mayor*;* Luis, el mediano*;* y Sara"
+      },
+      {
+        "regla": "Se usa",
+        "cuando": "Une dos oraciones muy relacionadas entre sí",
+        "ejemplos": "No estudió*;* el resultado era previsible"
+      },
+      {
+        "regla": "Se usa",
+        "cuando": "Va delante de un conector que introduce una oración larga",
+        "ejemplos": "Llegó tarde*; sin embargo,* nadie se lo reprochó"
+      }
+    ],
+    "comoAplicarla": "La prueba es intentar sustituirlo por un punto. Si se puede y el texto no pierde nada, el punto y coma era optativo. Si al ponerlo se rompe la lista, entonces era obligatorio.",
+    "excepciones": "En el estilo de este atlas se prefiere el paréntesis cuando lo que sigue al punto y coma es un matiz o una aclaración de lo anterior, porque se lee mejor.",
+    "etiquetas": [
+      "punto y coma",
+      "puntuación",
+      "enumeración"
+    ]
+  },
+  {
+    "codigo": "norma-dos-puntos",
+    "nombre": "Los dos puntos",
+    "tipo": "Puntuación",
+    "paraQue": "Anunciar lo que viene a continuación, ya sea una lista, una cita o una explicación.",
+    "reglas": [
+      {
+        "regla": "Se usan",
+        "cuando": "Se anuncia una enumeración",
+        "ejemplos": "Necesito tres cosas*:* papel, tinta y tiempo"
+      },
+      {
+        "regla": "Se usan",
+        "cuando": "Se introduce una cita textual",
+        "ejemplos": "Dijo*:* No pienso volver"
+      },
+      {
+        "regla": "Se usan",
+        "cuando": "Lo que sigue explica o resume lo anterior",
+        "ejemplos": "Solo hay una salida*:* estudiar"
+      },
+      {
+        "regla": "Se usan",
+        "cuando": "Van después del saludo de una carta",
+        "ejemplos": "Estimada profesora*:*"
+      },
+      {
+        "regla": "NO se usan",
+        "cuando": "Se separaría el verbo de su complemento",
+        "ejemplos": "Necesito papel y tinta, no necesito: papel y tinta"
+      }
+    ],
+    "comoAplicarla": "Los dos puntos son una promesa. Se escriben cuando lo que viene detrás es exactamente lo que se acaba de anunciar. Si no hay nada anunciado, sobran.",
+    "excepciones": "Después de los dos puntos se escribe con minúscula, salvo cuando lo que sigue es una cita textual, el texto de una carta o un título que exija mayúscula.",
+    "etiquetas": [
+      "dos puntos",
+      "puntuación",
+      "cita"
+    ]
+  },
+  {
+    "codigo": "norma-comillas-guiones",
+    "nombre": "Comillas, paréntesis y raya de diálogo",
+    "tipo": "Puntuación",
+    "paraQue": "Marcar lo que no pertenece al hilo principal del texto: Citas, aclaraciones e intervenciones de los personajes.",
+    "reglas": [
+      {
+        "regla": "Comillas",
+        "cuando": "Se reproduce literalmente lo que alguien dijo o escribió",
+        "ejemplos": "Escribió que *la vida es sueño*"
+      },
+      {
+        "regla": "Comillas",
+        "cuando": "Se usa una palabra con ironía o en un sentido especial",
+        "ejemplos": "Su *ayuda* consistió en estorbar"
+      },
+      {
+        "regla": "Comillas",
+        "cuando": "Se cita el título de un artículo, un cuento o un poema dentro de una obra mayor",
+        "ejemplos": "El cuento *Chac Mool*"
+      },
+      {
+        "regla": "Cursiva",
+        "cuando": "Se cita el título de una obra completa o una palabra de otra lengua",
+        "ejemplos": "La novela *Pedro Páramo*"
+      },
+      {
+        "regla": "Paréntesis",
+        "cuando": "Se añade una aclaración que se puede saltar",
+        "ejemplos": "El congreso *(el tercero del año)* fue un éxito"
+      },
+      {
+        "regla": "Raya",
+        "cuando": "Marca la intervención de un personaje en un diálogo",
+        "ejemplos": "Una raya larga abre la intervención y otra encierra el inciso del narrador"
+      }
+    ],
+    "comoAplicarla": "Se elige según el grado de separación que se quiere. El inciso entre comas es el más ligero, el paréntesis marca más distancia y la raya es la que más separa.",
+    "excepciones": "El punto va siempre fuera de las comillas y fuera del paréntesis de cierre en español, al contrario de lo que ocurre en inglés.",
+    "etiquetas": [
+      "comillas",
+      "paréntesis",
+      "raya",
+      "diálogo",
+      "cursiva"
+    ]
+  },
+  {
+    "codigo": "norma-interrogacion",
+    "nombre": "Los signos de interrogación y de exclamación",
+    "tipo": "Puntuación",
+    "paraQue": "Delimitar por escrito las preguntas y las exclamaciones, que en español se marcan al principio y al final.",
+    "reglas": [
+      {
+        "regla": "Signo de apertura obligatorio",
+        "cuando": "Empieza cualquier pregunta o exclamación",
+        "ejemplos": "*¿*Vienes mañana*?*, *¡*Qué frío*!*"
+      },
+      {
+        "regla": "Se abre donde empieza la pregunta",
+        "cuando": "La oración tiene una parte previa que no se pregunta",
+        "ejemplos": "Si puedes, *¿*me llamas*?*"
+      },
+      {
+        "regla": "No se escribe punto después",
+        "cuando": "El signo de cierre ya termina la oración",
+        "ejemplos": "¿Qué hora es? Son las tres"
+      },
+      {
+        "regla": "Sí se escribe coma después",
+        "cuando": "La oración continúa",
+        "ejemplos": "¿Vienes*?*, porque ya nos vamos"
+      },
+      {
+        "regla": "Sin signos",
+        "cuando": "La pregunta es indirecta",
+        "ejemplos": "Me preguntó qué hora era"
+      }
+    ],
+    "comoAplicarla": "El signo de apertura no es optativo en español: Es lo que permite saber dónde empieza la entonación de pregunta. Omitirlo se considera un error, no un ahorro.",
+    "excepciones": "Se pueden combinar los dos signos cuando el enunciado es a la vez pregunta y exclamación, y en ese caso se abre con uno y se cierra con el otro.",
+    "etiquetas": [
+      "interrogación",
+      "exclamación",
+      "signos",
+      "puntuación"
+    ]
+  },
+  {
+    "codigo": "norma-mayusculas",
+    "nombre": "El uso de las mayúsculas",
+    "tipo": "Otras normas",
+    "paraQue": "Saber cuándo una palabra debe empezar por mayúscula, que en español es mucho menos frecuente que en otras lenguas.",
+    "reglas": [
+      {
+        "regla": "Mayúscula",
+        "cuando": "Empieza un texto o va después de punto",
+        "ejemplos": "Llegó tarde. *Nadie* dijo nada"
+      },
+      {
+        "regla": "Mayúscula",
+        "cuando": "Es un nombre propio de persona, de lugar o de institución",
+        "ejemplos": "*Sor Juana*, *Oaxaca*, la *Universidad Nacional*"
+      },
+      {
+        "regla": "Mayúscula",
+        "cuando": "Es la primera palabra del título de una obra",
+        "ejemplos": "*Cien años de soledad*, *El llano en llamas*"
+      },
+      {
+        "regla": "Minúscula",
+        "cuando": "Son días, meses o estaciones",
+        "ejemplos": "*lunes*, *marzo*, *primavera*"
+      },
+      {
+        "regla": "Minúscula",
+        "cuando": "Son idiomas, gentilicios o religiones",
+        "ejemplos": "*español*, *mexicano*, *católico*"
+      },
+      {
+        "regla": "Minúscula",
+        "cuando": "Son cargos, por importantes que sean",
+        "ejemplos": "el *presidente*, la *directora*, el *papa*"
+      },
+      {
+        "regla": "Con tilde",
+        "cuando": "La mayúscula la necesita según las reglas",
+        "ejemplos": "*Álvaro*, *África*, *Órgano*"
+      }
+    ],
+    "comoAplicarla": "Se pregunta si la palabra nombra algo único e identificable. Si es así, va mayúscula. La importancia o el respeto no son motivos válidos para escribir en mayúscula.",
+    "excepciones": "Las siglas se escriben enteras en mayúscula y sin puntos (*UNAM*, *ONU*), pero los acrónimos que ya se leen como palabras normales pueden llevar solo la inicial (*Unesco*, *Pemex*).",
+    "etiquetas": [
+      "mayúsculas",
+      "nombres propios",
+      "siglas",
+      "tilde"
+    ]
+  },
+  {
+    "codigo": "norma-numeros",
+    "nombre": "La escritura de los números",
+    "tipo": "Otras normas",
+    "paraQue": "Decidir cuándo un número se escribe con cifras y cuándo con letras, y cómo se separan sus partes.",
+    "reglas": [
+      {
+        "regla": "Con letras",
+        "cuando": "El número se puede escribir en una sola palabra",
+        "ejemplos": "*tres*, *quince*, *treinta*, *cien*, *mil*"
+      },
+      {
+        "regla": "Con cifras",
+        "cuando": "Acompaña a una unidad de medida o a un símbolo",
+        "ejemplos": "*25* kilómetros, *8* por ciento, *3* pesos"
+      },
+      {
+        "regla": "Con cifras",
+        "cuando": "Son fechas, direcciones o numeraciones",
+        "ejemplos": "el *12* de octubre, página *14*"
+      },
+      {
+        "regla": "Punto decimal",
+        "cuando": "Se escribe una cantidad con decimales",
+        "ejemplos": "*1.5* metros, *3.25* pesos"
+      },
+      {
+        "regla": "Sin punto de millar",
+        "cuando": "Se escriben cantidades de cuatro cifras",
+        "ejemplos": "el año *2026*, *1500* alumnos"
+      }
+    ],
+    "comoAplicarla": "En un texto seguido se prefieren las letras para los números bajos y las cifras para los datos precisos. En México y en el resto de América los decimales se separan con punto, no con coma.",
+    "excepciones": "Los ordinales se escriben con letras hasta el décimo y a partir de ahí se admiten las dos formas. Los años nunca llevan punto ni espacio de millar.",
+    "etiquetas": [
+      "números",
+      "cifras",
+      "decimal",
+      "fechas"
+    ]
+  },
+  {
+    "codigo": "norma-particion",
+    "nombre": "La partición de palabras a final de renglón",
+    "tipo": "Otras normas",
+    "paraQue": "Cortar correctamente una palabra cuando no cabe entera al final de una línea.",
+    "reglas": [
+      {
+        "regla": "Se corta por sílabas",
+        "cuando": "Siempre, sin excepción",
+        "ejemplos": "gra-má-ti-ca, or-to-gra-fí-a"
+      },
+      {
+        "regla": "No se separan",
+        "cuando": "Son grupos inseparables como pr, br, tr, dr, cr, gr, fr, pl, bl, cl, gl, fl",
+        "ejemplos": "no se corta ha-blar como hab-lar"
+      },
+      {
+        "regla": "No se separan",
+        "cuando": "Son los dígrafos ch, ll y rr",
+        "ejemplos": "co-che, ca-lle, pe-rro"
+      },
+      {
+        "regla": "No se deja sola",
+        "cuando": "Una vocal quedaría suelta al final o al principio de línea",
+        "ejemplos": "no se corta a-migo ni cas-a"
+      },
+      {
+        "regla": "No se separan",
+        "cuando": "Las vocales forman diptongo o triptongo",
+        "ejemplos": "cau-sa, no ca-usa"
+      }
+    ],
+    "comoAplicarla": "Antes de cortar hay que separar mentalmente la palabra en sílabas. Si la sílaba tiene un grupo inseparable, ese grupo viaja entero a la línea siguiente.",
+    "excepciones": "Las palabras compuestas admiten cortarse también por sus componentes, así que *nosotros* puede partirse como nos-otros o como no-so-tros.",
+    "etiquetas": [
+      "partición",
+      "guion",
+      "sílaba",
+      "renglón"
+    ]
+  },
+  {
+    "codigo": "norma-abreviaturas",
+    "nombre": "Abreviaturas, siglas y símbolos",
+    "tipo": "Otras normas",
+    "paraQue": "Escribir correctamente las formas acortadas, que siguen reglas distintas según su clase.",
+    "reglas": [
+      {
+        "regla": "Abreviatura",
+        "cuando": "Se acorta una palabra y se cierra con punto",
+        "ejemplos": "*etc.*, *pág.*, *Sr.*, *Dra.*"
+      },
+      {
+        "regla": "Abreviatura en plural",
+        "cuando": "Se duplica la letra o se añade s",
+        "ejemplos": "*págs.*, *EE. UU.*"
+      },
+      {
+        "regla": "Sigla",
+        "cuando": "Se forma con las iniciales y se escribe sin puntos",
+        "ejemplos": "*UNAM*, *ONU*, *IPN*"
+      },
+      {
+        "regla": "Acrónimo",
+        "cuando": "La sigla se lee como una palabra y ya se ha lexicalizado",
+        "ejemplos": "*Unesco*, *Pemex*, *ovni*, *sida*"
+      },
+      {
+        "regla": "Símbolo",
+        "cuando": "Es una unidad de medida o un elemento, y va sin punto y sin plural",
+        "ejemplos": "*km*, *kg*, *m*, *h*"
+      }
+    ],
+    "comoAplicarla": "La diferencia clave es que la abreviatura lleva punto y el símbolo no. Se escribe 25 km sin punto, pero pág. 25 con él.",
+    "excepciones": "Las siglas no llevan plural con s minúscula, así que se escribe *las ONG* y no las ONGs. La primera vez que aparece una sigla poco conocida conviene desarrollarla entre paréntesis.",
+    "etiquetas": [
+      "abreviatura",
+      "sigla",
+      "acrónimo",
+      "símbolo"
+    ]
+  }
+]

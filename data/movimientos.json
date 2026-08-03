@@ -1,0 +1,964 @@
+[
+  {
+    "codigo": "prehispanica",
+    "nombre": "Literatura prehispánica",
+    "periodo": "Antes de 1521",
+    "siglo": "Hasta el siglo XVI",
+    "ambito": "México",
+    "contexto": "Producción literaria de los pueblos originarios de Mesoamérica, transmitida sobre todo de forma oral y recogida en códices. Se conserva gracias a las recopilaciones hechas después de la conquista, muchas veces con la ayuda de informantes indígenas, lo que obliga a leerla con cuidado.",
+    "rasgos": [
+      "Estrecha unión entre literatura, religión y vida comunitaria.",
+      "Uso del difrasismo, que consiste en nombrar una idea con dos palabras emparejadas, como flor y canto para decir poesía.",
+      "Paralelismo y repetición como recursos centrales, propios de una literatura hecha para ser recitada.",
+      "Temas de la fugacidad de la vida, la guerra florida, los dioses y el origen del mundo.",
+      "Ausencia de la noción moderna de autor individual."
+    ],
+    "generos": [
+      "Cantos o cuicatl",
+      "Discursos o tlahtolli",
+      "Himnos rituales",
+      "Relatos de origen"
+    ],
+    "autores": [
+      {
+        "nombre": "Nezahualcóyotl",
+        "obras": [
+          "Cantos atribuidos recogidos en los Romances de los señores de la Nueva España"
+        ],
+        "aporte": "Señor de Texcoco al que se atribuyen cantos sobre la brevedad de la vida y la belleza del mundo."
+      },
+      {
+        "nombre": "Anónimo maya",
+        "obras": [
+          "Popol Vuh",
+          "Libros de Chilam Balam"
+        ],
+        "aporte": "El Popol Vuh narra el origen del mundo y de los hombres según la tradición quiché."
+      },
+      {
+        "nombre": "Anónimo nahua",
+        "obras": [
+          "Cantares mexicanos"
+        ],
+        "aporte": "Colección de cantos que conserva buena parte de la lírica nahua."
+      }
+    ],
+    "obraClave": "Popol Vuh",
+    "comoReconocerlo": "Si el texto emplea parejas de palabras para nombrar una sola idea, repite fórmulas y habla de flores, jade, plumas de quetzal y de lo efímero de la vida, es lírica prehispánica.",
+    "etiquetas": [
+      "prehispánica",
+      "náhuatl",
+      "maya",
+      "difrasismo",
+      "Popol Vuh"
+    ]
+  },
+  {
+    "codigo": "medieval",
+    "nombre": "Literatura medieval",
+    "periodo": "Siglos XI a XV",
+    "siglo": "XI a XV",
+    "ambito": "España",
+    "contexto": "Literatura de una sociedad rural, religiosa y estamental, en la que conviven el árabe, el hebreo, el latín y las lenguas romances. Predomina la transmisión oral, y buena parte de los textos son anónimos porque la obra se entendía como patrimonio común y no como propiedad de un autor.",
+    "rasgos": [
+      "Anonimato de gran parte de las obras.",
+      "Finalidad didáctica o moral casi siempre presente.",
+      "Convivencia de la literatura culta en latín y la popular en romance.",
+      "Uso del verso como forma dominante, incluso en la narración.",
+      "Presencia constante de lo religioso y del más allá."
+    ],
+    "generos": [
+      "Cantar de gesta",
+      "Mester de clerecía",
+      "Lírica tradicional",
+      "Prosa didáctica",
+      "Romancero"
+    ],
+    "autores": [
+      {
+        "nombre": "Anónimo",
+        "obras": [
+          "Cantar de mio Cid"
+        ],
+        "aporte": "Primer gran texto conservado de la épica castellana, en versos de medida irregular con rima asonante."
+      },
+      {
+        "nombre": "Gonzalo de Berceo",
+        "obras": [
+          "Milagros de Nuestra Señora"
+        ],
+        "aporte": "Primer poeta castellano de nombre conocido, representante del mester de clerecía y de la cuaderna vía."
+      },
+      {
+        "nombre": "Juan Ruiz, Arcipreste de Hita",
+        "obras": [
+          "Libro de buen amor"
+        ],
+        "aporte": "Mezcla la enseñanza moral con el humor y la parodia en una obra de difícil clasificación."
+      },
+      {
+        "nombre": "Don Juan Manuel",
+        "obras": [
+          "El conde Lucanor"
+        ],
+        "aporte": "Fija la prosa castellana de ficción con una colección de cuentos con moraleja."
+      },
+      {
+        "nombre": "Jorge Manrique",
+        "obras": [
+          "Coplas a la muerte de su padre"
+        ],
+        "aporte": "Elegía sobre la fugacidad de la vida escrita en coplas de pie quebrado."
+      }
+    ],
+    "obraClave": "Cantar de mio Cid",
+    "comoReconocerlo": "Textos en verso, con frecuencia anónimos, de intención moral o heroica, y con fórmulas repetidas que delatan su origen oral.",
+    "etiquetas": [
+      "medieval",
+      "mester",
+      "cuaderna vía",
+      "Cid",
+      "romancero"
+    ]
+  },
+  {
+    "codigo": "renacimiento",
+    "nombre": "Renacimiento",
+    "periodo": "Siglo XVI",
+    "siglo": "XVI",
+    "ambito": "España",
+    "contexto": "El humanismo recupera la cultura grecolatina y coloca al ser humano en el centro. La imprenta multiplica los libros y la literatura se separa poco a poco de la finalidad exclusivamente religiosa. Se adopta la métrica italiana, sobre todo el endecasílabo y el soneto.",
+    "rasgos": [
+      "Equilibrio, claridad y naturalidad como ideales de estilo.",
+      "Temas clásicos: El amor, la naturaleza idealizada y la mitología.",
+      "Tópicos como el carpe diem (aprovecha el día), el locus amoenus (el lugar agradable) y el beatus ille (dichoso aquel).",
+      "Introducción del endecasílabo, el soneto, la lira y la égloga.",
+      "Aparición de la novela picaresca, que rompe con esa idealización."
+    ],
+    "generos": [
+      "Soneto",
+      "Égloga",
+      "Oda",
+      "Novela picaresca",
+      "Prosa mística"
+    ],
+    "autores": [
+      {
+        "nombre": "Garcilaso de la Vega",
+        "obras": [
+          "Églogas",
+          "Sonetos"
+        ],
+        "aporte": "Aclimata la métrica italiana al castellano y fija el modelo de la lírica amorosa renacentista."
+      },
+      {
+        "nombre": "Fray Luis de León",
+        "obras": [
+          "Oda a la vida retirada"
+        ],
+        "aporte": "Lleva a la poesía el ideal de la vida sencilla alejada de la ambición."
+      },
+      {
+        "nombre": "San Juan de la Cruz",
+        "obras": [
+          "Noche oscura del alma",
+          "Cántico espiritual"
+        ],
+        "aporte": "Cumbre de la poesía mística, con un lenguaje amoroso aplicado a la experiencia religiosa."
+      },
+      {
+        "nombre": "Anónimo",
+        "obras": [
+          "Lazarillo de Tormes"
+        ],
+        "aporte": "Inaugura la novela picaresca, con un protagonista de origen humilde que narra su vida en primera persona."
+      }
+    ],
+    "obraClave": "Lazarillo de Tormes",
+    "comoReconocerlo": "Versos endecasílabos, naturaleza idealizada, pastores que se lamentan de amor y un tono sereno y equilibrado. Si aparece un pícaro hambriento contando su vida, es la cara realista del mismo siglo.",
+    "etiquetas": [
+      "Renacimiento",
+      "carpe diem",
+      "soneto",
+      "picaresca",
+      "égloga"
+    ]
+  },
+  {
+    "codigo": "barroco",
+    "nombre": "Barroco",
+    "periodo": "Siglo XVII",
+    "siglo": "XVII",
+    "ambito": "España e Hispanoamérica",
+    "contexto": "Época de crisis política y económica en la que el optimismo renacentista se convierte en desengaño. La literatura reacciona con una complicación deliberada de la forma y con temas de muerte, sueño y apariencia. Es el Siglo de Oro en su segunda mitad.",
+    "rasgos": [
+      "Complicación formal buscada, frente a la naturalidad renacentista.",
+      "Contraste y claroscuro: Lo bello junto a lo grotesco.",
+      "Temas del desengaño, la fugacidad de la vida y la vida como sueño.",
+      "Culteranismo, que complica la forma con cultismos e hipérbatos, y conceptismo, que complica el pensamiento con juegos de ideas.",
+      "Gran desarrollo del teatro como espectáculo popular."
+    ],
+    "generos": [
+      "Soneto",
+      "Comedia nueva",
+      "Auto sacramental",
+      "Novela picaresca",
+      "Fábula mitológica"
+    ],
+    "autores": [
+      {
+        "nombre": "Luis de Góngora",
+        "obras": [
+          "Soledades",
+          "Fábula de Polifemo y Galatea"
+        ],
+        "aporte": "Máximo representante del culteranismo, con una sintaxis y un léxico deliberadamente difíciles."
+      },
+      {
+        "nombre": "Francisco de Quevedo",
+        "obras": [
+          "El Buscón",
+          "Sonetos"
+        ],
+        "aporte": "Máximo representante del conceptismo, con un dominio extraordinario del juego de palabras."
+      },
+      {
+        "nombre": "Lope de Vega",
+        "obras": [
+          "Fuenteovejuna",
+          "El perro del hortelano"
+        ],
+        "aporte": "Crea la comedia nueva, que rompe las reglas clásicas y acerca el teatro al público."
+      },
+      {
+        "nombre": "Pedro Calderón de la Barca",
+        "obras": [
+          "La vida es sueño",
+          "El gran teatro del mundo"
+        ],
+        "aporte": "Lleva el teatro barroco a su forma más reflexiva y filosófica."
+      },
+      {
+        "nombre": "Miguel de Cervantes",
+        "obras": [
+          "Don Quijote de la Mancha",
+          "Novelas ejemplares"
+        ],
+        "aporte": "Escribe la primera novela moderna, que parodia los libros de caballerías y a la vez inventa una forma nueva de narrar."
+      },
+      {
+        "nombre": "Sor Juana Inés de la Cruz",
+        "obras": [
+          "Primero sueño",
+          "Respuesta a sor Filotea",
+          "Hombres necios que acusáis"
+        ],
+        "aporte": "Figura mayor del barroco novohispano y defensora del derecho de las mujeres al conocimiento."
+      }
+    ],
+    "obraClave": "Don Quijote de la Mancha",
+    "comoReconocerlo": "Si el texto cuesta de leer por su sintaxis retorcida y sus cultismos, apunta a culteranismo. Si cuesta por la densidad de sus juegos de ideas, apunta a conceptismo. En los dos casos el fondo es el desengaño.",
+    "etiquetas": [
+      "Barroco",
+      "culteranismo",
+      "conceptismo",
+      "Siglo de Oro",
+      "Sor Juana"
+    ]
+  },
+  {
+    "codigo": "neoclasicismo",
+    "nombre": "Neoclasicismo e Ilustración",
+    "periodo": "Siglo XVIII",
+    "siglo": "XVIII",
+    "ambito": "España e Hispanoamérica",
+    "contexto": "El siglo de las luces confía en la razón y en la educación como motores del progreso. La literatura se pone al servicio de la enseñanza y del debate público, y se recuperan las reglas clásicas que el barroco había roto.",
+    "rasgos": [
+      "Predominio de la razón sobre el sentimiento.",
+      "Finalidad didáctica declarada: La literatura debe enseñar deleitando.",
+      "Vuelta a las reglas clásicas, como las tres unidades en el teatro.",
+      "Auge del ensayo, la fábula y la prosa periodística.",
+      "Estilo claro, ordenado y sin excesos ornamentales."
+    ],
+    "generos": [
+      "Ensayo",
+      "Fábula",
+      "Comedia de costumbres",
+      "Artículo periodístico"
+    ],
+    "autores": [
+      {
+        "nombre": "Félix María de Samaniego",
+        "obras": [
+          "Fábulas morales"
+        ],
+        "aporte": "Difunde la fábula en verso con moraleja explícita."
+      },
+      {
+        "nombre": "Tomás de Iriarte",
+        "obras": [
+          "Fábulas literarias"
+        ],
+        "aporte": "Aplica la fábula a la crítica de los defectos de los escritores de su tiempo."
+      },
+      {
+        "nombre": "Leandro Fernández de Moratín",
+        "obras": [
+          "El sí de las niñas"
+        ],
+        "aporte": "Comedia que critica los matrimonios impuestos y defiende la libertad de elección."
+      },
+      {
+        "nombre": "José Joaquín Fernández de Lizardi",
+        "obras": [
+          "El Periquillo Sarniento"
+        ],
+        "aporte": "Escribe la primera novela hispanoamericana, con intención moralizante y crítica social."
+      }
+    ],
+    "obraClave": "El Periquillo Sarniento",
+    "comoReconocerlo": "Textos claros, ordenados y con una enseñanza final explícita. Si hay animales que hablan y al final una moraleja, es una fábula neoclásica.",
+    "etiquetas": [
+      "Neoclasicismo",
+      "Ilustración",
+      "fábula",
+      "didáctico",
+      "Lizardi"
+    ]
+  },
+  {
+    "codigo": "romanticismo",
+    "nombre": "Romanticismo",
+    "periodo": "Primera mitad del siglo XIX",
+    "siglo": "XIX",
+    "ambito": "España e Hispanoamérica",
+    "contexto": "Reacción contra el racionalismo ilustrado. El individuo, sus sentimientos y su libertad pasan al primer plano. En Hispanoamérica coincide con las guerras de independencia y con la búsqueda de una identidad nacional propia.",
+    "rasgos": [
+      "Predominio del sentimiento y de la subjetividad sobre la razón.",
+      "Culto a la libertad, tanto política como artística.",
+      "Gusto por lo nocturno, lo sepulcral, las ruinas y lo sobrenatural.",
+      "La naturaleza refleja el estado de ánimo del yo poético.",
+      "Personajes rebeldes y marginales: El pirata, el mendigo, el reo.",
+      "Interés por lo popular, lo medieval y lo nacional."
+    ],
+    "generos": [
+      "Poesía lírica",
+      "Drama romántico",
+      "Leyenda",
+      "Artículo de costumbres",
+      "Novela histórica"
+    ],
+    "autores": [
+      {
+        "nombre": "José de Espronceda",
+        "obras": [
+          "Canción del pirata",
+          "El estudiante de Salamanca"
+        ],
+        "aporte": "Encarna el ideal romántico de la libertad y del héroe rebelde."
+      },
+      {
+        "nombre": "Gustavo Adolfo Bécquer",
+        "obras": [
+          "Rimas",
+          "Leyendas"
+        ],
+        "aporte": "Depura el romanticismo hacia una poesía breve e íntima que anticipa la lírica moderna."
+      },
+      {
+        "nombre": "Rosalía de Castro",
+        "obras": [
+          "En las orillas del Sar"
+        ],
+        "aporte": "Une la voz íntima con la denuncia social y la conciencia de una lengua propia."
+      },
+      {
+        "nombre": "José Zorrilla",
+        "obras": [
+          "Don Juan Tenorio"
+        ],
+        "aporte": "Fija la versión más popular del mito de don Juan."
+      },
+      {
+        "nombre": "Manuel Acuña",
+        "obras": [
+          "Nocturno a Rosario"
+        ],
+        "aporte": "Poeta mexicano del romanticismo tardío, de tono desgarrado y confesional."
+      },
+      {
+        "nombre": "Ignacio Manuel Altamirano",
+        "obras": [
+          "Clemencia",
+          "El Zarco"
+        ],
+        "aporte": "Impulsa una literatura nacional mexicana con temas y paisajes propios."
+      }
+    ],
+    "obraClave": "Rimas y leyendas",
+    "comoReconocerlo": "Un yo que se lamenta, una naturaleza tormentosa que acompaña su estado de ánimo, la noche, el cementerio y el ansia de libertad. Muchas exclamaciones y muchos puntos suspensivos.",
+    "etiquetas": [
+      "Romanticismo",
+      "Bécquer",
+      "libertad",
+      "sentimiento",
+      "Altamirano"
+    ]
+  },
+  {
+    "codigo": "realismo",
+    "nombre": "Realismo y Naturalismo",
+    "periodo": "Segunda mitad del siglo XIX",
+    "siglo": "XIX",
+    "ambito": "España e Hispanoamérica",
+    "contexto": "El auge de la burguesía y de la ciencia experimental lleva a la literatura a observar la sociedad como si fuera un objeto de estudio. La novela se convierte en el género central, porque es el que mejor permite retratar un mundo completo.",
+    "rasgos": [
+      "Observación minuciosa de la realidad y documentación previa.",
+      "Descripciones detalladas de ambientes, oficios y costumbres.",
+      "Narrador omnisciente que analiza a los personajes por dentro.",
+      "Lenguaje adaptado a la clase social de cada personaje.",
+      "En el naturalismo, además, la herencia y el ambiente determinan el destino del personaje, y aparecen los aspectos más duros de la vida."
+    ],
+    "generos": [
+      "Novela",
+      "Cuento",
+      "Crónica"
+    ],
+    "autores": [
+      {
+        "nombre": "Benito Pérez Galdós",
+        "obras": [
+          "Fortunata y Jacinta",
+          "Episodios nacionales"
+        ],
+        "aporte": "Construye un retrato completo de la sociedad española del siglo XIX."
+      },
+      {
+        "nombre": "Leopoldo Alas Clarín",
+        "obras": [
+          "La Regenta"
+        ],
+        "aporte": "Análisis psicológico profundo en una novela de ambiente provinciano."
+      },
+      {
+        "nombre": "Emilia Pardo Bazán",
+        "obras": [
+          "Los pazos de Ulloa"
+        ],
+        "aporte": "Introduce el naturalismo en España y defiende la educación de las mujeres."
+      },
+      {
+        "nombre": "Federico Gamboa",
+        "obras": [
+          "Santa"
+        ],
+        "aporte": "Principal representante del naturalismo mexicano."
+      }
+    ],
+    "obraClave": "La Regenta",
+    "comoReconocerlo": "Descripciones largas y precisas, personajes de clase media, ambientes urbanos o provincianos reconocibles y un narrador que lo sabe todo y opina.",
+    "etiquetas": [
+      "Realismo",
+      "Naturalismo",
+      "novela",
+      "Galdós",
+      "observación"
+    ]
+  },
+  {
+    "codigo": "modernismo",
+    "nombre": "Modernismo",
+    "periodo": "De 1880 a 1915 aproximadamente",
+    "siglo": "XIX y XX",
+    "ambito": "Hispanoamérica",
+    "contexto": "Primer movimiento literario que nace en Hispanoamérica y desde allí influye en España, invirtiendo por primera vez el sentido del intercambio. Reacciona contra el prosaísmo realista buscando la belleza como valor supremo.",
+    "rasgos": [
+      "Búsqueda de la belleza y del refinamiento por encima de todo.",
+      "Riqueza de imágenes sensoriales, con abundante sinestesia.",
+      "Léxico exótico y culto: Cisnes, princesas, jardines, mármoles, Versalles, Oriente.",
+      "Renovación métrica, con recuperación de versos poco usados como el alejandrino.",
+      "Cosmopolitismo y, en la etapa final, preocupación por la identidad hispanoamericana."
+    ],
+    "generos": [
+      "Poesía lírica",
+      "Cuento",
+      "Crónica modernista"
+    ],
+    "autores": [
+      {
+        "nombre": "Rubén Darío",
+        "obras": [
+          "Azul",
+          "Prosas profanas",
+          "Cantos de vida y esperanza"
+        ],
+        "aporte": "Figura central del modernismo y renovador de la métrica y del lenguaje poético en español."
+      },
+      {
+        "nombre": "José Martí",
+        "obras": [
+          "Versos sencillos",
+          "Ismaelillo"
+        ],
+        "aporte": "Precursor del modernismo, une la renovación formal con el compromiso político."
+      },
+      {
+        "nombre": "Amado Nervo",
+        "obras": [
+          "La amada inmóvil",
+          "Serenidad"
+        ],
+        "aporte": "Poeta mexicano de tono íntimo y espiritual dentro del modernismo."
+      },
+      {
+        "nombre": "Manuel Gutiérrez Nájera",
+        "obras": [
+          "La duquesa Job"
+        ],
+        "aporte": "Iniciador del modernismo en México y fundador de la Revista Azul."
+      },
+      {
+        "nombre": "Delmira Agustini",
+        "obras": [
+          "Los cálices vacíos"
+        ],
+        "aporte": "Lleva el modernismo hacia una expresión del deseo poco frecuente en su época."
+      }
+    ],
+    "obraClave": "Azul",
+    "comoReconocerlo": "Si aparecen cisnes, princesas tristes, jardines de mármol y un vocabulario deslumbrante, con versos muy musicales, es modernismo.",
+    "etiquetas": [
+      "Modernismo",
+      "Rubén Darío",
+      "cisne",
+      "sinestesia",
+      "Nervo"
+    ]
+  },
+  {
+    "codigo": "generacion-98",
+    "nombre": "Generación del 98",
+    "periodo": "Principios del siglo XX",
+    "siglo": "XX",
+    "ambito": "España",
+    "contexto": "Grupo de escritores marcados por la pérdida de las últimas colonias españolas en 1898. Frente al lujo modernista, eligen la sobriedad y se preguntan por la identidad de su país y por el sentido de la existencia.",
+    "rasgos": [
+      "Preocupación por el problema de España y por su historia.",
+      "Estilo sobrio y antirretórico, contrario al ornamento modernista.",
+      "El paisaje de Castilla como símbolo del alma nacional.",
+      "Temas existenciales: El tiempo, la muerte, la fe y la duda.",
+      "Renovación de los géneros, con formas híbridas entre novela y ensayo."
+    ],
+    "generos": [
+      "Ensayo",
+      "Novela",
+      "Poesía",
+      "Teatro"
+    ],
+    "autores": [
+      {
+        "nombre": "Miguel de Unamuno",
+        "obras": [
+          "Niebla",
+          "San Manuel Bueno, mártir"
+        ],
+        "aporte": "Lleva a la novela el conflicto entre la fe y la razón, y crea la nivola como forma propia."
+      },
+      {
+        "nombre": "Antonio Machado",
+        "obras": [
+          "Campos de Castilla",
+          "Soledades"
+        ],
+        "aporte": "Une el paisaje castellano con la reflexión sobre el tiempo y la memoria."
+      },
+      {
+        "nombre": "Pío Baroja",
+        "obras": [
+          "El árbol de la ciencia"
+        ],
+        "aporte": "Novela de estilo directo con protagonistas inadaptados y pesimistas."
+      },
+      {
+        "nombre": "Ramón María del Valle-Inclán",
+        "obras": [
+          "Luces de bohemia"
+        ],
+        "aporte": "Crea el esperpento, una deformación grotesca de la realidad que la vuelve más reveladora."
+      }
+    ],
+    "obraClave": "Campos de Castilla",
+    "comoReconocerlo": "Lenguaje sobrio, paisaje de Castilla, preguntas sin respuesta sobre la vida y la muerte, y una crítica desencantada del propio país.",
+    "etiquetas": [
+      "Generación del 98",
+      "Machado",
+      "Unamuno",
+      "esperpento",
+      "Castilla"
+    ]
+  },
+  {
+    "codigo": "vanguardias",
+    "nombre": "Vanguardias",
+    "periodo": "De 1910 a 1940 aproximadamente",
+    "siglo": "XX",
+    "ambito": "Hispanoamérica y España",
+    "contexto": "Tras la Primera Guerra Mundial, los movimientos de vanguardia rompen con toda la tradición anterior. Buscan un arte nuevo para un mundo nuevo, y ninguno dura mucho, pero entre todos cambian el lenguaje de la poesía para siempre.",
+    "rasgos": [
+      "Ruptura con la métrica, la rima y la puntuación tradicionales.",
+      "La imagen sorprendente sustituye a la descripción.",
+      "Experimentación tipográfica y visual con la página.",
+      "Publicación de manifiestos que declaran el programa del grupo.",
+      "Vocación internacional y provocadora."
+    ],
+    "generos": [
+      "Poesía",
+      "Manifiesto",
+      "Prosa experimental"
+    ],
+    "autores": [
+      {
+        "nombre": "Vicente Huidobro",
+        "obras": [
+          "Altazor"
+        ],
+        "aporte": "Funda el creacionismo, según el cual el poema no describe el mundo sino que crea uno propio."
+      },
+      {
+        "nombre": "César Vallejo",
+        "obras": [
+          "Trilce",
+          "Poemas humanos"
+        ],
+        "aporte": "Lleva la ruptura del lenguaje hasta el límite sin perder la emoción humana."
+      },
+      {
+        "nombre": "Manuel Maples Arce",
+        "obras": [
+          "Urbe"
+        ],
+        "aporte": "Encabeza el estridentismo mexicano, vanguardia que celebra la ciudad y la máquina."
+      },
+      {
+        "nombre": "Los Contemporáneos",
+        "obras": [
+          "Revista Contemporáneos"
+        ],
+        "aporte": "Grupo mexicano que incorpora la vanguardia con un tono más reflexivo e intimista."
+      },
+      {
+        "nombre": "Xavier Villaurrutia",
+        "obras": [
+          "Nostalgia de la muerte"
+        ],
+        "aporte": "Poesía nocturna e introspectiva dentro del grupo de los Contemporáneos."
+      }
+    ],
+    "obraClave": "Altazor",
+    "comoReconocerlo": "Si el poema no tiene puntuación, juega con la disposición de las palabras en la página y encadena imágenes que no se explican, es vanguardia.",
+    "etiquetas": [
+      "vanguardia",
+      "creacionismo",
+      "estridentismo",
+      "Contemporáneos",
+      "Vallejo"
+    ]
+  },
+  {
+    "codigo": "generacion-27",
+    "nombre": "Generación del 27",
+    "periodo": "De 1920 a 1936",
+    "siglo": "XX",
+    "ambito": "España",
+    "contexto": "Grupo de poetas españoles que se reúne en 1927 para homenajear a Góngora en el tercer centenario de su muerte. Logran algo poco frecuente: Unir la tradición clásica y popular con las novedades de la vanguardia sin renunciar a ninguna de las dos.",
+    "rasgos": [
+      "Equilibrio entre tradición y vanguardia.",
+      "Recuperación de formas clásicas como el soneto junto al verso libre.",
+      "Influencia del surrealismo en la etapa central.",
+      "Uso de la metáfora audaz heredada de Góngora.",
+      "Interés por lo popular, sobre todo por el romancero y el cante."
+    ],
+    "generos": [
+      "Poesía lírica",
+      "Teatro"
+    ],
+    "autores": [
+      {
+        "nombre": "Federico García Lorca",
+        "obras": [
+          "Romancero gitano",
+          "Poeta en Nueva York",
+          "La casa de Bernarda Alba"
+        ],
+        "aporte": "Une lo popular andaluz con la vanguardia, tanto en poesía como en teatro."
+      },
+      {
+        "nombre": "Rafael Alberti",
+        "obras": [
+          "Marinero en tierra"
+        ],
+        "aporte": "Poesía de tono popular y musical que después se vuelve política."
+      },
+      {
+        "nombre": "Luis Cernuda",
+        "obras": [
+          "La realidad y el deseo"
+        ],
+        "aporte": "Poesía del desacuerdo entre lo que se desea y lo que el mundo permite."
+      },
+      {
+        "nombre": "Pedro Salinas",
+        "obras": [
+          "La voz a ti debida"
+        ],
+        "aporte": "Poesía amorosa de tono reflexivo y conversacional."
+      },
+      {
+        "nombre": "Vicente Aleixandre",
+        "obras": [
+          "La destrucción o el amor"
+        ],
+        "aporte": "Surrealismo español de imágenes cósmicas y desbordadas."
+      }
+    ],
+    "obraClave": "Romancero gitano",
+    "comoReconocerlo": "Metáforas muy audaces dentro de formas reconocibles, como romances o sonetos. Si un romance popular contiene imágenes surrealistas, es del 27.",
+    "etiquetas": [
+      "Generación del 27",
+      "Lorca",
+      "surrealismo",
+      "Góngora",
+      "romance"
+    ]
+  },
+  {
+    "codigo": "boom",
+    "nombre": "El boom hispanoamericano y el realismo mágico",
+    "periodo": "De 1960 a 1980",
+    "siglo": "XX",
+    "ambito": "Hispanoamérica",
+    "contexto": "Un grupo de novelistas hispanoamericanos alcanza difusión mundial y coloca a la literatura del continente en el centro de la escena. Recogen la experimentación de la vanguardia y la aplican a la novela, con una libertad formal que hasta entonces no se había visto en el género.",
+    "rasgos": [
+      "Realismo mágico: Lo sobrenatural se cuenta con la misma naturalidad que lo cotidiano, y nadie se sorprende.",
+      "Ruptura de la línea temporal, con saltos y estructuras circulares.",
+      "Múltiples narradores y cambios de punto de vista.",
+      "Espacios míticos inventados que representan a todo un continente.",
+      "Presencia de la historia política, la dictadura y la violencia."
+    ],
+    "generos": [
+      "Novela",
+      "Cuento"
+    ],
+    "autores": [
+      {
+        "nombre": "Juan Rulfo",
+        "obras": [
+          "Pedro Páramo",
+          "El llano en llamas"
+        ],
+        "aporte": "Precursor decisivo del boom, con una novela de estructura fragmentaria donde los muertos hablan."
+      },
+      {
+        "nombre": "Gabriel García Márquez",
+        "obras": [
+          "Cien años de soledad",
+          "El coronel no tiene quien le escriba"
+        ],
+        "aporte": "Lleva el realismo mágico a su forma más reconocible con la saga de Macondo."
+      },
+      {
+        "nombre": "Julio Cortázar",
+        "obras": [
+          "Rayuela",
+          "Bestiario"
+        ],
+        "aporte": "Experimenta con la estructura de la novela y con el cuento fantástico."
+      },
+      {
+        "nombre": "Mario Vargas Llosa",
+        "obras": [
+          "La ciudad y los perros",
+          "La casa verde"
+        ],
+        "aporte": "Renueva la técnica narrativa con voces y tiempos entrelazados."
+      },
+      {
+        "nombre": "Carlos Fuentes",
+        "obras": [
+          "La muerte de Artemio Cruz",
+          "Aura"
+        ],
+        "aporte": "Explora la historia de México desde la experimentación formal."
+      },
+      {
+        "nombre": "Jorge Luis Borges",
+        "obras": [
+          "Ficciones",
+          "El Aleph"
+        ],
+        "aporte": "Antecedente imprescindible, con cuentos que convierten las ideas filosóficas en tramas."
+      }
+    ],
+    "obraClave": "Cien años de soledad",
+    "comoReconocerlo": "Si algo imposible ocurre y el narrador lo cuenta sin darle importancia, es realismo mágico. Si además la historia salta en el tiempo y cambia de voz, es del boom.",
+    "etiquetas": [
+      "boom",
+      "realismo mágico",
+      "Rulfo",
+      "García Márquez",
+      "Macondo"
+    ]
+  },
+  {
+    "codigo": "literatura-mexicana-xx",
+    "nombre": "Literatura mexicana del siglo XX",
+    "periodo": "Siglo XX",
+    "siglo": "XX",
+    "ambito": "México",
+    "contexto": "La Revolución mexicana marca la literatura del país durante décadas, primero como tema directo y después como pregunta por la identidad nacional. Conviven la novela de la Revolución, el ensayo de interpretación de México y una poesía de primer orden.",
+    "rasgos": [
+      "La Revolución como asunto central de la primera mitad del siglo.",
+      "Reflexión sobre la identidad mexicana y sobre el pasado indígena.",
+      "Retrato del campo, del caciquismo y de la violencia rural.",
+      "Desarrollo del ensayo como género de interpretación del país.",
+      "Poesía que dialoga con las vanguardias internacionales."
+    ],
+    "generos": [
+      "Novela de la Revolución",
+      "Ensayo",
+      "Poesía",
+      "Cuento",
+      "Teatro"
+    ],
+    "autores": [
+      {
+        "nombre": "Mariano Azuela",
+        "obras": [
+          "Los de abajo"
+        ],
+        "aporte": "Primera gran novela de la Revolución mexicana, escrita casi en el momento de los hechos."
+      },
+      {
+        "nombre": "Octavio Paz",
+        "obras": [
+          "El laberinto de la soledad",
+          "Piedra de sol",
+          "Libertad bajo palabra"
+        ],
+        "aporte": "Ensayo mayor sobre la identidad mexicana y una obra poética de alcance universal."
+      },
+      {
+        "nombre": "Rosario Castellanos",
+        "obras": [
+          "Balún Canán",
+          "Poesía no eres tú"
+        ],
+        "aporte": "Da voz a los pueblos indígenas de Chiapas y a la condición de las mujeres."
+      },
+      {
+        "nombre": "Elena Poniatowska",
+        "obras": [
+          "La noche de Tlatelolco",
+          "Hasta no verte Jesús mío"
+        ],
+        "aporte": "Convierte la crónica y el testimonio en literatura de primer orden."
+      },
+      {
+        "nombre": "José Emilio Pacheco",
+        "obras": [
+          "Las batallas en el desierto",
+          "No me preguntes cómo pasa el tiempo"
+        ],
+        "aporte": "Une la memoria de la ciudad con una poesía de lenguaje claro y hondo."
+      },
+      {
+        "nombre": "Juan José Arreola",
+        "obras": [
+          "Confabulario"
+        ],
+        "aporte": "Maestro del cuento breve, irónico y fantástico."
+      }
+    ],
+    "obraClave": "El laberinto de la soledad",
+    "comoReconocerlo": "Si el texto interroga qué significa ser mexicano, o retrata el campo, la Revolución o la ciudad de mediados de siglo con una mirada crítica, pertenece a esta tradición.",
+    "etiquetas": [
+      "México",
+      "Revolución",
+      "Octavio Paz",
+      "Rulfo",
+      "Castellanos"
+    ]
+  },
+  {
+    "codigo": "literatura-contemporanea",
+    "nombre": "Literatura contemporánea",
+    "periodo": "De 1980 hasta hoy",
+    "siglo": "XX y XXI",
+    "ambito": "Hispanoamérica y España",
+    "contexto": "Después del boom, la literatura en español se diversifica. Desaparecen los grandes movimientos unitarios y aparecen muchas voces distintas, con más presencia de escritoras, de literaturas urbanas y de temas antes marginales.",
+    "rasgos": [
+      "Ausencia de un movimiento dominante: conviven estilos muy distintos.",
+      "Mezcla de géneros y de registros, con entrada de lo periodístico y lo audiovisual.",
+      "Temas urbanos, de migración, de violencia y de memoria histórica.",
+      "Mayor presencia de voces femeninas y de perspectivas antes ausentes.",
+      "Recuperación de la crónica como género literario mayor."
+    ],
+    "generos": [
+      "Novela",
+      "Cuento",
+      "Crónica",
+      "Ensayo",
+      "Poesía"
+    ],
+    "autores": [
+      {
+        "nombre": "Roberto Bolaño",
+        "obras": [
+          "Los detectives salvajes",
+          "2666"
+        ],
+        "aporte": "Renueva la novela hispanoamericana con estructuras corales y una mirada sobre la violencia."
+      },
+      {
+        "nombre": "Valeria Luiselli",
+        "obras": [
+          "Los ingrávidos",
+          "Desierto sonoro"
+        ],
+        "aporte": "Explora la migración y el desplazamiento desde formas narrativas híbridas."
+      },
+      {
+        "nombre": "Fernanda Melchor",
+        "obras": [
+          "Temporada de huracanes"
+        ],
+        "aporte": "Lleva el habla popular veracruzana a una prosa de largo aliento sobre la violencia."
+      },
+      {
+        "nombre": "Juan Villoro",
+        "obras": [
+          "El testigo",
+          "Safari accidental"
+        ],
+        "aporte": "Une la novela y la crónica con una mirada irónica sobre México."
+      },
+      {
+        "nombre": "Cristina Rivera Garza",
+        "obras": [
+          "Nadie me verá llorar",
+          "El invencible verano de Liliana"
+        ],
+        "aporte": "Experimenta con el archivo, la memoria y los límites entre documento y ficción."
+      }
+    ],
+    "obraClave": "Los detectives salvajes",
+    "comoReconocerlo": "Ausencia de un programa común, mezcla de géneros, escenarios urbanos actuales y una relación directa con problemas del presente.",
+    "etiquetas": [
+      "contemporánea",
+      "Bolaño",
+      "crónica",
+      "migración",
+      "actualidad"
+    ]
+  }
+]

@@ -1,0 +1,285 @@
+/*
+ * Cimientos de la hoja de estilo.
+ * Reúne los tokens de color y de espacio de los dos temas, el reinicio, el foco visible, el texto solo para lectores de pantalla y la barra de progreso de lectura.
+ * Se carga en primer lugar porque todo lo demás depende de sus variables.
+ */
+
+/* ---------- Tokens ---------- */
+:root {
+  /* Marca */
+  --marca-500: #4f46e5;
+  --marca-400: #818cf8;
+  /* La marca como tinta de texto o de ícono. Se separa de --marca-500 porque en el
+     tema oscuro el índigo de marca pierde contraste sobre las superficies oscuras y
+     hay que sustituirlo por el paso claro. Medido con la luminancia relativa WCAG:
+     6.29 a 1 sobre superficie y 5.26 a 1 sobre el fondo de la pestaña activa. */
+  --marca-tinta: #4f46e5;
+  --marca-grad: linear-gradient(135deg, #4f46e5 0%, #7c3aed 55%, #4f46e5 100%);
+
+  /* Superficies (claro) */
+  --fondo: #eef2f7;
+  --superficie: #ffffff;
+  --superficie-2: #f7f9fc;
+  --superficie-3: #eef3f8;
+
+  /* Texto: 16.5, 7.6 y 5.05 a 1 de contraste sobre superficie. La tinta terciaria
+     se midió también sobre superficie 2 (4.79) y superficie 3 (4.53), que son los
+     otros fondos donde aparece como texto, para no bajar de 4.5 a 1 en ninguno. */
+  --tinta: #14202e;
+  --tinta-2: #43566a;
+  --tinta-3: #5d7183;
+  /* La tinta intensa coincide con la tinta en el tema claro y sube a blanco puro en
+     el oscuro, para los rótulos que degradan hacia el color de marca. */
+  --tinta-intensa: #14202e;
+
+  /* Bordes y sombras */
+  --borde: #dde5ee;
+  --borde-2: #e9eef4;
+  --anillo: rgba(79, 70, 229, 0.35);
+  --sombra-sm: 0 1px 2px rgba(16, 40, 60, 0.06), 0 1px 3px rgba(16, 40, 60, 0.05);
+  --sombra-md: 0 4px 14px rgba(16, 40, 60, 0.09), 0 2px 6px rgba(16, 40, 60, 0.05);
+  --sombra-lg: 0 18px 45px rgba(16, 40, 60, 0.18), 0 8px 20px rgba(16, 40, 60, 0.10);
+  --sombra-marca: 0 8px 24px rgba(79, 70, 229, 0.30);
+
+  /* Estados. Cada tinta está medida sobre su fondo suave y sobre superficie,
+     que son los dos fondos donde se usa como texto:
+       exito   4.57 sobre suave, 5.02 sobre superficie
+       alerta  4.51 sobre suave, 5.02 sobre superficie
+       peligro 5.30 sobre suave, 6.47 sobre superficie
+       info    6.41 sobre suave, 7.90 sobre superficie */
+  --exito: #15803d;
+  --exito-suave: #dcfce7;
+  --alerta: #b45309;
+  --alerta-suave: #fef3c7;
+  --peligro: #b91c1c;
+  --peligro-suave: #fee2e2;
+  --info: #4338ca;
+  --info-suave: #e0e7ff;
+
+  /* Áreas de estudio (color por materia). Tintas medidas sobre su fondo suave
+     y sobre superficie: gram 5.98 y 7.10, orto 5.17 y 5.93, lit 5.14 y 6.04,
+     sint 4.84 y 5.48, lex 4.51 y 5.02. */
+  --gram: #6d28d9;    --gram-suave: #ede9fe;
+  --orto: #0369a1;    --orto-suave: #e0f2fe;
+  --lit:  #be185d;    --lit-suave:  #fce7f3;
+  --sint: #047857;    --sint-suave: #d1fae5;
+  --lex:  #b45309;    --lex-suave:  #fef3c7;
+
+  /* Mezclas de la insignia de sistema. Son tokens para que el tema oscuro pueda
+     aclarar la tinta y subir el fondo sin duplicar la regla de la insignia. */
+  --sis-fondo: 15%;
+  --sis-tinta: 100%;
+
+  /* Opacidad de cada mancha de la aurora. Son tokens para que el tema oscuro
+     pueda atenuarlas sin duplicar las reglas de las manchas. */
+  --aurora-1: 0.5;
+  --aurora-2: 0.32;
+  --aurora-3: 0.28;
+
+  /* Geometría y movimiento */
+  --r-sm: 8px;
+  --r-md: 12px;
+  --r-lg: 18px;
+  --r-xl: 24px;
+  --paso: cubic-bezier(0.16, 1, 0.3, 1);
+  --max: 1180px;
+}
+
+/*
+ * Tema oscuro.
+ * Las tintas de estado y de área no se heredan del tema claro sino que tienen su
+ * propio paso claro, porque las tintas calculadas para fondo blanco caen a entre
+ * 1.97 y 2.77 a 1 sobre los fondos suaves oscurecidos. Cada paso está medido con
+ * la luminancia relativa WCAG sobre sus dos fondos:
+ *
+ *   exito   #6ee7b7   9.11 sobre suave, 11.17 sobre superficie
+ *   alerta  #fcd34d   9.61 sobre suave, 11.81 sobre superficie
+ *   peligro #fda4b8   8.67 sobre suave,  9.06 sobre superficie
+ *   info    #a5b4fc   7.80 sobre suave,  8.54 sobre superficie
+ *   gram    #c4b5fd   8.61 sobre suave,  9.22 sobre superficie
+ *   orto    #7dd3fc   8.76 sobre suave, 10.21 sobre superficie
+ *   lit     #f9a8d4   8.92 sobre suave,  9.39 sobre superficie
+ *   sint    #34d399   7.38 sobre suave,  8.86 sobre superficie
+ *   lex     #fcd34d   9.61 sobre suave, 11.81 sobre superficie
+ *   marca   #818cf8   5.71 sobre superficie, 5.23 sobre la pestaña activa
+ *   tinta 3 #8496ad   5.63 sobre superficie, 4.67 sobre superficie 3
+ *
+ * El bloque aparece dos veces con los mismos valores: Una bajo la preferencia del
+ * sistema, que rige cuando el documento no fija data-tema, y otra bajo
+ * data-tema="oscuro", que rige cuando quien usa la aplicación lo eligió a mano.
+ * El :where mantiene la especificidad en cero para que data-tema="claro" gane.
+ */
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-tema="claro"])) {
+    --fondo: #0b1220;
+    --superficie: #131c2e;
+    --superficie-2: #18233a;
+    --superficie-3: #1e2b45;
+
+    --marca-tinta: #818cf8;
+
+    --tinta: #e8eef6;
+    --tinta-2: #a7b6c9;
+    --tinta-3: #8496ad;
+    --tinta-intensa: #ffffff;
+
+    --borde: #24334d;
+    --borde-2: #1d2a40;
+    --anillo: rgba(129, 140, 248, 0.45);
+    --sombra-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+    --sombra-md: 0 6px 18px rgba(0, 0, 0, 0.45);
+    --sombra-lg: 0 20px 50px rgba(0, 0, 0, 0.6);
+    --sombra-marca: 0 8px 26px rgba(124, 58, 237, 0.45);
+
+    --exito: #6ee7b7;
+    --exito-suave: #0d3320;
+    --alerta: #fcd34d;
+    --alerta-suave: #3a2a09;
+    --peligro: #fda4b8;
+    --peligro-suave: #3a1414;
+    --info: #a5b4fc;
+    --info-suave: #1e1f4a;
+
+    --gram: #c4b5fd; --orto: #7dd3fc; --lit: #f9a8d4; --sint: #34d399; --lex: #fcd34d;
+    --gram-suave: #241a4a; --orto-suave: #0a2b42; --lit-suave: #3a1229; --sint-suave: #0a3126; --lex-suave: #3a2a09;
+
+    /* La tinta al 60 por ciento de acento sobre el fondo al 24 por ciento queda
+       en 5.04 a 1 en su peor acento, el índigo de expresión y redacción. */
+    --sis-fondo: 24%;
+    --sis-tinta: 60%;
+
+    --aurora-1: 0.35;
+    --aurora-2: 0.28;
+    --aurora-3: 0.28;
+  }
+}
+
+:root[data-tema="oscuro"] {
+  --fondo: #0b1220;
+  --superficie: #131c2e;
+  --superficie-2: #18233a;
+  --superficie-3: #1e2b45;
+
+  --marca-tinta: #818cf8;
+
+  --tinta: #e8eef6;
+  --tinta-2: #a7b6c9;
+  --tinta-3: #8496ad;
+  --tinta-intensa: #ffffff;
+
+  --borde: #24334d;
+  --borde-2: #1d2a40;
+  --anillo: rgba(129, 140, 248, 0.45);
+  --sombra-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --sombra-md: 0 6px 18px rgba(0, 0, 0, 0.45);
+  --sombra-lg: 0 20px 50px rgba(0, 0, 0, 0.6);
+  --sombra-marca: 0 8px 26px rgba(124, 58, 237, 0.45);
+
+  --exito: #6ee7b7;
+  --exito-suave: #0d3320;
+  --alerta: #fcd34d;
+  --alerta-suave: #3a2a09;
+  --peligro: #fda4b8;
+  --peligro-suave: #3a1414;
+  --info: #a5b4fc;
+  --info-suave: #1e1f4a;
+
+  --gram: #c4b5fd; --orto: #7dd3fc; --lit: #f9a8d4; --sint: #34d399; --lex: #fcd34d;
+  --gram-suave: #241a4a; --orto-suave: #0a2b42; --lit-suave: #3a1229; --sint-suave: #0a3126; --lex-suave: #3a2a09;
+
+  --sis-fondo: 24%;
+  --sis-tinta: 60%;
+
+  --aurora-1: 0.35;
+  --aurora-2: 0.28;
+  --aurora-3: 0.28;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: "Inter", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", sans-serif;
+  background:
+    radial-gradient(1200px 600px at 100% -10%, rgba(124, 58, 237, 0.10), transparent 60%),
+    radial-gradient(900px 500px at -10% 10%, rgba(79, 70, 229, 0.08), transparent 55%),
+    var(--fondo);
+  background-attachment: fixed;
+  color: var(--tinta);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.oculta { display: none !important; }
+
+/* ---------- Texto solo para lectores de pantalla ----------
+   Recorte accesible en lugar de display none, porque una región viva
+   que nace sin pintar no se registra y pierde su primer anuncio. */
+.solo-lector {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+::selection { background: var(--marca-400); color: #fff; }
+
+/* ---------- Foco visible ----------
+   Solo aparece cuando se navega con teclado, gracias a :focus-visible,
+   de modo que no molesta al usar el ratón. Sin esta regla, quien recorre
+   la aplicación tabulando no sabe dónde está. */
+:focus-visible {
+  outline: 3px solid var(--marca-400);
+  outline-offset: 3px;
+  border-radius: var(--r-sm);
+}
+.tarjeta-texto:focus-visible, .tema-tarjeta:focus-visible, .juego-tarjeta:focus-visible { outline-offset: 2px; }
+
+/* ---------- Saltar al contenido ----------
+   Primer elemento enfocable de la página. Permite a quien usa teclado o
+   lector de pantalla evitar la navegación en cada cambio de vista. */
+.saltar-al-contenido {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -120%);
+  z-index: 300;
+  background: var(--marca-grad);
+  color: #fff;
+  padding: 0.7rem 1.4rem;
+  border-radius: 0 0 var(--r-md) var(--r-md);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: var(--sombra-md);
+  transition: transform 0.2s var(--paso);
+}
+.saltar-al-contenido:focus { transform: translate(-50%, 0); }
+
+/* Scrollbar */
+* { scrollbar-width: thin; scrollbar-color: var(--borde) transparent; }
+*::-webkit-scrollbar { width: 10px; height: 10px; }
+*::-webkit-scrollbar-thumb { background: var(--borde); border-radius: 99px; border: 2px solid transparent; background-clip: padding-box; }
+*::-webkit-scrollbar-thumb:hover { background: var(--tinta-3); }
+
+/* ---------- Barra de progreso de scroll ---------- */
+.barra-progreso {
+  position: fixed;
+  top: 0; left: 0;
+  height: 3px;
+  width: 0;
+  background: var(--marca-grad);
+  z-index: 200;
+  transition: width 0.1s linear;
+}

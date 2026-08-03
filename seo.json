@@ -1,0 +1,184 @@
+{
+  "url": "https://jeshua-romero-guadarrama.github.io/atlas-lengua-literatura",
+  "titulo": "Atlas de Lengua y Literatura",
+  "tituloCorto": "Atlas de Lengua",
+  "tituloLargo": "Atlas de Lengua y Literatura: gramática, sintaxis, ortografía y análisis sintáctico en español",
+  "descripcion": "Atlas de estudio de español para secundaria y preparatoria. Analizador sintáctico que desarma cualquier oración en su árbol, conjugador de los dieciocho tiempos verbales, siete juegos de práctica, y temario de gramática, sintaxis, ortografía y literatura.",
+  "idioma": "es-MX",
+  "autor": "Jeshua Romero Guadarrama",
+  "color": "#4f46e5",
+  "colorSecundario": "#7c3aed",
+  "colorFondo": "#eef2f7",
+  "materia": "Lengua y Literatura en español",
+  "nivelEducativo": "Secundaria y preparatoria",
+  "licencia": "https://opensource.org/licenses/MIT",
+  "categorias": [
+    "education",
+    "books",
+    "productivity"
+  ],
+  "temas": [
+    "Análisis sintáctico",
+    "Clases de palabras",
+    "Conjugación verbal",
+    "Reglas de acentuación",
+    "Figuras retóricas",
+    "Corrientes literarias"
+  ],
+  "palabras": [
+    "analizador sintactico en linea",
+    "analisis sintactico de oraciones",
+    "arbol sintactico espanol",
+    "conjugador de verbos espanol",
+    "gramatica espanola",
+    "reglas de acentuacion",
+    "tilde diacritica",
+    "figuras retoricas ejemplos",
+    "complemento directo e indirecto",
+    "sujeto y predicado",
+    "oracion compuesta",
+    "literatura mexicana",
+    "espanol secundaria",
+    "espanol preparatoria",
+    "ejercicios de ortografia"
+  ],
+  "colecciones": [
+    {
+      "archivo": "fichas",
+      "ruta": "temario",
+      "titulo": "titulo",
+      "descripcion": "definicion",
+      "etiqueta": "Ficha del temario",
+      "etiquetaPlural": "Temario",
+      "descripcionSeccion": "Fichas de gramática, sintaxis, ortografía, literatura, léxico, redacción, comprensión lectora y comunicación, con definición, ejemplos, errores frecuentes y tabla de apoyo.",
+      "datos": [
+        "area",
+        "nivel",
+        "dificultad",
+        "categoria"
+      ],
+      "etiquetas": {
+        "area": "Área",
+        "nivel": "Nivel",
+        "dificultad": "Dificultad",
+        "categoria": "Categoría",
+        "explicacion": "Explicación",
+        "subclases": "Subclases",
+        "ejemplos": "Ejemplos",
+        "comoReconocerlo": "Cómo reconocerlo",
+        "errores": "Errores frecuentes",
+        "perla": "Perla",
+        "tabla": "Tabla de apoyo",
+        "etiquetas": "Etiquetas"
+      },
+      "ocultos": [
+        "codigo",
+        "titulo",
+        "definicion",
+        "temaRelacionado"
+      ]
+    },
+    {
+      "archivo": "figuras",
+      "ruta": "figuras-retoricas",
+      "titulo": "nombre",
+      "descripcion": "queEs",
+      "etiqueta": "Figura retórica",
+      "etiquetaPlural": "Figuras retóricas",
+      "descripcionSeccion": "Las figuras retóricas del español con su definición, sus ejemplos y el truco para no confundirlas entre ellas.",
+      "rutaApp": "figuras",
+      "datos": [
+        "tipo"
+      ],
+      "etiquetas": {
+        "tipo": "Tipo",
+        "comoSeReconoce": "Cómo se reconoce",
+        "ejemplos": "Ejemplos",
+        "seConfundeCon": "Se confunde con",
+        "comoRecordarla": "Cómo recordarla",
+        "etiquetas": "Etiquetas"
+      },
+      "ocultos": [
+        "codigo",
+        "nombre",
+        "queEs"
+      ]
+    },
+    {
+      "archivo": "normas",
+      "ruta": "ortografia",
+      "titulo": "nombre",
+      "descripcion": "paraQue",
+      "etiqueta": "Norma de ortografía",
+      "etiquetaPlural": "Normas de ortografía",
+      "descripcionSeccion": "Normas de acentuación, letras dudosas, puntuación y mayúsculas, con sus reglas, sus ejemplos y sus excepciones.",
+      "datos": [
+        "tipo"
+      ],
+      "etiquetas": {
+        "tipo": "Tipo",
+        "reglas": "Reglas",
+        "comoAplicarla": "Cómo aplicarla",
+        "excepciones": "Excepciones",
+        "etiquetas": "Etiquetas"
+      },
+      "ocultos": [
+        "codigo",
+        "nombre",
+        "paraQue"
+      ]
+    },
+    {
+      "archivo": "movimientos",
+      "ruta": "literatura",
+      "titulo": "nombre",
+      "descripcion": "contexto",
+      "etiqueta": "Corriente literaria",
+      "etiquetaPlural": "Corrientes literarias",
+      "descripcionSeccion": "De la literatura prehispánica a la contemporánea, con sus rasgos, sus autores y las obras que conviene reconocer.",
+      "datos": [
+        "periodo",
+        "siglo",
+        "ambito"
+      ],
+      "etiquetas": {
+        "periodo": "Periodo",
+        "siglo": "Siglo",
+        "ambito": "Ámbito",
+        "rasgos": "Rasgos",
+        "generos": "Géneros",
+        "autores": "Autores",
+        "obraClave": "Obra clave",
+        "comoReconocerlo": "Cómo reconocerlo",
+        "etiquetas": "Etiquetas"
+      },
+      "ocultos": [
+        "codigo",
+        "nombre",
+        "contexto"
+      ]
+    },
+    {
+      "archivo": "temas",
+      "ruta": "temas",
+      "titulo": "titulo",
+      "descripcion": "resumen",
+      "etiqueta": "Tema de estudio",
+      "etiquetaPlural": "Temas de estudio",
+      "descripcionSeccion": "Artículos de estudio en profundidad sobre las clases de palabras, el sistema verbal, el análisis sintáctico, la acentuación y la literatura.",
+      "datos": [
+        "area"
+      ],
+      "etiquetas": {
+        "area": "Área",
+        "secciones": "Secciones",
+        "puntosClave": "Puntos clave"
+      },
+      "ocultos": [
+        "codigo",
+        "titulo",
+        "resumen"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+/* ============================================================
+   Colorimetría del análisis
+   ------------------------------------------------------------
+   El problema: nueve clases de palabra no se pueden distinguir
+   por color a la vez. Con nueve tonos en pantalla hay pares que
+   quedan a una distancia perceptual de ΔE 4, es decir,
+   indistinguibles incluso con visión normal, y peor todavía
+   para quien tiene daltonismo.
+
+   La solución es no codificar la clase con el color, sino la
+   FAMILIA FUNCIONAL, que además es lo que se quiere enseñar:
+
+     azul    lo que nombra      sustantivo, determinante, pronombre
+     naranja lo que predica     verbo
+     verde   lo que modifica    adjetivo, adverbio
+     malva   lo que enlaza      preposición, conjunción, interjección
+
+   Los enlaces fueron grises, pero un gris de croma 0.037 no se
+   identifica como color y se confundía con la tinta de los signos:
+   el malva conserva la sobriedad y ya supera el croma mínimo de
+   0.1 que exige el arnés.
+
+   Dentro de cada familia, el TRAZO distingue la clase: relleno
+   para el núcleo de la familia, contorno para lo que lo
+   acompaña y contorno punteado para lo que lo sustituye.
+
+   Y encima de todo, cada palabra lleva su abreviatura escrita.
+   Así la identidad nunca depende solo del color.
+
+   Los cuatro tonos están comprobados a todos los pares en los dos
+   temas con la herramienta paleta.js del arnés de revisiones:
+
+     node revisiones/paleta.js "#154595, #eb6834, #159c6c, #8d3f63" --fondo "#ffffff"
+     node revisiones/paleta.js "#3987e5, #d95926, #199e70, #e88bc4" --fondo "#0b1220"
+
+   Peor separación con visión normal ΔE 20.0 en claro (azul contra
+   malva) y 19.8 en oscuro (naranja contra malva), y con daltonismo
+   ΔE 8.2 en claro (naranja contra verde, en protanopia) y 9.7 en
+   oscuro (azul contra malva, en protanopia). El peor contraste
+   sobre el fondo es 3.20 a 1 (el naranja en claro): suficiente
+   para trazos, pero las abreviaturas visibles siguen siendo un
+   requisito y no un adorno.
+   ============================================================ */
+
+:root {
+  /* Familias funcionales. El azul va más oscuro que el resto porque su
+     vecino perceptual es el malva de los enlaces: con un azul más claro
+     el peor par de la paleta caía por debajo de la separación mínima. */
+  --fam-nombra:   #154595;
+  --fam-predica:  #eb6834;
+  --fam-modifica: #159c6c;
+  --fam-enlaza:   #8d3f63;
+
+  /* Fondos suaves derivados, para el relleno de las palabras */
+  --fam-nombra-suave:   #e4eefb;
+  --fam-predica-suave:  #fdeae1;
+  --fam-modifica-suave: #dcf5ec;
+
+  /* Tinta de las abreviaturas */
+  --abreviatura: #64748b;
+
+  /* Rampa de complementos del árbol, en su paso claro. Los valores viven aquí
+     como tokens para que el tema oscuro los sustituya por sus dos vías sin
+     duplicar las reglas de los nodos. */
+  --rampa-cd:       #0f7a55;
+  --rampa-ci:       #137e5a;
+  --rampa-creg:     #15855d;
+  --rampa-atributo: #227f74;
+  --rampa-cpred:    #338279;
+  --rampa-cagente:  #ac6237;
+  --rampa-cc:       #5d7794;
+}
+
+/* Tema oscuro por sus dos vías: la preferencia del sistema cuando el documento
+   no fija data-tema, y la elección manual cuando lo hay. El :where mantiene la
+   especificidad en cero para que data-tema="claro" recupere el bloque de :root. */
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-tema="claro"])) {
+    --fam-nombra:   #3987e5;
+    --fam-predica:  #d95926;
+    --fam-modifica: #199e70;
+    --fam-enlaza:   #e88bc4;
+
+    --fam-nombra-suave:   #12243c;
+    --fam-predica-suave:  #331a10;
+    --fam-modifica-suave: #0c2a20;
+
+    --abreviatura: #7f8ea3;
+
+    --rampa-cd:       #2fbe8b;
+    --rampa-ci:       #26a878;
+    --rampa-creg:     #199e70;
+    --rampa-atributo: #34b3a5;
+    --rampa-cpred:    #57c2b6;
+    --rampa-cagente:  #e08a5c;
+    --rampa-cc:       #93a7bd;
+  }
+}
+
+:root[data-tema="oscuro"] {
+  --fam-nombra:   #3987e5;
+  --fam-predica:  #d95926;
+  --fam-modifica: #199e70;
+  --fam-enlaza:   #e88bc4;
+
+  --fam-nombra-suave:   #12243c;
+  --fam-predica-suave:  #331a10;
+  --fam-modifica-suave: #0c2a20;
+
+  --abreviatura: #7f8ea3;
+
+  --rampa-cd:       #2fbe8b;
+  --rampa-ci:       #26a878;
+  --rampa-creg:     #199e70;
+  --rampa-atributo: #34b3a5;
+  --rampa-cpred:    #57c2b6;
+  --rampa-cagente:  #e08a5c;
+  --rampa-cc:       #93a7bd;
+}
+
+/* ============================================================
+   La oración pintada
+   ============================================================ */
+
+.oracion-pintada {
+  font-size: 1.15rem;
+  line-height: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem 0.45rem;
+  align-items: flex-start;
+  padding: 0.4rem 0;
+}
+
+.palabra {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  border: none;
+  padding: 0;
+  background: none;
+  cursor: default;
+  transition: transform 0.15s var(--paso);
+}
+.palabra:hover { transform: translateY(-2px); }
+
+/* La forma de la palabra: el relleno y el trazo cargan la clase */
+.palabra-forma {
+  display: block;
+  padding: 0.16rem 0.42rem;
+  border-radius: 7px;
+  border: 1.5px solid transparent;
+  line-height: 1.45;
+  white-space: nowrap;
+}
+
+/* La abreviatura, que es lo que hace que el color no tenga que
+   llevar solo el peso de la identificación */
+.palabra-abrev {
+  font-size: 0.6rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--abreviatura);
+  line-height: 1;
+}
+
+/* ---------- Familia: lo que nombra ---------- */
+.palabra.p-sustantivo .palabra-forma {
+  background: var(--fam-nombra-suave);
+  color: var(--fam-nombra);
+  border-color: var(--fam-nombra);
+  font-weight: 600;
+}
+.palabra.p-determinante .palabra-forma {
+  background: transparent;
+  color: var(--fam-nombra);
+  border-color: var(--fam-nombra);
+}
+.palabra.p-pronombre .palabra-forma {
+  background: transparent;
+  color: var(--fam-nombra);
+  border-color: var(--fam-nombra);
+  border-style: dashed;
+}
+
+/* ---------- Familia: lo que predica ---------- */
+.palabra.p-verbo .palabra-forma {
+  background: var(--fam-predica-suave);
+  color: var(--fam-predica);
+  border-color: var(--fam-predica);
+  font-weight: 700;
+}
+
+/* ---------- Familia: lo que modifica ---------- */
+.palabra.p-adjetivo .palabra-forma {
+  background: var(--fam-modifica-suave);
+  color: var(--fam-modifica);
+  border-color: var(--fam-modifica);
+  font-weight: 600;
+}
+.palabra.p-adverbio .palabra-forma {
+  background: transparent;
+  color: var(--fam-modifica);
+  border-color: var(--fam-modifica);
+}
+
+/* ---------- Familia: lo que enlaza ---------- */
+.palabra.p-preposicion .palabra-forma {
+  background: transparent;
+  color: var(--fam-enlaza);
+  border-color: var(--fam-enlaza);
+}
+.palabra.p-conjuncion .palabra-forma {
+  background: transparent;
+  color: var(--fam-enlaza);
+  border-color: var(--fam-enlaza);
+  border-style: dashed;
+}
+.palabra.p-interjeccion .palabra-forma {
+  background: transparent;
+  color: var(--fam-enlaza);
+  border-color: var(--fam-enlaza);
+  border-style: dotted;
+  font-style: italic;
+}
+
+/* ---------- Fuera del sistema ---------- */
+.palabra.p-signo .palabra-forma {
+  background: none;
+  border-color: transparent;
+  color: var(--tinta-3);
+  padding: 0.16rem 0.1rem;
+}
+.palabra.p-signo .palabra-abrev { visibility: hidden; }
+.palabra.p-desconocida .palabra-forma {
+  background: transparent;
+  color: var(--tinta-3);
+  border-color: var(--tinta-3);
+  border-style: dotted;
+}
+
+/* ============================================================
+   La leyenda, agrupada por familias
+   ============================================================ */
+
+.leyenda-familias {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 0.7rem;
+  margin-top: 1.2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--borde);
+}
+.leyenda-familia > h4 {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  font-weight: 800;
+  margin-bottom: 0.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.leyenda-familia > h4::before {
+  content: "";
+  width: 12px; height: 12px;
+  border-radius: 3px;
+  background: currentColor;
+  flex: none;
+}
+.leyenda-familia.fam-nombra > h4   { color: var(--fam-nombra); }
+.leyenda-familia.fam-predica > h4  { color: var(--fam-predica); }
+.leyenda-familia.fam-modifica > h4 { color: var(--fam-modifica); }
+.leyenda-familia.fam-enlaza > h4   { color: var(--fam-enlaza); }
+.leyenda-familia ul { list-style: none; display: grid; gap: 0.2rem; }
+.leyenda-familia li {
+  font-size: 0.76rem;
+  color: var(--tinta-2);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.leyenda-muestra {
+  width: 22px; height: 13px;
+  border-radius: 4px;
+  border: 1.5px solid currentColor;
+  flex: none;
+}
+.leyenda-familia.fam-nombra li   { color: var(--fam-nombra); }
+.leyenda-familia.fam-predica li  { color: var(--fam-predica); }
+.leyenda-familia.fam-modifica li { color: var(--fam-modifica); }
+.leyenda-familia.fam-enlaza li   { color: var(--fam-enlaza); }
+.leyenda-familia li span:last-child { color: var(--tinta-2); }
+.leyenda-muestra.relleno { background: currentColor; opacity: 0.85; }
+.leyenda-muestra.contorno { background: transparent; }
+.leyenda-muestra.punteado { background: transparent; border-style: dashed; }
+.leyenda-muestra.puntos { background: transparent; border-style: dotted; }
+
+/* ============================================================
+   Las pastillas de la tabla morfológica
+   ============================================================ */
+
+.pastilla-clase {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.14rem 0.5rem;
+  border-radius: 6px;
+  white-space: nowrap;
+  border: 1.5px solid currentColor;
+}
+.pastilla-clase.p-sustantivo   { background: var(--fam-nombra-suave);   color: var(--fam-nombra); }
+.pastilla-clase.p-determinante { background: transparent;               color: var(--fam-nombra); }
+.pastilla-clase.p-pronombre    { background: transparent;               color: var(--fam-nombra); border-style: dashed; }
+.pastilla-clase.p-verbo        { background: var(--fam-predica-suave);  color: var(--fam-predica); }
+.pastilla-clase.p-adjetivo     { background: var(--fam-modifica-suave); color: var(--fam-modifica); }
+.pastilla-clase.p-adverbio     { background: transparent;               color: var(--fam-modifica); }
+.pastilla-clase.p-preposicion  { background: transparent;               color: var(--fam-enlaza); }
+.pastilla-clase.p-conjuncion   { background: transparent;               color: var(--fam-enlaza); border-style: dashed; }
+.pastilla-clase.p-interjeccion { background: transparent;               color: var(--fam-enlaza); border-style: dotted; }
+.pastilla-clase.p-signo,
+.pastilla-clase.p-desconocida  { background: transparent;               color: var(--tinta-3); border-style: dotted; }
+
+/* ============================================================
+   Las funciones del árbol
+   ------------------------------------------------------------
+   Las etiquetas del árbol llevan siempre su nombre escrito, así
+   que aquí el color no tiene que identificar por sí solo: solo
+   tiene que agrupar. Se reutilizan las mismas cuatro familias,
+   y los complementos se ordenan en una rampa de un solo tono,
+   de más ligado al verbo (oscuro) a menos ligado (claro).
+   ============================================================ */
+
+.f-oracion      { --nodo-color: var(--marca-500); }
+.f-proposicion  { --nodo-color: var(--marca-400); }
+.f-sujeto       { --nodo-color: var(--fam-nombra); }
+.f-predicado    { --nodo-color: var(--fam-predica); }
+.f-nucleo       { --nodo-color: var(--fam-predica); }
+
+/* Rampa de complementos: la intensidad dice cuán ligado está al verbo.
+   Cada paso está oscurecido, conservando su matiz, hasta que el texto
+   blanco de la etiqueta supera el 4.5 a 1 de contraste WCAG que exige
+   su cuerpo pequeño (medido con la luminancia relativa: cd 5.34,
+   ci 5.05, creg 4.62, atributo 4.82, cpred 4.56, cagente 4.61,
+   cc 4.63). */
+.f-cd           { --nodo-color: var(--rampa-cd); }
+.f-ci           { --nodo-color: var(--rampa-ci); }
+.f-creg         { --nodo-color: var(--rampa-creg); }
+.f-atributo     { --nodo-color: var(--rampa-atributo); }
+.f-cpred        { --nodo-color: var(--rampa-cpred); }
+.f-cagente      { --nodo-color: var(--rampa-cagente); }
+.f-cc           { --nodo-color: var(--rampa-cc); }
+.f-nexo         { --nodo-color: var(--fam-enlaza); }
+.f-otro         { --nodo-color: var(--fam-enlaza); }
+
+/* El nodo, un punto más sobrio para que el color no compita con el texto */
+.nodo-funcion {
+  font-size: 0.66rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #fff;
+  background: var(--nodo-color, var(--marca-500));
+  padding: 0.16rem 0.5rem;
+  border-radius: 6px;
+  flex: none;
+}
+
+@media (max-width: 640px) {
+  .oracion-pintada { font-size: 1rem; gap: 1.4rem 0.35rem; }
+}
+
+/* El botón de copiar, alineado a la derecha del título del panel */
+.panel > h2 { justify-content: flex-start; }
+.boton-en-titulo {
+  margin-left: auto;
+  font-size: 0.78rem;
+  padding: 0.35rem 0.7rem;
+  font-weight: 600;
+}
+.boton-en-titulo .ico { width: 14px; height: 14px; }

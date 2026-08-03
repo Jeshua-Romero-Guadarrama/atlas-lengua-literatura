@@ -1,0 +1,3565 @@
+[
+  {
+    "codigo": "el-sustantivo",
+    "titulo": "El sustantivo",
+    "area": "Gramática",
+    "nivel": "Secundaria",
+    "dificultad": "Básico",
+    "categoria": "Clases de palabras",
+    "definicion": "El sustantivo es la palabra que nombra seres, objetos, lugares, ideas y sentimientos. Es la única clase que puede ser núcleo de un sintagma nominal y, por tanto, sujeto de una oración.",
+    "explicacion": "El sustantivo tiene género (masculino o femenino) y número (singular o plural), y esos dos rasgos obligan a que concuerden con él los determinantes y los adjetivos que lo acompañan. El género no depende del significado sino de la palabra: La mesa no es femenina por nada que tenga la mesa, sino porque así funciona la palabra en español. Por eso los sustantivos que nombran objetos no tienen sexo, solo género gramatical.",
+    "subclases": [
+      {
+        "nombre": "Común y propio",
+        "descripcion": "El común nombra a cualquier miembro de una clase. El propio identifica a uno concreto y se escribe con mayúscula.",
+        "ejemplos": [
+          "*río*, *ciudad*, *perro*",
+          "*Papaloapan*, *Oaxaca*, *Firulais*"
+        ]
+      },
+      {
+        "nombre": "Concreto y abstracto",
+        "descripcion": "El concreto nombra lo que se percibe por los sentidos. El abstracto nombra cualidades, ideas y sentimientos.",
+        "ejemplos": [
+          "*mesa*, *lluvia*, *música*",
+          "*libertad*, *ternura*, *pobreza*"
+        ]
+      },
+      {
+        "nombre": "Individual y colectivo",
+        "descripcion": "El individual nombra un solo ser aunque esté en singular. El colectivo nombra un conjunto aunque esté en singular.",
+        "ejemplos": [
+          "*abeja*, *soldado*, *árbol*",
+          "*enjambre*, *ejército*, *arboleda*"
+        ]
+      },
+      {
+        "nombre": "Contable y no contable",
+        "descripcion": "El contable admite números delante. El no contable se mide, no se cuenta.",
+        "ejemplos": [
+          "*tres libros*, *dos casas*",
+          "*agua*, *arroz*, *paciencia*"
+        ]
+      }
+    ],
+    "ejemplos": [
+      "La *paciencia* de mi abuela era infinita.",
+      "El *enjambre* cruzó el *jardín* en pocos segundos.",
+      "*Guadalajara* creció mucho durante ese *siglo*."
+    ],
+    "comoReconocerlo": [
+      "Admite delante un artículo: Si se puede decir el, la, los o las delante de la palabra, es sustantivo.",
+      "Admite plural y, casi siempre, cambio de número sin cambiar de clase.",
+      "Puede funcionar como sujeto de un verbo por sí solo."
+    ],
+    "errores": [
+      "Confundir el sustantivo colectivo con el plural. Enjambre está en singular aunque nombre a muchas abejas, así que el verbo va en singular: el enjambre vuela.",
+      "Creer que el género gramatical tiene que ver con el sexo. Persona es femenino aunque nombre a hombres y a mujeres.",
+      "Tomar por sustantivo cualquier palabra que lleve artículo. En el cantar de los pájaros, cantar es un infinitivo sustantivado, no un sustantivo propiamente dicho."
+    ],
+    "perla": "La prueba más rápida es el artículo. Si delante de la palabra cabe un el o una la sin que la frase suene rara, es sustantivo.",
+    "temaRelacionado": "clases-de-palabras",
+    "etiquetas": [
+      "nombre",
+      "género",
+      "número",
+      "sintagma nominal"
+    ]
+  },
+  {
+    "codigo": "genero-y-numero",
+    "titulo": "Género y número del sustantivo",
+    "area": "Gramática",
+    "nivel": "Secundaria",
+    "dificultad": "Básico",
+    "categoria": "Clases de palabras",
+    "definicion": "El género clasifica los sustantivos en masculinos y femeninos. El número los distingue entre singular (uno) y plural (más de uno). Los dos rasgos se marcan en la terminación y obligan a la concordancia.",
+    "explicacion": "El femenino se forma casi siempre con a (niño y niña), pero también con terminaciones propias como esa, isa, ina y triz (alcalde y alcaldesa, actor y actriz). Hay sustantivos de una sola forma para los dos géneros, que se distinguen por el artículo (el artista y la artista), y hay heterónimos, que usan palabras distintas (caballo y yegua). El plural se forma con s cuando la palabra termina en vocal átona y con es cuando termina en consonante o en vocal tónica.",
+    "tabla": {
+      "titulo": "Formación del plural",
+      "columnas": [
+        "Si la palabra termina en",
+        "Se añade",
+        "Ejemplos"
+      ],
+      "filas": [
+        [
+          "Vocal átona o e tónica",
+          "s",
+          "*casa* y casas, *café* y cafés"
+        ],
+        [
+          "Consonante",
+          "es",
+          "*papel* y papeles, *reloj* y relojes"
+        ],
+        [
+          "í o ú tónicas",
+          "es o s",
+          "*bambú* y bambúes o bambús"
+        ],
+        [
+          "z",
+          "es, y la z pasa a c",
+          "*lápiz* y lápices, *pez* y peces"
+        ],
+        [
+          "s o x en palabra llana o esdrújula",
+          "nada, no cambia",
+          "el *lunes* y los lunes, la *crisis* y las crisis"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "Los *lunes* siempre llegan demasiado pronto.",
+      "Compramos dos *lápices* y tres *cuadernos*.",
+      "La *actriz* saludó al *alcalde* y a la *alcaldesa*."
+    ],
+    "comoReconocerlo": [
+      "El género se descubre poniendo el artículo delante, no mirando la terminación. El mapa es masculino aunque termine en a.",
+      "Los sustantivos ambiguos admiten los dos géneros con el mismo significado, como el mar y la mar.",
+      "Los sustantivos comunes en cuanto al género cambian de sentido según el artículo, como el estudiante y la estudiante."
+    ],
+    "errores": [
+      "Escribir lapizes en lugar de lápices. La z siempre pasa a c delante de la e.",
+      "Poner en plural las palabras que ya lo admiten sin cambio, como escribir los crisis en vez de las crisis.",
+      "Usar el artículo la delante de sustantivos femeninos que empiezan por a tónica. Se dice el agua, el águila y el hacha, pero siguen siendo femeninos (el agua clara)."
+    ],
+    "perla": "El agua, el águila y el hacha llevan el porque empiezan por a tónica, no porque sean masculinos. Se nota al añadir un adjetivo: el agua fría.",
+    "temaRelacionado": "clases-de-palabras",
+    "etiquetas": [
+      "género",
+      "número",
+      "plural",
+      "concordancia"
+    ]
+  },
+  {
+    "codigo": "el-adjetivo",
+    "titulo": "El adjetivo calificativo",
+    "area": "Gramática",
+    "nivel": "Secundaria",
+    "dificultad": "Básico",
+    "categoria": "Clases de palabras",
+    "definicion": "El adjetivo calificativo expresa cualidades, estados o propiedades del sustantivo al que acompaña, y concuerda con él en género y en número.",
+    "explicacion": "El adjetivo puede ir antes o después del sustantivo, y la posición cambia el matiz. Pospuesto suele distinguir (un libro viejo se opone a un libro nuevo). Antepuesto suele valorar sin distinguir (un viejo amigo no se opone a ningún amigo nuevo, solo subraya la antigüedad de la amistad). Cuando el adjetivo va con un verbo copulativo deja de acompañar directamente al sustantivo y pasa a ser atributo.",
+    "subclases": [
+      {
+        "nombre": "Especificativo",
+        "descripcion": "Distingue al sustantivo de los demás de su clase, y no puede quitarse sin cambiar el sentido.",
+        "ejemplos": [
+          "Los alumnos *aplicados* aprobaron (solo esos)"
+        ]
+      },
+      {
+        "nombre": "Explicativo o epíteto",
+        "descripcion": "Señala una cualidad que ya se supone, así que no distingue. Suele ir antepuesto y entre comas si va detrás.",
+        "ejemplos": [
+          "la *blanca* nieve",
+          "la *verde* hierba"
+        ]
+      },
+      {
+        "nombre": "Relacional",
+        "descripcion": "Clasifica en vez de calificar, no admite grados y no puede anteponerse.",
+        "ejemplos": [
+          "energía *solar*",
+          "análisis *sintáctico*"
+        ]
+      }
+    ],
+    "tabla": {
+      "titulo": "Grados del adjetivo",
+      "columnas": [
+        "Grado",
+        "Cómo se forma",
+        "Ejemplo"
+      ],
+      "filas": [
+        [
+          "Positivo",
+          "El adjetivo solo",
+          "Ese examen fue *difícil*"
+        ],
+        [
+          "Comparativo de superioridad",
+          "más que",
+          "Ese examen fue *más difícil que* el otro"
+        ],
+        [
+          "Comparativo de igualdad",
+          "tan como",
+          "Ese examen fue *tan difícil como* el otro"
+        ],
+        [
+          "Comparativo de inferioridad",
+          "menos que",
+          "Ese examen fue *menos difícil que* el otro"
+        ],
+        [
+          "Superlativo relativo",
+          "el más de",
+          "Ese examen fue *el más difícil de* todos"
+        ],
+        [
+          "Superlativo absoluto",
+          "muy o el sufijo ísimo",
+          "Ese examen fue *dificilísimo*"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "Una novela *larga* y *compleja* exige lectores pacientes.",
+      "Mi *querido* amigo llegó con noticias *inesperadas*.",
+      "El agua estaba *fría* y el aire, *húmedo*."
+    ],
+    "comoReconocerlo": [
+      "Admite grados: Si se le puede poner muy delante o el sufijo ísimo detrás, es adjetivo calificativo.",
+      "Concuerda en género y en número con el sustantivo. Si se cambia el sustantivo a plural, el adjetivo también cambia.",
+      "Encaja en la fórmula: Es un sustantivo muy adjetivo."
+    ],
+    "errores": [
+      "Confundir el adjetivo con el determinante. Mi, este y algún acompañan al sustantivo pero lo presentan, no lo califican.",
+      "Formar superlativos dobles como el más grandísimo. Se dice el más grande o grandísimo, no las dos cosas.",
+      "Anteponer adjetivos relacionales. No se dice la solar energía."
+    ],
+    "perla": "Si delante de la palabra cabe muy, es adjetivo calificativo. Muy solar no se dice, y por eso solar es relacional.",
+    "temaRelacionado": "clases-de-palabras",
+    "etiquetas": [
+      "adjetivo",
+      "grados",
+      "epíteto",
+      "concordancia"
+    ]
+  },
+  {
+    "codigo": "los-determinantes",
+    "titulo": "Los determinantes",
+    "area": "Gramática",
+    "nivel": "Secundaria",
+    "dificultad": "Básico",
+    "categoria": "Clases de palabras",
+    "definicion": "Los determinantes son las palabras que preceden al sustantivo para presentarlo, delimitarlo o cuantificarlo. No lo califican: Lo actualizan, es decir, lo convierten en algo concreto de lo que se puede hablar.",
+    "explicacion": "La diferencia entre casa y la casa es que la segunda ya se refiere a una casa identificable. Esa es la función del determinante. Todos concuerdan en género y número con el sustantivo, y la mayoría puede aparecer también sin sustantivo, y entonces ya no son determinantes sino pronombres.",
+    "subclases": [
+      {
+        "nombre": "Artículo determinado",
+        "descripcion": "Presenta algo ya conocido por quien escucha.",
+        "ejemplos": [
+          "*el*, *la*, *los*, *las*, *lo*"
+        ]
+      },
+      {
+        "nombre": "Artículo indeterminado",
+        "descripcion": "Presenta algo nuevo o no identificado.",
+        "ejemplos": [
+          "*un*, *una*, *unos*, *unas*"
+        ]
+      },
+      {
+        "nombre": "Demostrativo",
+        "descripcion": "Sitúa en el espacio o en el tiempo respecto de quien habla.",
+        "ejemplos": [
+          "*este* cerca, *ese* a media distancia, *aquel* lejos"
+        ]
+      },
+      {
+        "nombre": "Posesivo",
+        "descripcion": "Indica a quién pertenece lo nombrado.",
+        "ejemplos": [
+          "*mi*, *tu*, *su*, *nuestro*, *vuestro*"
+        ]
+      },
+      {
+        "nombre": "Numeral",
+        "descripcion": "Cuenta con exactitud: Cardinales, ordinales, partitivos y multiplicativos.",
+        "ejemplos": [
+          "*tres* libros, el *tercer* libro, *media* hoja, *doble* ración"
+        ]
+      },
+      {
+        "nombre": "Indefinido",
+        "descripcion": "Cuantifica sin precisión.",
+        "ejemplos": [
+          "*algún*, *ningún*, *varios*, *mucho*, *poco*, *bastante*"
+        ]
+      },
+      {
+        "nombre": "Interrogativo y exclamativo",
+        "descripcion": "Pregunta por el sustantivo o lo pondera. Siempre llevan tilde.",
+        "ejemplos": [
+          "¿*Qué* libro leíste?",
+          "¡*Cuánta* gente!"
+        ]
+      }
+    ],
+    "ejemplos": [
+      "*Aquellos* *tres* alumnos entregaron *su* trabajo.",
+      "No tengo *ningún* problema con *esta* propuesta.",
+      "¿*Cuántas* páginas leíste de *ese* capítulo?"
+    ],
+    "comoReconocerlo": [
+      "Va siempre delante del sustantivo y no se puede intercambiar con un adjetivo calificativo.",
+      "No admite muy ni el sufijo ísimo.",
+      "Si se le quita el sustantivo y la palabra sigue funcionando sola, ha pasado a ser pronombre: Quiero este libro frente a quiero este."
+    ],
+    "errores": [
+      "Llamar adjetivo determinativo al determinante. La gramática actual los separa, porque el determinante presenta y el adjetivo califica.",
+      "Escribir un agua o la agua. Se dice el agua por la a tónica, aunque el sustantivo sea femenino.",
+      "Usar la forma apocopada donde no toca. Se dice algún libro y alguna idea, nunca algún idea."
+    ],
+    "perla": "El determinante presenta, el adjetivo describe. Mi casa bonita: Mi la presenta, bonita la describe.",
+    "temaRelacionado": "clases-de-palabras",
+    "etiquetas": [
+      "artículo",
+      "demostrativo",
+      "posesivo",
+      "numeral",
+      "indefinido"
+    ]
+  },
+  {
+    "codigo": "los-pronombres",
+    "titulo": "Los pronombres",
+    "area": "Gramática",
+    "nivel": "Secundaria",
+    "dificultad": "Intermedio",
+    "categoria": "Clases de palabras",
+    "definicion": "El pronombre es la palabra que sustituye al sustantivo o remite a él sin nombrarlo. Ocupa su lugar y hereda su función sintáctica.",
+    "explicacion": "El pronombre evita repetir. En Ana llegó y ella saludó, ella no nombra a nadie por sí mismo: Se apoya en Ana, que se dijo antes. Los pronombres personales son los únicos que conservan restos de declinación en español, porque cambian de forma según la función: Yo es sujeto, me es complemento y mí va detrás de preposición.",
+    "tabla": {
+      "titulo": "Pronombres personales según su función",
+      "columnas": [
+        "Persona",
+        "Sujeto",
+        "Átono (complemento)",
+        "Con preposición"
+      ],
+      "filas": [
+        [
+          "1.ª singular",
+          "yo",
+          "me",
+          "mí, conmigo"
+        ],
+        [
+          "2.ª singular",
+          "tú, usted",
+          "te",
+          "ti, contigo"
+        ],
+        [
+          "3.ª singular",
+          "él, ella",
+          "lo, la, le, se",
+          "él, ella, sí, consigo"
+        ],
+        [
+          "1.ª plural",
+          "nosotros, nosotras",
+          "nos",
+          "nosotros, nosotras"
+        ],
+        [
+          "2.ª plural",
+          "ustedes, vosotros",
+          "los, las, les, os",
+          "ustedes, vosotros"
+        ],
+        [
+          "3.ª plural",
+          "ellos, ellas",
+          "los, las, les, se",
+          "ellos, ellas, sí"
+        ]
+      ]
+    },
+    "subclases": [
+      {
+        "nombre": "Personal",
+        "descripcion": "Señala a las personas del discurso.",
+        "ejemplos": [
+          "*yo*, *tú*, *él*, *nos*, *les*, *conmigo*"
+        ]
+      },
+      {
+        "nombre": "Demostrativo",
+        "descripcion": "Señala sin nombrar, situando en el espacio.",
+        "ejemplos": [
+          "Prefiero *este* a *aquel*"
+        ]
+      },
+      {
+        "nombre": "Posesivo",
+        "descripcion": "Indica pertenencia sin nombrar lo poseído.",
+        "ejemplos": [
+          "El *mío* llegó antes que el *tuyo*"
+        ]
+      },
+      {
+        "nombre": "Relativo",
+        "descripcion": "Sustituye a un sustantivo anterior y encabeza una proposición subordinada.",
+        "ejemplos": [
+          "El libro *que* compré",
+          "La mujer *cuyo* hijo estudia aquí"
+        ]
+      },
+      {
+        "nombre": "Interrogativo y exclamativo",
+        "descripcion": "Pregunta o pondera. Llevan tilde siempre.",
+        "ejemplos": [
+          "¿*Quién* llamó?",
+          "¡*Qué* dices!"
+        ]
+      },
+      {
+        "nombre": "Indefinido",
+        "descripcion": "Se refiere a seres o cosas sin precisar.",
+        "ejemplos": [
+          "*Alguien* preguntó por ti",
+          "No vino *nadie*"
+        ]
+      }
+    ],
+    "ejemplos": [
+      "*Nosotros* llegamos temprano, pero a *ellos* nadie *les* avisó.",
+      "Ese cuaderno es *mío*, el *tuyo* está en la mochila.",
+      "*Quien* estudia con calma aprende mejor."
+    ],
+    "comoReconocerlo": [
+      "Aparece sin sustantivo al lado, porque ya ocupa su lugar.",
+      "Se puede sustituir por el sustantivo al que remite y la oración sigue funcionando.",
+      "Los pronombres átonos van pegados al verbo o justo delante: lo veo, verlo, viéndolo."
+    ],
+    "errores": [
+      "Escribir con mí y con ti en lugar de conmigo y contigo.",
+      "Usar de yo o para tú. Detrás de preposición van mí y ti: de mí, para ti.",
+      "Confundir el determinante con el pronombre. En este libro, este es determinante. En quiero este, es pronombre."
+    ],
+    "perla": "La regla de oro es la compañía. Si la palabra va acompañando a un sustantivo, es determinante. Si va sola en su lugar, es pronombre.",
+    "temaRelacionado": "clases-de-palabras",
+    "etiquetas": [
+      "pronombre",
+      "personal",
+      "relativo",
+      "átono"
+    ]
+  },
+  {
+    "codigo": "leismo-laismo-loismo",
+    "titulo": "Leísmo, laísmo y loísmo",
+    "area": "Gramática",
+    "nivel": "Preparatoria",
+    "dificultad": "Intermedio",
+    "categoria": "Clases de palabras",
+    "definicion": "Son tres desviaciones del uso de los pronombres átonos de tercera persona, que consisten en emplear la forma de una función en el lugar de otra.",
+    "explicacion": "El reparto correcto es sencillo. Lo, la, los y las hacen de complemento directo, mientras que le y les hacen de complemento indirecto. El leísmo usa le donde toca lo, el laísmo usa la donde toca le, y el loísmo usa lo donde toca le. Solo se admite un caso, el llamado leísmo de persona masculina singular: A Juan le vi es aceptable, aunque lo vi es siempre preferible y es lo normal en México.",
+    "tabla": {
+      "titulo": "Los tres desvíos",
+      "columnas": [
+        "Nombre",
+        "En qué consiste",
+        "Incorrecto",
+        "Correcto"
+      ],
+      "filas": [
+        [
+          "Leísmo",
+          "Usar le como complemento directo",
+          "*Le* vi en el parque (a ella)",
+          "*La* vi en el parque"
+        ],
+        [
+          "Laísmo",
+          "Usar la como complemento indirecto",
+          "*La* dije la verdad",
+          "*Le* dije la verdad"
+        ],
+        [
+          "Loísmo",
+          "Usar lo como complemento indirecto",
+          "*Lo* di un regalo",
+          "*Le* di un regalo"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "A Marta *la* saludé en la puerta (complemento directo).",
+      "A Marta *le* entregué el examen (complemento indirecto).",
+      "El libro *lo* dejé sobre la mesa."
+    ],
+    "comoReconocerlo": [
+      "Pasar la oración a pasiva. Lo que puede convertirse en sujeto de la pasiva era complemento directo.",
+      "Preguntar qué o a quién para el directo, y a quién o para quién para el indirecto.",
+      "Si el verbo lleva ya un complemento directo, el otro complemento de persona será indirecto y pedirá le."
+    ],
+    "errores": [
+      "Creer que le es más educado que lo. No lo es: Son funciones distintas, no niveles de cortesía.",
+      "Aplicar el leísmo a cosas. Al libro le leí es incorrecto siempre.",
+      "Aplicar el leísmo a femeninos. A ella le vi no se admite en ningún registro."
+    ],
+    "perla": "El truco es sustituir por un objeto. Si donde va la persona cabe la palabra eso, el pronombre es lo: veo eso, lo veo.",
+    "temaRelacionado": "analisis-sintactico",
+    "etiquetas": [
+      "leísmo",
+      "laísmo",
+      "loísmo",
+      "pronombre átono"
+    ]
+  },
+  {
+    "codigo": "el-verbo",
+    "titulo": "El verbo",
+    "area": "Gramática",
+    "nivel": "Secundaria",
+    "dificultad": "Básico",
+    "categoria": "El verbo",
+    "definicion": "El verbo es la palabra que expresa acciones, procesos o estados situándolos en un tiempo, y es el núcleo obligatorio del predicado.",
+    "explicacion": "El verbo es la única clase de palabra que se conjuga, es decir, que cambia de forma para marcar persona, número, tiempo, modo y aspecto. Toda forma verbal se compone de una raíz, que aporta el significado, y una desinencia, que aporta esos cinco rasgos. En cantábamos la raíz cant aporta la idea de cantar y la desinencia ábamos dice que es primera persona del plural, pretérito imperfecto de indicativo.",
+    "tabla": {
+      "titulo": "Los cinco rasgos que expresa una forma verbal",
+      "columnas": [
+        "Rasgo",
+        "Qué indica",
+        "Ejemplo en cantábamos"
+      ],
+      "filas": [
+        [
+          "Persona",
+          "Quién realiza la acción",
+          "Primera"
+        ],
+        [
+          "Número",
+          "Si es uno o varios",
+          "Plural"
+        ],
+        [
+          "Tiempo",
+          "Cuándo ocurre respecto del presente",
+          "Pasado"
+        ],
+        [
+          "Modo",
+          "La actitud del hablante ante lo dicho",
+          "Indicativo, se presenta como real"
+        ],
+        [
+          "Aspecto",
+          "Si la acción se ve acabada o en curso",
+          "Imperfecto, en curso"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "Los niños *corrían* por el patio cuando *sonó* el timbre.",
+      "*Habremos terminado* antes de que *llegues*.",
+      "Ojalá *llueva* mañana."
+    ],
+    "comoReconocerlo": [
+      "Cambia de forma según quién realiza la acción: yo canto, tú cantas.",
+      "Se le puede poner delante un pronombre personal sujeto.",
+      "Toda oración necesita un verbo conjugado. Si no hay verbo, no hay oración sino frase."
+    ],
+    "errores": [
+      "Confundir el verbo con el sustantivo derivado. Cantar es verbo, canto puede ser verbo o sustantivo según el contexto.",
+      "Olvidar la concordancia con el sujeto cuando el sujeto es largo o colectivo.",
+      "Tomar por verbo un participio que funciona como adjetivo. En la puerta cerrada, cerrada es adjetivo."
+    ],
+    "perla": "Toda forma verbal se puede desarmar en raíz y desinencia. Quitar la terminación del infinitivo (ar, er o ir) da la raíz, y ahí empieza cualquier conjugación.",
+    "temaRelacionado": "el-sistema-verbal",
+    "etiquetas": [
+      "verbo",
+      "conjugación",
+      "raíz",
+      "desinencia"
+    ]
+  },
+  {
+    "codigo": "modos-verbales",
+    "titulo": "Los modos verbales",
+    "area": "Gramática",
+    "nivel": "Secundaria",
+    "dificultad": "Intermedio",
+    "categoria": "El verbo",
+    "definicion": "El modo es el rasgo del verbo que expresa la actitud del hablante ante lo que dice. El español tiene tres modos: indicativo, subjuntivo e imperativo.",
+    "explicacion": "El indicativo presenta los hechos como reales, sean pasados, presentes o futuros. El subjuntivo los presenta como deseados, dudosos, posibles o dependientes de otra cosa, y por eso aparece casi siempre en oraciones subordinadas. El imperativo pide, ordena o ruega, y solo tiene formas afirmativas propias: La orden negativa se construye con el subjuntivo.",
+    "tabla": {
+      "titulo": "Los tres modos",
+      "columnas": [
+        "Modo",
+        "Qué expresa",
+        "Ejemplo"
+      ],
+      "filas": [
+        [
+          "Indicativo",
+          "Hechos que se presentan como reales",
+          "Ana *estudia* medicina"
+        ],
+        [
+          "Subjuntivo",
+          "Deseo, duda, posibilidad o dependencia",
+          "Ojalá Ana *estudie* medicina"
+        ],
+        [
+          "Imperativo",
+          "Orden, ruego o consejo",
+          "*Estudia* medicina"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "Sé que *vienes* mañana (indicativo, lo doy por cierto).",
+      "Dudo que *vengas* mañana (subjuntivo, no lo doy por cierto).",
+      "*Ven* mañana (imperativo, lo pido).",
+      "No *vengas* mañana (imperativo negativo, con forma de subjuntivo)."
+    ],
+    "comoReconocerlo": [
+      "El subjuntivo aparece casi siempre detrás de que, y detrás de verbos de deseo, duda, emoción o mandato.",
+      "El imperativo afirmativo no admite el adverbio no delante. En cuanto se niega, cambia al subjuntivo.",
+      "Expresiones como ojalá, quizá y tal vez arrastran subjuntivo."
+    ],
+    "errores": [
+      "Usar el infinitivo como orden. No se dice callaros ni venir aquí, sino callaos o cállense y vengan aquí.",
+      "Poner indicativo detrás de expresiones de duda. No es no creo que viene, sino no creo que venga.",
+      "Olvidar que el imperativo negativo usa subjuntivo. No es no ven, sino no vengas."
+    ],
+    "perla": "Si lo que dice la oración es un hecho, va indicativo. Si es un deseo, una duda o algo que todavía no ocurre, va subjuntivo.",
+    "temaRelacionado": "el-sistema-verbal",
+    "etiquetas": [
+      "modo",
+      "indicativo",
+      "subjuntivo",
+      "imperativo"
+    ]
+  },
+  {
+    "codigo": "tiempos-verbales",
+    "titulo": "Los tiempos verbales",
+    "area": "Gramática",
+    "nivel": "Secundaria",
+    "dificultad": "Intermedio",
+    "categoria": "El verbo",
+    "definicion": "El tiempo verbal sitúa la acción respecto del momento en que se habla. Los tiempos simples constan de una sola palabra y los compuestos se forman con el verbo haber más el participio.",
+    "explicacion": "En las escuelas de México conviven dos nomenclaturas. La académica llama a las formas del pasado pretérito perfecto simple, pretérito imperfecto y pretérito pluscuamperfecto. La de Bello, más breve, las llama pretérito, copretérito y antecopretérito. Conviene reconocer las dos, porque los libros de texto alternan. La diferencia principal entre el pretérito y el copretérito no es la distancia en el tiempo sino el aspecto: Canté presenta la acción acabada y cantaba la presenta en curso.",
+    "tabla": {
+      "titulo": "Tiempos del indicativo con sus dos nombres",
+      "columnas": [
+        "Nombre académico",
+        "Nombre de Bello",
+        "Ejemplo"
+      ],
+      "filas": [
+        [
+          "Presente",
+          "presente",
+          "*canto*"
+        ],
+        [
+          "Pretérito perfecto simple",
+          "pretérito",
+          "*canté*"
+        ],
+        [
+          "Pretérito imperfecto",
+          "copretérito",
+          "*cantaba*"
+        ],
+        [
+          "Futuro simple",
+          "futuro",
+          "*cantaré*"
+        ],
+        [
+          "Condicional simple",
+          "pospretérito",
+          "*cantaría*"
+        ],
+        [
+          "Pretérito perfecto compuesto",
+          "antepresente",
+          "*he cantado*"
+        ],
+        [
+          "Pretérito pluscuamperfecto",
+          "antecopretérito",
+          "*había cantado*"
+        ],
+        [
+          "Pretérito anterior",
+          "antepretérito",
+          "*hube cantado*"
+        ],
+        [
+          "Futuro compuesto",
+          "antefuturo",
+          "*habré cantado*"
+        ],
+        [
+          "Condicional compuesto",
+          "antepospretérito",
+          "*habría cantado*"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "Mientras *leía*, alguien *tocó* la puerta (copretérito en curso, pretérito puntual).",
+      "Cuando llegué, ya *habían cerrado* la biblioteca.",
+      "Para el viernes ya *habremos entregado* el proyecto."
+    ],
+    "comoReconocerlo": [
+      "Todo tiempo compuesto lleva una forma de haber delante del participio, y ese participio no cambia nunca de género ni de número.",
+      "El copretérito describe y el pretérito narra. En un cuento, lo que pasa va en pretérito y lo que rodea va en copretérito.",
+      "El pospretérito expresa un futuro visto desde el pasado: dijo que vendría."
+    ],
+    "errores": [
+      "Escribir el participio concordando en los tiempos compuestos. Es hemos escrito la carta, nunca hemos escrita la carta.",
+      "Confundir el pretérito con el copretérito al narrar, lo que deja los relatos sin ritmo.",
+      "Usar el futuro para expresar obligación en textos formales, donde suele quedar mejor el presente."
+    ],
+    "perla": "Si el verbo puede llevar la palabra ya delante sin sonar raro, suele ser un tiempo perfecto (acabado). Ya canté sí, ya cantaba no.",
+    "temaRelacionado": "el-sistema-verbal",
+    "etiquetas": [
+      "tiempo",
+      "aspecto",
+      "pretérito",
+      "copretérito",
+      "compuesto"
+    ]
+  },
+  {
+    "codigo": "verboides",
+    "titulo": "Las formas no personales del verbo",
+    "area": "Gramática",
+    "nivel": "Secundaria",
+    "dificultad": "Intermedio",
+    "categoria": "El verbo",
+    "definicion": "El infinitivo, el gerundio y el participio son las tres formas del verbo que no marcan persona ni número. Por eso se llaman formas no personales o verboides.",
+    "explicacion": "Cada una se comporta como una clase de palabra distinta cuando sale del predicado. El infinitivo funciona como sustantivo (el cantar de los pájaros), el gerundio como adverbio (llegó corriendo) y el participio como adjetivo (la puerta cerrada). Al mismo tiempo conservan su naturaleza verbal, porque pueden llevar sus propios complementos: Leyendo el periódico, comer fruta.",
+    "tabla": {
+      "titulo": "Las tres formas no personales",
+      "columnas": [
+        "Forma",
+        "Terminación",
+        "Se comporta como",
+        "Ejemplo"
+      ],
+      "filas": [
+        [
+          "Infinitivo",
+          "ar, er, ir",
+          "Sustantivo",
+          "*Fumar* perjudica la salud"
+        ],
+        [
+          "Gerundio",
+          "ando, iendo",
+          "Adverbio",
+          "Salió *corriendo*"
+        ],
+        [
+          "Participio",
+          "ado, ido y los irregulares",
+          "Adjetivo",
+          "Un problema *resuelto*"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "*Estudiar* con tiempo evita muchos disgustos.",
+      "Aprendió gramática *analizando* oraciones todos los días.",
+      "Las tareas *entregadas* fuera de plazo no cuentan."
+    ],
+    "comoReconocerlo": [
+      "No se puede poner delante un pronombre personal sujeto: No se dice yo cantando.",
+      "El infinitivo admite artículo delante, y ahí se ve que funciona como sustantivo.",
+      "El participio es el único de los tres que concuerda en género y número cuando actúa como adjetivo."
+    ],
+    "errores": [
+      "El gerundio de posterioridad. Es incorrecto decir se cayó rompiéndose la pierna, porque romperse es consecuencia y no acción simultánea.",
+      "El gerundio como adjetivo. No se dice una caja conteniendo libros, sino una caja que contiene libros.",
+      "Usar el infinitivo para dar órdenes, que es propio de la lengua hablada descuidada."
+    ],
+    "perla": "El gerundio solo vale si la acción ocurre a la vez que la del verbo principal o justo antes. Si viene después, hay que reescribir la frase.",
+    "temaRelacionado": "el-sistema-verbal",
+    "etiquetas": [
+      "infinitivo",
+      "gerundio",
+      "participio",
+      "verboide"
+    ]
+  },
+  {
+    "codigo": "perifrasis-verbales",
+    "titulo": "Las perífrasis verbales",
+    "area": "Gramática",
+    "nivel": "Preparatoria",
+    "dificultad": "Intermedio",
+    "categoria": "El verbo",
+    "definicion": "Una perífrasis verbal es la unión de un verbo auxiliar conjugado y una forma no personal, que juntos funcionan como un solo núcleo del predicado.",
+    "explicacion": "En voy a estudiar el verbo ir ha perdido su significado de movimiento y solo aporta el matiz de que la acción está por empezar. El significado real lo pone estudiar. Por eso, al analizar, las dos palabras se subrayan juntas como núcleo del predicado y no se separan. Las perífrasis se clasifican por lo que aporta el auxiliar: Las modales expresan la actitud del hablante y las aspectuales, la fase en que se encuentra la acción.",
+    "tabla": {
+      "titulo": "Perífrasis más frecuentes",
+      "columnas": [
+        "Tipo",
+        "Estructura",
+        "Qué expresa",
+        "Ejemplo"
+      ],
+      "filas": [
+        [
+          "Modal de obligación",
+          "tener que, deber, haber de más infinitivo",
+          "Necesidad",
+          "*Tienes que estudiar*"
+        ],
+        [
+          "Modal de posibilidad",
+          "poder, deber de más infinitivo",
+          "Probabilidad",
+          "*Debe de ser* tarde"
+        ],
+        [
+          "Aspectual incoativa",
+          "ir a, empezar a, ponerse a",
+          "La acción va a empezar",
+          "*Voy a leer*"
+        ],
+        [
+          "Aspectual durativa",
+          "estar, seguir, andar más gerundio",
+          "La acción está en curso",
+          "*Está lloviendo*"
+        ],
+        [
+          "Aspectual terminativa",
+          "acabar de, dejar de, terminar de",
+          "La acción se acaba",
+          "*Acabo de llegar*"
+        ],
+        [
+          "Aspectual reiterativa",
+          "volver a más infinitivo",
+          "La acción se repite",
+          "*Volvió a explicarlo*"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "*Tenemos que entregar* el trabajo el lunes.",
+      "El profesor *sigue explicando* la lección.",
+      "*Acabo de terminar* el resumen del capítulo."
+    ],
+    "comoReconocerlo": [
+      "El auxiliar pierde su significado propio. En voy a comer nadie se está moviendo.",
+      "No se puede sustituir la forma no personal por un sustantivo. Voy a Puebla no es perífrasis, porque Puebla es un lugar de verdad.",
+      "Las dos formas se comportan como un bloque: Los pronombres pueden ir delante del auxiliar o pegados al infinitivo, lo voy a leer o voy a leerlo."
+    ],
+    "errores": [
+      "Confundir deber más infinitivo (obligación) con deber de más infinitivo (probabilidad). Debes estudiar es una orden, debe de estudiar es una suposición.",
+      "Separar la perífrasis al analizar y llamar complemento directo al infinitivo.",
+      "Usar la perífrasis a por más infinitivo, que no pertenece al español general."
+    ],
+    "perla": "La prueba es preguntar si el auxiliar significa lo que suele significar. Si no significa nada por sí solo, hay perífrasis.",
+    "temaRelacionado": "el-sistema-verbal",
+    "etiquetas": [
+      "perífrasis",
+      "auxiliar",
+      "aspecto",
+      "modalidad"
+    ]
+  },
+  {
+    "codigo": "voz-activa-y-pasiva",
+    "titulo": "La voz activa y la voz pasiva",
+    "area": "Gramática",
+    "nivel": "Preparatoria",
+    "dificultad": "Intermedio",
+    "categoria": "El verbo",
+    "definicion": "La voz indica si el sujeto realiza la acción del verbo o si la recibe. En la voz activa el sujeto la realiza, y en la pasiva la padece.",
+    "explicacion": "La pasiva se construye con el verbo ser más el participio del verbo principal, que concuerda con el sujeto. Al pasar de activa a pasiva, el complemento directo de la activa se convierte en sujeto paciente, y el sujeto de la activa pasa a complemento agente encabezado por la preposición por. Existe además la pasiva refleja, que se forma con se y un verbo en tercera persona, y que es mucho más frecuente en español que la pasiva con ser.",
+    "tabla": {
+      "titulo": "Del activo al pasivo",
+      "columnas": [
+        "Voz",
+        "Oración",
+        "Sujeto",
+        "Verbo"
+      ],
+      "filas": [
+        [
+          "Activa",
+          "Un autor mexicano *escribió* la novela",
+          "Un autor mexicano (agente)",
+          "escribió"
+        ],
+        [
+          "Pasiva",
+          "La novela *fue escrita* por un autor mexicano",
+          "La novela (paciente)",
+          "fue escrita"
+        ],
+        [
+          "Pasiva refleja",
+          "*Se escribió* la novela en un año",
+          "La novela (paciente)",
+          "se escribió"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "El jurado *premió* el cuento (activa).",
+      "El cuento *fue premiado* por el jurado (pasiva).",
+      "*Se premiaron* tres cuentos (pasiva refleja)."
+    ],
+    "comoReconocerlo": [
+      "Solo los verbos transitivos, es decir, los que admiten complemento directo, pueden pasar a pasiva.",
+      "En la pasiva el participio concuerda con el sujeto: La casa fue vendida, los libros fueron vendidos.",
+      "El complemento agente casi siempre va con por, y puede omitirse."
+    ],
+    "errores": [
+      "Abusar de la pasiva con ser, que en español suena forzada. La pasiva refleja o la activa suelen quedar mejor.",
+      "Confundir la pasiva refleja con la impersonal con se. En se venden casas el verbo va en plural porque casas es el sujeto. En se vive bien aquí el verbo va siempre en singular.",
+      "Convertir en pasiva un verbo intransitivo. No existe fue llegado."
+    ],
+    "perla": "Si al pasar la oración a pasiva el complemento directo se convierte en sujeto sin que la frase chirríe, el verbo era transitivo y la prueba está hecha.",
+    "temaRelacionado": "analisis-sintactico",
+    "etiquetas": [
+      "voz",
+      "pasiva",
+      "agente",
+      "paciente",
+      "se"
+    ]
+  },
+  {
+    "codigo": "el-adverbio",
+    "titulo": "El adverbio",
+    "area": "Gramática",
+    "nivel": "Secundaria",
+    "dificultad": "Básico",
+    "categoria": "Clases de palabras",
+    "definicion": "El adverbio es la palabra invariable que modifica a un verbo, a un adjetivo o a otro adverbio, añadiéndole una circunstancia o una valoración.",
+    "explicacion": "Es invariable, es decir, nunca cambia de género ni de número, y esa es la manera más rápida de distinguirlo del adjetivo. En trabajan mucho, mucho es adverbio porque no cambia. En muchos trabajos, muchos es determinante porque concuerda. Los adverbios acabados en mente se forman sobre el femenino del adjetivo, y por eso conservan la tilde del adjetivo original: fácil da fácilmente.",
+    "subclases": [
+      {
+        "nombre": "De lugar",
+        "descripcion": "Responden a dónde.",
+        "ejemplos": [
+          "*aquí*, *allí*, *cerca*, *lejos*, *arriba*, *dentro*"
+        ]
+      },
+      {
+        "nombre": "De tiempo",
+        "descripcion": "Responden a cuándo.",
+        "ejemplos": [
+          "*hoy*, *ayer*, *siempre*, *nunca*, *ya*, *todavía*"
+        ]
+      },
+      {
+        "nombre": "De modo",
+        "descripcion": "Responden a cómo.",
+        "ejemplos": [
+          "*bien*, *mal*, *así*, *despacio*, *rápidamente*"
+        ]
+      },
+      {
+        "nombre": "De cantidad",
+        "descripcion": "Responden a cuánto.",
+        "ejemplos": [
+          "*mucho*, *poco*, *muy*, *bastante*, *casi*"
+        ]
+      },
+      {
+        "nombre": "De afirmación, negación y duda",
+        "descripcion": "Confirman, niegan o ponen en duda.",
+        "ejemplos": [
+          "*sí*, *también*",
+          "*no*, *tampoco*",
+          "*quizá*, *acaso*"
+        ]
+      },
+      {
+        "nombre": "Interrogativo y relativo",
+        "descripcion": "Preguntan o enlazan proposiciones.",
+        "ejemplos": [
+          "¿*Dónde* vives?",
+          "La casa *donde* vivo"
+        ]
+      }
+    ],
+    "ejemplos": [
+      "Habla *muy* *despacio* para que todos entiendan.",
+      "*Ayer* no vino *nadie*, y *hoy* tampoco.",
+      "Vive *bastante* *lejos* de la escuela."
+    ],
+    "comoReconocerlo": [
+      "Es invariable: No se le puede poner s de plural ni cambiarle el género.",
+      "Se puede quitar de la oración y la oración sigue siendo correcta, aunque pierda información.",
+      "Responde a una de estas preguntas: Dónde, cuándo, cómo o cuánto."
+    ],
+    "errores": [
+      "Poner en plural los adverbios. Es medio dormidos, no medios dormidos, porque medio es adverbio.",
+      "Encadenar adverbios en mente sin necesidad. Cuando van dos seguidos, solo el último conserva la terminación: lenta y cuidadosamente.",
+      "Confundir el adverbio con el adjetivo en frases como trabaja duro, donde duro es adverbio de modo."
+    ],
+    "perla": "La prueba definitiva es intentar ponerle plural. Si la palabra se resiste, es adverbio.",
+    "temaRelacionado": "clases-de-palabras",
+    "etiquetas": [
+      "adverbio",
+      "invariable",
+      "mente",
+      "circunstancia"
+    ]
+  },
+  {
+    "codigo": "preposiciones-conjunciones",
+    "titulo": "Preposiciones, conjunciones e interjecciones",
+    "area": "Gramática",
+    "nivel": "Secundaria",
+    "dificultad": "Básico",
+    "categoria": "Clases de palabras",
+    "definicion": "Las preposiciones y las conjunciones son palabras invariables que enlazan. Las interjecciones no enlazan nada: Expresan una emoción o una reacción por sí solas.",
+    "explicacion": "La diferencia entre preposición y conjunción está en lo que unen. La preposición une una palabra con su complemento y forma con él un sintagma preposicional (la casa de mi abuela). La conjunción une palabras o proposiciones del mismo o de distinto nivel (pan y vino, vine porque te necesito). La interjección forma por sí sola un enunciado y por eso suele ir entre signos de exclamación.",
+    "tabla": {
+      "titulo": "Las preposiciones del español",
+      "columnas": [
+        "Grupo",
+        "Preposiciones"
+      ],
+      "filas": [
+        [
+          "Lista tradicional",
+          "a, ante, bajo, cabe, con, contra, de, desde, en, entre, hacia, hasta, para, por, según, sin, so, sobre, tras"
+        ],
+        [
+          "Incorporaciones modernas",
+          "durante, mediante, versus, vía"
+        ],
+        [
+          "En desuso",
+          "cabe (junto a), so (bajo)"
+        ]
+      ]
+    },
+    "subclases": [
+      {
+        "nombre": "Conjunción coordinante",
+        "descripcion": "Une elementos del mismo nivel sintáctico.",
+        "ejemplos": [
+          "copulativas *y*, *e*, *ni*",
+          "adversativas *pero*, *mas*, *sino*",
+          "disyuntivas *o*, *u*"
+        ]
+      },
+      {
+        "nombre": "Conjunción subordinante",
+        "descripcion": "Introduce una proposición que depende de otra.",
+        "ejemplos": [
+          "*que*, *porque*, *aunque*, *si*, *cuando*, *para que*"
+        ]
+      },
+      {
+        "nombre": "Locución prepositiva",
+        "descripcion": "Grupo de palabras que funciona como una preposición.",
+        "ejemplos": [
+          "*a pesar de*, *debido a*, *junto a*, *acerca de*"
+        ]
+      },
+      {
+        "nombre": "Interjección",
+        "descripcion": "Expresa emoción, llama la atención o imita un sonido.",
+        "ejemplos": [
+          "¡*Ay*!, ¡*Órale*!, ¡*Ojalá*!, ¡*Eh*!"
+        ]
+      }
+    ],
+    "ejemplos": [
+      "Estudió *hasta* muy tarde *pero* aprobó *sin* problemas.",
+      "Se quedó *en* casa *porque* llovía.",
+      "¡*Híjole*! Se me olvidó la tarea."
+    ],
+    "comoReconocerlo": [
+      "La preposición siempre lleva algo detrás: Nunca se queda sola al final de la frase.",
+      "La conjunción se puede sustituir por otra del mismo grupo sin que se rompa la oración.",
+      "La interjección se puede quitar y la oración sigue completa, porque no forma parte de su estructura."
+    ],
+    "errores": [
+      "El dequeísmo, que consiste en poner de que donde solo va que: Pienso de que vendrá es incorrecto.",
+      "El queísmo, que es lo contrario: Me alegro que vengas debería ser me alegro de que vengas.",
+      "Usar y delante de palabras que empiezan por i o hi. Se dice padre e hijo, no padre y hijo."
+    ],
+    "perla": "Para saber si va que o de que, se sustituye la subordinada por eso. Pienso eso (sin de) frente a me alegro de eso (con de).",
+    "temaRelacionado": "clases-de-palabras",
+    "etiquetas": [
+      "preposición",
+      "conjunción",
+      "interjección",
+      "dequeísmo"
+    ]
+  },
+  {
+    "codigo": "el-sintagma",
+    "titulo": "El sintagma y sus tipos",
+    "area": "Sintaxis",
+    "nivel": "Secundaria",
+    "dificultad": "Básico",
+    "categoria": "Estructura de la oración",
+    "definicion": "Un sintagma es un grupo de palabras que se organiza alrededor de una palabra principal, llamada núcleo, y que funciona como una unidad dentro de la oración.",
+    "explicacion": "El sintagma es la pieza con la que se arma el análisis sintáctico. No se analizan palabras sueltas sino bloques, porque las palabras se mueven juntas: En el niño pequeño come, si la oración se cambia de orden, el niño pequeño viaja entero. El tipo de sintagma lo decide siempre su núcleo, no su tamaño ni su posición.",
+    "tabla": {
+      "titulo": "Los cinco sintagmas",
+      "columnas": [
+        "Sintagma",
+        "Núcleo",
+        "Estructura",
+        "Ejemplo"
+      ],
+      "filas": [
+        [
+          "Nominal",
+          "Sustantivo o pronombre",
+          "Determinante más núcleo más complementos",
+          "*los libros viejos de mi padre*"
+        ],
+        [
+          "Verbal",
+          "Verbo",
+          "Núcleo más complementos",
+          "*escribió una carta ayer*"
+        ],
+        [
+          "Adjetival",
+          "Adjetivo",
+          "Modificador más núcleo",
+          "*muy fácil de entender*"
+        ],
+        [
+          "Adverbial",
+          "Adverbio",
+          "Modificador más núcleo",
+          "*bastante lejos de aquí*"
+        ],
+        [
+          "Preposicional",
+          "No tiene núcleo propio",
+          "Enlace (preposición) más término",
+          "*de mi padre*"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "*El árbol más alto del parque* daba sombra a toda la banca.",
+      "Llegó *bastante tarde*.",
+      "Estaba *muy contenta con el resultado*."
+    ],
+    "comoReconocerlo": [
+      "Se prueba moviendo el grupo entero al principio de la oración. Si se puede mover junto, es un sintagma.",
+      "Se prueba sustituyéndolo por una sola palabra. Un sintagma nominal se sustituye por un pronombre.",
+      "El sintagma preposicional es el único que no toma nombre de su núcleo, porque la preposición es un enlace y no un núcleo."
+    ],
+    "errores": [
+      "Llamar sintagma nominal a un sintagma preposicional. En de mi padre el núcleo es padre, pero la preposición manda y el sintagma es preposicional.",
+      "Analizar palabra por palabra en lugar de por bloques, que es la causa más común de errores en los exámenes.",
+      "Olvidar que un sintagma puede estar formado por una sola palabra. Ella es un sintagma nominal completo."
+    ],
+    "perla": "El sintagma se llama como su núcleo, con una sola excepción: El preposicional, que se llama como su enlace.",
+    "temaRelacionado": "analisis-sintactico",
+    "etiquetas": [
+      "sintagma",
+      "núcleo",
+      "estructura",
+      "sintaxis"
+    ]
+  },
+  {
+    "codigo": "sujeto-y-predicado",
+    "titulo": "El sujeto y el predicado",
+    "area": "Sintaxis",
+    "nivel": "Secundaria",
+    "dificultad": "Básico",
+    "categoria": "Estructura de la oración",
+    "definicion": "La oración se divide en dos partes: El sujeto, que es de quien se dice algo, y el predicado, que es todo lo que se dice de él. El núcleo del sujeto es un sustantivo o un pronombre, y el del predicado es siempre un verbo.",
+    "explicacion": "El sujeto no se identifica preguntando quién realiza la acción, porque en las pasivas el sujeto no realiza nada. Se identifica por la concordancia: El sujeto es el sintagma nominal que obliga al verbo a cambiar de número. Si se pasa el verbo al plural y hay un grupo de palabras que también tiene que ir al plural para que la oración siga siendo correcta, ese grupo es el sujeto.",
+    "tabla": {
+      "titulo": "Clases de sujeto",
+      "columnas": [
+        "Clase",
+        "Descripción",
+        "Ejemplo"
+      ],
+      "filas": [
+        [
+          "Expreso",
+          "Aparece escrito en la oración",
+          "*Los niños* juegan"
+        ],
+        [
+          "Omitido o elíptico",
+          "No aparece, pero la desinencia verbal lo indica",
+          "Juegan en el patio (ellos)"
+        ],
+        [
+          "Agente",
+          "Realiza la acción, en voz activa",
+          "*El jurado* premió el cuento"
+        ],
+        [
+          "Paciente",
+          "Recibe la acción, en voz pasiva",
+          "*El cuento* fue premiado"
+        ],
+        [
+          "Sin sujeto",
+          "Oración impersonal, no admite sujeto",
+          "*Llueve* mucho"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "*Los alumnos de tercero* / *entregaron el proyecto ayer*.",
+      "*(Nosotros)* / *estudiamos toda la tarde*.",
+      "*Me gustan* / *los libros de aventuras* (el sujeto va detrás)."
+    ],
+    "comoReconocerlo": [
+      "La prueba de la concordancia: Si al poner el verbo en plural el grupo también debe ir en plural, ese grupo es el sujeto.",
+      "El sujeto nunca lleva preposición delante de su núcleo. Si hay preposición, no es sujeto.",
+      "El sujeto puede ir delante, detrás o partido por el verbo. El orden no lo decide."
+    ],
+    "errores": [
+      "Buscar el sujeto solo delante del verbo. En me gustan los libros, el sujeto es los libros.",
+      "Confundir el sujeto con el complemento indirecto en oraciones con gustar, doler o interesar. A mí me duele la cabeza tiene como sujeto la cabeza.",
+      "Llamar sujeto a un sintagma preposicional. En la mayoría de los alumnos aprobó, el sujeto es la mayoría."
+    ],
+    "perla": "El sujeto es el que manda sobre el verbo. Se cambia el verbo de número y se ve enseguida quién tiene que cambiar con él.",
+    "temaRelacionado": "analisis-sintactico",
+    "etiquetas": [
+      "sujeto",
+      "predicado",
+      "concordancia",
+      "impersonal"
+    ]
+  },
+  {
+    "codigo": "los-complementos",
+    "titulo": "Los complementos del verbo",
+    "area": "Sintaxis",
+    "nivel": "Preparatoria",
+    "dificultad": "Intermedio",
+    "categoria": "Estructura de la oración",
+    "definicion": "Los complementos son los sintagmas que dependen del verbo y completan su significado. Cada uno se identifica con una prueba de sustitución concreta, no con una pregunta al aire.",
+    "explicacion": "Las preguntas del tipo qué o a quién fallan a menudo, porque muchas cosas responden a qué. Lo que no falla son las pruebas de sustitución, porque cada complemento se sustituye por un pronombre distinto y solo por ese. Conviene aprenderse la tabla y aplicarla siempre en el mismo orden: Primero se busca el complemento directo, luego el indirecto, después el de régimen y al final los circunstanciales.",
+    "tabla": {
+      "titulo": "Los complementos y su prueba",
+      "columnas": [
+        "Complemento",
+        "Prueba que lo identifica",
+        "Ejemplo"
+      ],
+      "filas": [
+        [
+          "Complemento directo",
+          "Se sustituye por lo, la, los o las, y pasa a sujeto en la pasiva",
+          "Leí *el libro*, lo leí"
+        ],
+        [
+          "Complemento indirecto",
+          "Se sustituye por le o les",
+          "Di el libro *a Ana*, le di el libro"
+        ],
+        [
+          "Complemento de régimen",
+          "Lleva una preposición que exige el verbo, y se sustituye por preposición más eso",
+          "Pienso *en ti*, pienso en eso"
+        ],
+        [
+          "Complemento circunstancial",
+          "Se sustituye por un adverbio y se puede quitar",
+          "Llegó *a las tres*, llegó entonces"
+        ],
+        [
+          "Complemento agente",
+          "Lleva por y solo aparece en la pasiva",
+          "Fue premiado *por el jurado*"
+        ],
+        [
+          "Atributo",
+          "Solo con ser, estar o parecer, y se sustituye por lo",
+          "Está *cansado*, lo está"
+        ],
+        [
+          "Complemento predicativo",
+          "Concuerda con el sujeto y no puede sustituirse por lo",
+          "Llegó *agotada*"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "El profesor *les* explicó *la lección* *con paciencia*.",
+      "Mi hermana se acordó *de tu cumpleaños*.",
+      "Los alumnos salieron *contentos* *del examen*."
+    ],
+    "comoReconocerlo": [
+      "El complemento directo es el único que se convierte en sujeto al pasar la oración a pasiva.",
+      "El complemento de régimen no se puede quitar sin dejar la oración coja, y el circunstancial sí.",
+      "El circunstancial se puede mover al principio de la oración con naturalidad, y los demás complementos no."
+    ],
+    "errores": [
+      "Llamar complemento directo a todo lo que va detrás del verbo. En vive en Toluca, en Toluca es circunstancial.",
+      "Confundir el complemento de régimen con el circunstancial. En confío en ti la preposición la exige el verbo, así que es de régimen.",
+      "Olvidar que el complemento directo de persona lleva la preposición a: Vi a Juan, y aun así se sustituye por lo."
+    ],
+    "perla": "El orden de trabajo importa. Se busca primero el complemento directo con la prueba de lo, y todo lo demás se ordena solo.",
+    "temaRelacionado": "analisis-sintactico",
+    "etiquetas": [
+      "complemento directo",
+      "indirecto",
+      "régimen",
+      "circunstancial",
+      "atributo"
+    ]
+  },
+  {
+    "codigo": "circunstanciales",
+    "titulo": "Los complementos circunstanciales",
+    "area": "Sintaxis",
+    "nivel": "Secundaria",
+    "dificultad": "Básico",
+    "categoria": "Estructura de la oración",
+    "definicion": "El complemento circunstancial expresa la circunstancia en la que ocurre la acción: Dónde, cuándo, cómo, con quién, con qué, por qué o para qué.",
+    "explicacion": "Es el complemento más libre de todos. Puede aparecer varias veces en la misma oración, se puede quitar sin que la oración deje de ser correcta y se puede mover de sitio. Suele ser un sintagma adverbial o un sintagma preposicional, y a veces un sintagma nominal de sentido temporal, como en llegó el lunes.",
+    "tabla": {
+      "titulo": "Tipos de circunstancial",
+      "columnas": [
+        "Tipo",
+        "Pregunta",
+        "Ejemplo"
+      ],
+      "filas": [
+        [
+          "De lugar",
+          "dónde",
+          "Estudia *en la biblioteca*"
+        ],
+        [
+          "De tiempo",
+          "cuándo",
+          "Llegó *el martes*"
+        ],
+        [
+          "De modo",
+          "cómo",
+          "Lo hizo *con cuidado*"
+        ],
+        [
+          "De cantidad",
+          "cuánto",
+          "Trabajó *mucho*"
+        ],
+        [
+          "De compañía",
+          "con quién",
+          "Salió *con sus primos*"
+        ],
+        [
+          "De instrumento",
+          "con qué",
+          "Lo escribió *con pluma*"
+        ],
+        [
+          "De causa",
+          "por qué",
+          "Faltó *por enfermedad*"
+        ],
+        [
+          "De finalidad",
+          "para qué",
+          "Vino *para ayudarnos*"
+        ],
+        [
+          "De afirmación, negación y duda",
+          "no aplica",
+          "*No* vino, *quizá* llegue"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "*Ayer* estudiamos *en la biblioteca* *con mucha calma*.",
+      "Escribió la carta *con pluma* *para su abuela*.",
+      "*Por la lluvia* llegamos tarde *a la escuela*."
+    ],
+    "comoReconocerlo": [
+      "Se puede suprimir y la oración sigue siendo gramatical.",
+      "Se puede sustituir por un adverbio: En la biblioteca por allí, el martes por entonces.",
+      "Se puede llevar al principio de la oración sin que suene forzado."
+    ],
+    "errores": [
+      "Confundir el de compañía con el de instrumento. Con mi hermano es compañía porque es un ser animado, y con la regla es instrumento.",
+      "Confundir el de causa con el de finalidad. La causa ya ocurrió (por la lluvia) y la finalidad todavía no (para aprobar).",
+      "Tomar por circunstancial un complemento de régimen, que no se puede quitar."
+    ],
+    "perla": "La prueba rápida es taparlo con el dedo. Si la oración sigue en pie sin él, es circunstancial.",
+    "temaRelacionado": "analisis-sintactico",
+    "etiquetas": [
+      "circunstancial",
+      "lugar",
+      "tiempo",
+      "modo",
+      "causa",
+      "finalidad"
+    ]
+  },
+  {
+    "codigo": "clases-de-oracion",
+    "titulo": "Clases de oración simple",
+    "area": "Sintaxis",
+    "nivel": "Preparatoria",
+    "dificultad": "Intermedio",
+    "categoria": "Estructura de la oración",
+    "definicion": "Una oración simple se clasifica por dos criterios a la vez: Por la actitud del hablante, que es lo que la oración hace, y por la naturaleza de su predicado, que es cómo está construida.",
+    "explicacion": "Los dos criterios son independientes y hay que dar los dos. Una misma oración puede ser interrogativa y a la vez copulativa. En un examen, la respuesta completa incluye la actitud del hablante, si el predicado es nominal o verbal, y si es verbal, la voz, la transitividad y el tipo de sujeto.",
+    "tabla": {
+      "titulo": "Los dos criterios de clasificación",
+      "columnas": [
+        "Criterio",
+        "Clases",
+        "Ejemplo"
+      ],
+      "filas": [
+        [
+          "Actitud: enunciativa",
+          "Afirma o niega un hecho",
+          "Los alumnos estudian"
+        ],
+        [
+          "Actitud: interrogativa",
+          "Pregunta, directa o indirecta",
+          "¿Estudian los alumnos?"
+        ],
+        [
+          "Actitud: exclamativa",
+          "Expresa emoción",
+          "¡Cómo estudian!"
+        ],
+        [
+          "Actitud: exhortativa",
+          "Ordena, ruega o aconseja",
+          "Estudien más"
+        ],
+        [
+          "Actitud: desiderativa",
+          "Expresa deseo",
+          "Ojalá estudien"
+        ],
+        [
+          "Actitud: dubitativa",
+          "Expresa duda",
+          "Quizá estudien"
+        ],
+        [
+          "Predicado nominal",
+          "Con ser, estar o parecer más atributo",
+          "Los alumnos son aplicados"
+        ],
+        [
+          "Predicado verbal transitiva",
+          "Lleva complemento directo",
+          "Los alumnos leen la novela"
+        ],
+        [
+          "Predicado verbal intransitiva",
+          "No lleva complemento directo",
+          "Los alumnos llegaron"
+        ],
+        [
+          "Pasiva",
+          "El sujeto recibe la acción",
+          "La novela fue leída"
+        ],
+        [
+          "Reflexiva",
+          "El sujeto hace y recibe la acción",
+          "El niño se peina"
+        ],
+        [
+          "Recíproca",
+          "Dos sujetos se hacen la acción mutuamente",
+          "Los amigos se saludan"
+        ],
+        [
+          "Impersonal",
+          "No admite sujeto",
+          "Llueve mucho"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "¿Ya terminaste la tarea? (interrogativa, predicado verbal, transitiva)",
+      "Mi hermana está enferma (enunciativa, predicado nominal)",
+      "Se venden departamentos (enunciativa, pasiva refleja)"
+    ],
+    "comoReconocerlo": [
+      "El predicado nominal se reconoce porque el verbo se puede sustituir por lo: Está cansado da lo está.",
+      "La reflexiva admite añadir a sí mismo, y la recíproca admite añadir el uno al otro.",
+      "La impersonal no admite ningún sujeto, ni siquiera imaginado."
+    ],
+    "errores": [
+      "Dar solo un criterio en el examen. Toda clasificación completa lleva la actitud y el predicado.",
+      "Llamar impersonal a una oración con sujeto omitido. En estudiamos mucho el sujeto está omitido, pero existe.",
+      "Confundir la pasiva refleja con la impersonal con se. En la refleja el verbo concuerda con el sujeto paciente."
+    ],
+    "perla": "Una clasificación bien hecha responde a dos preguntas: Qué hace la oración y cómo está armado su predicado.",
+    "temaRelacionado": "analisis-sintactico",
+    "etiquetas": [
+      "oración simple",
+      "clasificación",
+      "copulativa",
+      "transitiva",
+      "impersonal"
+    ]
+  },
+  {
+    "codigo": "oracion-compuesta",
+    "titulo": "La oración compuesta",
+    "area": "Sintaxis",
+    "nivel": "Preparatoria",
+    "dificultad": "Avanzado",
+    "categoria": "Estructura de la oración",
+    "definicion": "Una oración es compuesta cuando tiene más de un verbo conjugado, y por tanto más de una proposición. Las proposiciones se relacionan por yuxtaposición, por coordinación o por subordinación.",
+    "explicacion": "Para saber cuántas proposiciones hay basta contar los verbos conjugados: Cada uno arma una. Las yuxtapuestas se unen solo con un signo de puntuación. Las coordinadas se unen con una conjunción y están al mismo nivel, es decir, cada una podría existir sola. Las subordinadas dependen de la principal y ocupan dentro de ella la función de un sustantivo, un adjetivo o un adverbio.",
+    "tabla": {
+      "titulo": "Las tres relaciones",
+      "columnas": [
+        "Relación",
+        "Nexo",
+        "Ejemplo"
+      ],
+      "filas": [
+        [
+          "Yuxtaposición",
+          "Solo un signo de puntuación",
+          "Llegué, vi, vencí"
+        ],
+        [
+          "Coordinación copulativa",
+          "y, e, ni",
+          "Estudié *y* aprobé"
+        ],
+        [
+          "Coordinación adversativa",
+          "pero, mas, sino",
+          "Estudié *pero* no aprobé"
+        ],
+        [
+          "Coordinación disyuntiva",
+          "o, u",
+          "Estudias *o* repruebas"
+        ],
+        [
+          "Coordinación explicativa",
+          "es decir, o sea",
+          "Aprobé, *es decir*, estudié"
+        ],
+        [
+          "Coordinación distributiva",
+          "ya ya, unos otros",
+          "*Ya* ríe, *ya* llora"
+        ],
+        [
+          "Subordinada sustantiva",
+          "que, si, interrogativos",
+          "Quiero *que vengas*"
+        ],
+        [
+          "Subordinada adjetiva",
+          "que, quien, cuyo, donde",
+          "El libro *que compré*"
+        ],
+        [
+          "Subordinada adverbial",
+          "cuando, porque, aunque, si",
+          "Vine *porque te necesito*"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "*Estudié mucho* *pero el examen fue difícil* (coordinada adversativa).",
+      "*Los alumnos* *que estudian* *aprueban* (subordinada adjetiva incrustada en el sujeto).",
+      "*No sé* *si vendrá mañana* (subordinada sustantiva de complemento directo)."
+    ],
+    "comoReconocerlo": [
+      "Se cuentan los verbos conjugados. Los infinitivos, gerundios y participios de una perífrasis no cuentan.",
+      "Si al quitar el nexo las dos partes siguen funcionando como oraciones independientes, es coordinación.",
+      "Si una parte no puede existir sola, es subordinada, y entonces hay que decir qué función cumple dentro de la principal."
+    ],
+    "errores": [
+      "Contar como dos verbos los de una perífrasis. En voy a estudiar hay un solo núcleo.",
+      "Llamar coordinada a una subordinada solo porque lleva un nexo. Lo que decide es la dependencia.",
+      "Olvidar decir la función de la subordinada. No basta con decir sustantiva: Hay que decir si hace de sujeto, de complemento directo o de otra cosa."
+    ],
+    "perla": "Se cuentan los verbos conjugados y se pregunta si una parte puede vivir sola. Coordinada si puede, subordinada si no.",
+    "temaRelacionado": "analisis-sintactico",
+    "etiquetas": [
+      "compuesta",
+      "coordinación",
+      "subordinación",
+      "yuxtaposición",
+      "proposición"
+    ]
+  },
+  {
+    "codigo": "subordinadas-sustantivas",
+    "titulo": "Las proposiciones subordinadas sustantivas",
+    "area": "Sintaxis",
+    "nivel": "Preparatoria",
+    "dificultad": "Avanzado",
+    "categoria": "Estructura de la oración",
+    "definicion": "Una proposición subordinada sustantiva es la que ocupa dentro de la oración principal el mismo lugar que ocuparía un sustantivo, y por eso puede sustituirse por la palabra eso.",
+    "explicacion": "La prueba de eso es infalible. Si al cambiar la proposición entera por eso la oración sigue funcionando, la subordinada es sustantiva. Después hay que decir qué función cumple, que será la misma que tendría el sustantivo: Sujeto, complemento directo, complemento de régimen, complemento del nombre o atributo. Sus nexos habituales son que, si y los interrogativos.",
+    "tabla": {
+      "titulo": "Funciones de la subordinada sustantiva",
+      "columnas": [
+        "Función",
+        "Ejemplo",
+        "Sustitución"
+      ],
+      "filas": [
+        [
+          "Sujeto",
+          "*Que vengas* me alegra",
+          "Eso me alegra"
+        ],
+        [
+          "Complemento directo",
+          "Quiero *que vengas*",
+          "Quiero eso"
+        ],
+        [
+          "Atributo",
+          "Mi deseo es *que vengas*",
+          "Mi deseo es eso"
+        ],
+        [
+          "Complemento de régimen",
+          "Me alegro de *que vengas*",
+          "Me alegro de eso"
+        ],
+        [
+          "Complemento del nombre",
+          "Tengo la esperanza de *que vengas*",
+          "Tengo la esperanza de eso"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "*Que llegaras tarde* arruinó el plan (sujeto).",
+      "No sé *si podré ir* (complemento directo).",
+      "Todos se acordaron *de lo que dijiste* (complemento de régimen)."
+    ],
+    "comoReconocerlo": [
+      "Se sustituye la proposición entera por eso.",
+      "El nexo que de las sustantivas no se puede cambiar por el cual, porque no sustituye a ningún sustantivo anterior.",
+      "En las interrogativas indirectas el nexo es si o una palabra interrogativa con tilde."
+    ],
+    "errores": [
+      "Confundirla con la adjetiva. En dijo que vendría, que es conjunción. En el libro que compré, que es pronombre relativo y sustituye a libro.",
+      "Poner de que donde no toca. Se dice pienso que vendrá, no pienso de que vendrá.",
+      "Olvidar la tilde en los interrogativos indirectos. Se escribe no sé qué quieres, con tilde."
+    ],
+    "perla": "La prueba de eso separa las sustantivas de todo lo demás en un segundo, y no falla nunca.",
+    "temaRelacionado": "analisis-sintactico",
+    "etiquetas": [
+      "subordinada",
+      "sustantiva",
+      "que",
+      "interrogativa indirecta"
+    ]
+  },
+  {
+    "codigo": "subordinadas-adjetivas",
+    "titulo": "Las proposiciones subordinadas adjetivas",
+    "area": "Sintaxis",
+    "nivel": "Preparatoria",
+    "dificultad": "Avanzado",
+    "categoria": "Estructura de la oración",
+    "definicion": "Una proposición subordinada adjetiva o de relativo modifica a un sustantivo de la oración principal, igual que haría un adjetivo, y va introducida por un pronombre o un adverbio relativo.",
+    "explicacion": "El sustantivo al que se refiere se llama antecedente, y el relativo lo sustituye dentro de su propia proposición, donde cumple una función sintáctica propia. En el libro que compré, que sustituye a libro y dentro de la subordinada hace de complemento directo de compré. Por eso el relativo hace dos trabajos a la vez: enlaza y sustituye.",
+    "tabla": {
+      "titulo": "Especificativas y explicativas",
+      "columnas": [
+        "Tipo",
+        "Puntuación",
+        "Qué significa",
+        "Ejemplo"
+      ],
+      "filas": [
+        [
+          "Especificativa",
+          "Sin comas",
+          "Distingue: solo algunos",
+          "Los alumnos *que estudian* aprueban"
+        ],
+        [
+          "Explicativa",
+          "Entre comas",
+          "Añade un dato de todos",
+          "Los alumnos, *que estudian*, aprueban"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "La casa *donde nací* ya no existe.",
+      "Mi vecina, *que es maestra*, me ayudó con la tarea.",
+      "El escritor *cuya novela ganó el premio* dará una charla."
+    ],
+    "comoReconocerlo": [
+      "Se sustituye la proposición entera por un adjetivo. Los alumnos que estudian da los alumnos aplicados.",
+      "El relativo que se puede cambiar por el cual, la cual, los cuales o las cuales.",
+      "Siempre hay un sustantivo justo antes del relativo, que es su antecedente."
+    ],
+    "errores": [
+      "Poner o quitar las comas sin darse cuenta de que cambia el significado. Sin comas solo aprueban algunos, con comas aprueban todos.",
+      "Usar cuyo como si fuera que. Cuyo indica posesión y concuerda con lo poseído: El autor cuya novela, no el autor que su novela.",
+      "Confundir el que relativo con el que conjunción de las sustantivas."
+    ],
+    "perla": "Si el que se puede cambiar por el cual, es relativo y la subordinada es adjetiva. Si no se puede, es conjunción y la subordinada es sustantiva.",
+    "temaRelacionado": "analisis-sintactico",
+    "etiquetas": [
+      "subordinada",
+      "adjetiva",
+      "relativo",
+      "antecedente",
+      "cuyo"
+    ]
+  },
+  {
+    "codigo": "subordinadas-adverbiales",
+    "titulo": "Las proposiciones subordinadas adverbiales",
+    "area": "Sintaxis",
+    "nivel": "Preparatoria",
+    "dificultad": "Avanzado",
+    "categoria": "Estructura de la oración",
+    "definicion": "Una proposición subordinada adverbial expresa una circunstancia de la acción principal: Cuándo, dónde, cómo, por qué, para qué o con qué condición.",
+    "explicacion": "Las adverbiales propias (de tiempo, de lugar y de modo) se pueden sustituir por un adverbio, y funcionan como complemento circunstancial. Las llamadas impropias (causales, finales, condicionales, concesivas, consecutivas y comparativas) no se sustituyen por un adverbio, sino que expresan una relación lógica entre las dos partes. La diferencia importa poco en secundaria, pero en preparatoria se pide distinguirlas.",
+    "tabla": {
+      "titulo": "Tipos y nexos",
+      "columnas": [
+        "Tipo",
+        "Nexos",
+        "Ejemplo"
+      ],
+      "filas": [
+        [
+          "Temporal",
+          "cuando, mientras, apenas, en cuanto",
+          "Te avisaré *cuando llegue*"
+        ],
+        [
+          "De lugar",
+          "donde, adonde",
+          "Iremos *adonde tú digas*"
+        ],
+        [
+          "De modo",
+          "como, según",
+          "Hazlo *como te enseñé*"
+        ],
+        [
+          "Causal",
+          "porque, ya que, puesto que",
+          "Falté *porque estaba enfermo*"
+        ],
+        [
+          "Final",
+          "para que, a fin de que",
+          "Estudio *para que me admitan*"
+        ],
+        [
+          "Condicional",
+          "si, siempre que, con tal de que",
+          "*Si estudias*, aprobarás"
+        ],
+        [
+          "Concesiva",
+          "aunque, a pesar de que, si bien",
+          "*Aunque llueva*, saldremos"
+        ],
+        [
+          "Consecutiva",
+          "tan que, tanto que, así que",
+          "Estudió tanto *que se agotó*"
+        ],
+        [
+          "Comparativa",
+          "más que, menos que, tanto como",
+          "Sabe más *de lo que aparenta*"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "*Cuando termines la tarea*, podrás salir.",
+      "No fui a la fiesta *aunque me invitaron*.",
+      "Habla despacio *para que todos te entiendan*."
+    ],
+    "comoReconocerlo": [
+      "Las temporales, de lugar y de modo se sustituyen por entonces, allí y así.",
+      "La condicional siempre lleva una parte que depende de la otra: Si ocurre esto, ocurre lo otro.",
+      "La concesiva expresa un obstáculo que no impide la acción principal, y por eso admite la fórmula a pesar de eso."
+    ],
+    "errores": [
+      "Confundir la causal con la final. La causal explica lo que ya ocurrió y la final lo que se busca.",
+      "Confundir el si condicional con el si de las interrogativas indirectas. En no sé si vendrá la subordinada es sustantiva.",
+      "Poner indicativo detrás de para que. Siempre va subjuntivo: Para que vengas, no para que vienes."
+    ],
+    "perla": "Si la subordinada responde a cuándo, dónde o cómo, es adverbial propia. Si responde a por qué, para qué o con qué condición, es impropia.",
+    "temaRelacionado": "analisis-sintactico",
+    "etiquetas": [
+      "subordinada",
+      "adverbial",
+      "condicional",
+      "concesiva",
+      "causal"
+    ]
+  },
+  {
+    "codigo": "acentuacion-general",
+    "titulo": "Las reglas generales de acentuación",
+    "area": "Ortografía",
+    "nivel": "Secundaria",
+    "dificultad": "Básico",
+    "categoria": "Acentuación",
+    "definicion": "Todas las palabras tienen una sílaba tónica, que es la que se pronuncia con más fuerza. La tilde es la marca escrita de esa sílaba, y solo se pone cuando lo piden las reglas.",
+    "explicacion": "El primer paso siempre es separar la palabra en sílabas y localizar la tónica. Según dónde caiga, la palabra es aguda (última sílaba), grave o llana (penúltima), esdrújula (antepenúltima) o sobresdrújula (antes de la antepenúltima). Solo entonces se aplica la regla. Las reglas están hechas para marcar lo excepcional: Como la mayoría de las palabras españolas son llanas terminadas en vocal, en n o en s, esas no llevan tilde.",
+    "tabla": {
+      "titulo": "Las cuatro reglas",
+      "columnas": [
+        "Tipo",
+        "Sílaba tónica",
+        "Lleva tilde cuando",
+        "Ejemplos"
+      ],
+      "filas": [
+        [
+          "Aguda",
+          "Última",
+          "Termina en vocal, en n o en s",
+          "*canción*, *café*, *jamás* frente a *reloj*, *papel*"
+        ],
+        [
+          "Grave o llana",
+          "Penúltima",
+          "NO termina en vocal, en n ni en s",
+          "*lápiz*, *árbol*, *fácil* frente a *casa*, *examen*"
+        ],
+        [
+          "Esdrújula",
+          "Antepenúltima",
+          "Siempre",
+          "*gramática*, *sílaba*, *rápido*"
+        ],
+        [
+          "Sobresdrújula",
+          "Antes de la antepenúltima",
+          "Siempre",
+          "*cómetelo*, *dígamelo*, *rápidamente*"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "*Canción* es aguda y termina en n, así que lleva tilde.",
+      "*Examen* es llana y termina en n, así que no lleva tilde. Pero *exámenes* es esdrújula y sí la lleva.",
+      "*Reloj* es aguda pero termina en j, así que no lleva tilde."
+    ],
+    "comoReconocerlo": [
+      "Primero se separa en sílabas, siempre. Sin eso no se puede aplicar ninguna regla.",
+      "Las reglas de agudas y llanas son opuestas: Lo que hace que una lleve tilde hace que la otra no la lleve.",
+      "Si la palabra ya trae tilde escrita, esa es la sílaba tónica y no hay nada que averiguar."
+    ],
+    "errores": [
+      "Poner tilde a todas las palabras largas. La longitud no tiene nada que ver: literatura no lleva tilde.",
+      "Olvidar que al pasar al plural cambia el tipo de palabra. Joven es llana sin tilde, jóvenes es esdrújula con tilde.",
+      "Acentuar las agudas terminadas en consonante distinta de n o s, como escribir cantár."
+    ],
+    "perla": "Agudas y llanas son espejos. Si la aguda lleva tilde por terminar en vocal, en n o en s, la llana la lleva justo por lo contrario.",
+    "temaRelacionado": "la-tilde",
+    "etiquetas": [
+      "tilde",
+      "aguda",
+      "llana",
+      "esdrújula",
+      "sílaba tónica"
+    ]
+  },
+  {
+    "codigo": "diptongo-hiato",
+    "titulo": "Diptongo, triptongo, hiato y la tilde",
+    "area": "Ortografía",
+    "nivel": "Secundaria",
+    "dificultad": "Intermedio",
+    "categoria": "Acentuación",
+    "definicion": "Cuando dos o más vocales aparecen juntas, pueden pronunciarse en la misma sílaba (diptongo o triptongo) o en sílabas distintas (hiato). De eso depende cómo se separa la palabra y dónde va la tilde.",
+    "explicacion": "Las vocales se dividen en abiertas (a, e, o) y cerradas (i, u). Hay diptongo cuando se juntan una abierta y una cerrada átona, o dos cerradas distintas. Hay hiato cuando se juntan dos abiertas, o cuando la cerrada lleva el acento. Este último caso es el importante, porque la vocal cerrada tónica junto a una abierta lleva tilde siempre, aunque la regla general diga lo contrario.",
+    "tabla": {
+      "titulo": "Cómo se agrupan las vocales",
+      "columnas": [
+        "Caso",
+        "Qué vocales",
+        "Resultado",
+        "Ejemplos"
+      ],
+      "filas": [
+        [
+          "Diptongo",
+          "Abierta más cerrada átona",
+          "Una sílaba",
+          "*ai*re, *cue*nto, ciu*dad*"
+        ],
+        [
+          "Triptongo",
+          "Cerrada átona, abierta, cerrada átona",
+          "Una sílaba",
+          "estu*diáis*, *buey*"
+        ],
+        [
+          "Hiato simple",
+          "Dos abiertas",
+          "Dos sílabas",
+          "po-*e*-ta, te-*a*-tro, le-*er*"
+        ],
+        [
+          "Hiato acentual",
+          "Cerrada tónica junto a abierta",
+          "Dos sílabas y tilde obligatoria",
+          "d*í*-a, pa-*ís*, ba-*úl*, o-*ír*"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "*Día* se separa en dí-a y lleva tilde aunque sea llana terminada en vocal.",
+      "*País* se separa en pa-ís y lleva tilde aunque la regla de agudas ya la pediría.",
+      "*Aire* es una sola sílaba de dos vocales, así que es diptongo."
+    ],
+    "comoReconocerlo": [
+      "Se pronuncia la palabra despacio y se cuenta cuántos golpes de voz tiene.",
+      "Si al pronunciar la i o la u con fuerza la palabra se parte en dos, hay hiato acentual y toca tilde.",
+      "La h entre dos vocales no impide ni el diptongo ni el hiato: Prohíbe tiene hiato y lleva tilde."
+    ],
+    "errores": [
+      "Escribir dia, pais o baul sin tilde. Son hiatos y la tilde es obligatoria.",
+      "Separar mal los diptongos al dividir una palabra a final de renglón.",
+      "Creer que la tilde del hiato es una excepción caprichosa. Su función es justamente avisar de que ahí no hay diptongo."
+    ],
+    "perla": "La tilde en el hiato no cumple una regla de acentuación: Cumple una función de lectura. Avisa de que las dos vocales se separan.",
+    "temaRelacionado": "la-tilde",
+    "etiquetas": [
+      "diptongo",
+      "hiato",
+      "triptongo",
+      "tilde",
+      "sílaba"
+    ]
+  },
+  {
+    "codigo": "tilde-diacritica",
+    "titulo": "La tilde diacrítica",
+    "area": "Ortografía",
+    "nivel": "Secundaria",
+    "dificultad": "Intermedio",
+    "categoria": "Acentuación",
+    "definicion": "La tilde diacrítica distingue dos palabras que se escriben igual pero pertenecen a clases distintas. No sigue las reglas generales: Su único trabajo es separar significados.",
+    "explicacion": "Se aplica sobre todo a monosílabos, que por regla general nunca llevarían tilde. La forma tónica, es decir, la que se pronuncia con fuerza propia, es la que lleva la tilde. La forma átona, que se apoya en la palabra siguiente, no la lleva. Por eso el pronombre él lleva tilde y el artículo el no la lleva.",
+    "tabla": {
+      "titulo": "Los pares que hay que saber",
+      "columnas": [
+        "Con tilde",
+        "Qué es",
+        "Sin tilde",
+        "Qué es"
+      ],
+      "filas": [
+        [
+          "*él*",
+          "Pronombre personal",
+          "*el*",
+          "Artículo"
+        ],
+        [
+          "*tú*",
+          "Pronombre personal",
+          "*tu*",
+          "Determinante posesivo"
+        ],
+        [
+          "*mí*",
+          "Pronombre personal",
+          "*mi*",
+          "Determinante posesivo"
+        ],
+        [
+          "*sí*",
+          "Afirmación o pronombre",
+          "*si*",
+          "Conjunción condicional"
+        ],
+        [
+          "*sé*",
+          "Verbo saber o ser",
+          "*se*",
+          "Pronombre"
+        ],
+        [
+          "*dé*",
+          "Verbo dar",
+          "*de*",
+          "Preposición"
+        ],
+        [
+          "*té*",
+          "La bebida",
+          "*te*",
+          "Pronombre"
+        ],
+        [
+          "*más*",
+          "Adverbio de cantidad",
+          "*mas*",
+          "Conjunción equivalente a pero"
+        ],
+        [
+          "*aún*",
+          "Equivale a todavía",
+          "*aun*",
+          "Equivale a incluso"
+        ],
+        [
+          "*qué*, *quién*, *cuál*, *cómo*, *dónde*, *cuándo*, *cuánto*",
+          "Interrogativos y exclamativos",
+          "*que*, *quien*, *cual*, *como*, *donde*, *cuando*, *cuanto*",
+          "Relativos y conjunciones"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "*Él* me dijo que *el* libro era *tuyo*.",
+      "*Sé* que *se* fue temprano.",
+      "No sé *qué* quiere, pero sé *que* vendrá."
+    ],
+    "comoReconocerlo": [
+      "Se prueba a sustituir. Si más se puede cambiar por pero, va sin tilde (mas). Si se puede cambiar por todavía, aún lleva tilde.",
+      "Los interrogativos llevan tilde también en preguntas indirectas, sin signos: dime dónde vives.",
+      "La forma con tilde es la que se pronuncia con fuerza y podría quedarse sola en la frase."
+    ],
+    "errores": [
+      "Acentuar los demostrativos. Desde hace años este, ese y aquel no llevan tilde nunca, ni siquiera cuando son pronombres.",
+      "Acentuar el adverbio solo. Tampoco lleva tilde ya, salvo si hay riesgo real de confusión y quien escribe lo prefiere.",
+      "Olvidar la tilde en los interrogativos indirectos, que es el error más frecuente de todos."
+    ],
+    "perla": "La tilde diacrítica marca la palabra con peso propio. Si la palabra se apoya en la siguiente para sonar, no la lleva.",
+    "temaRelacionado": "la-tilde",
+    "etiquetas": [
+      "tilde diacrítica",
+      "monosílabo",
+      "interrogativo",
+      "aún",
+      "más"
+    ]
+  },
+  {
+    "codigo": "b-y-v",
+    "titulo": "Uso de la b y la v",
+    "area": "Ortografía",
+    "nivel": "Secundaria",
+    "dificultad": "Básico",
+    "categoria": "Letras dudosas",
+    "definicion": "La b y la v suenan igual en español, así que la escritura correcta depende de reglas y del recuerdo de cada palabra, no del oído.",
+    "explicacion": "Las reglas cubren la mayor parte de los casos y conviene sabérselas, porque resuelven de golpe familias enteras de palabras. Lo que no cubran se aprende leyendo. Un apoyo útil es pensar en palabras de la misma familia: Si una lleva b, todas la llevan (beber, bebida, bebedor).",
+    "tabla": {
+      "titulo": "Reglas principales",
+      "columnas": [
+        "Se escribe",
+        "Cuándo",
+        "Ejemplos"
+      ],
+      "filas": [
+        [
+          "b",
+          "Delante de otra consonante",
+          "*hablar*, *brazo*, *obtener*, *absurdo*"
+        ],
+        [
+          "b",
+          "Después de m",
+          "*hombre*, *cambio*, *sombra*"
+        ],
+        [
+          "b",
+          "En las terminaciones del copretérito de los verbos en ar",
+          "*cantaba*, *jugábamos*, *iba*"
+        ],
+        [
+          "b",
+          "En bu, bur y bus",
+          "*buscar*, *burla*, *buzón*"
+        ],
+        [
+          "b",
+          "En los verbos terminados en bir",
+          "*escribir*, *recibir* (salvo *hervir*, *servir*, *vivir*)"
+        ],
+        [
+          "v",
+          "Después de n",
+          "*invierno*, *envío*, *convenio*"
+        ],
+        [
+          "v",
+          "Después de ad, sub y ob",
+          "*advertir*, *subvención*, *obvio*"
+        ],
+        [
+          "v",
+          "En los adjetivos terminados en ava, ave, avo, eva, eve, evo, iva, ivo",
+          "*grave*, *nuevo*, *activo*, *octava*"
+        ],
+        [
+          "v",
+          "En las formas del verbo ir en presente y en los pretéritos de andar, estar y tener",
+          "*voy*, *anduve*, *estuvo*, *tuve*"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "El *hombre* *hablaba* con *brevedad*.",
+      "En *invierno* *estuve* en casa de mi *abuela*.",
+      "*Escribí* una carta *breve* y la *envié*."
+    ],
+    "comoReconocerlo": [
+      "Si delante hay una m, va b. Si delante hay una n, va v. Es la regla que más casos resuelve.",
+      "Todos los copretéritos de los verbos en ar llevan b: cantaba, saltaba, estudiábamos.",
+      "Las palabras de la misma familia comparten la letra."
+    ],
+    "errores": [
+      "Escribir tubo por tuvo. Tubo es el objeto y tuvo es del verbo tener.",
+      "Escribir ivan por iban. El copretérito de ir lleva b.",
+      "Escribir combinar con v, cuando lleva b por ir después de m."
+    ],
+    "perla": "Ante la duda, se busca un pariente de la palabra. Si en la familia hay una b clara, la palabra dudosa también la lleva.",
+    "temaRelacionado": "letras-dudosas",
+    "etiquetas": [
+      "b",
+      "v",
+      "ortografía",
+      "letras dudosas"
+    ]
+  },
+  {
+    "codigo": "c-s-z",
+    "titulo": "Uso de la c, la s y la z",
+    "area": "Ortografía",
+    "nivel": "Secundaria",
+    "dificultad": "Intermedio",
+    "categoria": "Letras dudosas",
+    "definicion": "En México, en el resto de Hispanoamérica y en el sur de España, las tres letras suenan igual delante de e y de i, lo que hace de este el grupo de reglas más útil de toda la ortografía.",
+    "explicacion": "Como el oído no ayuda, hay que apoyarse en las terminaciones, que son muy regulares. Además existe una regla de escritura que gobierna muchos verbos: La z nunca se escribe delante de e ni de i, así que se convierte en c. Por eso empezar da empecé, y cruzar da crucé.",
+    "tabla": {
+      "titulo": "Terminaciones que deciden",
+      "columnas": [
+        "Se escribe",
+        "Cuándo",
+        "Ejemplos"
+      ],
+      "filas": [
+        [
+          "c",
+          "En las terminaciones ción de palabras con familia en to o do",
+          "*canción*, *educación* (de educado), *composición*"
+        ],
+        [
+          "c",
+          "En los diminutivos cito, cillo",
+          "*panecillo*, *cochecito*"
+        ],
+        [
+          "c",
+          "En los plurales de las palabras terminadas en z",
+          "*lápiz* y lápices, *pez* y peces"
+        ],
+        [
+          "s",
+          "En las terminaciones sión de palabras con familia en so, sor o sivo",
+          "*expresión* (de expresivo), *televisión*"
+        ],
+        [
+          "s",
+          "En los adjetivos terminados en oso, osa",
+          "*hermoso*, *famosa*"
+        ],
+        [
+          "s",
+          "En los superlativos ísimo, ísima",
+          "*grandísimo*, *bellísima*"
+        ],
+        [
+          "s",
+          "En los gentilicios ense",
+          "*costarricense*, *nicaragüense*"
+        ],
+        [
+          "z",
+          "En las terminaciones azo, aza de aumentativos y golpes",
+          "*portazo*, *manaza*"
+        ],
+        [
+          "z",
+          "En los sustantivos abstractos terminados en eza, anza",
+          "*belleza*, *esperanza*"
+        ],
+        [
+          "z",
+          "Nunca delante de e ni de i, donde pasa a c",
+          "*cruzar* y crucé, *voz* y voces"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "La *canción* provocó una gran *emoción*.",
+      "Ese *muchachísimo* error viene de una *expresión* mal escrita.",
+      "*Crucé* la calle con mucha *precaución*."
+    ],
+    "comoReconocerlo": [
+      "Para elegir entre ción y sión se busca una palabra de la familia. Si termina en to o en do, va con c. Si termina en so, sor o sivo, va con s.",
+      "Toda z delante de e o de i se convierte en c, sin excepciones en el vocabulario común.",
+      "Los aumentativos de golpe siempre llevan z: codazo, balonazo, portazo."
+    ],
+    "errores": [
+      "Escribir haci por así, o has por haz del verbo hacer.",
+      "Escribir cocer (cocinar) por coser (con hilo), que son dos verbos distintos.",
+      "Escribir empeze en lugar de empecé."
+    ],
+    "perla": "El truco de ción y sión es buscar un pariente. Composición viene de compuesto (con t, así que va c) y televisión viene de televisivo (con v, así que va s).",
+    "temaRelacionado": "letras-dudosas",
+    "etiquetas": [
+      "c",
+      "s",
+      "z",
+      "ción",
+      "sión",
+      "seseo"
+    ]
+  },
+  {
+    "codigo": "g-j-h",
+    "titulo": "Uso de la g, la j y la h",
+    "area": "Ortografía",
+    "nivel": "Secundaria",
+    "dificultad": "Intermedio",
+    "categoria": "Letras dudosas",
+    "definicion": "La g y la j suenan igual delante de e y de i, así que hay que decidir por regla. La h no suena nunca, y por eso solo se puede escribir bien de memoria o por familia de palabras.",
+    "explicacion": "La g tiene dos sonidos. Delante de a, o y u suena suave (gato, gota), y delante de e e i suena fuerte, igual que la j (gente, gitano). Para conseguir el sonido suave delante de e o de i hay que intercalar una u muda (guerra, guitarra), y para que esa u suene hay que ponerle diéresis (pingüino, vergüenza). La h es muda pero no es opcional: Cambia el significado de muchas palabras.",
+    "tabla": {
+      "titulo": "Reglas principales",
+      "columnas": [
+        "Se escribe",
+        "Cuándo",
+        "Ejemplos"
+      ],
+      "filas": [
+        [
+          "g",
+          "En las terminaciones gente, gencia, gio, gia",
+          "*inteligente*, *urgencia*, *colegio*, *magia*"
+        ],
+        [
+          "g",
+          "En los verbos terminados en ger, gir",
+          "*proteger*, *dirigir* (salvo *tejer* y *crujir*)"
+        ],
+        [
+          "g",
+          "En geo, gest, legi",
+          "*geografía*, *gestión*, *legible*"
+        ],
+        [
+          "j",
+          "En las terminaciones aje, eje",
+          "*viaje*, *garaje*, *hereje*"
+        ],
+        [
+          "j",
+          "En los verbos terminados en jear",
+          "*canjear*, *cojear*"
+        ],
+        [
+          "j",
+          "En los pretéritos con sonido je de traer, decir y los verbos en ducir",
+          "*traje*, *dije*, *conduje*"
+        ],
+        [
+          "h",
+          "Delante de los diptongos ie, ue, ua",
+          "*hielo*, *hueso*, *huaraches*"
+        ],
+        [
+          "h",
+          "En los verbos haber, hacer, hablar, habitar y su familia",
+          "*hay*, *hecho*, *habitación*"
+        ],
+        [
+          "h",
+          "En los prefijos hidro, hiper, hipo, hemi, hetero, homo",
+          "*hidráulico*, *hipérbole*, *hemiciclo*"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "El *garaje* del *colegio* estaba lleno.",
+      "Le *dije* que *condujera* con cuidado.",
+      "El *hielo* se *hizo* agua en pocos minutos."
+    ],
+    "comoReconocerlo": [
+      "Si la palabra es un pretérito con sonido je, va con j: dije, traje, produje.",
+      "Toda terminación aje se escribe con j, sin excepciones en el vocabulario común.",
+      "Delante de ie, hue y hua casi siempre hay h."
+    ],
+    "errores": [
+      "Escribir garage en lugar de garaje, por influencia de otras lenguas.",
+      "Escribir a ver cuando se quiere decir haber, o al revés.",
+      "Olvidar la diéresis. Sin ella, pingüino se leería pinguino."
+    ],
+    "perla": "Los pretéritos de traer, decir y los verbos en ducir llevan siempre j, y esa sola regla resuelve muchísimas dudas.",
+    "temaRelacionado": "letras-dudosas",
+    "etiquetas": [
+      "g",
+      "j",
+      "h",
+      "diéresis",
+      "hache"
+    ]
+  },
+  {
+    "codigo": "la-coma",
+    "titulo": "Los usos de la coma",
+    "area": "Ortografía",
+    "nivel": "Secundaria",
+    "dificultad": "Intermedio",
+    "categoria": "Puntuación",
+    "definicion": "La coma marca una pausa breve dentro de la oración y separa sus elementos. No se pone por respirar: Se pone por razones de estructura.",
+    "explicacion": "La coma es el signo que más se equivoca, casi siempre por escribirla donde uno haría una pausa al hablar. La regla que hay que grabar primero es la contraria: Nunca se separa el sujeto del verbo con una coma, por largo que sea el sujeto. Los alumnos de tercero de secundaria del turno matutino entregaron el trabajo no lleva ninguna coma.",
+    "tabla": {
+      "titulo": "Cuándo sí y cuándo no",
+      "columnas": [
+        "Se pone coma",
+        "Ejemplo"
+      ],
+      "filas": [
+        [
+          "Para separar elementos de una enumeración",
+          "Compré *pan, leche, huevos* y fruta"
+        ],
+        [
+          "Antes de pero, aunque, sino y así que",
+          "Estudié mucho*, pero* no aprobé"
+        ],
+        [
+          "Para encerrar un inciso explicativo",
+          "Mi hermana*, que es maestra,* me ayudó"
+        ],
+        [
+          "Después de un complemento adelantado largo",
+          "*Durante toda la mañana,* estuvimos ensayando"
+        ],
+        [
+          "Para marcar el vocativo, es decir, a quien se llama",
+          "*Ana,* ven aquí"
+        ],
+        [
+          "Donde se omite un verbo que ya se dijo",
+          "Yo estudio Letras; mi hermano*,* Medicina"
+        ],
+        [
+          "NO se pone entre sujeto y verbo",
+          "Los alumnos de tercero entregaron el trabajo"
+        ],
+        [
+          "NO se pone antes de y en una enumeración simple",
+          "Compré pan, leche y fruta"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "*Ana*, trae los cuadernos, los lápices y las reglas.",
+      "El examen, *que era muy largo*, terminó a las dos.",
+      "Estudió toda la noche, *pero* se quedó dormido."
+    ],
+    "comoReconocerlo": [
+      "Si lo que va entre comas se puede quitar y la oración sigue funcionando, el inciso está bien delimitado.",
+      "Las comas de un inciso van siempre en pareja: Si se abre, se cierra.",
+      "Antes de pero casi siempre va coma, porque introduce un cambio de dirección."
+    ],
+    "errores": [
+      "Separar el sujeto del verbo con coma. Es el error más frecuente y el más visible.",
+      "Poner coma antes de la y final de una enumeración simple, que es uso de otras lenguas.",
+      "Unir dos oraciones completas solo con una coma. En ese caso hace falta un punto, un punto y coma o una conjunción."
+    ],
+    "perla": "La coma no marca dónde se respira: Marca dónde se separa la estructura. Entre el sujeto y su verbo nunca hay coma.",
+    "temaRelacionado": "la-puntuacion",
+    "etiquetas": [
+      "coma",
+      "puntuación",
+      "inciso",
+      "vocativo",
+      "enumeración"
+    ]
+  },
+  {
+    "codigo": "punto-punto-y-coma",
+    "titulo": "El punto, el punto y coma y los dos puntos",
+    "area": "Ortografía",
+    "nivel": "Secundaria",
+    "dificultad": "Intermedio",
+    "categoria": "Puntuación",
+    "definicion": "Estos tres signos marcan pausas mayores que la coma y organizan el texto en oraciones y en párrafos. Cada uno indica un grado distinto de separación.",
+    "explicacion": "El punto cierra una oración completa. El punto y seguido separa oraciones dentro del mismo párrafo, el punto y aparte cierra el párrafo, y el punto final cierra el texto. El punto y coma queda a medio camino entre la coma y el punto, y se usa sobre todo para separar elementos de una enumeración que ya llevan comas dentro. Los dos puntos anuncian: Después de ellos viene lo que se acaba de prometer.",
+    "tabla": {
+      "titulo": "Qué anuncia cada signo",
+      "columnas": [
+        "Signo",
+        "Función",
+        "Ejemplo"
+      ],
+      "filas": [
+        [
+          "Punto y seguido",
+          "Cierra una oración y sigue el mismo tema",
+          "Llegó tarde. Nadie se lo reprochó."
+        ],
+        [
+          "Punto y aparte",
+          "Cierra el párrafo y cambia de asunto",
+          "Aquí termina la idea.\\n\\nAhora empieza otra."
+        ],
+        [
+          "Punto y coma",
+          "Separa elementos que ya llevan comas",
+          "Vinieron Ana, la mayor; Luis, el mediano; y Sara"
+        ],
+        [
+          "Punto y coma",
+          "Une dos oraciones muy relacionadas",
+          "No estudió; era previsible el resultado"
+        ],
+        [
+          "Dos puntos",
+          "Anuncian una enumeración",
+          "Necesito tres cosas: papel, tinta y tiempo"
+        ],
+        [
+          "Dos puntos",
+          "Anuncian una cita textual",
+          "Dijo: No pienso volver"
+        ],
+        [
+          "Dos puntos",
+          "Anuncian la explicación de lo anterior",
+          "Solo hay una salida: estudiar"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "Estudia todos los días: Por eso aprueba sin esfuerzo.",
+      "Vinieron muchos: Ana, que llegó primero; Luis, que venía de lejos; y Sara.",
+      "No entregó el trabajo. Tampoco avisó."
+    ],
+    "comoReconocerlo": [
+      "Si detrás del signo viene una explicación o una lista de lo que se acaba de anunciar, van dos puntos.",
+      "Si los elementos de la enumeración ya llevan comas dentro, hay que subir a punto y coma.",
+      "Después de dos puntos se escribe con minúscula, salvo cuando lo que sigue es una cita textual o el texto de una carta."
+    ],
+    "errores": [
+      "Escribir dos puntos entre el verbo y su complemento. No se escribe necesito: Papel y tinta, sino necesito papel y tinta.",
+      "Poner punto después del signo de interrogación o exclamación de cierre. El signo ya cierra la oración.",
+      "Usar el punto y coma como si fuera una coma cualquiera."
+    ],
+    "perla": "Los dos puntos son una promesa. Si detrás de ellos no viene lo prometido, sobran.",
+    "temaRelacionado": "la-puntuacion",
+    "etiquetas": [
+      "punto",
+      "punto y coma",
+      "dos puntos",
+      "párrafo"
+    ]
+  },
+  {
+    "codigo": "mayusculas",
+    "titulo": "El uso de las mayúsculas",
+    "area": "Ortografía",
+    "nivel": "Secundaria",
+    "dificultad": "Básico",
+    "categoria": "Otras normas",
+    "definicion": "La mayúscula se usa por posición (al empezar un texto o después de punto) o por la naturaleza de la palabra (los nombres propios). Fuera de esos dos motivos, no se usa.",
+    "explicacion": "El español usa muchas menos mayúsculas que otras lenguas. Los días de la semana, los meses, los idiomas, las nacionalidades, las religiones y los cargos van en minúscula. Solo van en mayúscula los nombres propios de persona, de lugar, de institución y de obra, y la primera palabra de un enunciado.",
+    "tabla": {
+      "titulo": "Mayúscula y minúscula",
+      "columnas": [
+        "Van en mayúscula",
+        "Van en minúscula"
+      ],
+      "filas": [
+        [
+          "Nombres de persona: *Sor Juana*",
+          "Días y meses: *lunes*, *marzo*"
+        ],
+        [
+          "Lugares: *Oaxaca*, *el Popocatépetl*",
+          "Idiomas y gentilicios: *español*, *mexicano*"
+        ],
+        [
+          "Instituciones: *la Universidad Nacional*",
+          "Cargos: *el presidente*, *la directora*"
+        ],
+        [
+          "Primera palabra de un texto o tras punto",
+          "Estaciones del año: *primavera*"
+        ],
+        [
+          "Primera palabra del título de una obra: *Cien años de soledad*",
+          "Religiones y sus miembros: *católico*"
+        ],
+        [
+          "Siglas enteras: *UNAM*, *ONU*",
+          "Notas musicales y unidades: *do*, *kilogramo*"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "El *lunes* leímos *Pedro Páramo* en la clase de *español*.",
+      "La *directora* de la *Universidad Nacional* dio el discurso.",
+      "Viajamos a *Oaxaca* en *marzo*, durante la *primavera*."
+    ],
+    "comoReconocerlo": [
+      "Se pregunta si la palabra nombra a alguien o algo único e identificable. Si es así, va mayúscula.",
+      "En los títulos de obras en español solo va mayúscula la primera palabra y los nombres propios.",
+      "Las mayúsculas llevan tilde: Álvaro, África, Órgano."
+    ],
+    "errores": [
+      "Escribir los meses y los días con mayúscula, por influencia del inglés.",
+      "Escribir los cargos con mayúscula por respeto. El respeto no cambia la ortografía.",
+      "No acentuar las mayúsculas, que es un error, no una opción."
+    ],
+    "perla": "La mayúscula no expresa importancia ni respeto: Expresa que algo es único. Por eso el presidente va en minúscula y Benito Juárez en mayúscula.",
+    "temaRelacionado": "la-puntuacion",
+    "etiquetas": [
+      "mayúsculas",
+      "nombres propios",
+      "títulos",
+      "siglas"
+    ]
+  },
+  {
+    "codigo": "generos-literarios",
+    "titulo": "Los géneros literarios",
+    "area": "Literatura",
+    "nivel": "Secundaria",
+    "dificultad": "Básico",
+    "categoria": "Teoría literaria",
+    "definicion": "Los géneros literarios son las tres grandes formas en que se organiza la literatura: La narrativa, la lírica y la dramática. Cada una tiene una manera propia de decir las cosas.",
+    "explicacion": "Lo que distingue a los tres géneros no es el tema sino quién habla y cómo. En la narrativa hay un narrador que cuenta hechos que le ocurren a unos personajes. En la lírica hay una voz, llamada yo lírico, que expresa un mundo interior. En la dramática no hay narrador: Los personajes hablan directamente y la obra está pensada para ser representada.",
+    "tabla": {
+      "titulo": "Los tres géneros y sus subgéneros",
+      "columnas": [
+        "Género",
+        "Quién habla",
+        "Subgéneros"
+      ],
+      "filas": [
+        [
+          "Narrativo",
+          "Un narrador cuenta",
+          "Novela, cuento, fábula, leyenda, mito, crónica, epopeya"
+        ],
+        [
+          "Lírico",
+          "Un yo lírico expresa",
+          "Oda, elegía, égloga, himno, soneto, canción, madrigal"
+        ],
+        [
+          "Dramático",
+          "Los personajes dialogan",
+          "Tragedia, comedia, drama, entremés, sainete, farsa"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "*Pedro Páramo* es una novela, y por tanto pertenece al género narrativo.",
+      "Un soneto de Sor Juana pertenece al género lírico.",
+      "*La vida es sueño* es una obra dramática, escrita para el teatro."
+    ],
+    "comoReconocerlo": [
+      "Si hay alguien que cuenta lo que pasa, es narrativa.",
+      "Si lo que hay es la expresión de un sentimiento, casi siempre en verso, es lírica.",
+      "Si el texto está hecho solo de diálogos y acotaciones, es dramática."
+    ],
+    "errores": [
+      "Creer que toda la lírica va en verso y toda la narrativa en prosa. Hay poemas en prosa y hay novelas en verso.",
+      "Confundir el género dramático con el drama. El drama es un subgénero dentro del género dramático.",
+      "Meter el ensayo en uno de los tres géneros. El ensayo pertenece al género didáctico o ensayístico, que se estudia aparte."
+    ],
+    "perla": "La pregunta que resuelve el género es quién habla: Un narrador, un yo que siente, o los personajes mismos.",
+    "temaRelacionado": "generos-y-formas",
+    "etiquetas": [
+      "género",
+      "narrativa",
+      "lírica",
+      "dramática",
+      "subgénero"
+    ]
+  },
+  {
+    "codigo": "elementos-narracion",
+    "titulo": "Los elementos de la narración",
+    "area": "Literatura",
+    "nivel": "Secundaria",
+    "dificultad": "Básico",
+    "categoria": "Teoría literaria",
+    "definicion": "Toda narración se construye con seis elementos: Narrador, personajes, acción, espacio, tiempo y estructura. Analizar un cuento o una novela consiste en describir cada uno de ellos.",
+    "explicacion": "El elemento que más se descuida y más importa es el narrador, porque de él depende todo lo que el lector puede saber. Un narrador en primera persona solo puede contar lo que el personaje sabe, y por eso puede equivocarse o mentir. Un narrador omnisciente lo sabe todo, incluso lo que piensan los personajes. Cambiar de narrador cambia la historia entera aunque los hechos sean los mismos.",
+    "tabla": {
+      "titulo": "Tipos de narrador",
+      "columnas": [
+        "Narrador",
+        "Persona",
+        "Qué sabe",
+        "Ejemplo de arranque"
+      ],
+      "filas": [
+        [
+          "Protagonista",
+          "Primera",
+          "Solo lo que él vive",
+          "Vine a Comala porque me dijeron..."
+        ],
+        [
+          "Testigo",
+          "Primera",
+          "Solo lo que ve desde fuera",
+          "Yo lo vi entrar aquella noche"
+        ],
+        [
+          "Omnisciente",
+          "Tercera",
+          "Todo, incluso los pensamientos",
+          "Ella pensó que ya era tarde"
+        ],
+        [
+          "Observador",
+          "Tercera",
+          "Solo lo que se ve y se oye",
+          "El hombre cruzó la calle sin mirar"
+        ],
+        [
+          "Segunda persona",
+          "Segunda",
+          "Interpela al lector o al personaje",
+          "Caminas sin saber que te esperan"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "El *narrador* de *Pedro Páramo* cambia a lo largo de la novela, y esa es su mayor dificultad.",
+      "La *estructura* clásica va de planteamiento a nudo y desenlace.",
+      "El *espacio* de un cuento puede ser tan importante como los personajes."
+    ],
+    "comoReconocerlo": [
+      "Para hallar el narrador se busca el verbo principal del relato y se mira en qué persona está.",
+      "Los personajes se clasifican en protagonista, antagonista y secundarios, y también en planos (no cambian) y redondos (evolucionan).",
+      "El tiempo puede ser lineal, o romperse con analepsis (salto atrás) y prolepsis (salto adelante)."
+    ],
+    "errores": [
+      "Confundir al narrador con el autor. El narrador es una voz inventada, aunque hable en primera persona.",
+      "Llamar protagonista a cualquier personaje importante. El protagonista es aquel cuyo conflicto mueve la historia.",
+      "Describir la estructura contando el argumento. La estructura es cómo está montado el relato, no lo que pasa."
+    ],
+    "perla": "El narrador no es el autor. Confundirlos es el error más repetido en los comentarios de texto.",
+    "temaRelacionado": "generos-y-formas",
+    "etiquetas": [
+      "narrador",
+      "personaje",
+      "estructura",
+      "espacio",
+      "tiempo"
+    ]
+  },
+  {
+    "codigo": "metrica-y-rima",
+    "titulo": "Métrica, rima y estrofas",
+    "area": "Literatura",
+    "nivel": "Secundaria",
+    "dificultad": "Intermedio",
+    "categoria": "Teoría literaria",
+    "definicion": "La métrica mide los versos contando sus sílabas, la rima describe la repetición de sonidos al final de los versos, y la estrofa es el grupo en que los versos se organizan.",
+    "explicacion": "Contar sílabas de un verso no es lo mismo que contarlas de una palabra suelta, porque intervienen tres ajustes. La sinalefa une la vocal final de una palabra con la inicial de la siguiente y las cuenta como una sola sílaba. La ley del acento final añade una sílaba si el verso acaba en palabra aguda y quita una si acaba en esdrújula. Solo después de aplicar los tres ajustes se sabe cuántas sílabas tiene el verso.",
+    "tabla": {
+      "titulo": "Nombre de los versos por su medida",
+      "columnas": [
+        "Sílabas",
+        "Nombre",
+        "Arte"
+      ],
+      "filas": [
+        [
+          "2 a 8",
+          "Bisílabo hasta octosílabo",
+          "Arte menor"
+        ],
+        [
+          "8",
+          "Octosílabo, el más común en español",
+          "Arte menor"
+        ],
+        [
+          "9 a 14",
+          "Eneasílabo hasta alejandrino",
+          "Arte mayor"
+        ],
+        [
+          "11",
+          "Endecasílabo, el del soneto",
+          "Arte mayor"
+        ],
+        [
+          "14",
+          "Alejandrino, con cesura en el medio",
+          "Arte mayor"
+        ]
+      ]
+    },
+    "subclases": [
+      {
+        "nombre": "Rima consonante",
+        "descripcion": "Coinciden todos los sonidos desde la última vocal tónica.",
+        "ejemplos": [
+          "*amor* y *dolor*",
+          "*viento* y *lamento*"
+        ]
+      },
+      {
+        "nombre": "Rima asonante",
+        "descripcion": "Coinciden solo las vocales desde la última vocal tónica.",
+        "ejemplos": [
+          "*sombra* y *rosa*",
+          "*camino* y *suspiro*"
+        ]
+      },
+      {
+        "nombre": "Verso libre",
+        "descripcion": "Sin medida ni rima fijas, propio de la poesía moderna.",
+        "ejemplos": [
+          "Gran parte de la poesía del siglo XX"
+        ]
+      },
+      {
+        "nombre": "Estrofas más usadas",
+        "descripcion": "Grupos fijos de versos con su esquema.",
+        "ejemplos": [
+          "*cuarteto* ABBA, *serventesio* ABAB, *terceto* ABA, *redondilla* abba, *décima*, *romance*"
+        ]
+      }
+    ],
+    "ejemplos": [
+      "En el verso *Yo* *voy* *so*ña*ndo* *ca*mi*nos* hay ocho sílabas, así que es octosílabo.",
+      "El *soneto* tiene catorce versos endecasílabos en dos cuartetos y dos tercetos.",
+      "El *romance* es una serie indefinida de octosílabos con rima asonante en los pares."
+    ],
+    "comoReconocerlo": [
+      "Se cuentan las sílabas en voz alta, uniendo con sinalefa las vocales que se tocan entre palabras.",
+      "Si el verso acaba en aguda se suma una sílaba, y si acaba en esdrújula se resta una.",
+      "Para la rima se marca con letras: Mayúsculas para el arte mayor y minúsculas para el arte menor."
+    ],
+    "errores": [
+      "Olvidar la sinalefa, que es lo que más descuadra las cuentas.",
+      "Confundir la rima asonante con la ausencia de rima. La asonante existe y se marca igual.",
+      "Contar las sílabas del último verso sin aplicar la ley del acento final."
+    ],
+    "perla": "Primero se aplica la sinalefa, luego se cuenta y al final se ajusta por la última palabra. En ese orden no falla.",
+    "temaRelacionado": "generos-y-formas",
+    "etiquetas": [
+      "métrica",
+      "rima",
+      "estrofa",
+      "sinalefa",
+      "soneto",
+      "verso"
+    ]
+  },
+  {
+    "codigo": "sinonimos-antonimos",
+    "titulo": "Sinónimos, antónimos y campos semánticos",
+    "area": "Léxico y semántica",
+    "nivel": "Secundaria",
+    "dificultad": "Básico",
+    "categoria": "Relaciones entre palabras",
+    "definicion": "Las palabras no viven aisladas: Forman redes de significado. Los sinónimos comparten sentido, los antónimos lo oponen y los campos semánticos agrupan palabras de un mismo ámbito.",
+    "explicacion": "La sinonimia perfecta casi no existe. Empezar y comenzar significan lo mismo, pero no pertenecen al mismo registro y no siempre encajan en la misma frase. Por eso, al sustituir una palabra por un sinónimo hay que releer la frase entera. Distinguir bien estas relaciones sirve para escribir sin repetir y para entender textos con vocabulario nuevo.",
+    "tabla": {
+      "titulo": "Las relaciones de significado",
+      "columnas": [
+        "Relación",
+        "Qué es",
+        "Ejemplo"
+      ],
+      "filas": [
+        [
+          "Sinonimia",
+          "Significados parecidos",
+          "*empezar* y *comenzar*"
+        ],
+        [
+          "Antonimia gradual",
+          "Opuestos con puntos intermedios",
+          "*frío* y *caliente* (hay tibio)"
+        ],
+        [
+          "Antonimia complementaria",
+          "Opuestos sin término medio",
+          "*vivo* y *muerto*"
+        ],
+        [
+          "Antonimia recíproca",
+          "Uno implica al otro",
+          "*comprar* y *vender*"
+        ],
+        [
+          "Hiperonimia",
+          "Palabra que engloba a otras",
+          "*flor* engloba a rosa y clavel"
+        ],
+        [
+          "Hiponimia",
+          "Palabra englobada por otra",
+          "*rosa* está dentro de flor"
+        ],
+        [
+          "Campo semántico",
+          "Palabras del mismo ámbito",
+          "*mesa, silla, sofá, armario*"
+        ],
+        [
+          "Familia léxica",
+          "Palabras con la misma raíz",
+          "*pan, panadero, panadería, empanada*"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "*Casa*, *hogar*, *vivienda* y *domicilio* son sinónimos, pero no se usan en los mismos contextos.",
+      "*Mesa*, *silla* y *sofá* forman un campo semántico, porque comparten ámbito pero no raíz.",
+      "*Mar*, *marino*, *marea* y *marinero* forman una familia léxica, porque comparten la raíz."
+    ],
+    "comoReconocerlo": [
+      "Para saber si dos palabras son sinónimas se sustituye una por la otra en varias frases. Si en alguna no encaja, la sinonimia es parcial.",
+      "El campo semántico se organiza por significado y la familia léxica por forma de la palabra.",
+      "El hiperónimo siempre puede sustituir al hipónimo, pero no al revés."
+    ],
+    "errores": [
+      "Sustituir sinónimos sin releer. Un diccionario de sinónimos mal usado empeora un texto.",
+      "Confundir campo semántico con familia léxica. Panadería y pan son familia, mesa y silla son campo.",
+      "Creer que todo antónimo se forma con un prefijo. Alto y bajo son antónimos sin ningún prefijo."
+    ],
+    "perla": "Campo semántico se organiza por lo que las palabras significan, familia léxica por cómo están hechas.",
+    "temaRelacionado": "el-lexico",
+    "etiquetas": [
+      "sinónimo",
+      "antónimo",
+      "campo semántico",
+      "familia léxica",
+      "hiperónimo"
+    ]
+  },
+  {
+    "codigo": "homonimos-paronimos",
+    "titulo": "Homónimos, parónimos y polisemia",
+    "area": "Léxico y semántica",
+    "nivel": "Secundaria",
+    "dificultad": "Intermedio",
+    "categoria": "Relaciones entre palabras",
+    "definicion": "Los homónimos suenan o se escriben igual pero no tienen nada que ver. Los parónimos se parecen sin ser iguales. La polisemia es una sola palabra con varios significados relacionados entre sí.",
+    "explicacion": "La diferencia entre homonimia y polisemia está en el origen. En la polisemia hay una sola palabra que ha ido ganando sentidos a partir de uno inicial: La pata del animal y la pata de la mesa vienen de lo mismo. En la homonimia hay dos palabras distintas que llegaron por casualidad a sonar igual: El banco de sentarse y el banco de guardar dinero no tienen ninguna relación.",
+    "tabla": {
+      "titulo": "Cómo distinguirlas",
+      "columnas": [
+        "Fenómeno",
+        "Definición",
+        "Ejemplo"
+      ],
+      "filas": [
+        [
+          "Homónimos homófonos",
+          "Suenan igual, se escriben distinto",
+          "*vaca* y *baca*, *hola* y *ola*"
+        ],
+        [
+          "Homónimos homógrafos",
+          "Se escriben igual, significan cosas distintas",
+          "*vino* (bebida) y *vino* (del verbo venir)"
+        ],
+        [
+          "Parónimos",
+          "Se parecen pero no son iguales",
+          "*absorber* y *absolver*, *actitud* y *aptitud*"
+        ],
+        [
+          "Polisemia",
+          "Una palabra, varios sentidos relacionados",
+          "*pie* del cuerpo, *pie* de la página, *pie* de la montaña"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "Se puso la *bota* antes de abrir la *bota* de vino (homógrafos).",
+      "Tiene *aptitud* para las matemáticas, pero le falta *actitud* (parónimos).",
+      "La *hoja* del árbol y la *hoja* del cuaderno son polisemia."
+    ],
+    "comoReconocerlo": [
+      "Si en el diccionario aparecen dos entradas distintas, son homónimos. Si aparece una sola con varias acepciones, es polisemia.",
+      "Los parónimos son la causa principal de errores de vocabulario en los exámenes.",
+      "Los homófonos solo se distinguen por escrito, y por eso hay que aprenderlos por parejas."
+    ],
+    "errores": [
+      "Confundir infringir (incumplir) con infligir (causar un daño).",
+      "Confundir haya (del verbo haber), halla (del verbo hallar) y aya (la cuidadora).",
+      "Usar adolecer como si significara carecer. Adolecer significa tener un defecto."
+    ],
+    "perla": "Polisemia si los sentidos se pueden emparentar, homonimia si no hay manera de relacionarlos.",
+    "temaRelacionado": "el-lexico",
+    "etiquetas": [
+      "homónimo",
+      "homófono",
+      "parónimo",
+      "polisemia"
+    ]
+  },
+  {
+    "codigo": "prefijos-sufijos",
+    "titulo": "La formación de palabras",
+    "area": "Léxico y semántica",
+    "nivel": "Secundaria",
+    "dificultad": "Intermedio",
+    "categoria": "Morfología léxica",
+    "definicion": "Las palabras se forman a partir de una raíz o lexema, que aporta el significado, y de morfemas que se le añaden delante (prefijos) o detrás (sufijos).",
+    "explicacion": "Conocer los prefijos y sufijos más comunes permite entender palabras que no se han visto nunca, que es exactamente lo que evalúan los exámenes de comprensión lectora. Si se sabe que hidro significa agua y que fobia significa rechazo, se entiende hidrofobia sin haberla leído antes. Los procesos principales de formación son la derivación (añadir afijos), la composición (unir palabras) y la parasíntesis (las dos cosas a la vez).",
+    "tabla": {
+      "titulo": "Prefijos y sufijos de uso frecuente",
+      "columnas": [
+        "Afijo",
+        "Origen y significado",
+        "Ejemplos"
+      ],
+      "filas": [
+        [
+          "a, an, in, des",
+          "Negación",
+          "*amoral*, *incapaz*, *deshacer*"
+        ],
+        [
+          "re",
+          "Repetición",
+          "*rehacer*, *releer*"
+        ],
+        [
+          "pre, ante",
+          "Anterioridad",
+          "*prever*, *anteponer*"
+        ],
+        [
+          "hiper, super",
+          "Exceso",
+          "*hipérbole*, *superponer*"
+        ],
+        [
+          "hipo, sub",
+          "Debajo o escasez",
+          "*hipotermia*, *subrayar*"
+        ],
+        [
+          "bio",
+          "Vida",
+          "*biografía*, *biología*"
+        ],
+        [
+          "grafía, grama",
+          "Escritura",
+          "*ortografía*, *telegrama*"
+        ],
+        [
+          "logía",
+          "Estudio o tratado",
+          "*morfología*, *psicología*"
+        ],
+        [
+          "ismo",
+          "Doctrina o movimiento",
+          "*romanticismo*, *realismo*"
+        ],
+        [
+          "ista",
+          "Quien practica algo",
+          "*novelista*, *artista*"
+        ],
+        [
+          "ción, sión",
+          "Acción y efecto",
+          "*narración*, *expresión*"
+        ],
+        [
+          "dad, eza, ura",
+          "Cualidad",
+          "*bondad*, *belleza*, *dulzura*"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "*Deshacer* es des más hacer, así que es derivación por prefijo.",
+      "*Sacapuntas* es saca más puntas, así que es composición.",
+      "*Enrojecer* es en más rojo más ecer, así que es parasíntesis."
+    ],
+    "comoReconocerlo": [
+      "Se busca la palabra más corta de la familia: esa contiene la raíz.",
+      "Si al quitar el prefijo o el sufijo queda una palabra que existe, hay derivación. Si no, puede haber parasíntesis.",
+      "En la composición las dos partes existen por separado como palabras."
+    ],
+    "errores": [
+      "Confundir el lexema con la sílaba. Lexema es la parte con significado, no un trozo cualquiera.",
+      "Llamar composición a lo que solo lleva un prefijo culto. Prever es derivación, no composición.",
+      "Separar mal las palabras parasintéticas, que necesitan las dos piezas a la vez."
+    ],
+    "perla": "Conocer treinta prefijos y sufijos permite entender cientos de palabras nuevas sin diccionario. Es la inversión más rentable del estudio del léxico.",
+    "temaRelacionado": "el-lexico",
+    "etiquetas": [
+      "prefijo",
+      "sufijo",
+      "derivación",
+      "composición",
+      "lexema",
+      "morfema"
+    ]
+  },
+  {
+    "codigo": "propiedades-del-texto",
+    "titulo": "Las propiedades del texto",
+    "area": "Expresión y redacción",
+    "nivel": "Preparatoria",
+    "dificultad": "Intermedio",
+    "categoria": "Redacción",
+    "definicion": "Un texto no es un montón de oraciones seguidas. Para funcionar necesita tres propiedades: adecuación, coherencia y cohesión.",
+    "explicacion": "La adecuación es la relación del texto con la situación: Quién escribe, para quién y con qué intención, lo que decide el registro. La coherencia es la organización de las ideas: Que haya un tema, que no se contradigan y que estén en un orden que se pueda seguir. La cohesión es la trabazón visible entre las frases: Los conectores, los pronombres que remiten a lo dicho y los sinónimos que evitan la repetición.",
+    "tabla": {
+      "titulo": "Las tres propiedades",
+      "columnas": [
+        "Propiedad",
+        "Pregunta que responde",
+        "Recursos que la construyen"
+      ],
+      "filas": [
+        [
+          "Adecuación",
+          "¿Está escrito para quien lo va a leer?",
+          "Registro, tratamiento, vocabulario, tono"
+        ],
+        [
+          "Coherencia",
+          "¿Se entiende como un todo?",
+          "Tema único, orden de ideas, ausencia de contradicciones"
+        ],
+        [
+          "Cohesión",
+          "¿Están unidas las frases entre sí?",
+          "Conectores, pronombres, sinónimos, puntuación, tiempos verbales"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "Escribir a un profesor con el mismo tono que a un amigo es un fallo de *adecuación*.",
+      "Cambiar de tema en medio del párrafo sin avisar es un fallo de *coherencia*.",
+      "Repetir el mismo sustantivo cinco veces seguidas es un fallo de *cohesión*."
+    ],
+    "comoReconocerlo": [
+      "Para revisar la coherencia se hace un esquema del texto ya escrito. Si el esquema no sale, la coherencia falla.",
+      "Para revisar la cohesión se lee solo el principio de cada oración y se comprueba que enlaza con la anterior.",
+      "Para revisar la adecuación se piensa en quien va a leer y se comprueba el registro."
+    ],
+    "errores": [
+      "Confundir coherencia con cohesión. La coherencia está en las ideas y la cohesión en las palabras que las unen.",
+      "Abusar de los conectores creyendo que eso da cohesión. Un texto lleno de sin embargo mal puestos es peor que uno sin ninguno.",
+      "Escribir en registro coloquial un texto académico."
+    ],
+    "perla": "Coherencia es que el texto tenga sentido. Cohesión es que se note por escrito cómo las partes se enganchan.",
+    "temaRelacionado": "escribir-bien",
+    "etiquetas": [
+      "adecuación",
+      "coherencia",
+      "cohesión",
+      "registro",
+      "texto"
+    ]
+  },
+  {
+    "codigo": "conectores",
+    "titulo": "Los conectores textuales",
+    "area": "Expresión y redacción",
+    "nivel": "Preparatoria",
+    "dificultad": "Intermedio",
+    "categoria": "Redacción",
+    "definicion": "Los conectores son las palabras y expresiones que hacen visible la relación lógica entre dos ideas. Sin ellos, el lector tiene que adivinar por qué una frase sigue a la otra.",
+    "explicacion": "Cada conector anuncia lo que viene, y usar el que no corresponde despista al lector más que no poner ninguno. Si se escribe sin embargo, el lector espera una objeción, y si detrás no la encuentra, se pierde. Por eso conviene elegir el conector después de saber qué relación se quiere expresar, y no al revés.",
+    "tabla": {
+      "titulo": "Conectores por relación",
+      "columnas": [
+        "Relación",
+        "Conectores",
+        "Qué anuncian"
+      ],
+      "filas": [
+        [
+          "Adición",
+          "además, asimismo, también, por otra parte",
+          "Viene más información en la misma dirección"
+        ],
+        [
+          "Oposición",
+          "sin embargo, no obstante, en cambio, ahora bien",
+          "Viene una idea que va en contra"
+        ],
+        [
+          "Causa",
+          "porque, ya que, puesto que, debido a",
+          "Viene la razón de lo dicho"
+        ],
+        [
+          "Consecuencia",
+          "por lo tanto, así pues, en consecuencia, de ahí que",
+          "Viene el resultado de lo dicho"
+        ],
+        [
+          "Condición",
+          "si, siempre que, con tal de que",
+          "Lo que sigue depende de algo"
+        ],
+        [
+          "Ejemplificación",
+          "por ejemplo, así, en concreto",
+          "Viene un caso de lo dicho"
+        ],
+        [
+          "Orden",
+          "en primer lugar, a continuación, por último",
+          "Se ordena la exposición"
+        ],
+        [
+          "Reformulación",
+          "es decir, o sea, dicho de otro modo",
+          "Se repite lo mismo con otras palabras"
+        ],
+        [
+          "Conclusión",
+          "en resumen, en conclusión, en definitiva",
+          "Se cierra el razonamiento"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "Estudió mucho. *Sin embargo*, no aprobó.",
+      "No entregó el trabajo. *Por lo tanto*, perdió la calificación.",
+      "*En primer lugar*, hay que leer el texto. *A continuación*, subrayarlo."
+    ],
+    "comoReconocerlo": [
+      "Se prueba a quitar el conector. Si la relación entre las dos ideas sigue clara, el conector puede ser innecesario.",
+      "Los conectores de oposición y de consecuencia van casi siempre entre comas o después de punto.",
+      "Un párrafo bien escrito no necesita un conector en cada frase."
+    ],
+    "errores": [
+      "Usar sin embargo cuando no hay ninguna oposición.",
+      "Empezar todos los párrafos con el mismo conector.",
+      "Usar en base a en lugar de con base en o sobre la base de."
+    ],
+    "perla": "El conector es una promesa que se le hace al lector. Si se anuncia una objeción, tiene que venir una objeción.",
+    "temaRelacionado": "escribir-bien",
+    "etiquetas": [
+      "conector",
+      "cohesión",
+      "párrafo",
+      "redacción"
+    ]
+  },
+  {
+    "codigo": "tipos-de-texto",
+    "titulo": "Los tipos de texto",
+    "area": "Expresión y redacción",
+    "nivel": "Secundaria",
+    "dificultad": "Básico",
+    "categoria": "Redacción",
+    "definicion": "Según lo que hacen, los textos se clasifican en narrativos, descriptivos, expositivos, argumentativos, dialogados e instructivos. Cada tipo tiene rasgos de lengua propios.",
+    "explicacion": "Un mismo escrito puede combinar varios tipos: Una novela narra pero también describe y dialoga. Lo que se clasifica es la secuencia, no el texto entero. Reconocer el tipo dominante ayuda a saber qué buscar: En un texto argumentativo se buscan la tesis y los argumentos, y en uno expositivo, la información organizada.",
+    "tabla": {
+      "titulo": "Los seis tipos y cómo se reconocen",
+      "columnas": [
+        "Tipo",
+        "Para qué sirve",
+        "Rasgos de lengua"
+      ],
+      "filas": [
+        [
+          "Narrativo",
+          "Contar hechos en el tiempo",
+          "Verbos de acción, pretérito y copretérito, conectores temporales"
+        ],
+        [
+          "Descriptivo",
+          "Decir cómo es algo",
+          "Abundancia de adjetivos, presente o copretérito, verbos de estado"
+        ],
+        [
+          "Expositivo",
+          "Explicar e informar",
+          "Tercera persona, presente, léxico preciso, ejemplos y definiciones"
+        ],
+        [
+          "Argumentativo",
+          "Convencer",
+          "Tesis, argumentos, conectores de causa y consecuencia, primera persona"
+        ],
+        [
+          "Dialogado",
+          "Reproducir una conversación",
+          "Guiones o comillas, verbos de lengua, marcas de oralidad"
+        ],
+        [
+          "Instructivo",
+          "Decir cómo hacer algo",
+          "Imperativo o infinitivo, orden numerado, segunda persona"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "Una receta de cocina es un texto *instructivo*.",
+      "Un artículo de opinión es un texto *argumentativo*.",
+      "Un capítulo de libro de texto es un texto *expositivo*."
+    ],
+    "comoReconocerlo": [
+      "Se pregunta qué quiere conseguir el texto: Contar, describir, explicar, convencer, conversar o instruir.",
+      "Los tiempos verbales delatan el tipo. Los imperativos delatan un texto instructivo.",
+      "Si hay una tesis defendida con razones, el texto es argumentativo aunque parezca expositivo."
+    ],
+    "errores": [
+      "Confundir el expositivo con el argumentativo. El expositivo informa sin tomar partido y el argumentativo defiende una postura.",
+      "Clasificar el texto entero cuando lo que se pide es la secuencia dominante de un fragmento.",
+      "Creer que el texto descriptivo solo aparece en literatura. Una ficha técnica es descriptiva."
+    ],
+    "perla": "El tipo de texto se descubre por su intención. La misma información puede exponerse o usarse para convencer, y eso cambia todo.",
+    "temaRelacionado": "escribir-bien",
+    "etiquetas": [
+      "narrativo",
+      "expositivo",
+      "argumentativo",
+      "instructivo",
+      "descriptivo"
+    ]
+  },
+  {
+    "codigo": "funciones-del-lenguaje",
+    "titulo": "Los elementos y las funciones del lenguaje",
+    "area": "Comunicación",
+    "nivel": "Secundaria",
+    "dificultad": "Básico",
+    "categoria": "Comunicación",
+    "definicion": "Todo acto de comunicación tiene seis elementos, y según cuál de ellos predomine, el lenguaje cumple una función distinta.",
+    "explicacion": "Los seis elementos son emisor, receptor, mensaje, código, canal y contexto o referente. Cada uno tiene asociada una función. Si el peso recae en el emisor, la función es expresiva. Si recae en el receptor, es apelativa. Si recae en el mensaje mismo, es poética. Casi siempre aparecen varias funciones a la vez, y lo que se pide es señalar la dominante.",
+    "tabla": {
+      "titulo": "Elementos y funciones",
+      "columnas": [
+        "Elemento",
+        "Función",
+        "Qué hace",
+        "Ejemplo"
+      ],
+      "filas": [
+        [
+          "Emisor",
+          "Expresiva o emotiva",
+          "Expresa el estado de quien habla",
+          "¡Qué alegría verte!"
+        ],
+        [
+          "Receptor",
+          "Apelativa o conativa",
+          "Busca una reacción",
+          "Cierra la puerta, por favor"
+        ],
+        [
+          "Referente",
+          "Referencial o representativa",
+          "Informa sobre la realidad",
+          "El agua hierve a cien grados"
+        ],
+        [
+          "Mensaje",
+          "Poética o estética",
+          "Llama la atención sobre la forma",
+          "En el silencio solo se escuchaba un susurro de abejas"
+        ],
+        [
+          "Canal",
+          "Fática o de contacto",
+          "Abre, mantiene o cierra la comunicación",
+          "¿Bueno? ¿Me escuchas?"
+        ],
+        [
+          "Código",
+          "Metalingüística",
+          "Habla de la lengua misma",
+          "Sustantivo se escribe con b"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "Un anuncio publicitario usa sobre todo la función *apelativa*.",
+      "Un poema usa sobre todo la función *poética*.",
+      "Este mismo atlas usa sobre todo la función *metalingüística*, porque habla de la lengua."
+    ],
+    "comoReconocerlo": [
+      "Los imperativos y los vocativos delatan la función apelativa.",
+      "La primera persona y las interjecciones delatan la función expresiva.",
+      "La tercera persona y la ausencia de valoraciones delatan la función referencial."
+    ],
+    "errores": [
+      "Decir que un texto tiene una sola función. Casi siempre hay varias, y se pide la dominante.",
+      "Confundir la función poética con la presencia de un tema bonito. Lo que la define es el cuidado de la forma del mensaje.",
+      "Olvidar la función fática, que es la de las fórmulas para mantener el contacto."
+    ],
+    "perla": "Para hallar la función dominante se pregunta hacia dónde apunta el texto: Hacia quien habla, hacia quien escucha, hacia el mundo o hacia sí mismo.",
+    "temaRelacionado": "la-comunicacion",
+    "etiquetas": [
+      "funciones del lenguaje",
+      "emisor",
+      "receptor",
+      "función poética"
+    ]
+  },
+  {
+    "codigo": "variantes-de-la-lengua",
+    "titulo": "Los niveles y las variantes de la lengua",
+    "area": "Comunicación",
+    "nivel": "Preparatoria",
+    "dificultad": "Intermedio",
+    "categoria": "Comunicación",
+    "definicion": "La lengua no es igual para todos ni en toda situación. Varía según el lugar (variante diatópica), el grupo social y la formación (diastrática) y la situación concreta (diafásica).",
+    "explicacion": "Ninguna variante es mejor que otra en términos lingüísticos: Lo que existe es la adecuación. El español de México y el de Argentina son igualmente correctos, y lo que se juzga es si el registro elegido corresponde a la situación. La norma culta es la variante que se emplea en la escritura formal y en la enseñanza, y por eso es la que se aprende en la escuela, sin que eso reste valor a las demás.",
+    "tabla": {
+      "titulo": "Los tres ejes de variación",
+      "columnas": [
+        "Variación",
+        "Depende de",
+        "Ejemplo"
+      ],
+      "filas": [
+        [
+          "Diatópica o geográfica",
+          "El lugar",
+          "*camión* en México y *autobús* en España"
+        ],
+        [
+          "Diastrática o social",
+          "El grupo y la formación",
+          "Nivel culto, nivel medio, nivel vulgar"
+        ],
+        [
+          "Diafásica o de registro",
+          "La situación",
+          "Registro formal frente a registro coloquial"
+        ],
+        [
+          "Jerga o argot",
+          "El oficio o el grupo cerrado",
+          "El habla de los médicos o de los músicos"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "*Ustedes* en México frente a *vosotros* en España es variación geográfica.",
+      "Hablar igual en una entrevista de trabajo que con los amigos es un problema de *registro*.",
+      "El *voseo* argentino es una variante geográfica plenamente correcta."
+    ],
+    "comoReconocerlo": [
+      "Si la diferencia se explica por el mapa, es diatópica.",
+      "Si se explica por el nivel de instrucción, es diastrática.",
+      "Si se explica por la situación concreta, es diafásica."
+    ],
+    "errores": [
+      "Creer que una variante geográfica es incorrecta. El español de cada país tiene su propia norma culta.",
+      "Confundir vulgarismo con coloquialismo. El coloquial es adecuado en su contexto, el vulgarismo es un error de lengua.",
+      "Escribir un trabajo académico en registro coloquial."
+    ],
+    "perla": "No hay formas mejores ni peores, hay formas adecuadas o inadecuadas a la situación. Esa es la idea que se pide entender.",
+    "temaRelacionado": "la-comunicacion",
+    "etiquetas": [
+      "variantes",
+      "registro",
+      "norma culta",
+      "diatópica",
+      "voseo"
+    ]
+  },
+  {
+    "codigo": "idea-principal",
+    "titulo": "La idea principal y las secundarias",
+    "area": "Comprensión lectora",
+    "nivel": "Secundaria",
+    "dificultad": "Básico",
+    "categoria": "Comprensión",
+    "definicion": "La idea principal es aquella de la que dependen todas las demás de un párrafo o de un texto. Las secundarias la explican, la ejemplifican o la matizan.",
+    "explicacion": "La idea principal no es siempre la primera frase, aunque muchas veces lo sea. Puede aparecer al final, a modo de conclusión, o no estar escrita en ninguna parte y haber que deducirla. La prueba más segura es la de la dependencia: Se tapa cada oración y se comprueba cuál deja al resto sin sentido. Esa es la principal.",
+    "tabla": {
+      "titulo": "Dónde suele estar la idea principal",
+      "columnas": [
+        "Estructura",
+        "Dónde está",
+        "Cómo se reconoce"
+      ],
+      "filas": [
+        [
+          "Analizante",
+          "Al principio",
+          "El párrafo empieza afirmando y luego desarrolla"
+        ],
+        [
+          "Sintetizante",
+          "Al final",
+          "El párrafo acumula datos y cierra con la conclusión"
+        ],
+        [
+          "Encuadrada",
+          "Al principio y al final",
+          "La idea se anuncia y se repite reformulada"
+        ],
+        [
+          "Implícita",
+          "En ninguna frase concreta",
+          "Hay que deducirla de todo el conjunto"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "Un párrafo que empieza con La lectura mejora el vocabulario y sigue con ejemplos es *analizante*.",
+      "Un párrafo que acumula datos y termina con Por eso conviene leer es *sintetizante*.",
+      "Si ninguna frase resume el párrafo, la idea principal es *implícita* y hay que formularla."
+    ],
+    "comoReconocerlo": [
+      "Se tapan las oraciones una a una. La que hace que el resto pierda sentido es la principal.",
+      "Los ejemplos, las cifras y las citas nunca son la idea principal: son apoyo.",
+      "Si se puede resumir el párrafo en una frase propia, esa frase es la idea principal aunque no esté escrita."
+    ],
+    "errores": [
+      "Tomar por idea principal la primera frase por costumbre.",
+      "Confundir el tema con la idea principal. El tema es de qué habla el texto (la lectura) y la idea principal es qué dice sobre eso (que mejora el vocabulario).",
+      "Copiar una frase del texto en lugar de formular la idea con palabras propias cuando se pide un resumen."
+    ],
+    "perla": "Tema y idea principal son distintos. El tema se dice con un sintagma, la idea principal con una oración completa.",
+    "temaRelacionado": "leer-mejor",
+    "etiquetas": [
+      "idea principal",
+      "tema",
+      "párrafo",
+      "resumen",
+      "comprensión"
+    ]
+  },
+  {
+    "codigo": "argumentos-y-falacias",
+    "titulo": "Argumentos y falacias",
+    "area": "Comprensión lectora",
+    "nivel": "Preparatoria",
+    "dificultad": "Avanzado",
+    "categoria": "Comprensión",
+    "definicion": "Un argumento es una razón que se da para sostener una tesis. Una falacia es un razonamiento que parece un argumento pero no lo es, porque su fuerza no viene de la lógica.",
+    "explicacion": "En un texto argumentativo hay siempre una tesis, que es la postura defendida, y unos argumentos que la sostienen. Reconocer el tipo de argumento sirve para valorar si el texto convence de verdad o solo lo parece. Las falacias son especialmente frecuentes en la publicidad y en el debate político, y aprender a nombrarlas es la mejor defensa contra ellas.",
+    "tabla": {
+      "titulo": "Tipos de argumento y falacias frecuentes",
+      "columnas": [
+        "Nombre",
+        "En qué consiste",
+        "Ejemplo"
+      ],
+      "filas": [
+        [
+          "Argumento de autoridad",
+          "Se apoya en quien sabe del tema",
+          "Según los estudios de la Academia..."
+        ],
+        [
+          "Argumento de ejemplo",
+          "Se apoya en casos concretos",
+          "En tres países ya se aplicó y funcionó"
+        ],
+        [
+          "Argumento de datos",
+          "Se apoya en cifras verificables",
+          "El 70 por ciento de los alumnos mejoró"
+        ],
+        [
+          "Argumento de analogía",
+          "Compara con un caso parecido",
+          "Estudiar es como entrenar un músculo"
+        ],
+        [
+          "Falacia ad hominem",
+          "Ataca a la persona, no a su idea",
+          "No le hagas caso, si ni terminó la escuela"
+        ],
+        [
+          "Falacia de generalización",
+          "Saca una regla de pocos casos",
+          "Conocí a dos y los dos eran así, luego todos lo son"
+        ],
+        [
+          "Falacia de falso dilema",
+          "Presenta solo dos salidas cuando hay más",
+          "O estás conmigo o estás en mi contra"
+        ],
+        [
+          "Falacia de apelación popular",
+          "Lo cierto es lo que cree la mayoría",
+          "Todo el mundo lo hace, así que está bien"
+        ],
+        [
+          "Falacia de causa falsa",
+          "Confunde sucesión con causa",
+          "Lo hice y salió mal, luego yo lo estropeé"
+        ]
+      ]
+    },
+    "ejemplos": [
+      "Si un texto ataca a quien opina en lugar de a lo que opina, hay una falacia *ad hominem*.",
+      "Un anuncio que dice que todos lo usan emplea la *apelación popular*.",
+      "Un argumento de *autoridad* solo vale si quien lo firma sabe realmente del asunto."
+    ],
+    "comoReconocerlo": [
+      "Se localiza primero la tesis, que suele estar al principio o al final, y luego se numeran las razones.",
+      "Se pregunta si la razón sostendría la tesis aunque la dijera otra persona. Si no, hay falacia.",
+      "Los argumentos de autoridad mal usados se detectan comprobando si la autoridad es del tema del que se habla."
+    ],
+    "errores": [
+      "Confundir la tesis con el tema. La tesis es lo que se defiende, no de lo que se habla.",
+      "Tomar por argumento un ejemplo suelto sin conclusión.",
+      "Creer que toda apelación a la emoción es una falacia. Lo es solo cuando sustituye a la razón."
+    ],
+    "perla": "Un argumento resiste el cambio de quien lo dice. Si al cambiar de boca pierde toda su fuerza, era una falacia.",
+    "temaRelacionado": "leer-mejor",
+    "etiquetas": [
+      "argumento",
+      "tesis",
+      "falacia",
+      "argumentación",
+      "texto argumentativo"
+    ]
+  }
+]

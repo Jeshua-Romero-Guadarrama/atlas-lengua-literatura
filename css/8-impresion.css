@@ -1,0 +1,127 @@
+/* ============================================================
+   Atlas de Lengua y Literatura · impresión
+   ------------------------------------------------------------
+   Para estudiar sin pantalla: al imprimir con una ficha abierta
+   se obtiene solo esa ficha, en tinta negra sobre blanco y sin
+   los elementos de navegación. Sin ficha abierta se imprime el
+   listado o el análisis de la vista activa.
+   ============================================================ */
+
+@media print {
+  /* Fondo blanco y tinta negra, sea cual sea el tema en pantalla. El primer
+     selector pisa también al bloque oscuro de la preferencia del sistema,
+     porque esta hoja se carga después y gana por orden en la cascada. Los
+     acentos vuelven a sus pasos claros, que están medidos sobre blanco. */
+  :root, :root[data-tema="oscuro"] {
+    --fondo: #ffffff;
+    --superficie: #ffffff;
+    --superficie-2: #ffffff;
+    --superficie-3: #f2f2f2;
+    --tinta: #000000;
+    --tinta-2: #222222;
+    --tinta-3: #444444;
+    --tinta-intensa: #000000;
+    --borde: #bbbbbb;
+    --borde-2: #dddddd;
+    --marca-tinta: #000000;
+    --exito: #15803d;
+    --alerta: #b45309;
+    --peligro: #b91c1c;
+    --info: #4338ca;
+    --gram: #6d28d9; --orto: #0369a1; --lit: #be185d; --sint: #047857; --lex: #b45309;
+    --gram-suave: #ffffff; --orto-suave: #ffffff; --lit-suave: #ffffff;
+    --sint-suave: #ffffff; --lex-suave: #ffffff;
+    --exito-suave: #ffffff; --alerta-suave: #ffffff;
+    --peligro-suave: #ffffff; --info-suave: #ffffff;
+    --fam-nombra: #154595; --fam-predica: #eb6834;
+    --fam-modifica: #159c6c; --fam-enlaza: #8d3f63;
+    --fam-nombra-suave: #ffffff; --fam-predica-suave: #ffffff; --fam-modifica-suave: #ffffff;
+    --abreviatura: #444444;
+  }
+
+  body {
+    background: #fff !important;
+    color: #000;
+    font-size: 11pt;
+    line-height: 1.45;
+  }
+
+  /* Fuera todo lo que no es contenido, el menú lateral incluido */
+  .aurora,
+  .barra-progreso,
+  .cabecera,
+  .buscador,
+  .paginacion,
+  .ir-arriba,
+  .saltar-al-contenido,
+  .portada,
+  .metricas,
+  .cerrar,
+  .boton-enlace,
+  .boton-primario,
+  .boton-secundario,
+  .ejemplos-rapidos,
+  .aviso-analizador,
+  .juego-atajos,
+  .boton-menu-lateral,
+  .menu-lateral,
+  .menu-lateral-fondo,
+  .estado-origen { display: none !important; }
+
+  /* Con una ficha abierta se imprime solo la ficha */
+  body:has(.modal:not(.oculta)) .vista { display: none !important; }
+  body:has(.modal:not(.oculta)) .pie { display: none !important; }
+
+  .modal {
+    position: static !important;
+    display: block !important;
+    padding: 0 !important;
+  }
+  .modal-fondo { display: none !important; }
+  .modal-tarjeta {
+    max-width: none;
+    max-height: none;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    overflow: visible;
+    animation: none;
+  }
+  .modal-cuerpo { padding: 0; gap: 0.3rem; }
+
+  /* Sin modal abierto se imprime el listado de la vista activa */
+  .vista.oculta { display: none !important; }
+
+  /* Los bloques destacados conservan su jerarquía con un filete lateral */
+  .bloque-perla, .bloque-error, .bloque-clave, .juego-retro {
+    background: none !important;
+    border-left: 3px solid #000 !important;
+    padding-left: 0.8rem;
+  }
+
+  /* Que no se parta una tarjeta ni un sintagma del árbol entre dos páginas */
+  .tarjeta-texto, .tema-tarjeta, .termino, .juego-tarjeta,
+  .nodo, .conj-tiempo, .subclase, .autor, .tema-seccion,
+  .tabla-contenido tr, .tabla-morfologica tr { break-inside: avoid; page-break-inside: avoid; }
+
+  h2, h3 { break-after: avoid; page-break-after: avoid; }
+
+  .tabla-envoltorio, .arbol-envoltorio { overflow: visible; border-color: #bbb; }
+  .tabla-grados, .tabla-diferencial { min-width: 0; }
+
+  img, svg { max-width: 100% !important; }
+
+  /* Aviso al pie de todo lo impreso */
+  .modal-cuerpo::after {
+    content: "Material de estudio del Atlas de Lengua y Literatura. Es apoyo de repaso y no sustituye los libros de texto ni la enseñanza de los profesores.";
+    display: block;
+    margin-top: 1.2rem;
+    padding-top: 0.6rem;
+    border-top: 1px solid #bbb;
+    font-size: 8.5pt;
+    color: #444;
+  }
+
+  @page { margin: 1.6cm; }
+}

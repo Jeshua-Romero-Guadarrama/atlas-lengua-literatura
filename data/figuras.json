@@ -1,0 +1,996 @@
+[
+  {
+    "codigo": "metafora",
+    "nombre": "Metáfora",
+    "tipo": "De significado",
+    "queEs": "Consiste en llamar a una cosa con el nombre de otra con la que guarda un parecido, sin avisar de que se está comparando. La identificación se da por hecha.",
+    "comoSeReconoce": "Hay dos realidades unidas, la real y la imaginaria, pero no aparece ninguna palabra de comparación. A veces solo aparece el término imaginario y hay que deducir el real.",
+    "ejemplos": [
+      "Sus cabellos son de oro.",
+      "El tiempo es un río que no vuelve.",
+      "Nuestras vidas son los ríos que van a dar en la mar."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Símil o comparación",
+        "comoDistinguir": "El símil deja escrito el como. La metáfora lo suprime: Si aparece la palabra como, es símil."
+      },
+      {
+        "figura": "Alegoría",
+        "comoDistinguir": "La alegoría es una metáfora que se prolonga durante todo un texto, no una imagen aislada."
+      }
+    ],
+    "comoRecordarla": "La metáfora afirma, no compara. Dice que una cosa es otra, y por eso resulta más rotunda que el símil.",
+    "etiquetas": [
+      "metáfora",
+      "imagen",
+      "significado"
+    ]
+  },
+  {
+    "codigo": "simil",
+    "nombre": "Símil o comparación",
+    "tipo": "De significado",
+    "queEs": "Relaciona dos realidades señalando de manera explícita su parecido, con una palabra que marca la comparación.",
+    "comoSeReconoce": "Aparece siempre una marca visible: Como, cual, semejante a, parecido a, igual que, más que.",
+    "ejemplos": [
+      "Sus ojos brillaban como dos brasas.",
+      "Es fuerte como un roble.",
+      "Le temblaba la voz igual que a un niño."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Metáfora",
+        "comoDistinguir": "En el símil la comparación está escrita. Si se puede borrar la palabra como y la frase se convierte en una afirmación, ahí empieza la metáfora."
+      }
+    ],
+    "comoRecordarla": "Si se ve la palabra como, es símil. Es la figura más fácil de identificar de todas.",
+    "etiquetas": [
+      "símil",
+      "comparación"
+    ]
+  },
+  {
+    "codigo": "personificacion",
+    "nombre": "Personificación o prosopopeya",
+    "tipo": "De significado",
+    "queEs": "Atribuye cualidades humanas a seres inanimados, a animales o a ideas abstractas.",
+    "comoSeReconoce": "El sujeto es algo que no puede hacer lo que el verbo dice: Una cosa que habla, ríe, llora o piensa.",
+    "ejemplos": [
+      "El viento aullaba entre los árboles.",
+      "La ciudad dormía bajo la lluvia.",
+      "La muerte lo llamó por su nombre."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Metáfora",
+        "comoDistinguir": "La personificación no cambia el nombre de la cosa, le presta una conducta humana. La metáfora sí sustituye un nombre por otro."
+      }
+    ],
+    "comoRecordarla": "Se busca el sujeto y se pregunta si podría hacer eso de verdad. Si no puede, hay personificación.",
+    "etiquetas": [
+      "personificación",
+      "prosopopeya",
+      "animismo"
+    ]
+  },
+  {
+    "codigo": "hiperbole",
+    "nombre": "Hipérbole",
+    "tipo": "De significado",
+    "queEs": "Exagera de forma desmedida una cualidad o una cantidad para dar fuerza a lo que se dice.",
+    "comoSeReconoce": "La afirmación es imposible de tomar al pie de la letra, y sin embargo se entiende perfectamente lo que quiere decir.",
+    "ejemplos": [
+      "Érase un hombre a una nariz pegado.",
+      "Te lo he dicho un millón de veces.",
+      "Lloró un río de lágrimas."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Metáfora",
+        "comoDistinguir": "La hipérbole exagera lo que hay, la metáfora lo sustituye por otra cosa. Un río de lágrimas exagera la cantidad."
+      }
+    ],
+    "comoRecordarla": "Si al leerlo se piensa que eso es imposible, y aun así se entiende, es hipérbole.",
+    "etiquetas": [
+      "hipérbole",
+      "exageración"
+    ]
+  },
+  {
+    "codigo": "metonimia",
+    "nombre": "Metonimia",
+    "tipo": "De significado",
+    "queEs": "Sustituye el nombre de una cosa por el de otra con la que mantiene una relación real de proximidad, causa, origen o contenido.",
+    "comoSeReconoce": "La relación entre las dos palabras no es de parecido sino de contigüidad: El autor por la obra, el continente por el contenido, la parte por el instrumento.",
+    "ejemplos": [
+      "Leí a Rulfo entero (la obra por el autor).",
+      "Se tomó dos copas (el recipiente por el contenido).",
+      "Vive de su pluma (el instrumento por el oficio)."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Metáfora",
+        "comoDistinguir": "La metáfora se basa en un parecido imaginado, la metonimia en una relación que existe de verdad entre las dos cosas."
+      },
+      {
+        "figura": "Sinécdoque",
+        "comoDistinguir": "La sinécdoque es un caso particular de metonimia en el que la relación es de parte y todo."
+      }
+    ],
+    "comoRecordarla": "En la metonimia las dos cosas se tocan en el mundo real. En la metáfora solo se parecen en la imaginación.",
+    "etiquetas": [
+      "metonimia",
+      "contigüidad"
+    ]
+  },
+  {
+    "codigo": "sinecdoque",
+    "nombre": "Sinécdoque",
+    "tipo": "De significado",
+    "queEs": "Designa el todo por una de sus partes, o la parte por el todo.",
+    "comoSeReconoce": "Se nombra algo más pequeño o más grande de lo que en realidad se quiere decir, y la relación es de inclusión.",
+    "ejemplos": [
+      "Se quedó sin techo (la casa por el techo).",
+      "Diez velas cruzaron la bahía (los barcos por las velas).",
+      "El hombre es mortal (toda la especie por el singular)."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Metonimia",
+        "comoDistinguir": "La sinécdoque siempre es parte y todo. Si la relación es de causa, de origen o de contenido, es metonimia."
+      }
+    ],
+    "comoRecordarla": "Sinécdoque es la figura del pedazo por la pieza entera. Techo por casa, velas por barcos.",
+    "etiquetas": [
+      "sinécdoque",
+      "parte",
+      "todo"
+    ]
+  },
+  {
+    "codigo": "anafora",
+    "nombre": "Anáfora",
+    "tipo": "De repetición",
+    "queEs": "Repite una o varias palabras al principio de versos o de frases sucesivas.",
+    "comoSeReconoce": "Las líneas empiezan igual, y esa repetición marca un ritmo insistente.",
+    "ejemplos": [
+      "Aquí todo es silencio. Aquí todo es olvido. Aquí todo termina.",
+      "Salid, salid del mundo. Salid, salid del sueño."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Epífora",
+        "comoDistinguir": "La epífora repite al final, la anáfora al principio."
+      },
+      {
+        "figura": "Paralelismo",
+        "comoDistinguir": "El paralelismo repite la estructura entera, no solo las primeras palabras."
+      }
+    ],
+    "comoRecordarla": "Anáfora empieza por a, y la repetición está justo al principio.",
+    "etiquetas": [
+      "anáfora",
+      "repetición",
+      "principio"
+    ]
+  },
+  {
+    "codigo": "epifora",
+    "nombre": "Epífora",
+    "tipo": "De repetición",
+    "queEs": "Repite una o varias palabras al final de versos o de frases sucesivas.",
+    "comoSeReconoce": "Las líneas terminan con las mismas palabras, y el efecto es de eco o de conclusión insistente.",
+    "ejemplos": [
+      "Todo lo que toca se rompe. Todo lo que mira se rompe.",
+      "No era la noche. No era el frío. Era el miedo."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Anáfora",
+        "comoDistinguir": "Es la figura simétrica: La anáfora repite al principio y la epífora al final."
+      },
+      {
+        "figura": "Rima",
+        "comoDistinguir": "La rima repite sonidos parecidos, la epífora repite la palabra entera."
+      }
+    ],
+    "comoRecordarla": "Si la palabra que se repite cierra cada línea en lugar de abrirla, es epífora.",
+    "etiquetas": [
+      "epífora",
+      "repetición",
+      "final"
+    ]
+  },
+  {
+    "codigo": "paralelismo",
+    "nombre": "Paralelismo",
+    "tipo": "De repetición",
+    "queEs": "Repite la misma estructura sintáctica en dos o más versos o frases, cambiando solo algunas palabras.",
+    "comoSeReconoce": "Las frases se pueden superponer porque tienen las mismas piezas en el mismo orden.",
+    "ejemplos": [
+      "Tu risa me hace libre, tu voz me da la calma.",
+      "El agua corre, el viento pasa, la vida sigue."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Anáfora",
+        "comoDistinguir": "La anáfora repite palabras concretas al inicio. El paralelismo repite el esqueleto de la frase, aunque cambien todas las palabras."
+      }
+    ],
+    "comoRecordarla": "En el paralelismo lo que se repite es el molde, no las palabras.",
+    "etiquetas": [
+      "paralelismo",
+      "estructura",
+      "repetición"
+    ]
+  },
+  {
+    "codigo": "polisindeton",
+    "nombre": "Polisíndeton",
+    "tipo": "De repetición",
+    "queEs": "Repite conjunciones que normalmente no harían falta, para dar lentitud y solemnidad al texto.",
+    "comoSeReconoce": "Aparecen muchas y seguidas donde bastaría con comas.",
+    "ejemplos": [
+      "Y llegó y miró y se fue sin decir nada.",
+      "Había pan y vino y fruta y risas y silencio."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Asíndeton",
+        "comoDistinguir": "Son opuestas: El asíndeton quita las conjunciones y el polisíndeton las multiplica."
+      }
+    ],
+    "comoRecordarla": "Poli significa muchos. Muchos nexos donde no hacían falta.",
+    "etiquetas": [
+      "polisíndeton",
+      "conjunción",
+      "ritmo"
+    ]
+  },
+  {
+    "codigo": "asindeton",
+    "nombre": "Asíndeton",
+    "tipo": "De repetición",
+    "queEs": "Suprime las conjunciones que la sintaxis pediría, dejando solo comas, para dar rapidez.",
+    "comoSeReconoce": "Una enumeración larga sin ninguna y, con las comas seguidas hasta el final.",
+    "ejemplos": [
+      "Llegué, vi, vencí.",
+      "Corrió, saltó, cayó, se levantó, siguió."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Polisíndeton",
+        "comoDistinguir": "El asíndeton acelera quitando nexos, el polisíndeton frena añadiéndolos."
+      },
+      {
+        "figura": "Enumeración",
+        "comoDistinguir": "La enumeración solo acumula elementos. Es asíndeton únicamente si faltan las conjunciones esperadas."
+      }
+    ],
+    "comoRecordarla": "El prefijo a significa sin. Sin nexos, y por eso todo va más deprisa.",
+    "etiquetas": [
+      "asíndeton",
+      "supresión",
+      "ritmo"
+    ]
+  },
+  {
+    "codigo": "hiperbaton",
+    "nombre": "Hipérbaton",
+    "tipo": "De construcción",
+    "queEs": "Altera el orden habitual de las palabras en la oración.",
+    "comoSeReconoce": "Al leer hay que reordenar mentalmente la frase para entenderla. El sujeto o el verbo aparecen donde no se esperan.",
+    "ejemplos": [
+      "Del salón en el ángulo oscuro reposaba el arpa.",
+      "Volverán las oscuras golondrinas en tu balcón sus nidos a colgar."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Elipsis",
+        "comoDistinguir": "La elipsis quita palabras, el hipérbaton solo las cambia de sitio sin quitar ninguna."
+      }
+    ],
+    "comoRecordarla": "Si hace falta reordenar la frase para entenderla, hay hipérbaton.",
+    "etiquetas": [
+      "hipérbaton",
+      "orden",
+      "sintaxis"
+    ]
+  },
+  {
+    "codigo": "elipsis",
+    "nombre": "Elipsis",
+    "tipo": "De construcción",
+    "queEs": "Suprime una palabra o un grupo que el lector puede reponer por el contexto, sin que se pierda el sentido.",
+    "comoSeReconoce": "Falta algo, casi siempre el verbo, y aun así la frase se entiende.",
+    "ejemplos": [
+      "Yo estudio Letras; mi hermano, Medicina.",
+      "Unos rieron; otros, no."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Asíndeton",
+        "comoDistinguir": "El asíndeton suprime conjunciones, la elipsis suprime elementos con contenido, sobre todo verbos."
+      }
+    ],
+    "comoRecordarla": "La coma que sustituye a un verbo repetido es la señal más clara de elipsis.",
+    "etiquetas": [
+      "elipsis",
+      "supresión",
+      "verbo"
+    ]
+  },
+  {
+    "codigo": "epiteto",
+    "nombre": "Epíteto",
+    "tipo": "De construcción",
+    "queEs": "Adjetivo que expresa una cualidad que ya se supone en el sustantivo, así que no aporta información nueva sino intensidad.",
+    "comoSeReconoce": "Se puede quitar sin que cambie nada de lo que se sabe, y suele ir antepuesto.",
+    "ejemplos": [
+      "La blanca nieve cubría el valle.",
+      "Por la verde hierba corría el agua.",
+      "El manso cordero se acercó."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Adjetivo especificativo",
+        "comoDistinguir": "El especificativo distingue unos de otros y no se puede quitar. El epíteto se puede quitar sin perder información."
+      }
+    ],
+    "comoRecordarla": "Si el adjetivo dice algo que ya se daba por sabido, es epíteto.",
+    "etiquetas": [
+      "epíteto",
+      "adjetivo",
+      "redundancia"
+    ]
+  },
+  {
+    "codigo": "antitesis",
+    "nombre": "Antítesis",
+    "tipo": "De pensamiento",
+    "queEs": "Enfrenta dos ideas, palabras o expresiones de significado contrario.",
+    "comoSeReconoce": "Hay dos elementos opuestos en la misma frase, cada uno en un lado.",
+    "ejemplos": [
+      "Es tan corto el amor y tan largo el olvido.",
+      "Ayer naciste y morirás mañana."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Paradoja",
+        "comoDistinguir": "La antítesis enfrenta dos ideas contrarias pero compatibles. La paradoja las une en algo que parece imposible."
+      },
+      {
+        "figura": "Oxímoron",
+        "comoDistinguir": "El oxímoron pone los dos contrarios en el mismo sintagma, pegados, y la antítesis los reparte en la frase."
+      }
+    ],
+    "comoRecordarla": "Antítesis es un contraste repartido: Cada contrario en su sitio de la frase.",
+    "etiquetas": [
+      "antítesis",
+      "contraste",
+      "oposición"
+    ]
+  },
+  {
+    "codigo": "oximoron",
+    "nombre": "Oxímoron",
+    "tipo": "De pensamiento",
+    "queEs": "Une en un mismo sintagma dos palabras de significado contrario, creando un sentido nuevo.",
+    "comoSeReconoce": "Las dos palabras contradictorias están pegadas, casi siempre un sustantivo y su adjetivo.",
+    "ejemplos": [
+      "Un silencio ensordecedor.",
+      "La música callada.",
+      "Una dulce amargura."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Antítesis",
+        "comoDistinguir": "El oxímoron cabe en dos palabras seguidas. La antítesis necesita la frase entera."
+      },
+      {
+        "figura": "Paradoja",
+        "comoDistinguir": "La paradoja es una idea entera que parece contradecirse. El oxímoron es solo un sintagma."
+      }
+    ],
+    "comoRecordarla": "Oxímoron es una contradicción del tamaño de un sintagma: Dos palabras que se pelean y van juntas.",
+    "etiquetas": [
+      "oxímoron",
+      "contradicción",
+      "sintagma"
+    ]
+  },
+  {
+    "codigo": "paradoja",
+    "nombre": "Paradoja",
+    "tipo": "De pensamiento",
+    "queEs": "Presenta una idea que parece contradictoria pero que encierra una verdad al pensarla despacio.",
+    "comoSeReconoce": "La frase entera resulta imposible en apariencia, y sin embargo se entiende lo que quiere decir.",
+    "ejemplos": [
+      "Vivo sin vivir en mí.",
+      "Solo sé que no sé nada.",
+      "Muero porque no muero."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Oxímoron",
+        "comoDistinguir": "El oxímoron ocupa dos palabras, la paradoja ocupa una idea completa."
+      },
+      {
+        "figura": "Antítesis",
+        "comoDistinguir": "La antítesis solo contrasta, la paradoja además parece imposible."
+      }
+    ],
+    "comoRecordarla": "Si la frase entera parece un imposible pero al pensarla tiene sentido, es paradoja.",
+    "etiquetas": [
+      "paradoja",
+      "contradicción",
+      "pensamiento"
+    ]
+  },
+  {
+    "codigo": "ironia",
+    "nombre": "Ironía",
+    "tipo": "De pensamiento",
+    "queEs": "Da a entender lo contrario de lo que las palabras dicen, contando con que el lector lo advierta.",
+    "comoSeReconoce": "El contexto contradice de manera evidente lo que se afirma.",
+    "ejemplos": [
+      "Qué puntual, solo llegaste dos horas tarde.",
+      "Buen trabajo, no dejaste ni un renglón sin borrón."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Sarcasmo",
+        "comoDistinguir": "El sarcasmo es una ironía cruel, con intención de herir. La ironía puede ser afectuosa."
+      },
+      {
+        "figura": "Antífrasis",
+        "comoDistinguir": "La antífrasis es la ironía reducida a una sola palabra, como llamar valiente a un cobarde."
+      }
+    ],
+    "comoRecordarla": "La ironía se detecta comparando lo que se dice con lo que se ve. Si chocan, hay ironía.",
+    "etiquetas": [
+      "ironía",
+      "sarcasmo",
+      "contexto"
+    ]
+  },
+  {
+    "codigo": "aliteracion",
+    "nombre": "Aliteración",
+    "tipo": "De sonido",
+    "queEs": "Repite un mismo sonido o grupo de sonidos a lo largo de un verso o de una frase, buscando un efecto sonoro.",
+    "comoSeReconoce": "Al leer en voz alta se oye insistir la misma consonante o el mismo grupo.",
+    "ejemplos": [
+      "En el silencio solo se escuchaba un susurrar de abejas que sonaban.",
+      "El ruido con que rueda la ronca tempestad."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Onomatopeya",
+        "comoDistinguir": "La onomatopeya imita un sonido concreto con una palabra. La aliteración solo repite sonidos, sin imitar nada necesariamente."
+      }
+    ],
+    "comoRecordarla": "La aliteración se oye, no se ve. Hay que leer en voz alta para reconocerla.",
+    "etiquetas": [
+      "aliteración",
+      "sonido",
+      "repetición"
+    ]
+  },
+  {
+    "codigo": "onomatopeya",
+    "nombre": "Onomatopeya",
+    "tipo": "De sonido",
+    "queEs": "Imita con palabras un sonido real.",
+    "comoSeReconoce": "La palabra suena parecido a lo que nombra.",
+    "ejemplos": [
+      "El tictac del reloj no lo dejaba dormir.",
+      "Se oyó un zas y luego el silencio.",
+      "El murmullo del agua."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Aliteración",
+        "comoDistinguir": "La onomatopeya está en una palabra concreta. La aliteración se extiende por todo el verso."
+      }
+    ],
+    "comoRecordarla": "Onomatopeya es una palabra que suena como lo que nombra: tictac, zas, murmullo.",
+    "etiquetas": [
+      "onomatopeya",
+      "sonido",
+      "imitación"
+    ]
+  },
+  {
+    "codigo": "sinestesia",
+    "nombre": "Sinestesia",
+    "tipo": "De significado",
+    "queEs": "Mezcla sensaciones de sentidos distintos, atribuyendo a uno lo que corresponde a otro.",
+    "comoSeReconoce": "Un adjetivo de un sentido acompaña a un sustantivo de otro: Un color que suena, un sonido que sabe.",
+    "ejemplos": [
+      "Un verde chillón.",
+      "Una voz dulce y áspera.",
+      "El frío silencio de la madrugada."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Metáfora",
+        "comoDistinguir": "La sinestesia siempre cruza dos sentidos corporales. Si no hay sentidos mezclados, es otra figura."
+      }
+    ],
+    "comoRecordarla": "Se comprueba si el adjetivo y el sustantivo pertenecen a sentidos distintos. Un color no puede chillar.",
+    "etiquetas": [
+      "sinestesia",
+      "sentidos",
+      "imagen"
+    ]
+  },
+  {
+    "codigo": "alegoria",
+    "nombre": "Alegoría",
+    "tipo": "De significado",
+    "queEs": "Desarrolla una metáfora a lo largo de todo un texto, de manera que cada elemento del plano imaginario corresponde a uno del plano real.",
+    "comoSeReconoce": "No es una imagen suelta: El texto entero se puede leer en dos niveles a la vez.",
+    "ejemplos": [
+      "Nuestras vidas son los ríos que van a dar en la mar, que es el morir.",
+      "Un poema entero sobre un viaje que en realidad habla de la vida."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Metáfora",
+        "comoDistinguir": "La metáfora es puntual, la alegoría es continuada. Si la imagen se sostiene y se desarrolla, es alegoría."
+      },
+      {
+        "figura": "Símbolo",
+        "comoDistinguir": "El símbolo es un solo elemento cargado de significado. La alegoría es todo un sistema de correspondencias."
+      }
+    ],
+    "comoRecordarla": "La alegoría es una metáfora que dura todo el texto y en la que cada pieza tiene su equivalente.",
+    "etiquetas": [
+      "alegoría",
+      "metáfora continuada",
+      "símbolo"
+    ]
+  },
+  {
+    "codigo": "simbolo",
+    "nombre": "Símbolo",
+    "tipo": "De significado",
+    "queEs": "Un objeto concreto representa una idea abstracta por una asociación cultural o personal.",
+    "comoSeReconoce": "Un elemento se repite en el texto cargado de un sentido que va más allá de lo que nombra.",
+    "ejemplos": [
+      "La paloma como imagen de la paz.",
+      "El camino como imagen de la vida.",
+      "La noche como imagen de la muerte."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Alegoría",
+        "comoDistinguir": "El símbolo es un elemento aislado, la alegoría organiza todo el texto."
+      },
+      {
+        "figura": "Metáfora",
+        "comoDistinguir": "La metáfora se agota en la frase. El símbolo mantiene su valor en todo el poema y a veces en toda una tradición."
+      }
+    ],
+    "comoRecordarla": "El símbolo apunta hacia fuera del texto: Se apoya en un significado que la cultura ya le dio.",
+    "etiquetas": [
+      "símbolo",
+      "abstracción"
+    ]
+  },
+  {
+    "codigo": "apostrofe",
+    "nombre": "Apóstrofe",
+    "tipo": "De pensamiento",
+    "queEs": "Interrumpe el discurso para dirigirse de manera directa y vehemente a alguien o a algo, presente o ausente.",
+    "comoSeReconoce": "Aparece un vocativo y un cambio brusco a segunda persona.",
+    "ejemplos": [
+      "¡Muerte, dónde está tu victoria!",
+      "Tú, viento del norte, llévate mi voz."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Personificación",
+        "comoDistinguir": "La personificación hace que la cosa actúe como humana. El apóstrofe solo le habla."
+      }
+    ],
+    "comoRecordarla": "El apóstrofe se reconoce por el vocativo: Alguien está siendo llamado en medio del texto.",
+    "etiquetas": [
+      "apóstrofe",
+      "vocativo",
+      "invocación"
+    ]
+  },
+  {
+    "codigo": "interrogacion-retorica",
+    "nombre": "Interrogación retórica",
+    "tipo": "De pensamiento",
+    "queEs": "Formula una pregunta que no espera respuesta, porque la respuesta ya está implícita o porque solo busca dar énfasis.",
+    "comoSeReconoce": "Hay signos de interrogación pero nadie contesta ni se espera que nadie conteste.",
+    "ejemplos": [
+      "¿Qué se hicieron las damas, sus tocados, sus vestidos?",
+      "¿Acaso no lo sabías ya?"
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Pregunta real",
+        "comoDistinguir": "La pregunta real busca información. La retórica ya lleva dentro su respuesta."
+      }
+    ],
+    "comoRecordarla": "Si la pregunta se puede sustituir por una afirmación sin perder nada, es retórica.",
+    "etiquetas": [
+      "interrogación retórica",
+      "énfasis"
+    ]
+  },
+  {
+    "codigo": "enumeracion",
+    "nombre": "Enumeración",
+    "tipo": "De repetición",
+    "queEs": "Acumula una serie de elementos relacionados, para dar sensación de abundancia o de variedad.",
+    "comoSeReconoce": "Hay una lista de tres o más elementos del mismo tipo dentro de la misma frase.",
+    "ejemplos": [
+      "Había libros, cuadernos, plumas, reglas y un desorden feliz.",
+      "Vinieron el frío, la lluvia, el viento y la noche."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Asíndeton",
+        "comoDistinguir": "El asíndeton es una enumeración a la que además le faltan las conjunciones esperadas."
+      },
+      {
+        "figura": "Gradación",
+        "comoDistinguir": "En la gradación los elementos van en orden creciente o decreciente. En la enumeración simple no hay ese orden."
+      }
+    ],
+    "comoRecordarla": "Enumeración es la lista. Si la lista además crece o decrece, ya es gradación.",
+    "etiquetas": [
+      "enumeración",
+      "acumulación",
+      "lista"
+    ]
+  },
+  {
+    "codigo": "gradacion",
+    "nombre": "Gradación",
+    "tipo": "De repetición",
+    "queEs": "Ordena una serie de elementos de menor a mayor intensidad o al revés.",
+    "comoSeReconoce": "La lista sube o baja de intensidad de forma perceptible, y no se puede reordenar sin estropear el efecto.",
+    "ejemplos": [
+      "En tierra, en humo, en polvo, en sombra, en nada.",
+      "Primero fue un susurro, luego una voz, después un grito."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Enumeración",
+        "comoDistinguir": "En la enumeración el orden es indiferente. En la gradación es lo esencial."
+      }
+    ],
+    "comoRecordarla": "Se intenta cambiar el orden de los elementos. Si al hacerlo se pierde el efecto, era gradación.",
+    "etiquetas": [
+      "gradación",
+      "clímax",
+      "intensidad"
+    ]
+  },
+  {
+    "codigo": "pleonasmo",
+    "nombre": "Pleonasmo",
+    "tipo": "De construcción",
+    "queEs": "Añade palabras innecesarias para el significado, con el fin de dar más fuerza a la expresión.",
+    "comoSeReconoce": "Hay una redundancia evidente que, sin embargo, refuerza la idea.",
+    "ejemplos": [
+      "Lo vi con mis propios ojos.",
+      "Subió arriba y lo bajó abajo.",
+      "De su boca salieron sus palabras."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Epíteto",
+        "comoDistinguir": "El epíteto es siempre un adjetivo. El pleonasmo puede ser cualquier añadido redundante."
+      }
+    ],
+    "comoRecordarla": "Es la redundancia buscada. Fuera de la literatura, el mismo recurso se considera un defecto de estilo.",
+    "etiquetas": [
+      "pleonasmo",
+      "redundancia"
+    ]
+  },
+  {
+    "codigo": "quiasmo",
+    "nombre": "Quiasmo",
+    "tipo": "De construcción",
+    "queEs": "Repite dos elementos invirtiendo su orden en la segunda parte, formando un cruce.",
+    "comoSeReconoce": "El esquema es A B y luego B A, de modo que el segundo miembro es el espejo del primero.",
+    "ejemplos": [
+      "Cuando quiero llorar no lloro, y a veces lloro sin querer.",
+      "No hay que comer para vivir, sino vivir para comer."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Paralelismo",
+        "comoDistinguir": "El paralelismo mantiene el mismo orden en las dos partes. El quiasmo lo invierte."
+      }
+    ],
+    "comoRecordarla": "Quiasmo viene de la letra griega ji, que tiene forma de aspa. El aspa es el cruce.",
+    "etiquetas": [
+      "quiasmo",
+      "cruce",
+      "simetría"
+    ]
+  },
+  {
+    "codigo": "anadiplosis",
+    "nombre": "Anadiplosis",
+    "tipo": "De repetición",
+    "queEs": "Repite al principio de una frase o de un verso la última palabra del anterior.",
+    "comoSeReconoce": "El final de una línea y el principio de la siguiente coinciden.",
+    "ejemplos": [
+      "Todo pasa y todo queda, pero lo nuestro es pasar, pasar haciendo caminos.",
+      "Es la guerra. Guerra que nadie quiso."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Anáfora",
+        "comoDistinguir": "La anáfora repite siempre al principio de varias líneas. La anadiplosis engancha el final de una con el principio de la siguiente."
+      }
+    ],
+    "comoRecordarla": "La anadiplosis es un eslabón: La última palabra de una línea abre la siguiente.",
+    "etiquetas": [
+      "anadiplosis",
+      "repetición",
+      "encadenamiento"
+    ]
+  },
+  {
+    "codigo": "eufemismo",
+    "nombre": "Eufemismo",
+    "tipo": "De significado",
+    "queEs": "Sustituye una palabra dura o molesta por otra más suave.",
+    "comoSeReconoce": "Se nombra algo desagradable con un rodeo cortés.",
+    "ejemplos": [
+      "Pasó a mejor vida en lugar de murió.",
+      "Personas en situación de calle en lugar de indigentes.",
+      "Reajuste de plantilla en lugar de despidos."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Perífrasis",
+        "comoDistinguir": "La perífrasis rodea sin que haya nada desagradable que suavizar. El eufemismo siempre suaviza."
+      },
+      {
+        "figura": "Disfemismo",
+        "comoDistinguir": "El disfemismo hace lo contrario: Nombra algo con una palabra más dura de lo necesario."
+      }
+    ],
+    "comoRecordarla": "El eufemismo es la palabra amable que tapa a otra incómoda.",
+    "etiquetas": [
+      "eufemismo",
+      "suavizar",
+      "disfemismo"
+    ]
+  },
+  {
+    "codigo": "perifrasis-literaria",
+    "nombre": "Perífrasis o circunloquio",
+    "tipo": "De significado",
+    "queEs": "Utiliza un rodeo de varias palabras para nombrar algo que tiene un nombre propio y sencillo.",
+    "comoSeReconoce": "Se describe en vez de nombrar, y se puede sustituir todo el grupo por una sola palabra.",
+    "ejemplos": [
+      "El rey de los animales por el león.",
+      "La ciudad de los palacios por la Ciudad de México.",
+      "El astro rey por el sol."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Eufemismo",
+        "comoDistinguir": "El eufemismo rodea para suavizar. La perífrasis rodea para embellecer o para lucirse."
+      },
+      {
+        "figura": "Perífrasis verbal",
+        "comoDistinguir": "La perífrasis verbal es un asunto de gramática, no de retórica. No tienen nada que ver más allá del nombre."
+      }
+    ],
+    "comoRecordarla": "Se prueba a sustituir el rodeo por una sola palabra. Si cabe, era perífrasis.",
+    "etiquetas": [
+      "perífrasis",
+      "circunloquio",
+      "rodeo"
+    ]
+  },
+  {
+    "codigo": "antonomasia",
+    "nombre": "Antonomasia",
+    "tipo": "De significado",
+    "queEs": "Sustituye un nombre propio por una cualidad que lo identifica, o al revés, un nombre común por un propio famoso.",
+    "comoSeReconoce": "Se reconoce a quién se refiere sin que se diga su nombre, o se usa un nombre propio como si fuera común.",
+    "ejemplos": [
+      "El Libertador por Simón Bolívar.",
+      "Es un donjuán, por conquistador.",
+      "El Manco de Lepanto por Cervantes."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Perífrasis",
+        "comoDistinguir": "La antonomasia sustituye siempre un nombre propio, y la perífrasis puede sustituir cualquier cosa."
+      }
+    ],
+    "comoRecordarla": "La antonomasia convierte una cualidad en nombre, o un nombre en cualidad.",
+    "etiquetas": [
+      "antonomasia",
+      "nombre propio"
+    ]
+  },
+  {
+    "codigo": "encabalgamiento",
+    "nombre": "Encabalgamiento",
+    "tipo": "De construcción",
+    "queEs": "Ocurre cuando una unidad sintáctica no cabe en un verso y se prolonga en el siguiente, de modo que el final del verso no coincide con una pausa.",
+    "comoSeReconoce": "Al terminar el verso la frase queda incompleta y hay que seguir leyendo sin parar.",
+    "ejemplos": [
+      "Y mientras miserablemente se están los otros abrasando.",
+      "Cerrar podrá mis ojos la postrera sombra que me llevare el blanco día."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Hipérbaton",
+        "comoDistinguir": "El hipérbaton altera el orden dentro de la frase. El encabalgamiento es un desajuste entre la frase y el verso."
+      }
+    ],
+    "comoRecordarla": "Si al final del verso no se puede hacer pausa sin romper el sentido, hay encabalgamiento.",
+    "etiquetas": [
+      "encabalgamiento",
+      "verso",
+      "métrica"
+    ]
+  },
+  {
+    "codigo": "calambur",
+    "nombre": "Calambur",
+    "tipo": "De sonido",
+    "queEs": "Reagrupa las sílabas de un grupo de palabras para producir otro significado distinto.",
+    "comoSeReconoce": "La misma cadena de sonidos se puede leer de dos maneras.",
+    "ejemplos": [
+      "Oro parece, plata no es.",
+      "Entre el clavel blanco y la rosa roja, su majestad escoja."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Paronomasia",
+        "comoDistinguir": "La paronomasia junta palabras que se parecen. El calambur reparte las sílabas de otra manera."
+      }
+    ],
+    "comoRecordarla": "El calambur es el juego de las sílabas mal repartidas a propósito.",
+    "etiquetas": [
+      "calambur",
+      "juego de palabras",
+      "sonido"
+    ]
+  },
+  {
+    "codigo": "paronomasia",
+    "nombre": "Paronomasia",
+    "tipo": "De sonido",
+    "queEs": "Coloca cerca dos palabras de sonido muy parecido y significado distinto.",
+    "comoSeReconoce": "Dos palabras casi iguales aparecen en la misma frase, y el parecido es evidente.",
+    "ejemplos": [
+      "Con dados ganan condados.",
+      "Vendado que me has vendido."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Calambur",
+        "comoDistinguir": "En la paronomasia las palabras siguen siendo las mismas. En el calambur cambian las fronteras entre ellas."
+      },
+      {
+        "figura": "Aliteración",
+        "comoDistinguir": "La aliteración repite sonidos sueltos. La paronomasia enfrenta palabras enteras parecidas."
+      }
+    ],
+    "comoRecordarla": "Paronomasia viene de parónimo: Palabras que se parecen sin ser la misma.",
+    "etiquetas": [
+      "paronomasia",
+      "parónimo",
+      "juego de palabras"
+    ]
+  },
+  {
+    "codigo": "polipote",
+    "nombre": "Polípote o derivación",
+    "tipo": "De repetición",
+    "queEs": "Repite una misma palabra en distintas formas, cambiándole el tiempo, el número o la clase.",
+    "comoSeReconoce": "La misma raíz aparece varias veces con terminaciones distintas.",
+    "ejemplos": [
+      "Vive, vivió y vivirá en la memoria de todos.",
+      "Quien mucho quiere, mucho querrá y mucho será querido."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Anáfora",
+        "comoDistinguir": "La anáfora repite la palabra exactamente igual y siempre al principio. El polípote la cambia de forma."
+      }
+    ],
+    "comoRecordarla": "Es la repetición de la raíz, no de la palabra entera.",
+    "etiquetas": [
+      "polípote",
+      "derivación",
+      "repetición"
+    ]
+  },
+  {
+    "codigo": "reduplicacion",
+    "nombre": "Reduplicación",
+    "tipo": "De repetición",
+    "queEs": "Repite una palabra de manera inmediata, una a continuación de la otra.",
+    "comoSeReconoce": "La misma palabra aparece dos veces seguidas, casi siempre para intensificar.",
+    "ejemplos": [
+      "Abenámar, Abenámar, moro de la morería.",
+      "Corre, corre, que se hace tarde."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Anáfora",
+        "comoDistinguir": "La anáfora reparte la repetición en varias líneas. La reduplicación las pone pegadas."
+      }
+    ],
+    "comoRecordarla": "Reduplicación es la palabra dicha dos veces sin nada en medio.",
+    "etiquetas": [
+      "reduplicación",
+      "repetición",
+      "énfasis"
+    ]
+  },
+  {
+    "codigo": "litote",
+    "nombre": "Lítote o atenuación",
+    "tipo": "De pensamiento",
+    "queEs": "Afirma algo negando lo contrario, para suavizar o para dar más fuerza por contraste.",
+    "comoSeReconoce": "Aparece una negación donde se esperaría una afirmación directa.",
+    "ejemplos": [
+      "No es poco lo que has conseguido.",
+      "No me parece mal la idea.",
+      "No está nada mal ese examen."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Eufemismo",
+        "comoDistinguir": "El eufemismo sustituye una palabra por otra. La lítote niega lo contrario de lo que quiere decir."
+      },
+      {
+        "figura": "Ironía",
+        "comoDistinguir": "La ironía dice lo contrario de lo que piensa. La lítote dice lo mismo, pero a través de una negación."
+      }
+    ],
+    "comoRecordarla": "Si la frase afirma diciendo que no es lo contrario, es lítote.",
+    "etiquetas": [
+      "lítote",
+      "atenuación",
+      "negación"
+    ]
+  },
+  {
+    "codigo": "concatenacion",
+    "nombre": "Concatenación",
+    "tipo": "De repetición",
+    "queEs": "Encadena varias anadiplosis seguidas, de modo que cada frase empieza con el final de la anterior.",
+    "comoSeReconoce": "Hay una cadena de al menos tres eslabones, no solo un enganche.",
+    "ejemplos": [
+      "No hay criatura sin amor, ni amor sin celos, ni celos sin dolor.",
+      "Todo empieza en el silencio, el silencio en la noche, la noche en el miedo."
+    ],
+    "seConfundeCon": [
+      {
+        "figura": "Anadiplosis",
+        "comoDistinguir": "La anadiplosis es un solo enganche. La concatenación es la cadena entera."
+      }
+    ],
+    "comoRecordarla": "Concatenación viene de cadena. Si hay más de dos eslabones, ya no es anadiplosis.",
+    "etiquetas": [
+      "concatenación",
+      "cadena",
+      "repetición"
+    ]
+  }
+]

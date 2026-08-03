@@ -1,0 +1,36 @@
+services:
+  mongo:
+    image: mongo:7
+    container_name: atlas-lengua-literatura-mongo
+    restart: unless-stopped
+    ports:
+      - "27019:27017"
+    volumes:
+      - datos_mongo:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+  app:
+    build: .
+    container_name: atlas-lengua-literatura-app
+    restart: unless-stopped
+    ports:
+      - "8083:3000"
+    volumes:
+      # El contenido se monta desde el equipo: al editar los JSON basta
+      # reiniciar el contenedor, sin reconstruir la imagen.
+      - ./data:/app/data:ro
+    environment:
+      MONGO_URI: mongodb://mongo:27017
+      MONGO_DB: atlas_lengua_literatura
+      PORT: 3000
+    depends_on:
+      mongo:
+        condition: service_healthy
+
+volumes:
+  datos_mongo:
